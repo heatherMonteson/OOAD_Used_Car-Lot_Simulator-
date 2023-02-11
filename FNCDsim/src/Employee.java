@@ -13,13 +13,20 @@ payBonus(double bonus)
 public static methods:
 ArrayList<Employee> getCurrentEmployees()
 ArrayList<Employee> getExEmployees()
-ArrayList<Employee> getInterns(){return searchList("Intern");}
-ArrayList<Employee> getSalePeople(){ return searchList("Sales");}
-ArrayList<Employee> getMechanics(){ return searchList("Mechanic");}
+ArrayList<Employee> getInterns()
+ArrayList<Employee> getSalePeople()
+ArrayList<Employee> getMechanics()
  */
 //citations:
 //List of 2738 first names https://gist.github.com/ruanbekker/a1506f06aa1df06c5a9501cb393626ea
 //Searching an array list of objects for given parameter: https://stackoverflow.com/questions/69874638/searching-an-arraylist-for-a-matching-parameter
+
+/*
+OOAD principal example Polymorphism:
+Employee class has overloaded Employee constructors each has different meaning and behavior when run and create
+objects that will have different behavior/characteristics. For instance one will create an employee and change the
+name, type, salery etc. the other will simply be of an employee type with the default variables.
+ */
 
 import java.util.*;
 
@@ -29,9 +36,9 @@ public class Employee implements NameGenerator, ValueFromRange {
     private static ArrayList<String> usedNames=new ArrayList<>();
     protected static ArrayList<Employee> currentEmployees=new ArrayList<>();
     private static ArrayList<Employee> exEmployees=new ArrayList<>();
-    protected String name;
-    protected String type;
-    protected double salary;
+    protected String name= " ";
+    protected String type= " ";
+    protected double salary=0.0;
     protected double totalBonusPay=0.0;
     protected double incomeToDate=0.0;
     protected int daysWorked=0;
@@ -92,22 +99,22 @@ public class Employee implements NameGenerator, ValueFromRange {
         }while (usedNames.contains(name));//check that names are unique
         usedNames.add(name);
     }
-    protected void setName(String name){
-        this.name=name;
-    }
 
     public void addDayWorked(){daysWorked=daysWorked+1;}
-
-    public void payDailyRate(){incomeToDate=incomeToDate+salary;}
 
     protected void removeEmployee(Employee employee){
         exEmployees.add(employee);
         currentEmployees.remove(employee);
     }
 
-    public void payBonus(double bonus){
-        incomeToDate=incomeToDate+bonus;
-        totalBonusPay=totalBonusPay+bonus;
+    public void payDailyRate(){
+        double funds = Bank.getFunds(salary);
+        incomeToDate=incomeToDate+funds;
     }
 
+    public void payBonus(double bonus){
+        double funds = Bank.getFunds(bonus);
+        incomeToDate=incomeToDate+funds;
+        totalBonusPay=totalBonusPay+funds;
+    }
 }

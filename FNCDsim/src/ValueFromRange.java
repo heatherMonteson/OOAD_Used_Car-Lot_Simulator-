@@ -2,13 +2,6 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Random;
 
-/*
-OOAD Principal in interface: Polymorphism
-The findValue function is an example of polymorphism as it has multiple meanings
-one instance takes in double and returns a double the other takes in ints and returns an int
-both have similar functionality but differ on input and output generation and types
-*/
-
 //Citation:
 //Generating a value from a range https://stackoverflow.com/questions/3680637/generate-a-random-double-in-a-range
 //Truncating a double: https://stackoverflow.com/questions/7747469/how-can-i-truncate-a-double-to-only-two-decimal-places-in-java#:~:text=will%20output%203.54-,DecimalFormat(%22%23.,for%20both%20Positive%20%26%20Negative%20values.
@@ -29,7 +22,7 @@ public interface ValueFromRange {
     }
 
     //from a lower and upper bound generate a random number in that range
-    // returns a int
+    // returns an int
    default int findValue(int lower, int upper){
 
         Random random=new Random();

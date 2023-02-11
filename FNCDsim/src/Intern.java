@@ -7,8 +7,16 @@ internQuit()
 washCars()
  */
 
+/*
+OOAD principal example Identity:
+The promotion methods have examples where object identity must be accounted for. Because of the unique
+identity of an object when promoting an intern a new object of that promotion type must be created as
+the Intern object is of type Intern and thus cannot be assigned a new type of Salesperson or Mechanic. To handel this
+the Intern object values are used to populate the Salesperson object.
+
+ */
+
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Intern extends Employee {
 
@@ -19,16 +27,21 @@ public class Intern extends Employee {
         super("Intern", 8.50,15.0);
     }
 
-    public void hireIntern(){
-        Employee newIntern = new Intern();
-        System.out.println("Hired new intern "+ newIntern.name);
+    public static void hireInterns(int numToAdd){
+        for(int i = numToAdd; i <=numToAdd; i++)
+        {
+            Employee newIntern = new Intern();
+            System.out.println("Hired new intern "+ newIntern.name);
+        }
     }
 
+    //used random intern info to promote
+    //Identity example: see comment at top of class
     public void promoteInternToSales(){
         try {
             ArrayList<Employee> interns = getInterns();
             if(interns.size()==0)
-                System.out.println("No interns to promote");
+                System.out.println("No interns to promote to sales");
             else {
                 Employee intern = interns.get(findValue(0, interns.size()-1));
                 Employee newSales = new Salesperson();
@@ -43,6 +56,8 @@ public class Intern extends Employee {
         }
     }
 
+    //used random intern info to promote
+    //Identity example: see comment at top of class
     public void promoteInternToMechanic(){
         try {
             ArrayList<Employee> interns = getInterns();
@@ -122,12 +137,12 @@ public class Intern extends Employee {
                     //probability if a car is cleaned and if it goes from clean-->dirty or --> sparkly
                     //same logic as above
                     int toClean = findValue(lower, upper);
-
                     if (toClean <= (drtCln_drtSprk[0] + drtCln_drtSprk[1])) {
                         int randIndex = findValue(0, cleanCars.size() - 1);
                         Vehicle cleanCar = cleanCars.get(randIndex);
 
                         if (toClean <=clnDrt_clnSprk[0]){ //clean-->dirty
+                            System.out.println("Intern "+ intern.name+ " washed "+ cleanCar.getType()+ " "+cleanCar.getName()+ " and made it clean");
                             cleanCar.changeCarToDirty();
                             dirtyCars.add(cleanCar);
                             cleanCars.remove(cleanCar);
