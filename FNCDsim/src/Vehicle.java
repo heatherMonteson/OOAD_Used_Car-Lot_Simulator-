@@ -5,16 +5,25 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/*
+    Citation links:
+    Random picker from array: https://stackoverflow.com/questions/21726033/picking-a-random-item-from-an-array-of-strings-in-java
+    List of car names taken from: http://www.namenerds.com/uucn/listofweek/cars.html
+    Generating value from range from: https://stackoverflow.com/questions/3680637/generate-a-random-double-in-a-range
+
+ */
+
+/*
+    OOAD Principle Encapsulation example:
+    Here, along with the employee class, shows examples of encapsulation. Encapsulation is when you hide implementation details. Anything marked private
+    within these classes is encapsulated because it is being hidden from external entities. Another example of encapsulation is when you do something like
+    Obj.attribute = x. The attribute itself is unable to be accessed from outside sources.
+
+ */
 public class Vehicle implements ValueFromRange{
-    private String type;
-    private String name;
-    private String condition;
-    private String cleanliness;
-    private double cost;
-    private double salePrice;
-    protected double saleBonus;
-    protected double fixBonus;
-    protected double washBonus;
+    private String type, name, condition, cleanliness;
+    private double cost, salePrice;
+    protected double saleBonus, fixBonus, washBonus;
     protected static ArrayList<Vehicle> currentInventory = new ArrayList<>();
     protected static ArrayList<Vehicle> carInventory = new ArrayList<>();
     protected static ArrayList<Vehicle> pickupInventory = new ArrayList<>();
@@ -74,7 +83,7 @@ public class Vehicle implements ValueFromRange{
     protected void setType(String inType){
         this.type = inType;
 //        Random random = new Random();
-//        int typesIndex = random.nextInt(types.length); //https://stackoverflow.com/questions/21726033/picking-a-random-item-from-an-array-of-strings-in-java
+//        int typesIndex = random.nextInt(types.length);
 //        this.type = types[typesIndex];
     }
     protected void setName(){
@@ -117,36 +126,8 @@ public class Vehicle implements ValueFromRange{
 //        }
         return soldCarInv;
     }
-
     public static ArrayList<Vehicle> getSoldInventory() {
         return soldInventory;
-    }
-/
-
-    public static ArrayList<Vehicle> getDirtyCars() {
-        return dirtyCars();
-    }
-    public static ArrayList<Vehicle> getCleanCars() {
-        return cleanCars();
-    }
-    public static ArrayList<Vehicle> getBrokenCars() {
-        return brokenCars();
-    }
-
-    public static ArrayList<Vehicle> getUsedCars() {
-        return usedCars();
-    }
-    public static ArrayList<Vehicle> getLikeNewCars() {
-        return likeNewCars();
-    }
-    public static ArrayList<Vehicle> getPickups(){
-        return pickupsList();
-    }
-    public static ArrayList<Vehicle> getCars(){
-        return carsList();
-    }
-    public static ArrayList<Vehicle> getPerformanceCars(){
-        return performanceList();
     }
     //setters for arrays
     public void changeCarToDirty() {

@@ -11,7 +11,7 @@ washCars()
 OOAD principal example Identity:
 The promotion methods have examples where object identity must be accounted for. Because of the unique
 identity of an object when promoting an intern a new object of that promotion type must be created as
-the Intern object is of type Intern and thus cannot be assigned a new type of Salesperson or Mechanic. To handel this
+the Intern object is of type Intern and thus cannot be assigned a new type of Salesperson or Mechanic. To handle this
 the Intern object values are used to populate the Salesperson object.
 
  */
