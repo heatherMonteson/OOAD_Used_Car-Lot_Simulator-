@@ -20,12 +20,13 @@ public class Vehicle implements ValueFromRange{
     protected static ArrayList<Vehicle> pickupInventory = new ArrayList<>();
     protected static ArrayList<Vehicle> performanceInventory = new ArrayList<>();
     protected static ArrayList<Vehicle> soldInventory = new ArrayList<>();
+    protected static ArrayList<Vehicle> soldCarInv = new ArrayList<>();
     private static ArrayList<String> carNames = new ArrayList<>(Arrays.asList("4Runner","Cordoba","Gran Fury","Nubira","Sonic","Acadia","Corniche","Gran Turismo","Oasis","Sonoma","Accent","Corolla","Grand Am","Odyssey","Sorento","Acclaim","Coronet","Grand Prix","Omega","Soul","Accord","Corrado","Grand Vitara","Omni","Spark","Achieva","Corsair","Grand Voyager","Optima","Spectra","Aerio","Corsica","Greiz","Outback","Spectrum","Aerostar","Cortina","Gremlin","Outlander","Spider","Aileron","Corvette","Grenada","Paceman","Spirior","Airstream","Cougar","Highlander","Pacer","Spirit","Alero","Countach","Hobio","Pacifica","Sportage","Allante","Courier","Hombre","Pampa","Sportvan","Alliance","Cressida","Horizon","Panamera","Sprint","Alpine","Crider","Hornet","Parisienne","Sprinter","Altima","Crossfire","Hummer","Park Avenue","Spyder","Amanti","Crosstrek","Hunter","Park Ward","Squire","Amaze","Crown Victoria","Huracan","Paseo","St. Regis","Amigo","Cruze","Husky","Passat","Stanza","Anglia","Cube","Ikon","Passport","Starion","Aperta","Cutlass","Impala","Pathfinder","Starlet")); //array that will hold read in car names
     private static final String[] types = {"Car", "Pickup","Performance"};
     protected String[] conditions = {"LikeNew", "Used", "Broken"};
     protected String[] cleanlinessLevel = {"Sparkly", "Clean", "Dirty"};
-//    protected static double dailySales=0.0; //adding sales is handled in the sales person class, don't need to worry about it at all
-//    protected static double totalSales=0.0;
+    protected static double dailySales=0.0; //adding sales is handled in the sales person class, don't need to worry about it at all
+    protected static double totalSales=0.0;
     Vehicle(){ //default constructor
 
     }
@@ -108,74 +109,95 @@ public class Vehicle implements ValueFromRange{
         this.cost = findValue(min, max);
     }
     //getters for arrays
-//    public static ArrayList<Vehicle> getSoldCars() {
-//    }
-//
-//    public static String[] getTypes(){
-//            return types;
-//    }
-//    public static ArrayList<Vehicle> getDirtyCars() {
-//
-//    }
-//    public static ArrayList<Vehicle> getCleanCars() {
-//
-//    }
-//    public static ArrayList<Vehicle> getBrokenCars() {
-//
-//    }
-//
-//    public static ArrayList<Vehicle> getUsedCars() {
-//
-//    }
-//    public static ArrayList<Vehicle> getLikeNewCars() {
-//
-//    }
-//    public static ArrayList<Vehicle> getPickups(){
-//
-//    }
-//    public static ArrayList<Vehicle> getCars(){
-//
-//    }
-//    public static ArrayList<Vehicle> getPerformanceCars(){
-//
-//    }
-//    //setters for arrays
-//    public void changeCarToDirty() {
-//    }
-//    public void changeCarToClean() {
-//    }
-//    public void changeCarToSparkly() {
-//    }
-//    public void downGradeCleanliness() {
-//        //sparkling --> clean ---> dirty
-//        //if dirty do nothing
-//    }
-//    public void changeCarToUsed(){
-//        //increase sale price by 50%
-//    }
-//    public void changeCarToLikeNew(){
-//        //increase sale price by 25%
-//    }
-//    public void removeFromInventory(Vehicle car) {
-//        //need to remove from static array list but add it to the sold cars array list
-//
-//    }
-//    //done
-//    public static double getDailySales() {
-//        return dailySales;
-//    }
-//    //done
-//    public static void resetDailySales() {
-//        dailySales=0.0;
-//    }
-//    //done
-//    protected static void addSale(double salesMade){
-//        dailySales=dailySales+salesMade;
-//        totalSales=totalSales+dailySales;
-//    }
-//    public static double getTotalSales(){
-//        return totalSales;
-//    }
-    //helpers
+    public static ArrayList<Vehicle> getSoldCars() {
+//        for (int i = 0; i < soldInventory.size(); i++){
+//            if (soldInventory.get(i).type.equals("Car")){
+//                soldCarInv.add(soldInventory.get(i));
+//            }
+//        }
+        return soldCarInv;
+    }
 
+    public static ArrayList<Vehicle> getSoldInventory() {
+        return soldInventory;
+    }
+/
+
+    public static ArrayList<Vehicle> getDirtyCars() {
+        return dirtyCars();
+    }
+    public static ArrayList<Vehicle> getCleanCars() {
+        return cleanCars();
+    }
+    public static ArrayList<Vehicle> getBrokenCars() {
+        return brokenCars();
+    }
+
+    public static ArrayList<Vehicle> getUsedCars() {
+        return usedCars();
+    }
+    public static ArrayList<Vehicle> getLikeNewCars() {
+        return likeNewCars();
+    }
+    public static ArrayList<Vehicle> getPickups(){
+        return pickupsList();
+    }
+    public static ArrayList<Vehicle> getCars(){
+        return carsList();
+    }
+    public static ArrayList<Vehicle> getPerformanceCars(){
+        return performanceList();
+    }
+    //setters for arrays
+    public void changeCarToDirty() {
+            this.cleanliness = "Dirty";
+    }
+    public void changeCarToClean() {
+        this.cleanliness = "Clean";
+    }
+    public void changeCarToSparkly() {
+        this.cleanliness = "Sparkly";
+    }
+    public void downGradeCleanliness() {
+        //sparkling --> clean ---> dirty
+        //if dirty do nothing
+        if (this.cleanliness == "Sparkly"){
+            this.changeCarToClean();
+        }
+        else if (this.cleanliness == "Clean") {
+            this.changeCarToDirty();
+        }
+    }
+    public void changeCarToUsed(){
+        //increase sale price by 50%
+        this.condition = "Used";
+        this.salePrice = this.salePrice * 1.5;
+    }
+    public void changeCarToLikeNew(){
+        //increase sale price by 25%
+        this.condition = "Like New";
+        this.salePrice = this.salePrice * 1.25;
+    }
+    public void removeFromInventory(Vehicle car) {
+        //need to remove from static array list but add it to the sold cars array list
+        soldInventory.add(car);
+        carInventory.remove(car);
+    }
+    //done
+    public static double getDailySales() {
+        return dailySales;
+    }
+    //done
+    public static void resetDailySales() {
+        dailySales=0.0;
+    }
+    //done
+    protected static void addSale(double salesMade){
+        dailySales=dailySales+salesMade;
+        totalSales=totalSales+dailySales;
+    }
+    public static double getTotalSales(){
+        return totalSales;
+    }
+    //helpers
 }
