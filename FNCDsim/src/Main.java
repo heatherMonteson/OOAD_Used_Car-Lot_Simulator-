@@ -11,7 +11,17 @@ is enough to see n days at the FNCD.
 
 public class Main {
     public static void main(String[] args) {
-        FNCDsimulation newSimulation = new FNCDsimulation();
-        newSimulation.run(30);
+//        FNCDsimulation newSimulation = new FNCDsimulation();
+//        newSimulation.run(30);
+
+        Car testCar = new Car();
+        testCar.addCars(1);
+//        Pickup testTruck = new Pickup();
+//        Performance testPerformance = new Performance();
+
+//        Vehicle testCar = new Car();
+//        testCar.addCars(1);
+//        FNCDSimulation sim = new FNCDSim();
+//        sim.addCars(5);
     }
 }
