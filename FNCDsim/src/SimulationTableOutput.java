@@ -1,4 +1,8 @@
+package FNCDsim.src;
+
 import java.util.ArrayList;
+
+//class for tabular output from the simulation
 public class SimulationTableOutput {
 
     public static void endOfDayOutput(ArrayList<Employee> finalEmployees, ArrayList<Employee> quitters,  ArrayList<Vehicle> finalCars,  ArrayList<Vehicle> soldCars){
@@ -16,7 +20,6 @@ public class SimulationTableOutput {
         }
 
 
-//add in cost and sold or instock
         System.out.printf("---------------------------------------------------------------------------------------------------------------------------------------------------%n");
         System.out.println("FNCD Inventory");
         System.out.printf("---------------------------------------------------------------------------------------------------------------------------------------------------%n");

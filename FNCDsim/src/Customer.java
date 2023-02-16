@@ -1,3 +1,5 @@
+package FNCDsim.src;
+
 import java.util.ArrayList;
 
 public class Customer implements ValueFromRange {

@@ -1,3 +1,7 @@
+package FNCDsim.src;
+
+//Class to track finances at the FNCD
+
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 

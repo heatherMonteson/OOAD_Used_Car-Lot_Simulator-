@@ -1,9 +1,23 @@
+package FNCDsim.src;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
+/*
+OOAD principal polymorphism and identity examples:
+
+Polymorphism: the  current, departed and quit staff array lists are all examples of polymorphism as they
+hold objects of type Inter, Salesperson, and Mechanic. Each of the three types, although they have inherited the same
+parent class, have different methods/behaviors from each-other and thus have different forms.
+
+Identity: the end of the sell cars method uses the unique identity of an object to remove a car from the inventory. The
+API method remove for arraylists looks for an object matching the identity of the given object to remove it from the list:
+sellCar=salesPerson.sellCar(customer, sellableCars)
+inventory.remove(sellCar);
+
+* */
 public class FNCDsim implements ValueFromRange{
 
-    private ArrayList<Employee> quitToday = new ArrayList<Employee>();
     private ArrayList<Employee> departedStaff = new ArrayList<Employee>();
     private ArrayList<Employee> currentStaff = new ArrayList<Employee>();
     private ArrayList<Intern> interns = new ArrayList<Intern>();
@@ -47,6 +61,7 @@ public class FNCDsim implements ValueFromRange{
         System.out.println("Opening ...");
         System.out.println("Starting today with a budget of $" + Bank.getBalance());
 
+        //hire interns as needed
         while(interns.size()<3) {
             Intern newIntern =new Intern();
             System.out.println("Hired new intern "+ newIntern.name);
@@ -56,6 +71,8 @@ public class FNCDsim implements ValueFromRange{
         int numCars =0;
         int numPer=0;
         int numPickup=0;
+
+        //count the number of each type of car in the inventory
         for (Vehicle car: inventory){
             if(car.getType()=="Car")
                 numCars++;
@@ -64,6 +81,7 @@ public class FNCDsim implements ValueFromRange{
             if(car.getType()=="Pickup")
                 numPickup++;
         }
+        //if less than 4 of any type of car, purchase more
         for(int i =1 ; i<=4-numCars; i++) {
             Vehicle newCar= new Car();
             inventory.add(newCar);
@@ -75,7 +93,6 @@ public class FNCDsim implements ValueFromRange{
             inventory.add(newCar);
             Bank.getFunds(newCar.getCost());
             System.out.println("New performance car added to inventory: "+ newCar.getCondition() + " "+newCar.getCleanliness() +" "+ newCar.getName() + " for "+ newCar.getCost() + " cost.");
-
         }
         for(int i =1 ; i<=4-numPickup; i++) {
             Vehicle newCar= new Pickup();
@@ -101,10 +118,10 @@ public class FNCDsim implements ValueFromRange{
                 dirtyCars.add(vehicle);
         }
 
+        //loop though interns 2x to have them wash cars
         while(j<=1 && (dirtyCars.size()>0 || cleanCars.size()>0)){
             Vehicle car = null;
             for (Intern intern: interns){
-
                 if(dirtyCars.size()>0){//wash dirty cars first
                     car = dirtyCars.get(findValue(0, dirtyCars.size()-1));
                     flag=intern.washCar(car);
@@ -137,6 +154,7 @@ public class FNCDsim implements ValueFromRange{
         j++;
         }
     }
+
     //handel all fixing
     private void fixCars(){
         System.out.println("Fixing cars ...");
@@ -145,18 +163,25 @@ public class FNCDsim implements ValueFromRange{
         int j=0;
         boolean flag =false;
 
+        //select only broken and used cars.
         for(Vehicle vehicle: inventory){
             if(Objects.equals(vehicle.getCondition(), "Broken") || Objects.equals(vehicle.getCondition(), "Used"))
                 carsToFix.add(vehicle);
         }
+
+        //loop though mechanics 2x to have them fix cars
         while (j<=1 && (carsToFix.size()>0)) {
             for(Mechanic mechanic: mechanics){
                 if(carsToFix.size()>0){
                     Vehicle car = carsToFix.get(findValue(0, carsToFix.size()-1));
                     flag= mechanic.fixCar(car);
                     if(flag){
-                        System.out.println("Mechanic "+ mechanic.getName() + " fixed the " + mechanic.getName() + " and made it like " + car.getCondition()+ "(earned a $"+car.getFixBonus()+" bonus)");
+                        System.out.println("Mechanic "+ mechanic.getName() + " fixed the " + car.getName() + " and made it like " + car.getCondition()+ "(earned a $"+car.getFixBonus()+" bonus)");
                         mechanic.payBonus(Bank.getFunds(car.getFixBonus()));
+                        if(car.getCleanliness()!="Dirty"){
+                            car.downGradeCleanliness();
+                            System.out.println("Car cleanliness for the " + car.getName() + " was downgraded to " + car.getCleanliness() + " after repair");
+                        }
                     }
                 }
             }
@@ -182,12 +207,13 @@ public class FNCDsim implements ValueFromRange{
         }
         ArrayList<Customer> allCustomers = customers.getCustomers();
 
-
+        //don't sell broken cars
         for(Vehicle car: inventory){
             if(car.getCondition()!="Broken")
                 sellableCars.add(car);
         }
 
+        //loop through customers and pair them with a sales person
         for(Customer customer: allCustomers){
             //determine if sales person makes a sale, remove from inventory if so and update all other info
             Salesperson salesPerson = salesPeople.get(findValue(0, salesPeople.size()-1));
@@ -201,12 +227,7 @@ public class FNCDsim implements ValueFromRange{
                 salesPerson.payBonus(Bank.getFunds(sellCar.getSaleBonus()));
                 System.out.println("Salesperson "+ salesPerson.getName()+" sold the "+ sellCar.getName()+ " "+sellCar.getType() +" for $"+ sellCar.getSalePrice() +" ( earned a $"+ sellCar.getSaleBonus()+" bonus)");
                 sellableCars.remove(sellCar);
-                for(Vehicle car : inventory){
-                    if (car.equals(sellCar)){
-                        inventory.remove(car);
-                        break;
-                    }
-                }
+                inventory.remove(sellCar);
             }
         }
     }
@@ -216,6 +237,7 @@ public class FNCDsim implements ValueFromRange{
         int randIntern = findValue(0, interns.size()-1);
         int randSales= findValue(0, salesPeople.size()-1);
         int randMechanic = findValue(0, mechanics.size()-1);
+        //update everyone's pay and days worked
         for(Intern intern: interns ){
             intern.addDayWorked();
             intern.payDailyRate();
@@ -229,19 +251,18 @@ public class FNCDsim implements ValueFromRange{
             mechanic.payDailyRate();
         }
 
+        //see if employees quit, if needed to promote interns to mechanic or sales
         if(interns.get(randIntern).employeeQuit()){
             departedStaff.add(interns.get(randIntern));
             System.out.println("Intern " + interns.get(randIntern).getName() + " has quit");
-            quitToday.add(interns.get(randIntern));
             interns.remove(interns.get(randIntern));
         }
         if(salesPeople.get(randSales).employeeQuit()){
 
             departedStaff.add(salesPeople.get(randSales));
             System.out.println("Salesperson " + salesPeople.get(randSales).getName() + " has quit");
-            quitToday.add(salesPeople.get(randSales));
             salesPeople.remove(salesPeople.get(randSales));
-
+            //promote intern to sales
             randIntern = findValue(0, interns.size()-1);
             Salesperson newSales = interns.get(randIntern).promoteInternToSales(interns.get(randIntern));
             salesPeople.add(newSales);
@@ -252,7 +273,6 @@ public class FNCDsim implements ValueFromRange{
             //mechanic quit
             departedStaff.add(mechanics.get(randMechanic));
             System.out.println("Mechanic " + mechanics.get(randMechanic).getName() + " has quit");
-            quitToday.add(mechanics.get(randMechanic));
             mechanics.remove(mechanics.get(randMechanic));
 
             //promote intern to mechanic
@@ -262,12 +282,14 @@ public class FNCDsim implements ValueFromRange{
             interns.remove(interns.get(randIntern));
             System.out.println("Intern "+ newMech.getName() + " has been promoted to mechanic");
         }
-
+        //gather for output
         currentStaff.addAll(interns);
         currentStaff.addAll(salesPeople);
         currentStaff.addAll(mechanics);
-        SimulationTableOutput.endOfDayOutput(currentStaff, quitToday, inventory, soldToday);
-        quitToday=new ArrayList<Employee>();
+        SimulationTableOutput.endOfDayOutput(currentStaff, departedStaff, inventory, soldToday);
+
+        //reset daily log objects
+        departedStaff=new ArrayList<Employee>();
         currentStaff= new ArrayList<Employee>();
         soldToday=new ArrayList<Vehicle>();
         Bank.resetDailySales();

@@ -1,32 +1,8 @@
-/*
-Fast lookup Employee class public methods:
-String getName()
-String getType()
-double getDailyPayRate()
-double getTotalBonusPay()
-int getDaysWorked()
-double getIncomeToDate()
-double getSalary()
-addDayWorked()
-payDailyRate()
-payBonus(double bonus)
-public static methods:
-ArrayList<Employee> getCurrentEmployees()
-ArrayList<Employee> getExEmployees()
-ArrayList<Employee> getInterns()
-ArrayList<Employee> getSalePeople()
-ArrayList<Employee> getMechanics()
- */
+package FNCDsim.src;
+
 //citations:
 //List of 2738 first names https://gist.github.com/ruanbekker/a1506f06aa1df06c5a9501cb393626ea
 //Searching an array list of objects for given parameter: https://stackoverflow.com/questions/69874638/searching-an-arraylist-for-a-matching-parameter
-
-/*
-OOAD principal example Polymorphism:
-Employee class has overloaded Employee constructors each has different meaning and behavior when run and create
-objects that will have different behavior/characteristics. For instance one will create an employee and change the
-name, type, salery etc. the other will simply be of an employee type with the default variables.
- */
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

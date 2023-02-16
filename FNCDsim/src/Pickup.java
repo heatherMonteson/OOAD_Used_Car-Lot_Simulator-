@@ -1,3 +1,5 @@
+package FNCDsim.src;
+
 public class Pickup extends Vehicle {
 
     Pickup(){

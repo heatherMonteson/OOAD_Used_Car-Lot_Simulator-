@@ -1,0 +1,1558 @@
+"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\lib\idea_rt.jar=57047:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\heath\Desktop\Projects2-4_OOAD\out\production\Projects2-4_OOAD FNCDsim.src.Main
+***Day number 1***
+Opening ...
+Starting today with a budget of $500000.0
+Washing cars...
+Intern Drakeo O. cleaned Passat and made it Clean
+Intern Mikey B. cleaned Cube and made it Clean
+Intern Eamon N. cleaned Optima and made it Clean
+Intern Drakeo O. cleaned Anglia and made it Clean
+Intern Mikey B. cleaned Gran Fury and made it Clean
+Intern Eamon N. cleaned Corrado 0 and made it Clean
+Fixing cars ...
+Mechanic Dex H. fixed the Corrado and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Corrado was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Corrado and made it like LikeNew(earned a $650.0 bonus)
+Mechanic Dex H. fixed the Passat and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Passat was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Passat 0 and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Passat 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Rana N. sold the Corrado Pickup for $23050.7375 ( earned a $3500.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 1               | 135.25     | 135.25          | 0.0             | Employed        |
+| Mikey B.             | Intern       | 1               | 116.51     | 116.51          | 0.0             | Employed        |
+| Eamon N.             | Intern       | 1               | 137.42     | 137.42          | 0.0             | Employed        |
+| Korey S.             | Sales        | 1               | 368.25     | 368.25          | 0.0             | Employed        |
+| Rana N.              | Sales        | 1               | 290.82     | 3790.82         | 3500.0          | Employed        |
+| Lorenzo D.           | Sales        | 1               | 297.17     | 297.17          | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 1               | 213.96     | 1363.96         | 1150.0          | Employed        |
+| Solomon X.           | Mechanic     | 1               | 253.55     | 253.55          | 0.0             | Employed        |
+| Kenzo K.             | Mechanic     | 1               | 256.15     | 1356.15         | 1100.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Gran Fury            | Performance          | 36720.112            | 18360.056            | Used            | Clean           | In Stock        |
+| Cube                 | Car                  | 28214.92             | 14107.46             | LikeNew         | Clean           | In Stock        |
+| Cortina              | Pickup               | 19743.0              | 9871.5               | Broken          | Clean           | In Stock        |
+| Passat               | Performance          | 22610.16             | 10305.08             | Used            | Dirty           | In Stock        |
+| Passat 0             | Car                  | 25766.8              | 10306.72             | LikeNew         | Dirty           | In Stock        |
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Clean           | In Stock        |
+| Sonoma               | Performance          | 21168.52             | 10584.26             | Broken          | Clean           | In Stock        |
+| Anglia               | Car                  | 36661.36             | 18330.68             | LikeNew         | Clean           | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Optima               | Performance          | 23758.47             | 11879.235            | Broken          | Clean           | In Stock        |
+| Sprint               | Car                  | 31105.984000000004   | 15552.992000000002   | Used            | Dirty           | In Stock        |
+| Corrado              | Pickup               | 23050.7375           | 8345.295             | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 23050.73
+Remaining Budget: 515231.64
+=========================================
+***Day number 2***
+Opening ...
+Starting today with a budget of $515231.64
+New pickup added to inventory: Used Dirty Cressida for 11935.776 cost.
+Washing cars...
+Intern Drakeo O. cleaned Passat and made it Clean
+Intern Drakeo O. cleaned Cressida and made it Clean
+Intern Eamon N. cleaned Sprint and made it Clean
+Fixing cars ...
+Mechanic Solomon X. fixed the Passat and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Passat was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Cortina and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Cortina was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Gran Fury and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Gran Fury was downgraded to Dirty after repair
+Selling cars...
+Salesperson Lorenzo D. sold the Passat Performance for $28262.7 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Passat 0 Car for $25766.8 ( earned a $1000.0 bonus)
+Salesperson Lorenzo D. sold the Cortina Pickup for $21493.0 ( earned a $3500.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 2               | 135.25     | 270.5           | 0.0             | Employed        |
+| Mikey B.             | Intern       | 2               | 116.51     | 233.02          | 0.0             | Employed        |
+| Eamon N.             | Intern       | 2               | 137.42     | 274.84          | 0.0             | Employed        |
+| Korey S.             | Sales        | 2               | 368.25     | 1736.5          | 1000.0          | Employed        |
+| Rana N.              | Sales        | 2               | 290.82     | 4081.64         | 3500.0          | Employed        |
+| Lorenzo D.           | Sales        | 2               | 297.17     | 8094.34         | 7500.0          | Employed        |
+| Dex H.               | Mechanic     | 2               | 213.96     | 1577.92         | 1150.0          | Employed        |
+| Solomon X.           | Mechanic     | 2               | 253.55     | 1007.09         | 500.0           | Employed        |
+| Kenzo K.             | Mechanic     | 2               | 256.15     | 2762.3          | 2250.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Gran Fury            | Performance          | 45900.14             | 18360.056            | LikeNew         | Dirty           | In Stock        |
+| Cube                 | Car                  | 28214.92             | 14107.46             | LikeNew         | Clean           | In Stock        |
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Clean           | In Stock        |
+| Sonoma               | Performance          | 21168.52             | 10584.26             | Broken          | Clean           | In Stock        |
+| Anglia               | Car                  | 36661.36             | 18330.68             | LikeNew         | Clean           | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Optima               | Performance          | 23758.47             | 11879.235            | Broken          | Clean           | In Stock        |
+| Sprint               | Car                  | 31105.984000000004   | 15552.992000000002   | Used            | Clean           | In Stock        |
+| Cressida             | Pickup               | 23871.552            | 11935.776            | Used            | Clean           | In Stock        |
+| Passat               | Performance          | 28262.7              | 10305.08             | LikeNew         | Dirty           | Sold            |
+| Passat 0             | Car                  | 25766.8              | 10306.72             | LikeNew         | Dirty           | Sold            |
+| Cortina              | Pickup               | 21493.0              | 9871.5               | Used            | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 75522.5
+Remaining Budget: 566599.24
+=========================================
+***Day number 3***
+Opening ...
+Starting today with a budget of $566599.24
+New basic car added to inventory: Broken Clean Sonic for 6538.42 cost.
+New performance car added to inventory: Broken Dirty Altima for 14430.39 cost.
+New pickup added to inventory: Broken Dirty Allante for 18187.335 cost.
+Washing cars...
+Intern Drakeo O. cleaned Altima and made it Sparkly (earned a $400.0)
+Intern Mikey B. cleaned Gran Fury and made it Clean
+Intern Eamon N. cleaned Allante and made it Clean
+Intern Drakeo O. cleaned Sprint and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Sonoma and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Sonoma was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Sonic and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Sonic was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Sprint and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Sprint was downgraded to Clean after repair
+Mechanic Solomon X. fixed the Sonoma and made it like LikeNew(earned a $500.0 bonus)
+Mechanic Kenzo K. fixed the Altima and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Altima was downgraded to Clean after repair
+Selling cars...
+Salesperson Lorenzo D. sold the Sonoma Performance for $28960.65 ( earned a $4000.0 bonus)
+Salesperson Lorenzo D. sold the Cressida Pickup for $23871.552 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Altima Performance for $30860.78 ( earned a $4000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 3               | 135.25     | 1055.75         | 650.0           | Employed        |
+| Mikey B.             | Intern       | 3               | 116.51     | 349.53          | 0.0             | Employed        |
+| Eamon N.             | Intern       | 3               | 137.42     | 412.26          | 0.0             | Employed        |
+| Korey S.             | Sales        | 3               | 368.25     | 6104.75         | 5000.0          | Employed        |
+| Rana N.              | Sales        | 3               | 290.82     | 4372.46         | 3500.0          | Employed        |
+| Lorenzo D.           | Sales        | 3               | 297.17     | 15891.51        | 15000.0         | Employed        |
+| Dex H.               | Mechanic     | 3               | 213.96     | 2741.88         | 2100.0          | Employed        |
+| Solomon X.           | Mechanic     | 3               | 253.55     | 1760.64         | 1000.0          | Employed        |
+| Kenzo K.             | Mechanic     | 3               | 256.15     | 3968.45         | 3200.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Gran Fury            | Performance          | 45900.14             | 18360.056            | LikeNew         | Clean           | In Stock        |
+| Cube                 | Car                  | 28214.92             | 14107.46             | LikeNew         | Clean           | In Stock        |
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Clean           | In Stock        |
+| Anglia               | Car                  | 36661.36             | 18330.68             | LikeNew         | Clean           | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Optima               | Performance          | 23758.47             | 11879.235            | Broken          | Clean           | In Stock        |
+| Sprint               | Car                  | 38882.48             | 15552.992000000002   | LikeNew         | Clean           | In Stock        |
+| Sonic                | Car                  | 13576.84             | 6538.42              | Used            | Dirty           | In Stock        |
+| Allante              | Pickup               | 36374.67             | 18187.335            | Broken          | Clean           | In Stock        |
+| Sonoma               | Performance          | 28960.65             | 10584.26             | LikeNew         | Dirty           | Sold            |
+| Cressida             | Pickup               | 23871.552            | 11935.776            | Used            | Clean           | Sold            |
+| Altima               | Performance          | 30860.78             | 14430.39             | Used            | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 83692.98
+Remaining Budget: 594516.98
+=========================================
+***Day number 4***
+Opening ...
+Starting today with a budget of $594516.98
+New performance car added to inventory: LikeNew Dirty Grand Voyager for 31823.39 cost.
+New performance car added to inventory: Broken Dirty Cortina 0 for 18564.095 cost.
+New pickup added to inventory: Broken Dirty Allante 0 for 9006.63 cost.
+Washing cars...
+Intern Drakeo O. cleaned Allante 0 and made it Clean
+Intern Mikey B. cleaned Cortina 0 and made it Clean
+Intern Eamon N. cleaned Sonic and made it Clean
+Intern Mikey B. cleaned Grand Voyager and made it Clean
+Intern Eamon N. cleaned Allante 0 and made it Sparkly (earned a $450.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Sonic and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Sonic was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Allante and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Allante was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Allante 0 and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Allante 0 was downgraded to Clean after repair
+Mechanic Solomon X. fixed the Optima and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Optima was downgraded to Dirty after repair
+Selling cars...
+Salesperson Rana N. sold the Optima Performance for $25758.47 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Sonic Car for $16971.05 ( earned a $1000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 4               | 135.25     | 1191.0          | 650.0           | Employed        |
+| Mikey B.             | Intern       | 4               | 116.51     | 466.03          | 0.0             | Employed        |
+| Eamon N.             | Intern       | 4               | 137.42     | 999.68          | 450.0           | Employed        |
+| Korey S.             | Sales        | 4               | 368.25     | 6473.0          | 5000.0          | Employed        |
+| Rana N.              | Sales        | 4               | 290.82     | 9663.27         | 8500.0          | Employed        |
+| Lorenzo D.           | Sales        | 4               | 297.17     | 16188.68        | 15000.0         | Employed        |
+| Dex H.               | Mechanic     | 4               | 213.96     | 3405.84         | 2550.0          | Employed        |
+| Solomon X.           | Mechanic     | 4               | 253.55     | 3164.19         | 2150.0          | Employed        |
+| Kenzo K.             | Mechanic     | 4               | 256.15     | 4874.59         | 3850.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Gran Fury            | Performance          | 45900.14             | 18360.056            | LikeNew         | Clean           | In Stock        |
+| Cube                 | Car                  | 28214.92             | 14107.46             | LikeNew         | Clean           | In Stock        |
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Clean           | In Stock        |
+| Anglia               | Car                  | 36661.36             | 18330.68             | LikeNew         | Clean           | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Sprint               | Car                  | 38882.48             | 15552.992000000002   | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 38124.67             | 18187.335            | Used            | Dirty           | In Stock        |
+| Grand Voyager        | Performance          | 63646.78             | 31823.39             | LikeNew         | Clean           | In Stock        |
+| Cortina 0            | Performance          | 37128.19             | 18564.095            | Broken          | Clean           | In Stock        |
+| Allante 0            | Pickup               | 19763.26             | 9006.63              | Used            | Clean           | In Stock        |
+| Optima               | Performance          | 25758.47             | 11879.235            | Used            | Dirty           | Sold            |
+| Sonic                | Car                  | 16971.05             | 6538.42              | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 42729.52
+Remaining Budget: 568083.29
+=========================================
+***Day number 5***
+Opening ...
+Starting today with a budget of $568083.29
+New basic car added to inventory: Broken Clean Pacer for 9973.43 cost.
+New performance car added to inventory: Used Dirty Starlet 0 for 20327.632 cost.
+Washing cars...
+Intern Drakeo O. cleaned Allante and made it Clean
+Intern Mikey B. cleaned Starlet 0 and made it Clean
+Intern Eamon N. cleaned Allante and made it Sparkly (earned a $450.0)
+Intern Mikey B. cleaned Grand Voyager and made it Sparkly (earned a $400.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Allante and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Allante was downgraded to Clean after repair
+Mechanic Solomon X. fixed the Allante 0 and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Allante 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Korey S. sold the Cube Car for $28214.92 ( earned a $1000.0 bonus)
+Salesperson Lorenzo D. sold the Anglia Car for $36661.36 ( earned a $1000.0 bonus)
+Salesperson Lorenzo D. sold the Starlet 0 Performance for $40655.264 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Sprint Car for $38882.48 ( earned a $1000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 5               | 135.25     | 1326.25         | 650.0           | Employed        |
+| Mikey B.             | Intern       | 5               | 116.51     | 982.54          | 400.0           | Employed        |
+| Eamon N.             | Intern       | 5               | 137.42     | 1587.1          | 900.0           | Employed        |
+| Korey S.             | Sales        | 5               | 368.25     | 8841.25         | 7000.0          | Employed        |
+| Rana N.              | Sales        | 5               | 290.82     | 9954.09         | 8500.0          | Employed        |
+| Lorenzo D.           | Sales        | 5               | 297.17     | 21485.85        | 20000.0         | Employed        |
+| Dex H.               | Mechanic     | 5               | 213.96     | 4269.8          | 3200.0          | Employed        |
+| Solomon X.           | Mechanic     | 5               | 253.55     | 4067.74         | 2800.0          | Employed        |
+| Kenzo K.             | Mechanic     | 5               | 256.15     | 5130.74         | 3850.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Gran Fury            | Performance          | 45900.14             | 18360.056            | LikeNew         | Clean           | In Stock        |
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Clean           | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Clean           | In Stock        |
+| Grand Voyager        | Performance          | 63646.78             | 31823.39             | LikeNew         | Sparkly         | In Stock        |
+| Cortina 0            | Performance          | 37128.19             | 18564.095            | Broken          | Clean           | In Stock        |
+| Allante 0            | Pickup               | 24704.074999999997   | 9006.63              | LikeNew         | Dirty           | In Stock        |
+| Pacer                | Car                  | 19946.86             | 9973.43              | Broken          | Clean           | In Stock        |
+| Cube                 | Car                  | 28214.92             | 14107.46             | LikeNew         | Clean           | Sold            |
+| Anglia               | Car                  | 36661.36             | 18330.68             | LikeNew         | Clean           | Sold            |
+| Starlet 0            | Performance          | 40655.264            | 20327.632            | Used            | Clean           | Sold            |
+| Sprint               | Car                  | 38882.48             | 15552.992000000002   | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 144414.02
+Remaining Budget: 670977.13
+=========================================
+***Day number 6***
+Opening ...
+Starting today with a budget of $670977.13
+New basic car added to inventory: Used Clean Acclaim for 10099.119999999999 cost.
+New basic car added to inventory: Used Dirty Sonoma 0 for 10774.104 cost.
+New basic car added to inventory: LikeNew Clean Spectra for 12722.12 cost.
+New performance car added to inventory: LikeNew Clean Spider for 34082.74 cost.
+Washing cars...
+Intern Drakeo O. cleaned Allante 0 and made it Clean
+Intern Eamon N. cleaned Sonoma 0 and made it Clean
+Intern Mikey B. cleaned Corrado 0 and made it Sparkly (earned a $450.0)
+Fixing cars ...
+Mechanic Solomon X. fixed the Cortina 0 and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Cortina 0 was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Sonoma 0 and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Sonoma 0 was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Cortina 0 and made it like LikeNew(earned a $500.0 bonus)
+Selling cars...
+Salesperson Lorenzo D. sold the Gran Fury Performance for $45900.14 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Acclaim Car for $20198.239999999998 ( earned a $1000.0 bonus)
+Salesperson Lorenzo D. sold the Allante 0 Pickup for $24704.074999999997 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Cortina 0 Performance for $48910.2375 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Grand Voyager Performance for $63646.78 ( earned a $4000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 6               | 135.25     | 1461.5          | 650.0           | Employed        |
+| Mikey B.             | Intern       | 6               | 116.51     | 1549.05         | 850.0           | Employed        |
+| Eamon N.             | Intern       | 6               | 137.42     | 1724.52         | 900.0           | Employed        |
+| Korey S.             | Sales        | 6               | 368.25     | 14209.5         | 12000.0         | Employed        |
+| Rana N.              | Sales        | 6               | 290.82     | 14244.91        | 12500.0         | Employed        |
+| Lorenzo D.           | Sales        | 6               | 297.17     | 29283.01        | 27500.0         | Employed        |
+| Dex H.               | Mechanic     | 6               | 213.96     | 4983.76         | 3700.0          | Employed        |
+| Solomon X.           | Mechanic     | 6               | 253.55     | 4821.29         | 3300.0          | Employed        |
+| Kenzo K.             | Mechanic     | 6               | 256.15     | 5836.88         | 4300.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Clean           | In Stock        |
+| Pacer                | Car                  | 19946.86             | 9973.43              | Broken          | Clean           | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Dirty           | In Stock        |
+| Spectra              | Car                  | 25444.24             | 12722.12             | LikeNew         | Clean           | In Stock        |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | In Stock        |
+| Gran Fury            | Performance          | 45900.14             | 18360.056            | LikeNew         | Clean           | Sold            |
+| Acclaim              | Car                  | 20198.239999999998   | 10099.119999999999   | Used            | Clean           | Sold            |
+| Allante 0            | Pickup               | 24704.074999999997   | 9006.63              | LikeNew         | Clean           | Sold            |
+| Cortina 0            | Performance          | 48910.2375           | 18564.095            | LikeNew         | Dirty           | Sold            |
+| Grand Voyager        | Performance          | 63646.78             | 31823.39             | LikeNew         | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 203359.46
+Remaining Budget: 786189.41
+=========================================
+***Day number 7***
+Closed for Sunday...
+***Day number 8***
+Opening ...
+Starting today with a budget of $786189.41
+New basic car added to inventory: Broken Dirty Optima 0 for 6126.525 cost.
+New performance car added to inventory: Used Dirty Aileron for 19109.016 cost.
+New performance car added to inventory: Broken Clean 4Runner for 17809.24 cost.
+New performance car added to inventory: Broken Sparkly Spyder for 11795.955 cost.
+New pickup added to inventory: Broken Dirty Corsica for 10160.195 cost.
+Washing cars...
+Intern Drakeo O. cleaned Sonoma 0 and made it Clean
+Intern Mikey B. cleaned Aileron and made it Clean
+Intern Eamon N. cleaned Corsica and made it Clean
+Intern Drakeo O. cleaned Optima 0 and made it Clean
+Fixing cars ...
+Mechanic Solomon X. fixed the Optima 0 and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Optima 0 was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Corsica and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Corsica was downgraded to Dirty after repair
+Mechanic Dex H. fixed the 4Runner and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the 4Runner was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the 4Runner and made it like LikeNew(earned a $500.0 bonus)
+Mechanic Kenzo K. fixed the Spyder and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Spyder was downgraded to Clean after repair
+Selling cars...
+Salesperson Korey S. sold the Optima 0 Car for $12753.05 ( earned a $1000.0 bonus)
+Salesperson Korey S. sold the Corsica Pickup for $22070.39 ( earned a $3500.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 7               | 135.25     | 1596.75         | 650.0           | Employed        |
+| Mikey B.             | Intern       | 7               | 116.51     | 1665.56         | 850.0           | Employed        |
+| Eamon N.             | Intern       | 7               | 137.42     | 1861.94         | 900.0           | Employed        |
+| Korey S.             | Sales        | 7               | 368.25     | 19077.75        | 16500.0         | Employed        |
+| Rana N.              | Sales        | 7               | 290.82     | 14535.73        | 12500.0         | Employed        |
+| Lorenzo D.           | Sales        | 7               | 297.17     | 29580.17        | 27500.0         | Employed        |
+| Dex H.               | Mechanic     | 7               | 213.96     | 5697.72         | 4200.0          | Employed        |
+| Solomon X.           | Mechanic     | 7               | 253.55     | 6024.84         | 4250.0          | Employed        |
+| Kenzo K.             | Mechanic     | 7               | 256.15     | 7243.03         | 5450.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Clean           | In Stock        |
+| Pacer                | Car                  | 19946.86             | 9973.43              | Broken          | Clean           | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Clean           | In Stock        |
+| Spectra              | Car                  | 25444.24             | 12722.12             | LikeNew         | Clean           | In Stock        |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | In Stock        |
+| Aileron              | Performance          | 38218.032            | 19109.016            | Used            | Clean           | In Stock        |
+| 4Runner              | Performance          | 47023.100000000006   | 17809.24             | LikeNew         | Dirty           | In Stock        |
+| Spyder               | Performance          | 25591.91             | 11795.955            | Used            | Clean           | In Stock        |
+| Optima 0             | Car                  | 12753.05             | 6126.525             | Used            | Dirty           | Sold            |
+| Corsica              | Pickup               | 22070.39             | 10160.195            | Used            | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 34823.44
+Remaining Budget: 746842.82
+=========================================
+***Day number 9***
+Opening ...
+Starting today with a budget of $746842.82
+New basic car added to inventory: Broken Dirty Panamera for 5790.805 cost.
+New pickup added to inventory: Broken Dirty Countach for 15384.515 cost.
+Washing cars...
+Intern Drakeo O. cleaned Panamera and made it Clean
+Intern Mikey B. cleaned 4Runner and made it Clean
+Intern Eamon N. cleaned Countach and made it Clean
+Intern Eamon N. cleaned 4Runner and made it Sparkly (earned a $400.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Pacer and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Pacer was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Aileron and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Aileron was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Pacer and made it like LikeNew(earned a $450.0 bonus)
+Mechanic Solomon X. fixed the Countach and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Countach was downgraded to Dirty after repair
+Selling cars...
+Salesperson Rana N. sold the Spyder Performance for $25591.91 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Spectra Car for $25444.24 ( earned a $1000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 8               | 135.25     | 1732.0          | 650.0           | Employed        |
+| Mikey B.             | Intern       | 8               | 116.51     | 1782.07         | 850.0           | Employed        |
+| Eamon N.             | Intern       | 8               | 137.42     | 2399.36         | 1300.0          | Employed        |
+| Korey S.             | Sales        | 8               | 368.25     | 20446.0         | 17500.0         | Employed        |
+| Rana N.              | Sales        | 8               | 290.82     | 18826.55        | 16500.0         | Employed        |
+| Lorenzo D.           | Sales        | 8               | 297.17     | 29877.33        | 27500.0         | Employed        |
+| Dex H.               | Mechanic     | 8               | 213.96     | 6811.68         | 5100.0          | Employed        |
+| Solomon X.           | Mechanic     | 8               | 253.55     | 6928.39         | 4900.0          | Employed        |
+| Kenzo K.             | Mechanic     | 8               | 256.15     | 7999.17         | 5950.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Clean           | In Stock        |
+| Pacer                | Car                  | 25558.575            | 9973.43              | LikeNew         | Dirty           | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Clean           | In Stock        |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | In Stock        |
+| Aileron              | Performance          | 47772.54             | 19109.016            | LikeNew         | Dirty           | In Stock        |
+| 4Runner              | Performance          | 47023.100000000006   | 17809.24             | LikeNew         | Sparkly         | In Stock        |
+| Panamera             | Car                  | 11581.61             | 5790.805             | Broken          | Clean           | In Stock        |
+| Countach             | Pickup               | 32519.03             | 15384.515            | Used            | Dirty           | In Stock        |
+| Spyder               | Performance          | 25591.91             | 11795.955            | Used            | Clean           | Sold            |
+| Spectra              | Car                  | 25444.24             | 12722.12             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 51036.15
+Remaining Budget: 767184.55
+=========================================
+***Day number 10***
+Opening ...
+Starting today with a budget of $767184.55
+New basic car added to inventory: Broken Dirty Alliance for 8776.14 cost.
+New performance car added to inventory: Used Clean Parisienne for 21386.576 cost.
+Washing cars...
+Intern Drakeo O. cleaned Aileron and made it Clean
+Intern Mikey B. cleaned Alliance and made it Clean
+Intern Eamon N. cleaned Pacer and made it Clean
+Intern Drakeo O. cleaned Countach and made it Clean
+Intern Eamon N. cleaned Aileron and made it Sparkly (earned a $400.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Countach and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Countach was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Panamera and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Panamera was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Alliance and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Alliance was downgraded to Dirty after repair
+Selling cars...
+Salesperson Korey S. sold the Parisienne Performance for $42773.152 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Panamera Car for $12081.61 ( earned a $1000.0 bonus)
+End of day...
+Intern Eamon N. has quit
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 9               | 135.25     | 1867.25         | 650.0           | Employed        |
+| Mikey B.             | Intern       | 9               | 116.51     | 1898.58         | 850.0           | Employed        |
+| Korey S.             | Sales        | 9               | 368.25     | 24814.25        | 21500.0         | Employed        |
+| Rana N.              | Sales        | 9               | 290.82     | 20117.37        | 17500.0         | Employed        |
+| Lorenzo D.           | Sales        | 9               | 297.17     | 30174.5         | 27500.0         | Employed        |
+| Dex H.               | Mechanic     | 9               | 213.96     | 7675.64         | 5750.0          | Employed        |
+| Solomon X.           | Mechanic     | 9               | 253.55     | 7631.94         | 5350.0          | Employed        |
+| Kenzo K.             | Mechanic     | 9               | 256.15     | 8705.32         | 6400.0          | Employed        |
+| Eamon N.             | Intern       | 9               | 137.42     | 2936.78         | 1700.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Clean           | In Stock        |
+| Pacer                | Car                  | 25558.575            | 9973.43              | LikeNew         | Clean           | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Clean           | In Stock        |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | In Stock        |
+| Aileron              | Performance          | 47772.54             | 19109.016            | LikeNew         | Sparkly         | In Stock        |
+| 4Runner              | Performance          | 47023.100000000006   | 17809.24             | LikeNew         | Sparkly         | In Stock        |
+| Countach             | Pickup               | 40648.7875           | 15384.515            | LikeNew         | Dirty           | In Stock        |
+| Alliance             | Car                  | 18052.28             | 8776.14              | Used            | Dirty           | In Stock        |
+| Parisienne           | Performance          | 42773.152            | 21386.576            | Used            | Clean           | Sold            |
+| Panamera             | Car                  | 12081.61             | 5790.805             | Used            | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 54854.76
+Remaining Budget: 782857.48
+=========================================
+***Day number 11***
+Opening ...
+Starting today with a budget of $782857.48
+Hired new intern Maksim Q.
+New basic car added to inventory: LikeNew Dirty Grenada for 18609.11 cost.
+New performance car added to inventory: Broken Dirty Accent for 15065.31 cost.
+Washing cars...
+Intern Drakeo O. cleaned Accent and made it Sparkly (earned a $400.0)
+Intern Mikey B. cleaned Countach and made it Clean
+Intern Maksim Q. cleaned Grenada and made it Clean
+Intern Mikey B. cleaned Alliance and made it Clean
+Intern Maksim Q. cleaned Pacer and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Alliance and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Alliance was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the Accent and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Accent was downgraded to Clean after repair
+Selling cars...
+Salesperson Rana N. sold the Countach Pickup for $40648.7875 ( earned a $3500.0 bonus)
+Salesperson Rana N. sold the Alliance Car for $22565.35 ( earned a $1000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 10              | 135.25     | 2402.5          | 1050.0          | Employed        |
+| Mikey B.             | Intern       | 10              | 116.51     | 2015.09         | 850.0           | Employed        |
+| Maksim Q.            | Intern       | 1               | 138.48     | 388.48          | 250.0           | Employed        |
+| Korey S.             | Sales        | 10              | 368.25     | 25182.5         | 21500.0         | Employed        |
+| Rana N.              | Sales        | 10              | 290.82     | 24908.19        | 22000.0         | Employed        |
+| Lorenzo D.           | Sales        | 10              | 297.17     | 30471.67        | 27500.0         | Employed        |
+| Dex H.               | Mechanic     | 10              | 213.96     | 8339.6          | 6200.0          | Employed        |
+| Solomon X.           | Mechanic     | 10              | 253.55     | 7885.49         | 5350.0          | Employed        |
+| Kenzo K.             | Mechanic     | 10              | 256.15     | 9461.47         | 6900.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Clean           | In Stock        |
+| Pacer                | Car                  | 25558.575            | 9973.43              | LikeNew         | Sparkly         | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Clean           | In Stock        |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | In Stock        |
+| Aileron              | Performance          | 47772.54             | 19109.016            | LikeNew         | Sparkly         | In Stock        |
+| 4Runner              | Performance          | 47023.100000000006   | 17809.24             | LikeNew         | Sparkly         | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Accent               | Performance          | 32130.62             | 15065.31             | Used            | Clean           | In Stock        |
+| Countach             | Pickup               | 40648.7875           | 15384.515            | LikeNew         | Clean           | Sold            |
+| Alliance             | Car                  | 22565.35             | 8776.14              | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 63214.13
+Remaining Budget: 804227.02
+=========================================
+***Day number 12***
+Opening ...
+Starting today with a budget of $804227.02
+New basic car added to inventory: Broken Clean Panamera 0 for 7993.275 cost.
+New pickup added to inventory: LikeNew Dirty Altima 0 for 16023.25 cost.
+Washing cars...
+Intern Drakeo O. cleaned Altima 0 and made it Clean
+Intern Mikey B. cleaned Accent and made it Sparkly (earned a $400.0)
+Intern Maksim Q. cleaned Allante and made it Sparkly (earned a $450.0)
+Fixing cars ...
+Mechanic Solomon X. fixed the Accent and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Accent was downgraded to Clean after repair
+Mechanic Solomon X. fixed the Panamera 0 and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Panamera 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Lorenzo D. sold the Accent Performance for $40163.275 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Panamera 0 Car for $16486.55 ( earned a $1000.0 bonus)
+Salesperson Rana N. sold the Altima 0 Pickup for $32046.5 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Pacer Car for $25558.575 ( earned a $1000.0 bonus)
+Salesperson Korey S. sold the 4Runner Performance for $47023.100000000006 ( earned a $4000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 11              | 135.25     | 2537.75         | 1050.0          | Employed        |
+| Mikey B.             | Intern       | 11              | 116.51     | 2531.6          | 1250.0          | Employed        |
+| Maksim Q.            | Intern       | 2               | 138.48     | 976.96          | 700.0           | Employed        |
+| Korey S.             | Sales        | 11              | 368.25     | 30550.75        | 26500.0         | Employed        |
+| Rana N.              | Sales        | 11              | 290.82     | 29699.01        | 26500.0         | Employed        |
+| Lorenzo D.           | Sales        | 11              | 297.17     | 34768.84        | 31500.0         | Employed        |
+| Dex H.               | Mechanic     | 11              | 213.96     | 8553.56         | 6200.0          | Employed        |
+| Solomon X.           | Mechanic     | 11              | 253.55     | 9089.03         | 6300.0          | Employed        |
+| Kenzo K.             | Mechanic     | 11              | 256.15     | 9717.61         | 6900.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Sparkly         | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Clean           | In Stock        |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | In Stock        |
+| Aileron              | Performance          | 47772.54             | 19109.016            | LikeNew         | Sparkly         | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Accent               | Performance          | 40163.275            | 15065.31             | LikeNew         | Clean           | Sold            |
+| Panamera 0           | Car                  | 16486.55             | 7993.275             | Used            | Dirty           | Sold            |
+| Altima 0             | Pickup               | 32046.5              | 16023.25             | LikeNew         | Clean           | Sold            |
+| Pacer                | Car                  | 25558.575            | 9973.43              | LikeNew         | Sparkly         | Sold            |
+| 4Runner              | Performance          | 47023.100000000006   | 17809.24             | LikeNew         | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 161277.98
+Remaining Budget: 924118.34
+=========================================
+***Day number 13***
+Opening ...
+Starting today with a budget of $924118.34
+New basic car added to inventory: LikeNew Clean Nubira for 16732.06 cost.
+New basic car added to inventory: Broken Sparkly 4Runner 0 for 8845.695 cost.
+New performance car added to inventory: Broken Clean Anglia 0 for 16290.145 cost.
+New performance car added to inventory: Used Dirty Pacifica for 17764.904000000002 cost.
+New pickup added to inventory: Broken Dirty Countach 0 for 19785.72 cost.
+Washing cars...
+Intern Drakeo O. cleaned Pacifica and made it Clean
+Intern Mikey B. cleaned Countach 0 and made it Clean
+Fixing cars ...
+Mechanic Dex H. fixed the Pacifica and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Pacifica was downgraded to Dirty after repair
+Mechanic Kenzo K. fixed the 4Runner 0 and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the 4Runner 0 was downgraded to Clean after repair
+Mechanic Dex H. fixed the 4Runner 0 and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the 4Runner 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Lorenzo D. sold the Pacifica Performance for $44412.26000000001 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Aileron Performance for $47772.54 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Spider Performance for $68165.48 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the 4Runner 0 Car for $22739.2375 ( earned a $1000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Drakeo O.            | Intern       | 12              | 135.25     | 2673.0          | 1050.0          | Employed        |
+| Mikey B.             | Intern       | 12              | 116.51     | 2648.11         | 1250.0          | Employed        |
+| Maksim Q.            | Intern       | 3               | 138.48     | 1115.44         | 700.0           | Employed        |
+| Korey S.             | Sales        | 12              | 368.25     | 38919.0         | 34500.0         | Employed        |
+| Rana N.              | Sales        | 12              | 290.82     | 30989.82        | 27500.0         | Employed        |
+| Lorenzo D.           | Sales        | 12              | 297.17     | 39066.0         | 35500.0         | Employed        |
+| Dex H.               | Mechanic     | 12              | 213.96     | 9717.51         | 7150.0          | Employed        |
+| Solomon X.           | Mechanic     | 12              | 253.55     | 9342.58         | 6300.0          | Employed        |
+| Kenzo K.             | Mechanic     | 12              | 256.15     | 10423.76        | 7350.0          | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Sparkly         | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Anglia 0             | Performance          | 32580.29             | 16290.145            | Broken          | Clean           | In Stock        |
+| Countach 0           | Pickup               | 39571.44             | 19785.72             | Broken          | Clean           | In Stock        |
+| Pacifica             | Performance          | 44412.26000000001    | 17764.904000000002   | LikeNew         | Dirty           | Sold            |
+| Aileron              | Performance          | 47772.54             | 19109.016            | LikeNew         | Sparkly         | Sold            |
+| Spider               | Performance          | 68165.48             | 34082.74             | LikeNew         | Clean           | Sold            |
+| 4Runner 0            | Car                  | 22739.2375           | 8845.695             | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 183089.51
+Remaining Budget: 1011319.15
+=========================================
+***Day number 14***
+Closed for Sunday...
+***Day number 15***
+Opening ...
+Starting today with a budget of $1011319.15
+New basic car added to inventory: Broken Dirty Sorento for 6624.56 cost.
+New performance car added to inventory: LikeNew Dirty Accord for 32334.87 cost.
+New performance car added to inventory: LikeNew Clean Countach 1 for 21125.37 cost.
+New performance car added to inventory: LikeNew Dirty Cortina 1 for 31715.4 cost.
+Washing cars...
+Intern Drakeo O. cleaned Accord and made it Clean
+Intern Mikey B. cleaned Cortina 1 and made it Sparkly (earned a $400.0)
+Intern Maksim Q. cleaned Sorento and made it Clean
+Intern Drakeo O. cleaned Anglia 0 and made it Sparkly (earned a $400.0)
+Intern Mikey B. cleaned Sonoma 0 and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Anglia 0 and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Anglia 0 was downgraded to Clean after repair
+Mechanic Solomon X. fixed the Countach 0 and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Countach 0 was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Sorento and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Sorento was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Anglia 0 and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Anglia 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Lorenzo D. sold the Countach 1 Performance for $42250.74 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Countach 0 Pickup for $41321.44 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Anglia 0 Performance for $43225.3625 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Cortina 1 Performance for $63430.8 ( earned a $4000.0 bonus)
+End of day...
+Salesperson Lorenzo D. has quit
+Intern Drakeo O. has been promoted to sales
+Mechanic Kenzo K. has quit
+Intern Maksim Q. has been promoted to mechanic
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Mikey B.             | Intern       | 13              | 116.51     | 3414.62         | 1900.0          | Employed        |
+| Korey S.             | Sales        | 13              | 368.25     | 47287.25        | 42500.0         | Employed        |
+| Rana N.              | Sales        | 13              | 290.82     | 34780.64        | 31000.0         | Employed        |
+| Drakeo O.            | Sales        | 13              | 370.5      | 3208.25         | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 13              | 213.96     | 10881.47        | 8100.0          | Employed        |
+| Solomon X.           | Mechanic     | 13              | 253.55     | 10746.13        | 7450.0          | Employed        |
+| Maksim Q.            | Mechanic     | 4               | 255.63     | 1253.92         | 0.0             | Employed        |
+| Lorenzo D.           | Sales        | 13              | 297.17     | 43363.17        | 39500.0         | Quit            |
+| Kenzo K.             | Mechanic     | 13              | 256.15     | 10679.91        | 7350.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | In Stock        |
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Sparkly         | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Sparkly         | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Sorento              | Car                  | 13749.12             | 6624.56              | Used            | Dirty           | In Stock        |
+| Accord               | Performance          | 64669.74             | 32334.87             | LikeNew         | Clean           | In Stock        |
+| Countach 1           | Performance          | 42250.74             | 21125.37             | LikeNew         | Clean           | Sold            |
+| Countach 0           | Pickup               | 41321.44             | 19785.72             | Used            | Dirty           | Sold            |
+| Anglia 0             | Performance          | 43225.3625           | 16290.145            | LikeNew         | Dirty           | Sold            |
+| Cortina 1            | Performance          | 63430.8              | 31715.4              | LikeNew         | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 190228.34
+Remaining Budget: 1089027.14
+=========================================
+***Day number 16***
+Opening ...
+Starting today with a budget of $1089027.14
+Hired new intern Precious V.
+Hired new intern Morgan I.
+New performance car added to inventory: Broken Dirty Accord 0 for 12761.045 cost.
+New performance car added to inventory: LikeNew Dirty Spirit for 38015.77 cost.
+New performance car added to inventory: LikeNew Dirty Cougar for 37270.07 cost.
+New pickup added to inventory: Used Sparkly Spyder 0 for 8233.967999999999 cost.
+Washing cars...
+Intern Mikey B. cleaned Spirit and made it Clean
+Intern Precious V. cleaned Sorento and made it Clean
+Intern Morgan I. cleaned Accord 0 and made it Clean
+Intern Precious V. cleaned Cougar and made it Clean
+Intern Morgan I. cleaned Accord and made it Sparkly (earned a $400.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Accord 0 and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Accord 0 was downgraded to Dirty after repair
+Mechanic Maksim Q. fixed the Accord 0 and made it like LikeNew(earned a $500.0 bonus)
+Mechanic Dex H. fixed the Spyder 0 and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Spyder 0 was downgraded to Clean after repair
+Selling cars...
+Salesperson Drakeo O. sold the Spyder 0 Pickup for $20584.92 ( earned a $3500.0 bonus)
+Salesperson Drakeo O. sold the Accord 0 Performance for $34402.6125 ( earned a $4000.0 bonus)
+Salesperson Drakeo O. sold the Allante Pickup for $47655.837499999994 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Corrado 0 Pickup for $51563.4 ( earned a $3500.0 bonus)
+Salesperson Drakeo O. sold the Accord Performance for $64669.74 ( earned a $4000.0 bonus)
+Salesperson Drakeo O. sold the Sorento Car for $13749.12 ( earned a $1000.0 bonus)
+Salesperson Rana N. sold the Cougar Performance for $74540.14 ( earned a $4000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Mikey B.             | Intern       | 14              | 116.51     | 3531.13         | 1900.0          | Employed        |
+| Precious V.          | Intern       | 1               | 150.18     | 150.18          | 0.0             | Employed        |
+| Morgan I.            | Intern       | 1               | 157.74     | 557.74          | 400.0           | Employed        |
+| Korey S.             | Sales        | 14              | 368.25     | 51155.5         | 46000.0         | Employed        |
+| Rana N.              | Sales        | 14              | 290.82     | 39071.46        | 35000.0         | Employed        |
+| Drakeo O.            | Sales        | 14              | 370.5      | 19578.75        | 16000.0         | Employed        |
+| Dex H.               | Mechanic     | 14              | 213.96     | 12245.42        | 9250.0          | Employed        |
+| Solomon X.           | Mechanic     | 14              | 253.55     | 10999.67        | 7450.0          | Employed        |
+| Maksim Q.            | Mechanic     | 5               | 255.63     | 2009.55         | 500.0           | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Sparkly         | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Spirit               | Performance          | 76031.54             | 38015.77             | LikeNew         | Clean           | In Stock        |
+| Spyder 0             | Pickup               | 20584.92             | 8233.967999999999    | LikeNew         | Clean           | Sold            |
+| Accord 0             | Performance          | 34402.6125           | 12761.045            | LikeNew         | Dirty           | Sold            |
+| Allante              | Pickup               | 47655.837499999994   | 18187.335            | LikeNew         | Sparkly         | Sold            |
+| Corrado 0            | Pickup               | 51563.4              | 25781.7              | LikeNew         | Sparkly         | Sold            |
+| Accord               | Performance          | 64669.74             | 32334.87             | LikeNew         | Sparkly         | Sold            |
+| Sorento              | Car                  | 13749.12             | 6624.56              | Used            | Clean           | Sold            |
+| Cougar               | Performance          | 74540.14             | 37270.07             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 307165.76
+Remaining Budget: 1272184.88
+=========================================
+***Day number 17***
+Opening ...
+Starting today with a budget of $1272184.88
+New basic car added to inventory: Used Clean Spirior for 13056.84 cost.
+New performance car added to inventory: Used Sparkly Starion for 18963.879999999997 cost.
+New performance car added to inventory: Used Dirty Sportage for 21763.56 cost.
+New performance car added to inventory: LikeNew Dirty Airstream for 38115.51 cost.
+New pickup added to inventory: LikeNew Dirty Coronet for 12532.89 cost.
+New pickup added to inventory: LikeNew Dirty Pacer 0 for 32133.03 cost.
+New pickup added to inventory: Broken Clean Accent 0 for 18882.03 cost.
+Washing cars...
+Intern Precious V. cleaned Coronet and made it Clean
+Intern Morgan I. cleaned Sportage and made it Sparkly (earned a $400.0)
+Intern Precious V. cleaned Pacer 0 and made it Clean
+Intern Morgan I. cleaned Airstream and made it Sparkly (earned a $400.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Spirior and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Spirior was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Accent 0 and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Accent 0 was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Accent 0 and made it like LikeNew(earned a $650.0 bonus)
+Selling cars...
+Salesperson Drakeo O. sold the Coronet Pickup for $25065.78 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Sonoma 0 Car for $26935.26 ( earned a $1000.0 bonus)
+Salesperson Korey S. sold the Starion Performance for $37927.759999999995 ( earned a $4000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Mikey B.             | Intern       | 15              | 116.51     | 3647.64         | 1900.0          | Employed        |
+| Precious V.          | Intern       | 2               | 150.18     | 300.36          | 0.0             | Employed        |
+| Morgan I.            | Intern       | 2               | 157.74     | 1515.48         | 1200.0          | Employed        |
+| Korey S.             | Sales        | 15              | 368.25     | 56523.75        | 51000.0         | Employed        |
+| Rana N.              | Sales        | 15              | 290.82     | 39362.28        | 35000.0         | Employed        |
+| Drakeo O.            | Sales        | 15              | 370.5      | 23449.25        | 19500.0         | Employed        |
+| Dex H.               | Mechanic     | 15              | 213.96     | 12909.38        | 9700.0          | Employed        |
+| Solomon X.           | Mechanic     | 15              | 253.55     | 12553.22        | 8750.0          | Employed        |
+| Maksim Q.            | Mechanic     | 6               | 255.63     | 2265.18         | 500.0           | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Spirit               | Performance          | 76031.54             | 38015.77             | LikeNew         | Clean           | In Stock        |
+| Spirior              | Car                  | 32642.1              | 13056.84             | LikeNew         | Dirty           | In Stock        |
+| Sportage             | Performance          | 43527.12             | 21763.56             | Used            | Sparkly         | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Clean           | In Stock        |
+| Accent 0             | Pickup               | 49392.575            | 18882.03             | LikeNew         | Dirty           | In Stock        |
+| Coronet              | Pickup               | 25065.78             | 12532.89             | LikeNew         | Clean           | Sold            |
+| Sonoma 0             | Car                  | 26935.26             | 10774.104            | LikeNew         | Sparkly         | Sold            |
+| Starion              | Performance          | 37927.759999999995   | 18963.879999999997   | Used            | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 89928.79
+Remaining Budget: 1193438.77
+=========================================
+***Day number 18***
+Opening ...
+Starting today with a budget of $1193438.77
+New basic car added to inventory: Broken Clean Allante 1 for 7482.4 cost.
+New performance car added to inventory: Used Dirty Parisienne 0 for 16471.728 cost.
+New pickup added to inventory: Broken Clean Accent 1 for 10742.89 cost.
+Washing cars...
+Intern Mikey B. cleaned Parisienne 0 and made it Clean
+Intern Precious V. cleaned Accent 0 and made it Clean
+Intern Morgan I. cleaned Spirior and made it Clean
+Fixing cars ...
+Mechanic Dex H. fixed the Parisienne 0 and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Parisienne 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Korey S. sold the Accent 0 Pickup for $49392.575 ( earned a $3500.0 bonus)
+Salesperson Korey S. sold the Spirior Car for $32642.1 ( earned a $1000.0 bonus)
+Salesperson Drakeo O. sold the Parisienne 0 Performance for $41179.32 ( earned a $4000.0 bonus)
+End of day...
+Intern Mikey B. has quit
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Precious V.          | Intern       | 3               | 150.18     | 450.54          | 0.0             | Employed        |
+| Morgan I.            | Intern       | 3               | 157.74     | 1673.22         | 1200.0          | Employed        |
+| Korey S.             | Sales        | 16              | 368.25     | 61392.0         | 55500.0         | Employed        |
+| Rana N.              | Sales        | 16              | 290.82     | 39653.1         | 35000.0         | Employed        |
+| Drakeo O.            | Sales        | 16              | 370.5      | 27819.75        | 23500.0         | Employed        |
+| Dex H.               | Mechanic     | 16              | 213.96     | 13623.33        | 10200.0         | Employed        |
+| Solomon X.           | Mechanic     | 16              | 253.55     | 12806.76        | 8750.0          | Employed        |
+| Maksim Q.            | Mechanic     | 7               | 255.63     | 2520.81         | 500.0           | Employed        |
+| Mikey B.             | Intern       | 16              | 116.51     | 3764.15         | 1900.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Spirit               | Performance          | 76031.54             | 38015.77             | LikeNew         | Clean           | In Stock        |
+| Sportage             | Performance          | 43527.12             | 21763.56             | Used            | Sparkly         | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Clean           | In Stock        |
+| Allante 1            | Car                  | 14964.8              | 7482.4               | Broken          | Clean           | In Stock        |
+| Accent 1             | Pickup               | 21485.78             | 10742.89             | Broken          | Clean           | In Stock        |
+| Accent 0             | Pickup               | 49392.575            | 18882.03             | LikeNew         | Clean           | Sold            |
+| Spirior              | Car                  | 32642.1              | 13056.84             | LikeNew         | Clean           | Sold            |
+| Parisienne 0         | Performance          | 41179.32             | 16471.728            | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 123213.98
+Remaining Budget: 1270778.6
+=========================================
+***Day number 19***
+Opening ...
+Starting today with a budget of $1270778.6
+Hired new intern Xavier L.
+New basic car added to inventory: LikeNew Dirty Sorento 0 for 16124.79 cost.
+New performance car added to inventory: LikeNew Dirty Highlander for 28136.57 cost.
+New pickup added to inventory: Broken Dirty Airstream 0 for 7980.785 cost.
+Washing cars...
+Intern Precious V. cleaned Airstream 0 and made it Clean
+Intern Xavier L. cleaned Sorento 0 and made it Clean
+Intern Precious V. cleaned Highlander and made it Clean
+Fixing cars ...
+Mechanic Dex H. fixed the Allante 1 and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Allante 1 was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Accent 1 and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Accent 1 was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Airstream 0 and made it like Used(earned a $650.0 bonus)
+Car cleanliness for the Airstream 0 was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Sportage and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Sportage was downgraded to Clean after repair
+Selling cars...
+Salesperson Rana N. sold the Sportage Performance for $54408.9 ( earned a $4000.0 bonus)
+Salesperson Drakeo O. sold the Highlander Performance for $56273.14 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Spirit Performance for $76031.54 ( earned a $4000.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Precious V.          | Intern       | 4               | 150.18     | 600.72          | 0.0             | Employed        |
+| Morgan I.            | Intern       | 4               | 157.74     | 1830.96         | 1200.0          | Employed        |
+| Xavier L.            | Intern       | 1               | 155.29     | 155.29          | 0.0             | Employed        |
+| Korey S.             | Sales        | 17              | 368.25     | 65760.25        | 59500.0         | Employed        |
+| Rana N.              | Sales        | 17              | 290.82     | 43943.92        | 39000.0         | Employed        |
+| Drakeo O.            | Sales        | 17              | 370.5      | 32190.25        | 27500.0         | Employed        |
+| Dex H.               | Mechanic     | 17              | 213.96     | 14937.28        | 11300.0         | Employed        |
+| Solomon X.           | Mechanic     | 17              | 253.55     | 14210.31        | 9900.0          | Employed        |
+| Maksim Q.            | Mechanic     | 8               | 255.63     | 2776.44         | 500.0           | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Clean           | In Stock        |
+| Allante 1            | Car                  | 15464.8              | 7482.4               | Used            | Dirty           | In Stock        |
+| Accent 1             | Pickup               | 23235.78             | 10742.89             | Used            | Dirty           | In Stock        |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | In Stock        |
+| Airstream 0          | Pickup               | 17711.57             | 7980.785             | Used            | Dirty           | In Stock        |
+| Sportage             | Performance          | 54408.9              | 21763.56             | LikeNew         | Clean           | Sold            |
+| Highlander           | Performance          | 56273.14             | 28136.57             | LikeNew         | Clean           | Sold            |
+| Spirit               | Performance          | 76031.54             | 38015.77             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 186713.58
+Remaining Budget: 1388784.1
+=========================================
+***Day number 20***
+Opening ...
+Starting today with a budget of $1388784.1
+New performance car added to inventory: Broken Clean Crider for 14545.01 cost.
+New performance car added to inventory: LikeNew Dirty Crown Victoria for 24415.55 cost.
+New performance car added to inventory: LikeNew Dirty Amaze for 34167.05 cost.
+Washing cars...
+Intern Precious V. cleaned Accent 1 and made it Clean
+Intern Morgan I. cleaned Amaze and made it Sparkly (earned a $400.0)
+Intern Xavier L. cleaned Crown Victoria and made it Clean
+Intern Precious V. cleaned Airstream 0 and made it Clean
+Intern Morgan I. cleaned Allante 1 and made it Clean
+Intern Xavier L. cleaned Allante 1 and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Crider and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Crider was downgraded to Dirty after repair
+Mechanic Solomon X. fixed the Crider and made it like LikeNew(earned a $500.0 bonus)
+Mechanic Maksim Q. fixed the Airstream 0 and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Airstream 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Drakeo O. sold the Crider Performance for $38862.525 ( earned a $4000.0 bonus)
+Salesperson Drakeo O. sold the Crown Victoria Performance for $48831.1 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Amaze Performance for $68334.1 ( earned a $4000.0 bonus)
+End of day...
+Mechanic Solomon X. has quit
+Intern Precious V. has been promoted to mechanic
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Morgan I.            | Intern       | 5               | 157.74     | 2388.7          | 1600.0          | Employed        |
+| Xavier L.            | Intern       | 2               | 155.29     | 560.57          | 250.0           | Employed        |
+| Korey S.             | Sales        | 18              | 368.25     | 70128.5         | 63500.0         | Employed        |
+| Rana N.              | Sales        | 18              | 290.82     | 44234.74        | 39000.0         | Employed        |
+| Drakeo O.            | Sales        | 18              | 370.5      | 40560.75        | 35500.0         | Employed        |
+| Dex H.               | Mechanic     | 18              | 213.96     | 15651.24        | 11800.0         | Employed        |
+| Maksim Q.            | Mechanic     | 9               | 255.63     | 3682.07         | 1150.0          | Employed        |
+| Precious V.          | Mechanic     | 5               | 253.13     | 750.9           | 0.0             | Employed        |
+| Solomon X.           | Mechanic     | 18              | 253.55     | 14963.85        | 10400.0         | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Clean           | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Clean           | In Stock        |
+| Allante 1            | Car                  | 15464.8              | 7482.4               | Used            | Sparkly         | In Stock        |
+| Accent 1             | Pickup               | 23235.78             | 10742.89             | Used            | Clean           | In Stock        |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | In Stock        |
+| Airstream 0          | Pickup               | 22139.4625           | 7980.785             | LikeNew         | Dirty           | In Stock        |
+| Crider               | Performance          | 38862.525            | 14545.01             | LikeNew         | Dirty           | Sold            |
+| Crown Victoria       | Performance          | 48831.1              | 24415.55             | LikeNew         | Clean           | Sold            |
+| Amaze                | Performance          | 68334.1              | 34167.05             | LikeNew         | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 156027.72
+Remaining Budget: 1455168.29
+=========================================
+***Day number 21***
+Closed for Sunday...
+***Day number 22***
+Opening ...
+Starting today with a budget of $1455168.29
+Hired new intern Alishan M.
+New performance car added to inventory: Used Clean Cressida 0 for 31546.096 cost.
+New performance car added to inventory: Used Dirty Sportvan for 28975.392 cost.
+New performance car added to inventory: Used Clean Aerio for 25003.128 cost.
+Washing cars...
+Intern Morgan I. cleaned Sportvan and made it Clean
+Intern Xavier L. cleaned Airstream 0 and made it Clean
+Intern Morgan I. cleaned Accent 1 and made it Sparkly (earned a $450.0)
+Intern Xavier L. cleaned Nubira and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Accent 1 and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Accent 1 was downgraded to Clean after repair
+Mechanic Precious V. fixed the Aerio and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Aerio was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Cressida 0 and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Cressida 0 was downgraded to Dirty after repair
+Selling cars...
+Salesperson Korey S. sold the Allante 1 Car for $15464.8 ( earned a $1000.0 bonus)
+Salesperson Drakeo O. sold the Airstream 0 Pickup for $22139.4625 ( earned a $3500.0 bonus)
+End of day...
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Morgan I.            | Intern       | 6               | 157.74     | 2996.43         | 2050.0          | Employed        |
+| Xavier L.            | Intern       | 3               | 155.29     | 965.86          | 500.0           | Employed        |
+| Alishan M.           | Intern       | 1               | 145.63     | 145.63          | 0.0             | Employed        |
+| Korey S.             | Sales        | 19              | 368.25     | 71496.75        | 64500.0         | Employed        |
+| Rana N.              | Sales        | 19              | 290.82     | 44525.56        | 39000.0         | Employed        |
+| Drakeo O.            | Sales        | 19              | 370.5      | 44431.25        | 39000.0         | Employed        |
+| Dex H.               | Mechanic     | 19              | 213.96     | 17015.19        | 12950.0         | Employed        |
+| Maksim Q.            | Mechanic     | 10              | 255.63     | 3937.7          | 1150.0          | Employed        |
+| Precious V.          | Mechanic     | 6               | 253.13     | 1504.03         | 500.0           | Employed        |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Clean           | In Stock        |
+| Accent 1             | Pickup               | 29044.725            | 10742.89             | LikeNew         | Clean           | In Stock        |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Dirty           | In Stock        |
+| Sportvan             | Performance          | 57950.784            | 28975.392            | Used            | Clean           | In Stock        |
+| Aerio                | Performance          | 62507.82             | 25003.128            | LikeNew         | Dirty           | In Stock        |
+| Allante 1            | Car                  | 15464.8              | 7482.4               | Used            | Sparkly         | Sold            |
+| Airstream 0          | Pickup               | 22139.4625           | 7980.785             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 37604.26
+Remaining Budget: 1398186.97
+=========================================
+***Day number 23***
+Opening ...
+Starting today with a budget of $1398186.97
+New basic car added to inventory: Broken Clean Alpine for 8252.445 cost.
+New pickup added to inventory: Used Sparkly Cougar 0 for 27161.968 cost.
+Washing cars...
+Intern Morgan I. cleaned Aerio and made it Clean
+Intern Xavier L. cleaned Cressida 0 and made it Clean
+Fixing cars ...
+Mechanic Dex H. fixed the Cougar 0 and made it like LikeNew(earned a $650.0 bonus)
+Car cleanliness for the Cougar 0 was downgraded to Clean after repair
+Mechanic Precious V. fixed the Sportvan and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Sportvan was downgraded to Dirty after repair
+Mechanic Dex H. fixed the Alpine and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Alpine was downgraded to Dirty after repair
+Selling cars...
+Salesperson Drakeo O. sold the Accent 1 Pickup for $29044.725 ( earned a $3500.0 bonus)
+End of day...
+Mechanic Precious V. has quit
+Intern Xavier L. has been promoted to mechanic
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Morgan I.            | Intern       | 7               | 157.74     | 3154.17         | 2050.0          | Employed        |
+| Alishan M.           | Intern       | 2               | 145.63     | 291.26          | 0.0             | Employed        |
+| Korey S.             | Sales        | 20              | 368.25     | 71865.0         | 64500.0         | Employed        |
+| Rana N.              | Sales        | 20              | 290.82     | 44816.38        | 39000.0         | Employed        |
+| Drakeo O.            | Sales        | 20              | 370.5      | 48301.75        | 42500.0         | Employed        |
+| Dex H.               | Mechanic     | 20              | 213.96     | 18329.14        | 14050.0         | Employed        |
+| Maksim Q.            | Mechanic     | 11              | 255.63     | 4193.33         | 1150.0          | Employed        |
+| Xavier L.            | Mechanic     | 4               | 263.04     | 1121.15         | 0.0             | Employed        |
+| Precious V.          | Mechanic     | 7               | 253.13     | 2257.16         | 1000.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Clean           | In Stock        |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | In Stock        |
+| Sportvan             | Performance          | 72438.48             | 28975.392            | LikeNew         | Dirty           | In Stock        |
+| Aerio                | Performance          | 62507.82             | 25003.128            | LikeNew         | Clean           | In Stock        |
+| Alpine               | Car                  | 17004.89             | 8252.445             | Used            | Dirty           | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Accent 1             | Pickup               | 29044.725            | 10742.89             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 29044.72
+Remaining Budget: 1384506.32
+=========================================
+***Day number 24***
+Opening ...
+Starting today with a budget of $1384506.32
+Hired new intern Sukhi X.
+New pickup added to inventory: LikeNew Dirty Crosstrek for 21341.87 cost.
+Washing cars...
+Intern Morgan I. cleaned Sportvan and made it Sparkly (earned a $400.0)
+Intern Alishan M. cleaned Alpine and made it Clean
+Intern Sukhi X. cleaned Crosstrek and made it Sparkly (earned a $450.0)
+Intern Sukhi X. cleaned Pacer 0 and made it Sparkly (earned a $450.0)
+Fixing cars ...
+Mechanic Maksim Q. fixed the Alpine and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Alpine was downgraded to Dirty after repair
+Selling cars...
+Salesperson Drakeo O. sold the Aerio Performance for $62507.82 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Alpine Car for $21256.1125 ( earned a $1000.0 bonus)
+End of day...
+Intern Morgan I. has quit
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Alishan M.           | Intern       | 3               | 145.63     | 436.89          | 0.0             | Employed        |
+| Sukhi X.             | Intern       | 1               | 137.36     | 1037.36         | 900.0           | Employed        |
+| Korey S.             | Sales        | 21              | 368.25     | 73233.25        | 65500.0         | Employed        |
+| Rana N.              | Sales        | 21              | 290.82     | 45107.2         | 39000.0         | Employed        |
+| Drakeo O.            | Sales        | 21              | 370.5      | 52672.25        | 46500.0         | Employed        |
+| Dex H.               | Mechanic     | 21              | 213.96     | 18543.1         | 14050.0         | Employed        |
+| Maksim Q.            | Mechanic     | 12              | 255.63     | 4898.96         | 1600.0          | Employed        |
+| Xavier L.            | Mechanic     | 5               | 263.04     | 1384.19         | 0.0             | Employed        |
+| Morgan I.            | Intern       | 8               | 157.74     | 3711.91         | 2450.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Sparkly         | In Stock        |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | In Stock        |
+| Sportvan             | Performance          | 72438.48             | 28975.392            | LikeNew         | Sparkly         | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Crosstrek            | Pickup               | 42683.74             | 21341.87             | LikeNew         | Sparkly         | In Stock        |
+| Aerio                | Performance          | 62507.82             | 25003.128            | LikeNew         | Clean           | Sold            |
+| Alpine               | Car                  | 21256.1125           | 8252.445             | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 83763.93
+Remaining Budget: 1437975.44
+=========================================
+***Day number 25***
+Opening ...
+Starting today with a budget of $1437975.44
+Hired new intern Teos F.
+New basic car added to inventory: LikeNew Sparkly Hombre for 13459.75 cost.
+New performance car added to inventory: Broken Dirty Huracan for 19523.74 cost.
+Washing cars...
+Intern Alishan M. cleaned Huracan and made it Sparkly (earned a $400.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Huracan and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Huracan was downgraded to Clean after repair
+Mechanic Maksim Q. fixed the Huracan and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Huracan was downgraded to Dirty after repair
+Selling cars...
+Salesperson Korey S. sold the Huracan Performance for $51309.350000000006 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Sportvan Performance for $72438.48 ( earned a $4000.0 bonus)
+Salesperson Korey S. sold the Crosstrek Pickup for $42683.74 ( earned a $3500.0 bonus)
+Salesperson Rana N. sold the Airstream Performance for $76231.02 ( earned a $4000.0 bonus)
+End of day...
+Intern Sukhi X. has quit
+Salesperson Korey S. has quit
+Intern Teos F. has been promoted to sales
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Alishan M.           | Intern       | 4               | 145.63     | 982.52          | 400.0           | Employed        |
+| Rana N.              | Sales        | 22              | 290.82     | 53398.02        | 47000.0         | Employed        |
+| Drakeo O.            | Sales        | 22              | 370.5      | 53042.75        | 46500.0         | Employed        |
+| Teos F.              | Sales        | 1               | 371.72     | 132.16          | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 22              | 213.96     | 19257.05        | 14550.0         | Employed        |
+| Maksim Q.            | Mechanic     | 13              | 255.63     | 5654.59         | 2100.0          | Employed        |
+| Xavier L.            | Mechanic     | 6               | 263.04     | 1647.23         | 0.0             | Employed        |
+| Sukhi X.             | Intern       | 2               | 137.36     | 1174.71         | 900.0           | Quit            |
+| Korey S.             | Sales        | 22              | 368.25     | 81101.5         | 73000.0         | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Sparkly         | In Stock        |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Hombre               | Car                  | 26919.5              | 13459.75             | LikeNew         | Sparkly         | In Stock        |
+| Huracan              | Performance          | 51309.350000000006   | 19523.74             | LikeNew         | Dirty           | Sold            |
+| Sportvan             | Performance          | 72438.48             | 28975.392            | LikeNew         | Sparkly         | Sold            |
+| Crosstrek            | Pickup               | 42683.74             | 21341.87             | LikeNew         | Sparkly         | Sold            |
+| Airstream            | Performance          | 76231.02             | 38115.51             | LikeNew         | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 242662.58
+Remaining Budget: 1628577.17
+=========================================
+***Day number 26***
+Opening ...
+Starting today with a budget of $1628577.17
+Hired new intern James P.
+Hired new intern Alekzander C.
+New performance car added to inventory: Used Clean Cressida 1 for 30361.144 cost.
+New performance car added to inventory: LikeNew Dirty Pacifica 0 for 25401.15 cost.
+New performance car added to inventory: Broken Dirty Crown Victoria 0 for 18165.785 cost.
+New pickup added to inventory: LikeNew Dirty Sprinter for 18563.04 cost.
+Washing cars...
+Intern Alishan M. cleaned Crown Victoria 0 and made it Clean
+Intern Alekzander C. cleaned Pacifica 0 and made it Clean
+Intern Alishan M. cleaned Sprinter and made it Clean
+Fixing cars ...
+Mechanic Dex H. fixed the Cressida 1 and made it like LikeNew(earned a $500.0 bonus)
+Car cleanliness for the Cressida 1 was downgraded to Dirty after repair
+Mechanic Maksim Q. fixed the Crown Victoria 0 and made it like Used(earned a $500.0 bonus)
+Car cleanliness for the Crown Victoria 0 was downgraded to Dirty after repair
+Mechanic Maksim Q. fixed the Crown Victoria 0 and made it like LikeNew(earned a $500.0 bonus)
+Selling cars...
+Salesperson Teos F. sold the Hombre Car for $26919.5 ( earned a $1000.0 bonus)
+Salesperson Teos F. sold the Crown Victoria 0 Performance for $47914.4625 ( earned a $4000.0 bonus)
+Salesperson Rana N. sold the Sorento 0 Car for $32249.58 ( earned a $1000.0 bonus)
+End of day...
+Salesperson Rana N. has quit
+Intern Alekzander C. has been promoted to sales
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Alishan M.           | Intern       | 5               | 145.63     | 1128.15         | 400.0           | Employed        |
+| James P.             | Intern       | 1               | 162.48     | 162.48          | 0.0             | Employed        |
+| Drakeo O.            | Sales        | 23              | 370.5      | 53413.25        | 46500.0         | Employed        |
+| Teos F.              | Sales        | 2               | 371.72     | 5503.88         | 5000.0          | Employed        |
+| Alekzander C.        | Sales        | 1               | 355.76     | 166.44          | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 23              | 213.96     | 19971.01        | 15050.0         | Employed        |
+| Maksim Q.            | Mechanic     | 14              | 255.63     | 6910.22         | 3100.0          | Employed        |
+| Xavier L.            | Mechanic     | 7               | 263.04     | 1910.27         | 0.0             | Employed        |
+| Rana N.              | Sales        | 23              | 290.82     | 54688.84        | 48000.0         | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Sparkly         | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Cressida 1           | Performance          | 75902.86             | 30361.144            | LikeNew         | Dirty           | In Stock        |
+| Pacifica 0           | Performance          | 50802.3              | 25401.15             | LikeNew         | Clean           | In Stock        |
+| Sprinter             | Pickup               | 37126.08             | 18563.04             | LikeNew         | Clean           | In Stock        |
+| Hombre               | Car                  | 26919.5              | 13459.75             | LikeNew         | Sparkly         | Sold            |
+| Crown Victoria 0     | Performance          | 47914.4625           | 18165.785            | LikeNew         | Dirty           | Sold            |
+| Sorento 0            | Car                  | 32249.58             | 16124.79             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 107083.54
+Remaining Budget: 1633429.35
+=========================================
+***Day number 27***
+Opening ...
+Starting today with a budget of $1633429.35
+Hired new intern Gursees Y.
+New basic car added to inventory: Broken Dirty Cruze for 5050.79 cost.
+New basic car added to inventory: Used Dirty Crossfire for 14101.64 cost.
+New performance car added to inventory: LikeNew Clean Cougar 1 for 21022.59 cost.
+Washing cars...
+Intern Alishan M. cleaned Cressida 1 and made it Clean
+Intern James P. cleaned Crossfire and made it Sparkly (earned a $250.0)
+Intern Gursees Y. cleaned Cruze and made it Sparkly (earned a $250.0)
+Intern Alishan M. cleaned Sprinter and made it Sparkly (earned a $450.0)
+Intern James P. cleaned Cougar 1 and made it Dirty
+Fixing cars ...
+Mechanic Dex H. fixed the Cruze and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Cruze was downgraded to Clean after repair
+Mechanic Maksim Q. fixed the Cruze and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Cruze was downgraded to Dirty after repair
+Mechanic Xavier L. fixed the Crossfire and made it like LikeNew(earned a $450.0 bonus)
+Car cleanliness for the Crossfire was downgraded to Clean after repair
+Selling cars...
+Salesperson Teos F. sold the Sprinter Pickup for $37126.08 ( earned a $3500.0 bonus)
+Salesperson Teos F. sold the Cougar 1 Performance for $42045.18 ( earned a $4000.0 bonus)
+Salesperson Teos F. sold the Pacifica 0 Performance for $50802.3 ( earned a $4000.0 bonus)
+Salesperson Alekzander C. sold the Cruze Car for $13251.975 ( earned a $1000.0 bonus)
+End of day...
+Salesperson Alekzander C. has quit
+Intern Alishan M. has been promoted to sales
+Mechanic Maksim Q. has quit
+Intern Gursees Y. has been promoted to mechanic
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| James P.             | Intern       | 2               | 162.48     | 574.96          | 250.0           | Employed        |
+| Drakeo O.            | Sales        | 24              | 370.5      | 53783.75        | 46500.0         | Employed        |
+| Teos F.              | Sales        | 3               | 371.72     | 17375.6         | 16500.0         | Employed        |
+| Alishan M.           | Sales        | 6               | 371.84     | 1723.78         | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 24              | 213.96     | 20634.96        | 15500.0         | Employed        |
+| Xavier L.            | Mechanic     | 8               | 263.04     | 2623.31         | 450.0           | Employed        |
+| Gursees Y.           | Mechanic     | 1               | 216.51     | 379.02          | 0.0             | Employed        |
+| Alekzander C.        | Sales        | 2               | 355.76     | 1522.2          | 1000.0          | Quit            |
+| Maksim Q.            | Mechanic     | 15              | 255.63     | 7615.85         | 3550.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Sparkly         | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Cressida 1           | Performance          | 75902.86             | 30361.144            | LikeNew         | Clean           | In Stock        |
+| Crossfire            | Car                  | 35254.1              | 14101.64             | LikeNew         | Clean           | In Stock        |
+| Sprinter             | Pickup               | 37126.08             | 18563.04             | LikeNew         | Sparkly         | Sold            |
+| Cougar 1             | Performance          | 42045.18             | 21022.59             | LikeNew         | Dirty           | Sold            |
+| Pacifica 0           | Performance          | 50802.3              | 25401.15             | LikeNew         | Clean           | Sold            |
+| Cruze                | Car                  | 13251.975            | 5050.79              | LikeNew         | Dirty           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 143225.53
+Remaining Budget: 1719412.09
+=========================================
+***Day number 28***
+Closed for Sunday...
+***Day number 29***
+Opening ...
+Starting today with a budget of $1719412.09
+Hired new intern Tayye D.
+Hired new intern Korbyn N.
+New basic car added to inventory: LikeNew Dirty Pathfinder for 15965.89 cost.
+New performance car added to inventory: LikeNew Dirty Achieva for 26168.79 cost.
+New performance car added to inventory: LikeNew Dirty Grand Vitara for 37150.12 cost.
+New pickup added to inventory: LikeNew Dirty Cortina 2 for 16662.14 cost.
+Washing cars...
+Intern James P. cleaned Grand Vitara and made it Clean
+Intern Tayye D. cleaned Achieva and made it Clean
+Intern Korbyn N. cleaned Cortina 2 and made it Clean
+Intern James P. cleaned Pathfinder and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Selling cars...
+Salesperson Drakeo O. sold the Pathfinder Car for $31931.78 ( earned a $1000.0 bonus)
+End of day...
+Intern James P. has quit
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Tayye D.             | Intern       | 1               | 109.79     | 109.79          | 0.0             | Employed        |
+| Korbyn N.            | Intern       | 1               | 134.41     | 134.41          | 0.0             | Employed        |
+| Drakeo O.            | Sales        | 25              | 370.5      | 55154.25        | 47500.0         | Employed        |
+| Teos F.              | Sales        | 4               | 371.72     | 17747.32        | 16500.0         | Employed        |
+| Alishan M.           | Sales        | 7               | 371.84     | 2095.62         | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 25              | 213.96     | 20848.92        | 15500.0         | Employed        |
+| Xavier L.            | Mechanic     | 9               | 263.04     | 2886.35         | 450.0           | Employed        |
+| Gursees Y.           | Mechanic     | 2               | 216.51     | 595.53          | 0.0             | Employed        |
+| James P.             | Intern       | 3               | 162.48     | 987.44          | 500.0           | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Sparkly         | In Stock        |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Cressida 1           | Performance          | 75902.86             | 30361.144            | LikeNew         | Clean           | In Stock        |
+| Crossfire            | Car                  | 35254.1              | 14101.64             | LikeNew         | Clean           | In Stock        |
+| Achieva              | Performance          | 52337.58             | 26168.79             | LikeNew         | Clean           | In Stock        |
+| Grand Vitara         | Performance          | 74300.24             | 37150.12             | LikeNew         | Clean           | In Stock        |
+| Cortina 2            | Pickup               | 33324.28             | 16662.14             | LikeNew         | Clean           | In Stock        |
+| Pathfinder           | Car                  | 31931.78             | 15965.89             | LikeNew         | Sparkly         | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 31931.78
+Remaining Budget: 1651932.67
+=========================================
+***Day number 30***
+Opening ...
+Starting today with a budget of $1651932.67
+Hired new intern Gian G.
+New basic car added to inventory: Broken Clean Sportvan 0 for 7979.08 cost.
+Washing cars...
+Intern Tayye D. cleaned Crossfire and made it Sparkly (earned a $250.0)
+Fixing cars ...
+Mechanic Dex H. fixed the Sportvan 0 and made it like Used(earned a $450.0 bonus)
+Car cleanliness for the Sportvan 0 was downgraded to Dirty after repair
+Mechanic Xavier L. fixed the Sportvan 0 and made it like LikeNew(earned a $450.0 bonus)
+Selling cars...
+Salesperson Alishan M. sold the Achieva Performance for $52337.58 ( earned a $4000.0 bonus)
+Salesperson Teos F. sold the Grand Vitara Performance for $74300.24 ( earned a $4000.0 bonus)
+Salesperson Teos F. sold the Cressida 1 Performance for $75902.86 ( earned a $4000.0 bonus)
+Salesperson Drakeo O. sold the Cressida 0 Performance for $78865.24 ( earned a $4000.0 bonus)
+Salesperson Alishan M. sold the Cortina 2 Pickup for $33324.28 ( earned a $3500.0 bonus)
+End of day...
+Salesperson Alishan M. has quit
+Intern Korbyn N. has been promoted to sales
+----------------------------------------------------------------------------------------------------------------------------
+FNCD Employees
+----------------------------------------------------------------------------------------------------------------------------
+| Employee             | Department   | Days Worked     | Rate       | Total Pay       | Total Bonus Pay | Employed/Quit   |
+----------------------------------------------------------------------------------------------------------------------------
+| Tayye D.             | Intern       | 2               | 109.79     | 469.58          | 250.0           | Employed        |
+| Gian G.              | Intern       | 1               | 128.47     | 128.47          | 0.0             | Employed        |
+| Drakeo O.            | Sales        | 26              | 370.5      | 59524.75        | 51500.0         | Employed        |
+| Teos F.              | Sales        | 5               | 371.72     | 26119.04        | 24500.0         | Employed        |
+| Korbyn N.            | Sales        | 2               | 269.01     | 268.82          | 0.0             | Employed        |
+| Dex H.               | Mechanic     | 26              | 213.96     | 21512.87        | 15950.0         | Employed        |
+| Xavier L.            | Mechanic     | 10              | 263.04     | 3599.39         | 900.0           | Employed        |
+| Gursees Y.           | Mechanic     | 3               | 216.51     | 812.04          | 0.0             | Employed        |
+| Alishan M.           | Sales        | 8               | 371.84     | 9967.46         | 7500.0          | Quit            |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+FNCD Inventory
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Vehicle              | Type                 | Sale Price           | Cost                 | Condition       | Cleanliness     | In Stock/Sold   |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Starlet              | Pickup               | 54141.1              | 27070.55             | LikeNew         | Clean           | In Stock        |
+| Grenada              | Car                  | 37218.22             | 18609.11             | LikeNew         | Clean           | In Stock        |
+| Nubira               | Car                  | 33464.12             | 16732.06             | LikeNew         | Sparkly         | In Stock        |
+| Pacer 0              | Pickup               | 64266.06             | 32133.03             | LikeNew         | Sparkly         | In Stock        |
+| Cougar 0             | Pickup               | 67904.92             | 27161.968            | LikeNew         | Clean           | In Stock        |
+| Crossfire            | Car                  | 35254.1              | 14101.64             | LikeNew         | Sparkly         | In Stock        |
+| Sportvan 0           | Car                  | 20572.7              | 7979.08              | LikeNew         | Dirty           | In Stock        |
+| Achieva              | Performance          | 52337.58             | 26168.79             | LikeNew         | Clean           | Sold            |
+| Grand Vitara         | Performance          | 74300.24             | 37150.12             | LikeNew         | Clean           | Sold            |
+| Cressida 1           | Performance          | 75902.86             | 30361.144            | LikeNew         | Clean           | Sold            |
+| Cressida 0           | Performance          | 78865.24             | 31546.096            | LikeNew         | Clean           | Sold            |
+| Cortina 2            | Pickup               | 33324.28             | 16662.14             | LikeNew         | Clean           | Sold            |
+------------------------------------------------------------------------------------------------------------------------------------------------
+=========================================
+Daily Sales: 314730.19
+Remaining Budget: 1935853.53
+=========================================
+
+Process finished with exit code 0

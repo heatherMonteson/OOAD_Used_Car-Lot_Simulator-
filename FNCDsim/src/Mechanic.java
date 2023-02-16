@@ -1,10 +1,5 @@
-/*
-Fast Lookup Salesperson child class of Employee public methods:
-mechanicQuit()
-fixCars()
- */
+package FNCDsim.src;
 
-import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Mechanic extends Employee{

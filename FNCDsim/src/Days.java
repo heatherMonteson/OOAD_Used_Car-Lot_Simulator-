@@ -1,3 +1,5 @@
+package FNCDsim.src;
+
 public class Days {
 
     private int today=0;
