@@ -1,1 +1,7 @@
-# Projects2-4_OOAD
+# Project 3.2 
+
+Team members: Amandaliss Dropik, Heather Monteson
+
+Java version: 11.0
+
+

@@ -1,0 +1,289 @@
+/*
+    Citation links:
+    Random picker from array: https://stackoverflow.com/questions/21726033/picking-a-random-item-from-an-array-of-strings-in-java
+    List of car names taken from: http://www.namenerds.com/uucn/listofweek/cars.html
+    Generating value from range from: https://stackoverflow.com/questions/3680637/generate-a-random-double-in-a-range
+    Monster Truck names: https://www.rookieroad.com/monster-trucks/list-a-z-2027269/
+ */
+
+/*
+OOAD Principle Cohesion and Encapsulation examples:
+
+Cohesion: The methods in the vehicle class are examples of cohesion because they only relate directly to information about
+vehicles: accessing and adjusting its state.
+
+Encapsulation: All the private variables and methods hidden within Vehicle are encapsulated as they are
+not accessible to external entities (unless granted permission through getters/setters). This prevents users of objects of
+type Vehicle and it's subclasses to access only what is needed to gain information about vehicles.
+
+ */
+package FNCDsim.src;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
+
+public abstract class Vehicle implements Name, Utility{
+
+    protected String type;
+    protected String name;
+    protected String condition;
+    protected String cleanliness;
+    protected double cleaningBonus=0.0;
+    protected double fixBonus=0.0;
+    protected double salePrice =0.0;
+    protected double cost=0.0;
+    protected double saleBonus=0.0;
+    protected static final String[] types = {"Car", "Pickup","Performance", "Motorcycle","Electric", "MonsterTruck" };
+    protected final String[]conditions={"LikeNew", "Used", "Broken"};
+    protected static ArrayList<String> carNames = new ArrayList<>(Arrays.asList("4Runner","Cordoba","Gran Fury","Nubira","Sonic","Acadia","Corniche","Gran Turismo","Oasis","Sonoma","Accent","Corolla","Grand Am","Odyssey","Sorento","Acclaim","Coronet","Grand Prix","Omega","Soul","Accord","Corrado","Grand Vitara","Omni","Spark","Achieva","Corsair","Grand Voyager","Optima","Spectra","Aerio","Corsica","Greiz","Outback","Spectrum","Aerostar","Cortina","Gremlin","Outlander","Spider","Aileron","Corvette","Grenada","Paceman","Spirior","Airstream","Cougar","Highlander","Pacer","Spirit","Alero","Countach","Hobio","Pacifica","Sportage","Allante","Courier","Hombre","Pampa","Sportvan","Alliance","Cressida","Horizon","Panamera","Sprint","Alpine","Crider","Hornet","Parisienne","Sprinter","Altima","Crossfire","Hummer","Park Avenue","Spyder","Amanti","Crosstrek","Hunter","Park Ward","Squire","Amaze","Crown Victoria","Huracan","Paseo","St. Regis","Amigo","Cruze","Husky","Passat","Stanza","Anglia","Cube","Ikon","Passport","Starion","Aperta","Cutlass","Impala","Pathfinder","Starlet")); //array that will hold read in car names
+    private static ArrayList<String> usedNames =new ArrayList<>();
+
+
+    Vehicle(){}
+
+    public double getSalePrice() {
+        return salePrice;
+    }
+
+    public String getCondition() {
+        return condition;
+    }
+
+    public String getCleanliness() {
+        return cleanliness;
+    }
+
+    public double getSaleBonus() {
+        return saleBonus;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public String getType(){
+        return type;
+    }
+
+    public static String[] getTypes(){
+            return types;
+    }
+
+    public double getFixBonus(){
+        return fixBonus;
+    }
+
+    public double getCleaningBonus() {
+        return cleaningBonus;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void changeCarToDirty() {
+        cleanliness="Dirty";
+    }
+
+    public void changeCarToClean() {
+        cleanliness="Clean";
+    }
+
+    public void changeCarToSparkly() {
+        cleanliness="Sparkly";
+    }
+    protected void setCleanliness() {
+        int rand =Utility.findValue(1, 100);
+        if(rand<=5){
+            cleanliness="Sparkly";
+        }
+        else if (rand<=35){
+            cleanliness="Clean";
+        }
+        else
+            cleanliness="Dirty";
+    }
+    protected void setCondition() {
+        condition=conditions[Utility.findValue(0,conditions.length-1)];
+        if(condition=="Broken")
+            cost=Utility.format(cost-(cost*.5));
+        else if(condition=="Used")
+            cost=Utility.format(cost-(cost*.2));
+    }
+    protected void setName() {
+        name= generateName(carNames);
+        int i=0;
+        String holdName= name;
+        while(usedNames.contains(name)){
+            name= holdName+ i;
+            i++;
+        }
+        usedNames.add(name);
+    }
+
+    public void downGradeCleanliness() {
+        if(Objects.equals(cleanliness, "Dirty"))//if dirty cannot further downgrade
+            return;
+        if(Objects.equals(cleanliness, "Clean"))
+            cleanliness="Dirty";
+        else if(Objects.equals(cleanliness, "Sparkly"))
+            cleanliness="Clean";
+        System.out.println("Car cleanliness for the " + name + " was downgraded to " + cleanliness);
+
+    }
+    public void changeCarToUsed(){
+        if(Objects.equals(condition, "Broken"))
+            salePrice=Utility.format(salePrice*1.50);
+        condition="Used";
+    }
+    public void changeCarToLikeNew(){
+        salePrice=Utility.format(salePrice*1.25);
+        condition="LikeNew";
+    }
+
+    //Citation: Professor Montgomery's code for 2.2
+    public static ArrayList<Vehicle> getVehiclesByType (ArrayList<Vehicle> vehicles, String type){
+        ArrayList<Vehicle> typeList = new ArrayList<>();
+        for (Vehicle vehicle: vehicles) {
+            if (Objects.equals(vehicle.type, type)) typeList.add(vehicle);
+        }
+        return typeList;
+    }
+}
+
+//////////////////////////////////////////////////////
+class Car extends Vehicle{
+    Car(){
+        super();
+        setName();
+        this.type="Car";
+        this.cost=Utility.format(Utility.findValue(10000, 20000));
+        this.saleBonus=1000.0;
+        this.cleaningBonus=250.0;
+        this.fixBonus=450.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+}
+
+//////////////////////////////////////////////////////
+class Electric extends Vehicle {
+    private int range;
+    Electric(){
+        super();
+        setName();
+        this.type="Electric";
+        this.cost=Utility.format(Utility.findValue(20000.0, 40000.0));
+        this.saleBonus=3500.0;
+        this.cleaningBonus=400.0;
+        this.fixBonus=500.0;
+        this.range=Utility.findValue(60, 400);
+        setCondition();//function overloaded from Vehicle to add 100 miles to range if
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+    //overloaded parent setCondition to add to mileage range if like new
+    protected void setCondition() {
+        condition=conditions[Utility.findValue(0,conditions.length-1)];
+        if(Objects.equals(condition, "LikeNew"))
+            range+=100;
+        else if(Objects.equals(condition, "Broken"))
+            cost=Utility.format(cost-(cost*.5));
+        else if(Objects.equals(condition, "Used"))
+            cost=Utility.format(cost-(cost*.2));
+    }
+    //overloaded parent function to add 100 miles to range
+    public void changeCarToLikeNew(){
+        salePrice=Utility.format(salePrice*1.25);
+        condition="LikeNew";
+        range+=100;
+        System.out.println("The" + name+ " has an improved range of " + range);
+    }
+}
+
+//////////////////////////////////////////////////////
+class Performance extends Vehicle implements RaceCar{
+    private int racesWon=0;
+    private int winBonus=0;
+
+    Performance() {
+        super();
+        setName();
+        this.type = "Performance";
+        this.cost = Utility.format(Utility.findValue(20000.0, 40000.0));
+        this.saleBonus = 4000.0;
+        this.cleaningBonus = 400.0;
+        this.fixBonus = 500.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice = Utility.format(this.cost * 2);
+    }
+}
+//////////////////////////////////////////////////////
+class Pickup extends Vehicle implements RaceCar{
+    private int racesWon=0;
+    private int winBonus=0;
+
+    Pickup(){
+        super();
+        setName();
+        this.type="Pickup";
+        this.cost=Utility.format(Utility.findValue(10000.0, 40000.0));
+        this.saleBonus=3500.0;
+        this.cleaningBonus=450.0;
+        this.fixBonus=650.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+
+}
+//////////////////////////////////////////////////////
+class MonsterTruck extends Vehicle implements RaceCar{
+    protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Destructor","Death Wheels","Mega Crush", "Avenger", "Batman", "2Xtream", "Bear Foot", "Big Foot", "Blue Thunder", "Bounty Hunter", "Brutus", "Bulldozer", "Game Over", "Grave Digger", "Grinder", "Worrier", "Oil Hog", "Monster Mutt", "Jacked Up", "Predator", "Terminator", "Swamp Thing", "The Felon", "Convict", "Lawless", "Killer", "Death Stomp", "War Wizard","The Machine", "Sudden Impact", "KO"));
+    private int racesWon=0;
+    private int winBonus=0;
+
+    MonsterTruck(){
+        super();
+        setName();
+        this.type="MonsterTruck";
+        this.cost=Utility.format(Utility.findValue(20000.0, 50000.0));
+        this.saleBonus=4000.0;
+        this.cleaningBonus=450.0;
+        this.fixBonus=650.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+}
+//////////////////////////////////////////////////////
+//TODO: need to add truncated normal distribution for the engine rating
+class Motorcycle extends Vehicle implements RaceCar{
+    private int racesWon=0;
+    private int winBonus=0;
+    private int engineRating;
+
+    Motorcycle(){
+        super();
+        setName();
+        this.type="Motorcycle";
+        this.cost=Utility.format(Utility.findValue(5000.0, 25000.0));
+        this.saleBonus=1500.0;
+        this.cleaningBonus=150.0;
+        this.fixBonus=300.0;
+        setEngineRating();
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+
+    private void setEngineRating() {
+        //engineRating = ...
+    }
+    public int getEngineRating(){
+        return engineRating;
+    }
+}
