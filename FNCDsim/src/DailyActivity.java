@@ -32,6 +32,13 @@ abstract class OpenShop extends DailyActivity{
             System.out.println("Hired new intern "+ newIntern.getName());
             FNCDsim.currentStaff.add(newIntern);
         }
+        //hire drivers as needed (3 total)
+        ArrayList<Employee> drivers = Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
+        for(int i = drivers.size(); i<3; i++){
+            Driver newDriver =new Driver();
+            System.out.println("Hired new intern "+ newDriver.getName());
+            FNCDsim.currentStaff.add(newDriver);
+        }
         //buy vehicles as needed, funds removed in addInventory method (4 of each)
         for(String type: Vehicle.getTypes()) {
             ArrayList<Vehicle> typeList= Vehicle.getVehiclesByType(FNCDsim.inventory, type);
@@ -189,6 +196,8 @@ abstract class SellCars extends DailyActivity{
 }
 
 //////////////////////////////////////////////
+//TODO: finish racer method, need to actually race, pair a driver with the cars,
+// add bonus, change state of the cars, see if driver is injured/remove from current staff and add to departed etc.
 abstract class RaceCars extends DailyActivity{
     public static void race() {
         String[] raceTypes = RaceCar.getRaceTypes();
@@ -201,7 +210,6 @@ abstract class RaceCars extends DailyActivity{
             Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
         }
     }
-
 }
 
 //////////////////////////////////////////////
