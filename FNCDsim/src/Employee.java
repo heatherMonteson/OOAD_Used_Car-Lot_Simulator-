@@ -196,20 +196,20 @@ class Intern extends Employee {
     }
 
     //create new sales employee and set its variable values to the interns with exception to salary
-    public Salesperson promoteInternToSales(Intern intern) {
+    public Salesperson promoteInternToSales() {
         Salesperson newSales = new Salesperson();
-        newSales.name = intern.name;
-        newSales.daysWorked = intern.daysWorked;
-        newSales.incomeToDate = intern.incomeToDate;
+        newSales.name = this.name;
+        newSales.daysWorked = this.daysWorked;
+        newSales.incomeToDate = this.incomeToDate;
         return newSales;
     }
 
     //create new mechanic employee and set its variable values to the interns with exception to salary
-    public Mechanic promoteInternToMechanic(Intern intern) {
+    public Mechanic promoteInternToMechanic() {
         Mechanic newMech = new Mechanic();
-        newMech.name = intern.name;
-        newMech.daysWorked = intern.daysWorked;
-        newMech.incomeToDate = intern.incomeToDate;
+        newMech.name = this.name;
+        newMech.daysWorked = this.daysWorked;
+        newMech.incomeToDate = this.incomeToDate;
         return newMech;
     }
 //TODO: replace this method so that the cars are being washed by method. Return car if it is washed to add bonus else return null

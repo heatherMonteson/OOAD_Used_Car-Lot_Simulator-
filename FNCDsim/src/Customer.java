@@ -3,19 +3,18 @@ package FNCDsim.src;
 import java.util.ArrayList;
 
 public class Customer implements Utility{
-    private String [] types= Vehicle.getTypes();
-    private int [] purchaseChance = {10, 40, 70};
     private ArrayList<Customer> customers = new ArrayList<Customer>();
     public double chance;
     public String type;
 
     Customer(){
-        int rand= Utility.findValue(0, types.length-1);
-        type= types[rand];
-        rand=Utility.findValue(0, purchaseChance.length-1);
-        chance=purchaseChance[rand];
+        String[] types = Vehicle.getTypes();
+        int[] purchaseChance = {10, 40, 70};
+        type= types[Utility.findValue(0, purchaseChance.length-1)];
+        chance= purchaseChance[Utility.findValue(0, purchaseChance.length-1)];
     }
 
+    //construct a list size=numCustomers
     Customer(int numCustomers){
         for (int i=1; i<=numCustomers; i++){
             Customer newCustomer = new Customer();

@@ -36,9 +36,8 @@ public abstract class Vehicle implements Name, Utility{
     protected double saleBonus=0.0;
     protected static final String[] types = {"Car", "Pickup","Performance", "Motorcycle","Electric", "MonsterTruck" };
     protected final String[]conditions={"LikeNew", "Used", "Broken"};
-    protected static ArrayList<String> carNames = new ArrayList<>(Arrays.asList("4Runner","Cordoba","Gran Fury","Nubira","Sonic","Acadia","Corniche","Gran Turismo","Oasis","Sonoma","Accent","Corolla","Grand Am","Odyssey","Sorento","Acclaim","Coronet","Grand Prix","Omega","Soul","Accord","Corrado","Grand Vitara","Omni","Spark","Achieva","Corsair","Grand Voyager","Optima","Spectra","Aerio","Corsica","Greiz","Outback","Spectrum","Aerostar","Cortina","Gremlin","Outlander","Spider","Aileron","Corvette","Grenada","Paceman","Spirior","Airstream","Cougar","Highlander","Pacer","Spirit","Alero","Countach","Hobio","Pacifica","Sportage","Allante","Courier","Hombre","Pampa","Sportvan","Alliance","Cressida","Horizon","Panamera","Sprint","Alpine","Crider","Hornet","Parisienne","Sprinter","Altima","Crossfire","Hummer","Park Avenue","Spyder","Amanti","Crosstrek","Hunter","Park Ward","Squire","Amaze","Crown Victoria","Huracan","Paseo","St. Regis","Amigo","Cruze","Husky","Passat","Stanza","Anglia","Cube","Ikon","Passport","Starion","Aperta","Cutlass","Impala","Pathfinder","Starlet")); //array that will hold read in car names
+    protected static ArrayList<String> carNames;
     private static ArrayList<String> usedNames =new ArrayList<>();
-
 
     Vehicle(){}
 
@@ -106,9 +105,9 @@ public abstract class Vehicle implements Name, Utility{
     }
     protected void setCondition() {
         condition=conditions[Utility.findValue(0,conditions.length-1)];
-        if(condition=="Broken")
+        if(Objects.equals(condition, "Broken"))
             cost=Utility.format(cost-(cost*.5));
-        else if(condition=="Used")
+        else if(Objects.equals(condition, "Used"))
             cost=Utility.format(cost-(cost*.2));
     }
     protected void setName() {
@@ -150,10 +149,12 @@ public abstract class Vehicle implements Name, Utility{
         }
         return typeList;
     }
+
 }
 
 //////////////////////////////////////////////////////
 class Car extends Vehicle{
+    protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Accent", "Accord", "Altima", "Ariya", "Armada", "Artura", "Atlas", "Avalon", "Camry", "Clubman", "Compass", "Corolla","Crosair", "Crown", "Durango", "Edge", "Elantra", "Escape", "Forte", "Insight", "Jetta", "Odyssey", "Passat", "Passport","Prologue"));
     Car(){
         super();
         setName();
@@ -170,7 +171,8 @@ class Car extends Vehicle{
 
 //////////////////////////////////////////////////////
 class Electric extends Vehicle {
-    private int range;
+    protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Leaf", "Electra", "BMW i3", "BMW i4", "Bolt", "Mach-e", "Lightning", "Genesis","Hummer EV", "Ioniq", "KONA","I-Pace", "Niro","Maxwell ePro", "MX-30","Leaf Plus", "ARIYA", "Taycan", "Polestar 2", "Solterra", "Model X", "Model Y", "Model S Plaid", "C40 Recharge"));
+    int range;
     Electric(){
         super();
         setName();
@@ -201,10 +203,15 @@ class Electric extends Vehicle {
         range+=100;
         System.out.println("The" + name+ " has an improved range of " + range);
     }
+
+    public int getRange(){
+        return range;
+    }
 }
 
 //////////////////////////////////////////////////////
 class Performance extends Vehicle implements RaceCar{
+    protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Mustang", "Spider", "Firebird", "Cobra", "Owl", "Speedster", "Valhalla", "Viper", "Valkyrie", "Victor", "GT", "Sportback", "Divo", "Boldie", "Viper", "Prowler", "Getaway", "Stealth", "Prelude"));
     private int racesWon=0;
     private int winBonus=0;
 
@@ -223,6 +230,7 @@ class Performance extends Vehicle implements RaceCar{
 }
 //////////////////////////////////////////////////////
 class Pickup extends Vehicle implements RaceCar{
+    protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Ram", "F150 ", "Tacoma", "Silverado", "Sierra", "Frontier", "Tundra", "Colorado", "Montana", "Strada", "Raptor", "Sierra", "Ridgline", "D-Max", "Frontier", "Navara", "Xenon"));
     private int racesWon=0;
     private int winBonus=0;
 
@@ -262,6 +270,7 @@ class MonsterTruck extends Vehicle implements RaceCar{
 //////////////////////////////////////////////////////
 //TODO: need to add truncated normal distribution for the engine rating
 class Motorcycle extends Vehicle implements RaceCar{
+    protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Venom", "Thunderbolt", "Spitfire", "X-74", "Commando", "Victor", "Silver Hawk", "Mach1 ", "Black Lightning", "Bullet", "Katana", "Intruder", "Trail 90", "Tiger", "Bandit", "Tiger", "Magna", "Sportster"));
     private int racesWon=0;
     private int winBonus=0;
     private int engineRating;
