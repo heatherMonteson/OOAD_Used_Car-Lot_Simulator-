@@ -187,6 +187,7 @@ class Mechanic extends Employee{
 
 //////////////////////////////////////////////////////////////
 class Intern extends Employee {
+
     Intern() {
         super();
         this.type = "Intern";
@@ -211,7 +212,8 @@ class Intern extends Employee {
         newMech.incomeToDate = intern.incomeToDate;
         return newMech;
     }
-
+//TODO: replace this method so that the cars are being washed by method. Return car if it is washed to add bonus else return null
+//payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
     public void internWashCar(Vehicle car) {
         //determine if intern washed a car given probability
         int randomNum =Utility.findValue(1,100);//generate probability of washing a car
