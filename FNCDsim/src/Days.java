@@ -1,5 +1,6 @@
 package FNCDsim.src;
 
+//Class just keeps track of days 1->7 (monday==1->sunday==7), increment days when newDay is called
 public class Days {
 
     private int today=0;

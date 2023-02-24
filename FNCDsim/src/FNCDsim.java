@@ -11,6 +11,10 @@ hold objects of type Inter, Salesperson, and Mechanic. Each of the three types, 
 parent class, have different methods/behaviors from each-other and thus have different forms.
 
 * */
+
+//Running daily tasks through classes for daily tasks. Tasks access the inventory and staff arrays
+//employees and tasks access/adjust account methods, see comments on each class for specifics
+
 public class FNCDsim implements Utility {
 
     public static ArrayList<Employee> departedStaff;
@@ -31,11 +35,14 @@ public class FNCDsim implements Utility {
     }
     //run through the daily tasks based on the given run time
     public void run(int runTime) {
+        //hire at least 3 of each staff members to start
+        //vehicles are added in the openShop methods of the OpenShop class
         for (int i=0; i<3; i++) {
             currentStaff.add(new Intern());
             currentStaff.add(new Salesperson());
             currentStaff.add(new Mechanic());
         }
+        //run through the simulation based on the number of days set to run
         for (int i =1; i<=runTime; i++){
             today.newDay();
             System.out.println("***Day number "+ today.getNumDays()+ "***");
@@ -48,7 +55,6 @@ public class FNCDsim implements Utility {
             EndOfDay.endOfDay();
         }
     }
-
 
     ///////////////////////////////////////////////////
     //      ALL FINANCIAL METHODS FOR THE FNCD       //
@@ -73,6 +79,7 @@ public class FNCDsim implements Utility {
 }
 
 //old code for running all the daily tasks inside the simulation class
+//can easily move back into the FNCDsimulation if needed
 /*
 
     //run through the daily tasks based on the given run time

@@ -2,6 +2,10 @@ package FNCDsim.src;
 
 import java.util.ArrayList;
 
+//Customers are assigned a chance (probability) that they will purchase a car
+//they are also assigned a type of car that they are looking for
+//Can create a single customer or multiple that are kept and in a local array list of customers
+
 public class Customer implements Utility{
     private ArrayList<Customer> customers = new ArrayList<Customer>();
     public double chance;
@@ -9,7 +13,7 @@ public class Customer implements Utility{
 
     Customer(){
         String[] types = Vehicle.getTypes();
-        int[] purchaseChance = {10, 40, 70};
+        int[] purchaseChance = {10, 40, 70};//Level of probability of buying a car
         type= types[Utility.findValue(0, purchaseChance.length-1)];
         chance= purchaseChance[Utility.findValue(0, purchaseChance.length-1)];
     }

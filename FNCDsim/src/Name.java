@@ -3,7 +3,7 @@ package FNCDsim.src;
 import java.util.ArrayList;
 import java.util.Random;
 
-//Randomly generate an index to return a name from
+//Randomly generate an index to return a name from an array list of names
 public interface Name {
 
     default String generateName(ArrayList<String> names) {

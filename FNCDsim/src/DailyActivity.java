@@ -6,6 +6,9 @@ sellCar=salesPerson.sellCar(customer, sellableCars)
 inventory.remove(sellCar);
 */
 
+//Daily activity carried out at the FNCD broken up by type
+//Accessing and updating static variables from the simulation class
+//NOTE: only make monetary updates through the getter and setters of the FNCD simulation class
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -14,6 +17,8 @@ public abstract class DailyActivity {
 }
 
 ///////////////////////////////////////////////
+//accesses/update staff and inventory list arrays directly from FNCDsimulation
+//announcements: adding to inventory, hiring interns, opening budget
 abstract class OpenShop extends DailyActivity{
 
     public static void openShop(){
@@ -24,7 +29,7 @@ abstract class OpenShop extends DailyActivity{
         ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
         for(int i = interns.size(); i<3; i++){
             Intern newIntern =new Intern();
-            System.out.println("Hired new intern "+ newIntern.name);
+            System.out.println("Hired new intern "+ newIntern.getName());
             FNCDsim.currentStaff.add(newIntern);
         }
         //buy vehicles as needed, funds removed in addInventory method (4 of each)
@@ -64,6 +69,7 @@ abstract class OpenShop extends DailyActivity{
 }
 
 //////////////////////////////////////////////
+//accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class WashCars extends DailyActivity{
     public static void washCars(){
         System.out.println("Washing cars...");
@@ -104,6 +110,7 @@ abstract class WashCars extends DailyActivity{
 }
 
 //////////////////////////////////////////////
+//accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class FixCars extends DailyActivity{
     public static void fixCars(){
         System.out.println("Fixing cars ...");
@@ -136,6 +143,8 @@ abstract class FixCars extends DailyActivity{
 }
 
 //////////////////////////////////////////////
+//accesses staff and accesses/update inventory and sold inventory list arrays directly from FNCDsimulation
+//announcements: number of customers shopping that day
 abstract class SellCars extends DailyActivity{
 
     public static void sellCars(int today){
@@ -196,6 +205,9 @@ abstract class RaceCars extends DailyActivity{
 }
 
 //////////////////////////////////////////////
+//accesses/update staff and inventory and sold inventory list arrays directly from FNCDsimulation
+//uses funds from simulation to pay employees
+//announcements: quitting, promotions,
 abstract class EndOfDay extends DailyActivity{
 
     public static void endOfDay(){
@@ -220,6 +232,7 @@ abstract class EndOfDay extends DailyActivity{
 //        SimulationTableOutput.endOfDayOutput(FNCDsim.currentStaff, departedStaff.size(), inventory, soldInventory.size(), totalSales, accountBalance);
     }
 
+    //Selects a random intern to promote based on type of promotion
     private static Employee promoteInternTo(String newPosition){
         ArrayList<Employee> staffByType = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
         Intern intern = (Intern) staffByType.get(Utility.findValue(0, staffByType.size()-1));

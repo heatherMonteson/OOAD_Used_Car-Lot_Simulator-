@@ -29,14 +29,14 @@ public abstract class Vehicle implements Name, Utility{
     protected String name;
     protected String condition;
     protected String cleanliness;
-    protected double cleaningBonus=0.0;
-    protected double fixBonus=0.0;
-    protected double salePrice =0.0;
-    protected double cost=0.0;
-    protected double saleBonus=0.0;
+    protected double cleaningBonus;
+    protected double fixBonus;
+    protected double salePrice ;
+    protected double cost;
+    protected double saleBonus;
     protected static final String[] types = {"Car", "Pickup","Performance", "Motorcycle","Electric", "MonsterTruck" };
     protected final String[]conditions={"LikeNew", "Used", "Broken"};
-    protected static ArrayList<String> carNames;
+    protected ArrayList<String> carNames;
     private static ArrayList<String> usedNames =new ArrayList<>();
 
     Vehicle(){}
@@ -170,6 +170,7 @@ class Car extends Vehicle{
 }
 
 //////////////////////////////////////////////////////
+//Announcements: change in range
 class Electric extends Vehicle {
     protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Leaf", "Electra", "BMW i3", "BMW i4", "Bolt", "Mach-e", "Lightning", "Genesis","Hummer EV", "Ioniq", "KONA","I-Pace", "Niro","Maxwell ePro", "MX-30","Leaf Plus", "ARIYA", "Taycan", "Polestar 2", "Solterra", "Model X", "Model Y", "Model S Plaid", "C40 Recharge"));
     int range;
@@ -210,10 +211,13 @@ class Electric extends Vehicle {
 }
 
 //////////////////////////////////////////////////////
+//           Race car classes below here            //
+//////////////////////////////////////////////////////
+
 class Performance extends Vehicle implements RaceCar{
     protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Mustang", "Spider", "Firebird", "Cobra", "Owl", "Speedster", "Valhalla", "Viper", "Valkyrie", "Victor", "GT", "Sportback", "Divo", "Boldie", "Viper", "Prowler", "Getaway", "Stealth", "Prelude"));
     private int racesWon=0;
-    private int winBonus=0;
+    private double winBonus=450.0;
 
     Performance() {
         super();
@@ -227,12 +231,21 @@ class Performance extends Vehicle implements RaceCar{
         setCleanliness();
         this.salePrice = Utility.format(this.cost * 2);
     }
+    public int getRacesWon(){
+        return racesWon;
+    }
+    public void addRaceWon(){
+        racesWon+=racesWon;
+    }
+    public double getWinBonus(){
+        return winBonus;
+    }
 }
 //////////////////////////////////////////////////////
 class Pickup extends Vehicle implements RaceCar{
     protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Ram", "F150 ", "Tacoma", "Silverado", "Sierra", "Frontier", "Tundra", "Colorado", "Montana", "Strada", "Raptor", "Sierra", "Ridgline", "D-Max", "Frontier", "Navara", "Xenon"));
     private int racesWon=0;
-    private int winBonus=0;
+    private double winBonus=300.0;
 
     Pickup(){
         super();
@@ -246,13 +259,22 @@ class Pickup extends Vehicle implements RaceCar{
         setCleanliness();
         this.salePrice=Utility.format(this.cost*2);
     }
+    public int getRacesWon(){
+        return racesWon;
+    }
+    public void addRaceWon(){
+        racesWon+=racesWon;
+    }
+    public double getWinBonus(){
+        return winBonus;
+    }
 
 }
 //////////////////////////////////////////////////////
 class MonsterTruck extends Vehicle implements RaceCar{
     protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Destructor","Death Wheels","Mega Crush", "Avenger", "Batman", "2Xtream", "Bear Foot", "Big Foot", "Blue Thunder", "Bounty Hunter", "Brutus", "Bulldozer", "Game Over", "Grave Digger", "Grinder", "Worrier", "Oil Hog", "Monster Mutt", "Jacked Up", "Predator", "Terminator", "Swamp Thing", "The Felon", "Convict", "Lawless", "Killer", "Death Stomp", "War Wizard","The Machine", "Sudden Impact", "KO"));
     private int racesWon=0;
-    private int winBonus=0;
+    private double winBonus=500.0;
 
     MonsterTruck(){
         super();
@@ -266,13 +288,22 @@ class MonsterTruck extends Vehicle implements RaceCar{
         setCleanliness();
         this.salePrice=Utility.format(this.cost*2);
     }
+    public int getRacesWon(){
+        return racesWon;
+    }
+    public void addRaceWon(){
+        racesWon+=racesWon;
+    }
+    public double getWinBonus(){
+        return winBonus;
+    }
 }
 //////////////////////////////////////////////////////
 //TODO: need to add truncated normal distribution for the engine rating
 class Motorcycle extends Vehicle implements RaceCar{
     protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Venom", "Thunderbolt", "Spitfire", "X-74", "Commando", "Victor", "Silver Hawk", "Mach1 ", "Black Lightning", "Bullet", "Katana", "Intruder", "Trail 90", "Tiger", "Bandit", "Tiger", "Magna", "Sportster"));
     private int racesWon=0;
-    private int winBonus=0;
+    private double winBonus=375.0;
     private int engineRating;
 
     Motorcycle(){
@@ -294,5 +325,15 @@ class Motorcycle extends Vehicle implements RaceCar{
     }
     public int getEngineRating(){
         return engineRating;
+    }
+
+    public int getRacesWon(){
+        return racesWon;
+    }
+    public void addRaceWon(){
+        racesWon+=racesWon;
+    }
+    public double getWinBonus(){
+        return winBonus;
     }
 }

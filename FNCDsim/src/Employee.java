@@ -75,6 +75,8 @@ public abstract class Employee implements Utility, Name{
 }
 
 //////////////////////////////////////////////////////////////
+//Announcements: sold a car
+//Updates to FNCDsimulation: Adding sale money to FNCDsimulation budget and removing bonus
 class Salesperson extends Employee {
 
     Salesperson(){
@@ -82,15 +84,6 @@ class Salesperson extends Employee {
         this.type="Sales";
         setSalary(250.0, 375.00);
         setName();
-    }
-    Salesperson(String name, double bonusTotalPay, int daysWorked, double incomeToDate){
-        super();
-        this.type = "Sales";
-        setSalary(250.0, 375.00);
-        this.name=name;
-        this.totalBonusPay=bonusTotalPay;
-        this.daysWorked=daysWorked;
-        this.incomeToDate=incomeToDate;
     }
 
     //if the sales person sells a car, return the car that is sold
@@ -151,6 +144,9 @@ class Salesperson extends Employee {
 }
 
 //////////////////////////////////////////////////////////////
+//Announcements: fixed a car
+//Updates to FNCDsimulation: Removing money from FNCDsimulation budget for fix bonus
+//State changes invoked: adjusting car condition
 class Mechanic extends Employee{
 
     Mechanic(){
@@ -159,17 +155,6 @@ class Mechanic extends Employee{
         setSalary(175.0, 280.0);
         setName();
     }
-
-    Mechanic(String name, double bonusTotalPay, int daysWorked, double incomeToDate){
-        super();
-        this.type = "Mechanic";
-        setSalary(175.0, 280.0);
-        this.name=name;
-        this.totalBonusPay=bonusTotalPay;
-        this.daysWorked=daysWorked;
-        this.incomeToDate=incomeToDate;
-    }
-
     public void fixCar(Vehicle car){
 
         int randomNum = Utility.findValue(1, 100);
@@ -186,6 +171,9 @@ class Mechanic extends Employee{
 }
 
 //////////////////////////////////////////////////////////////
+//Announcements: washed a car
+//Updates to FNCDsimulation: Removing money from FNCDsimulation budget for wash bonus
+//State changes invoked: car cleanliness
 class Intern extends Employee {
 
     Intern() {
@@ -212,8 +200,7 @@ class Intern extends Employee {
         newMech.incomeToDate = this.incomeToDate;
         return newMech;
     }
-//TODO: replace this method so that the cars are being washed by method. Return car if it is washed to add bonus else return null
-//payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
+
     public void internWashCar(Vehicle car) {
         //determine if intern washed a car given probability
         int randomNum =Utility.findValue(1,100);//generate probability of washing a car

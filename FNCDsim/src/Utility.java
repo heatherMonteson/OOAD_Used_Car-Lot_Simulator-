@@ -7,6 +7,8 @@ import java.util.Random;
 //Citation:
 //Generating a value from a range https://stackoverflow.com/questions/3680637/generate-a-random-double-in-a-range
 //Truncating a double: https://stackoverflow.com/questions/7747469/how-can-i-truncate-a-double-to-only-two-decimal-places-in-java#:~:text=will%20output%203.54-,DecimalFormat(%22%23.,for%20both%20Positive%20%26%20Negative%20values.
+
+//Use for general math/logic reuse code
 public interface Utility {
 
     //from a lower and upper bound generate a random number in that range
