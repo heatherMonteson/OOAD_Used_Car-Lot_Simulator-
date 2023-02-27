@@ -152,14 +152,6 @@ public abstract class Vehicle implements Name, Utility{
     public String getAddOnDes(){
         return "";
     }
-//
-//    public String addOnName() {
-//        return "Add-ons:";
-//    }
-//    public double additionalPrice(){
-//        return 0;
-//    }
-
 }
 //////////////////////////////////////////////////////
 class Car extends Vehicle{

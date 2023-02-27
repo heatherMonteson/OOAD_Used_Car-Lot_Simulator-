@@ -2,12 +2,13 @@ package FNCDsim.src;
 
 
 import java.util.HashMap;
-import java.util.Map;
 
+//OBSERVER: accepting information from the publisher (informationBroker) to increment the total sales and total
+//amount all employees have made. Storing in a hash map FNCD-->amount made by dealership, Staff--> amount made by staff
 //runs through the whole simulation
 //output from the FNCDsimulation at the end of the run
+
 public class Tracker implements Observer{
-//    Map<String , Double> tracker = new HashMap<>();
     int day;
     HashMap<String, Double> tracker = new HashMap<String , Double>();
     InformationBroker broker;

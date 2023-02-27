@@ -16,8 +16,8 @@ public abstract class DailyActivity {
 
 }
 
-///////////////////////////////////////////////
-//accesses/update staff and inventory list arrays directly from FNCDsimulation
+//////////////////////////////////////////////////////////////////////
+//accesses/update staff and inventory list arrays directly from FNCDsim
 //announcements: adding to inventory, hiring interns, opening budget
 abstract class OpenShop extends DailyActivity{
 
@@ -25,26 +25,43 @@ abstract class OpenShop extends DailyActivity{
         FNCDsim.broker.out("Opening ...");
         FNCDsim.broker.out(Enums.EventType.Opening, "Starting today with a budget of $" + FNCDsim.getBalance(), FNCDsim.getBalance());
 
-        //hire interns as needed (3 total)
-        ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
-        for(int i = interns.size(); i<3; i++){
-            Intern newIntern =new Intern();
-            FNCDsim.broker.out(Enums.EventType.Hiring,"Hired new intern "+ newIntern.getName());
-            FNCDsim.currentStaff.add(newIntern);
+        //Add employees as needed by type
+        for(String type: Employee.getStaffTypes()) {
+            ArrayList<Employee> typeList= Employee.getStaffByType(FNCDsim.currentStaff, type);
+            if(typeList.size()<3)
+                addEmployee(typeList.size(), type);
         }
-        //hire drivers as needed (3 total)
-        ArrayList<Employee> drivers = Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
-        for(int i = drivers.size(); i<3; i++){
-            Driver newDriver =new Driver();
-            FNCDsim.broker.out(Enums.EventType.Hiring,"Hired new driver "+ newDriver.getName());
-            FNCDsim.currentStaff.add(newDriver);
-        }
+
         //buy vehicles as needed, funds removed in addInventory method (4 of each)
         for(String type: Vehicle.getTypes()) {
             ArrayList<Vehicle> typeList= Vehicle.getVehiclesByType(FNCDsim.inventory, type);
             if(typeList.size()<4)
                 addInventory(typeList.size(), type);
         }
+    }
+
+    private static void addEmployee(int size, String type) {
+        Employee employee = null;
+        //get the inventory based on type
+        for(int i =0 ; i<3-size; i++) {
+            if(Objects.equals(type, "Intern"))
+                employee=new Intern();
+            else if(Objects.equals(type, "Sales"))
+                employee=new Salesperson();
+            else if (Objects.equals(type, "Mechanic"))
+                employee=new Mechanic();
+            else if (Objects.equals(type, "Driver"))
+                employee=new Driver();
+
+            if(employee!=null)
+            {
+                FNCDsim.broker.out(Enums.EventType.Hiring,"Hired new "+ type + " " +employee.getName());
+                FNCDsim.currentStaff.add(employee);
+            }
+            else
+                FNCDsim.broker.errorOut("type "+ type + " employees not added");
+        }
+
     }
 
     //add one new vehicle based on type to current inventory list
@@ -71,11 +88,13 @@ abstract class OpenShop extends DailyActivity{
                 FNCDsim.getFunds(vehicle.getCost());
                 FNCDsim.broker.out(Enums.EventType.Buying,"New "+ vehicle.getType() +" added to inventory: "+ vehicle.getCondition() + " "+vehicle.getCleanliness() +" "+ vehicle.getName() + " for "+ vehicle.getCost() + " cost.",  vehicle.getCost()  );
             }
+            else
+                FNCDsim.broker.errorOut("type "+ type + " cars not added");
         }
     }
 }
 
-//////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
 //accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class WashCars extends DailyActivity{
     public static void washCars(){
@@ -94,7 +113,7 @@ abstract class WashCars extends DailyActivity{
 
         ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
         //cycle through all interns 2x first washing random dirty then clean cars
-        //UPDATE: to only allow one attempt to wash a car, remove from list after attempt
+        //UPDATED from 2.2: only allow one attempt to wash a car, remove from list after attempt
         while (j<=1 && (dirtyCars.size()>0 || cleanCars.size()>0)){
             for(Employee intern:interns){
                 Intern washer = (Intern) intern;
@@ -131,7 +150,7 @@ abstract class FixCars extends DailyActivity{
         }
 
         //loop though mechanics 2x to have them fix cars
-        //UPDATE: only allowing one fix attempt on a car, removing from list of repairable cars after attempt
+        //UPDATE from 2.2: only allowing one fix attempt on a car, removing from list of repairable cars after attempt
         while (j<=1 && (carsToFix.size()>0)) {
             for(Employee mech: mechanics){
                 Mechanic mechanic = (Mechanic) mech;

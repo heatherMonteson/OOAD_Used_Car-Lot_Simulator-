@@ -15,12 +15,17 @@ public abstract class Employee implements Utility, Name{
     protected String name;
     protected String type;
     protected double salary;
+    private static String[] types = {"Sales", "Mechanic", "Intern", "Driver"};
     protected double totalBonusPay;
     protected double incomeToDate;
     protected int daysWorked;
 
     Employee(){
 
+    }
+
+    public static String[] getStaffTypes() {
+        return types;
     }
 
     public String getName(){return name;}

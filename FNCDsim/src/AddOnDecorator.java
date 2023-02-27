@@ -3,13 +3,12 @@ package FNCDsim.src;
 import java.util.Objects;
 
 //DECORATOR: Decorator class to add items to purchased vehicles. The vehicle item starts in the salesperson class
-//and the local vehicle methods getAddOns() and getSalePrice() decorate the item.
+//and the vehicle methods getAddOnsDes() and getSalePrice() decorate the item. getAddOnsDes() starts as returning an empty
+//string in the vehicle class.
 
 public abstract class AddOnDecorator extends Vehicle{
     Vehicle vehicle;
-    public abstract String getAddOnDes();
 }
-
 /////////////////////////////////////////////////////
 class ExtendedWarranty extends AddOnDecorator{
 
