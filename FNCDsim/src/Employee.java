@@ -57,6 +57,7 @@ public abstract class Employee implements Utility, Name{
 
     public void payDailyRate(){
         incomeToDate=Utility.format(incomeToDate+salary);
+
     }
 
     public void payBonus(double bonus){
@@ -88,13 +89,26 @@ class Salesperson extends Employee {
 
     //if the sales person sells a car, return the car that is sold
     public Vehicle sellCar(Customer customer, ArrayList<Vehicle> inventory){
-        Vehicle sellCar = findCarToSell(inventory, customer.getType());
-        if(sellCar!=null){
-            if(isSaleMade(sellCar, customer)){
-                FNCDsim.addSales(sellCar.getSalePrice());
-                payBonus(FNCDsim.getFunds(sellCar.getSaleBonus()));
-                System.out.println("Salesperson "+ name+" sold the "+ sellCar.getName()+ " "+sellCar.getType() +" for $"+ sellCar.getSalePrice() +" ( earned a $"+ sellCar.getSaleBonus()+" bonus)");
-                return sellCar;
+        Vehicle car = findCarToSell(inventory, customer.getType());
+        if(car!=null){//if car is returned then the car was sold, find addons/add to budget/give bonus/
+            if(isSaleMade(car, customer)){
+                double ogSalePrice =car.getSalePrice();
+                Vehicle un_decorateCar = car;
+                //DECORATOR PATTERN: checking for add-ons, wrap the sellCar object in selected add-ons
+                // getAddOns() then returns the list of add-ons and the getSalePrice() returns the total with the add-ons
+                if(Utility.findValue(1,100)<=25)//add on extended warranty
+                    car=new ExtendedWarranty(car);
+                if(Utility.findValue(1,100)<=10)//add on undercoating
+                    car=new Undercoating(car);
+                if(Utility.findValue(1,100)<=5)//Road rescue coverage
+                    car=new RoadRescueCoverage(car);
+                if(Utility.findValue(1,100)<=40)//satellite radio
+                    car = new SatelliteRadio(car);
+
+                FNCDsim.addSales(car.getSalePrice());//has added decorator prices
+                payBonus(FNCDsim.getFunds(car.getSaleBonus()));
+                FNCDsim.broker.out(Enums.EventType.Selling,"Salesperson "+ name+" sold the "+ un_decorateCar.getName()+ " "+un_decorateCar.getType() +" for $"+ car.getSalePrice() + " " + car.getAddOnDes() +" (earned a $"+ un_decorateCar.getSaleBonus()+" bonus)", un_decorateCar.getSaleBonus(),car.getSalePrice());
+                return un_decorateCar;//returning undecorated to remove from list
             }
         }
         return null;
@@ -103,13 +117,13 @@ class Salesperson extends Employee {
     //determine if a car is sold
     private boolean isSaleMade(Vehicle car, Customer customer){
         //find if change in purchase chance
-        if(customer.getType()!= car.getType()){
+        if(!Objects.equals(customer.getType(), car.getType())){
             customer.chance= customer.chance - 20;
-        }if (car.getCondition()=="LikeNew"|| car.getCleanliness()=="Sparkly"){
+        }if (Objects.equals(car.getCondition(), "LikeNew") || Objects.equals(car.getCleanliness(), "Sparkly")){
             customer.chance= customer.chance + 10;
         }
         //customer wants to buy
-        if(customer.chance>0 && ThreadLocalRandom.current().nextInt(1, 101)<=customer.chance){
+        if(customer.chance>0 && Utility.findValue(1, 100)<=customer.chance){
             return true;
         }
         return false;
@@ -163,7 +177,7 @@ class Mechanic extends Employee{
                 car.changeCarToUsed();
             else if(Objects.equals(car.getCondition(), "Used"))
                 car.changeCarToLikeNew();
-            System.out.println("Mechanic "+ name + " fixed the " + car.getName() + " and made it like " + car.getCondition()+ "(earned a $"+car.getFixBonus()+" bonus)");
+            FNCDsim.broker.out(Enums.EventType.Fixing, "Mechanic "+ name + " fixed the " + car.getName() + " and made it like " + car.getCondition()+ "(earned a $"+car.getFixBonus()+" bonus)",car.getFixBonus());
             payBonus(FNCDsim.getFunds(car.getFixBonus()));
         }
         car.downGradeCleanliness();
@@ -202,26 +216,29 @@ class Intern extends Employee {
     }
 
     public void internWashCar(Vehicle car) {
+        if (car==null)
+            return;
+
         //determine if intern washed a car given probability
         int randomNum =Utility.findValue(1,100);//generate probability of washing a car
         if (Objects.equals(car.getCleanliness(), "Dirty")) {
             if (randomNum <= 10) {//dirty-->sparkly
                 car.changeCarToSparkly();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
+                FNCDsim.broker.out(Enums.EventType.Washing, "Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")", car.getCleaningBonus());
                 payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
             }
             else if (randomNum <= 90) {//dirty-->clean
                 car.changeCarToClean();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness());
+                FNCDsim.broker.out(Enums.EventType.Washing, "Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness());
             }
         } else if (Objects.equals(car.getCleanliness(), "Clean")) {
             if (randomNum <= 5) {//clean --> dirty
                 car.changeCarToDirty();
-                System.out.println("Intern "+ name + " tried to clean " + car.getName() + " but made it " + car.getCleanliness());
+                FNCDsim.broker.out(Enums.EventType.Washing,"Intern "+ name + " tried to clean " + car.getName() + " but made it " + car.getCleanliness() );
             }
             else if (randomNum <= 35) {//clean --> sparkly
                 car.changeCarToSparkly();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
+                FNCDsim.broker.out(Enums.EventType.Washing, "Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")", car.getCleaningBonus());
                 payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
             }
         }
@@ -230,10 +247,19 @@ class Intern extends Employee {
 
 //////////////////////////////////////////////////////////////
 class Driver extends Employee{
+    private int racesWon;
     Driver(){
         super();
         this.type = "Driver";
+        this.racesWon=0;
         setSalary(200.0, 350.0);
         setName();
+    }
+
+    public int getRaceWon(){
+        return racesWon;
+    }
+    public void addRaceWon(){
+        racesWon+=1;
     }
 }

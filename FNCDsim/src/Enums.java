@@ -1,0 +1,11 @@
+package FNCDsim.src;
+//Citiation: Professor Montgomery's code example for enums
+
+public class Enums {
+    //other enums not yet implement, work on before 4.2
+    public enum Condition {Broken, Used, LikeNew}
+    public enum Cleanliness {Dirty,Clean,Sparkling}
+    public enum VehicleType {Car, PerfCar, Pickup}
+    public enum StaffType {Intern, Mechanic, Salesperson}
+    public enum EventType {Emergency, Selling, Fixing, Washing, Racing, NewDay, PaySalary, Buying, Opening, Hiring, Promoting, Quitting}
+}

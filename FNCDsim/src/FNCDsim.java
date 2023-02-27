@@ -24,6 +24,8 @@ public class FNCDsim implements Utility {
     private static double accountBalance;
     private static double totalSales;
     Days today = new Days();
+    //send all output through the broker FNCDsim.broker.out(<args>) from outside of simulation class
+    public static InformationBroker broker;
 
     FNCDsim(){
           departedStaff=new ArrayList<>();
@@ -32,11 +34,17 @@ public class FNCDsim implements Utility {
           soldInventory=new ArrayList<>();
           accountBalance=500000.0;
           totalSales=0.0;
+          broker=new InformationBroker();
     }
     //run through the daily tasks based on the given run time
     public void run(int runTime) {
         //hire at least 3 of each staff members to start
         //vehicles are added in the openShop methods of the OpenShop class
+
+        Tracker tracker = new Tracker(broker);
+        Logger logger = new Logger(broker);
+        broker.removeObserver(logger);//add and remove in loop
+
         for (int i=0; i<3; i++) {
             currentStaff.add(new Intern());
             currentStaff.add(new Salesperson());
@@ -44,8 +52,10 @@ public class FNCDsim implements Utility {
         }
         //run through the simulation based on the number of days set to run
         for (int i =1; i<=runTime; i++){
+            broker.registerObserver(logger);
             today.newDay();
-            System.out.println("***Day number "+ today.getNumDays()+ "***");
+//            System.out.println("***Day number "+ today.getNumDays()+ "***");
+            broker.out(Enums.EventType.NewDay, today.getNumDays());
             OpenShop.openShop();
             WashCars.washCars();
             FixCars.fixCars();
@@ -53,6 +63,8 @@ public class FNCDsim implements Utility {
             if(today.getToday()==7 || today.getToday()==3)
                 RaceCars.race();//race on wed. and sun.
             EndOfDay.endOfDay();
+            broker.removeObserver(logger);
+            tracker.showTracker();
         }
     }
 
@@ -66,14 +78,18 @@ public class FNCDsim implements Utility {
     }
     private static void addEmergencyFunds(){
         accountBalance=accountBalance+250000.0;
-        System.out.println("Emergency funds added to the FNCD budget");
+//        System.out.println("Emergency funds of $"+250000.0+" added to the FNCD budget");
+        broker.out(Enums.EventType.Emergency,"Emergency funds of $"+250000.0+" added to the FNCD budget", 250000.0 );
     }
     public static void addSales(double sales){
        totalSales= Utility.format(sales+totalSales);
        accountBalance=Utility.format(accountBalance+sales);
     }
+    public static double getTotalSales(){
+        return totalSales;
+    }
     public static double getBalance(){
-        return accountBalance;
+        return Utility.format(accountBalance);
     }
 
 }
