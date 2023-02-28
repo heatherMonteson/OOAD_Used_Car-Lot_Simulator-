@@ -18,6 +18,7 @@ public abstract class Employee implements Utility, Name{
     protected double totalBonusPay;
     protected double incomeToDate;
     protected int daysWorked;
+    protected String cleaningBehavior;
 
     Employee(){
 
@@ -36,6 +37,9 @@ public abstract class Employee implements Utility, Name{
     public double getIncomeToDate(){return incomeToDate;}
 
     public double getSalary() {return salary;}
+    public String getCleaningBehavior{
+        return cleaningBehavior;
+    }
 
     protected void setSalary( double lower, double upper){this.salary= Utility.findValue(lower, upper);}
 
@@ -45,6 +49,18 @@ public abstract class Employee implements Utility, Name{
             this.name=generateName((ArrayList<String>) names)+ " " +generateName((ArrayList<String>) lastNameLetters);
         }while (usedNames.contains(name));//check that names are unique
         usedNames.add(name);
+    }
+    protected void setCleaningBehavior();{
+        int randomNum = Utility.findValue(1,3);
+        if (randomNum = 1){
+            this.cleaningBehavior = new ChemicalClean();
+        }
+        else if (randomNum = 2){
+            this.cleaningBehavior = new Detailed();
+        }
+        else{
+            this.cleaningBehavior = new ElbowGrease();
+        }
     }
 
     public static boolean employeeQuit(){
@@ -181,6 +197,7 @@ class Intern extends Employee {
         this.type = "Intern";
         setSalary(100.0, 175.0);
         setName();
+        Cleaningbehavior cleanBehavior;
     }
 
     //create new sales employee and set its variable values to the interns with exception to salary
@@ -201,30 +218,35 @@ class Intern extends Employee {
         return newMech;
     }
 
+    public void performWashCar(){
+
+    }
+    //THIS WILL CHANGE TO STRATEGY !!!!!! ----------------------------
     public void internWashCar(Vehicle car) {
+        Intern.CleaningBehavior.washVehicle(car);
         //determine if intern washed a car given probability
-        int randomNum =Utility.findValue(1,100);//generate probability of washing a car
-        if (Objects.equals(car.getCleanliness(), "Dirty")) {
-            if (randomNum <= 10) {//dirty-->sparkly
-                car.changeCarToSparkly();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
-                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
-            }
-            else if (randomNum <= 90) {//dirty-->clean
-                car.changeCarToClean();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness());
-            }
-        } else if (Objects.equals(car.getCleanliness(), "Clean")) {
-            if (randomNum <= 5) {//clean --> dirty
-                car.changeCarToDirty();
-                System.out.println("Intern "+ name + " tried to clean " + car.getName() + " but made it " + car.getCleanliness());
-            }
-            else if (randomNum <= 35) {//clean --> sparkly
-                car.changeCarToSparkly();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
-                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
-            }
-        }
+//        int randomNum =Utility.findValue(1,100);//generate probability of washing a car
+//        if (Objects.equals(car.getCleanliness(), "Dirty")) {
+//            if (randomNum <= 10) {//dirty-->sparkly
+//                car.changeCarToSparkly();
+//                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
+//                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
+//            }
+//            else if (randomNum <= 90) {//dirty-->clean
+//                car.changeCarToClean();
+//                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness());
+//            }
+//        } else if (Objects.equals(car.getCleanliness(), "Clean")) {
+//            if (randomNum <= 5) {//clean --> dirty
+//                car.changeCarToDirty();
+//                System.out.println("Intern "+ name + " tried to clean " + car.getName() + " but made it " + car.getCleanliness());
+//            }
+//            else if (randomNum <= 35) {//clean --> sparkly
+//                car.changeCarToSparkly();
+//                System.out.println("Intern "+ name + " cleaned " + car.getName() + " and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
+//                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
+//            }
+//        }
     }
 }
 

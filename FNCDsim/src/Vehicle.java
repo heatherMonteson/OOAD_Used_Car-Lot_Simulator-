@@ -131,6 +131,10 @@ public abstract class Vehicle implements Name, Utility{
         System.out.println("Car cleanliness for the " + name + " was downgraded to " + cleanliness);
 
     }
+
+    public void changeCarToDamaged(){
+        condition = "Damaged";
+    }
     public void changeCarToUsed(){
         if(Objects.equals(condition, "Broken"))
             salePrice=Utility.format(salePrice*1.50);
@@ -304,7 +308,7 @@ class Motorcycle extends Vehicle implements RaceCar{
     protected ArrayList<String> carNames = new ArrayList<>(Arrays.asList("Venom", "Thunderbolt", "Spitfire", "X-74", "Commando", "Victor", "Silver Hawk", "Mach1 ", "Black Lightning", "Bullet", "Katana", "Intruder", "Trail 90", "Tiger", "Bandit", "Tiger", "Magna", "Sportster"));
     private int racesWon=0;
     private double winBonus=375.0;
-    private int engineRating;
+    private double engineRating;
 
     Motorcycle(){
         super();
@@ -322,8 +326,10 @@ class Motorcycle extends Vehicle implements RaceCar{
 
     private void setEngineRating() {
         //engineRating = ...
+        Random rand = new Random();
+        this.engineRating = rand.nextGaussian()*300+700;
     }
-    public int getEngineRating(){
+    public double getEngineRating(){
         return engineRating;
     }
 
