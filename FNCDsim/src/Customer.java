@@ -14,7 +14,7 @@ public class Customer implements Utility{
     Customer(){
         String[] types = Vehicle.getTypes();
         int[] purchaseChance = {10, 40, 70};//Level of probability of buying a car
-        type= types[Utility.findValue(0, purchaseChance.length-1)];
+        type= types[Utility.findValue(0, types.length -1)];
         chance= purchaseChance[Utility.findValue(0, purchaseChance.length-1)];
     }
 

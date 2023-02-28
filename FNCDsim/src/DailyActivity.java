@@ -16,35 +16,52 @@ public abstract class DailyActivity {
 
 }
 
-///////////////////////////////////////////////
-//accesses/update staff and inventory list arrays directly from FNCDsimulation
+//////////////////////////////////////////////////////////////////////
+//accesses/update staff and inventory list arrays directly from FNCDsim
 //announcements: adding to inventory, hiring interns, opening budget
 abstract class OpenShop extends DailyActivity{
 
     public static void openShop(){
-        System.out.println("Opening ...");
-        System.out.println("Starting today with a budget of $" + FNCDsim.getBalance());
+        FNCDsim.broker.out("Opening ...");
+        FNCDsim.broker.out(Enums.EventType.Opening, "Starting today with a budget of $" + FNCDsim.getBalance(), FNCDsim.getBalance());
 
-        //hire interns as needed (3 total)
-        ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
-        for(int i = interns.size(); i<3; i++){
-            Intern newIntern =new Intern();
-            System.out.println("Hired new intern "+ newIntern.getName());
-            FNCDsim.currentStaff.add(newIntern);
+        //Add employees as needed by type
+        for(String type: Employee.getStaffTypes()) {
+            ArrayList<Employee> typeList= Employee.getStaffByType(FNCDsim.currentStaff, type);
+            if(typeList.size()<3)
+                addEmployee(typeList.size(), type);
         }
-        //hire drivers as needed (3 total)
-        ArrayList<Employee> drivers = Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
-        for(int i = drivers.size(); i<3; i++){
-            Driver newDriver =new Driver();
-            System.out.println("Hired new intern "+ newDriver.getName());
-            FNCDsim.currentStaff.add(newDriver);
-        }
+
         //buy vehicles as needed, funds removed in addInventory method (4 of each)
         for(String type: Vehicle.getTypes()) {
             ArrayList<Vehicle> typeList= Vehicle.getVehiclesByType(FNCDsim.inventory, type);
             if(typeList.size()<4)
                 addInventory(typeList.size(), type);
         }
+    }
+
+    private static void addEmployee(int size, String type) {
+        Employee employee = null;
+        //get the inventory based on type
+        for(int i =0 ; i<3-size; i++) {
+            if(Objects.equals(type, "Intern"))
+                employee=new Intern();
+            else if(Objects.equals(type, "Sales"))
+                employee=new Salesperson();
+            else if (Objects.equals(type, "Mechanic"))
+                employee=new Mechanic();
+            else if (Objects.equals(type, "Driver"))
+                employee=new Driver();
+
+            if(employee!=null)
+            {
+                FNCDsim.broker.out(Enums.EventType.Hiring,"Hired new "+ type + " " +employee.getName());
+                FNCDsim.currentStaff.add(employee);
+            }
+            else
+                FNCDsim.broker.errorOut("type "+ type + " employees not added");
+        }
+
     }
 
     //add one new vehicle based on type to current inventory list
@@ -69,17 +86,19 @@ abstract class OpenShop extends DailyActivity{
             {
                 FNCDsim.inventory.add(vehicle);
                 FNCDsim.getFunds(vehicle.getCost());
-                System.out.println("New "+ vehicle.getType() +" added to inventory: "+ vehicle.getCondition() + " "+vehicle.getCleanliness() +" "+ vehicle.getName() + " for "+ vehicle.getCost() + " cost.");
+                FNCDsim.broker.out(Enums.EventType.Buying,"New "+ vehicle.getType() +" added to inventory: "+ vehicle.getCondition() + " "+vehicle.getCleanliness() +" "+ vehicle.getName() + " for "+ vehicle.getCost() + " cost.",  vehicle.getCost()  );
             }
+            else
+                FNCDsim.broker.errorOut("type "+ type + " cars not added");
         }
     }
 }
 
-//////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
 //accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class WashCars extends DailyActivity{
     public static void washCars(){
-        System.out.println("Washing cars...");
+        FNCDsim.broker.out("Washing cars..." );
         ArrayList<Vehicle>cleanCars= new ArrayList<Vehicle>();
         ArrayList<Vehicle>dirtyCars= new ArrayList<Vehicle>();
         Vehicle washedCar;
@@ -94,7 +113,7 @@ abstract class WashCars extends DailyActivity{
 
         ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
         //cycle through all interns 2x first washing random dirty then clean cars
-        //UPDATE: to only allow one attempt to wash a car, remove from list after attempt
+        //UPDATED from 2.2: only allow one attempt to wash a car, remove from list after attempt
         while (j<=1 && (dirtyCars.size()>0 || cleanCars.size()>0)){
             for(Employee intern:interns){
                 Intern washer = (Intern) intern;
@@ -111,7 +130,6 @@ abstract class WashCars extends DailyActivity{
             }
             j++;
         }
-
     }
 
 }
@@ -120,11 +138,10 @@ abstract class WashCars extends DailyActivity{
 //accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class FixCars extends DailyActivity{
     public static void fixCars(){
-        System.out.println("Fixing cars ...");
+        FNCDsim.broker.out("Fixing cars ...");
         ArrayList<Vehicle>carsToFix= new ArrayList<Vehicle>();
         ArrayList<Employee> mechanics = Employee.getStaffByType(FNCDsim.currentStaff, "Mechanic");
         int j=0;
-        Vehicle fixedCar;
 
         //select only broken and used cars for them to fix.
         for(Vehicle vehicle: FNCDsim.inventory){
@@ -133,7 +150,7 @@ abstract class FixCars extends DailyActivity{
         }
 
         //loop though mechanics 2x to have them fix cars
-        //UPDATE: only allowing one fix attempt on a car, removing from list of repairable cars after attempt
+        //UPDATE from 2.2: only allowing one fix attempt on a car, removing from list of repairable cars after attempt
         while (j<=1 && (carsToFix.size()>0)) {
             for(Employee mech: mechanics){
                 Mechanic mechanic = (Mechanic) mech;
@@ -155,7 +172,7 @@ abstract class FixCars extends DailyActivity{
 abstract class SellCars extends DailyActivity{
 
     public static void sellCars(int today){
-        System.out.println("Selling cars...");
+        FNCDsim.broker.out("Selling cars...");
         Customer customers= new Customer();
         ArrayList <Vehicle> sellableCars = new ArrayList<Vehicle>();
         ArrayList<Employee> salesPeople = Employee.getStaffByType(FNCDsim.currentStaff, "Sales");
@@ -171,7 +188,7 @@ abstract class SellCars extends DailyActivity{
         customers = new Customer(numCustomers);
 
         ArrayList<Customer> allCustomers = customers.getCustomers();
-        System.out.println("There are "+ allCustomers.size()+" customers looking to purchase vehicles today");
+        FNCDsim.broker.out("There are "+ allCustomers.size()+" customers looking to purchase vehicles today");
         if(allCustomers.size()==0)
             return;
         //Find vehicles to sell don't sell broken cars
@@ -200,13 +217,14 @@ abstract class SellCars extends DailyActivity{
 // add bonus, change state of the cars, see if driver is injured/remove from current staff and add to departed etc.
 abstract class RaceCars extends DailyActivity{
     public static void race() {
+        FNCDsim.broker.out("Racing...");
         String[] raceTypes = RaceCar.getRaceTypes();
         String type = raceTypes[Utility.findValue(0, raceTypes.length-1)];
         ArrayList<Vehicle> raceCars= RaceCar.getRaceCarsByType(FNCDsim.inventory, type);
         if(raceCars.size()==0)
-            System.out.println("The FNCD is unable to participate in races today as there are no " +type + "s");
+            FNCDsim.broker.out(Enums.EventType.Racing, "The FNCD is unable to participate in races today as there are no " +type + "s");
         else{
-            System.out.println("There are "+ raceCars.size()+ " cars racing today.");
+            FNCDsim.broker.out(Enums.EventType.Racing, "There are "+ raceCars.size()+ " cars racing today.");
             Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
         }
     }
@@ -219,25 +237,32 @@ abstract class RaceCars extends DailyActivity{
 abstract class EndOfDay extends DailyActivity{
 
     public static void endOfDay(){
-        System.out.println("End of day...");
+        FNCDsim.broker.out("End of day...");
+
         //update everyone's pay and days worked
+        //remove daily pay from the budget
         for(Employee employee:FNCDsim.currentStaff ){
             employee.addDayWorked();
-            employee.payDailyRate();
             FNCDsim.getFunds(employee.getSalary());
+            FNCDsim.broker.out(Enums.EventType.PaySalary, employee.getSalary());
+            employee.payDailyRate();
         }
-        Employee promoted = null;
+
+        //All quitting activity during the end of day
         staffQuitByType("Intern");//intern quits, just gets removed from list
-        if(staffQuitByType("Sales"))//if sales quits, promote intern
+        Employee promoted = null;
+        if(staffQuitByType("Sales")){//if sales quits, promote intern
             promoted=promoteInternTo("Sales");
 
-        if(staffQuitByType("Mechanic"))//if mechanic quits, promote intern
-            promoted=promoteInternTo("Mechanic");
-
-        if(promoted!=null)//announce promotion
-            System.out.println("Intern " + promoted.getName()+ " was promoted to "+promoted.getType() +" has a new daily salary of $"+promoted.getSalary());
-
-//        SimulationTableOutput.endOfDayOutput(FNCDsim.currentStaff, departedStaff.size(), inventory, soldInventory.size(), totalSales, accountBalance);
+            if(promoted!=null)//announce promotion
+                FNCDsim.broker.out(Enums.EventType.Promoting,"Intern " + promoted.getName()+ " was promoted to "+promoted.getType() +" has a new daily salary of $"+promoted.getSalary());
+        }
+        if(staffQuitByType("Mechanic")) {//if mechanic quits, promote intern
+            promoted = promoteInternTo("Mechanic");
+            if (promoted != null)//announce promotion
+                FNCDsim.broker.out(Enums.EventType.Promoting, "Intern " + promoted.getName() + " was promoted to " + promoted.getType() + " has a new daily salary of $" + promoted.getSalary());
+        }
+        SimulationTableOutput.endOfDayOutput(FNCDsim.currentStaff, FNCDsim.departedStaff.size(), FNCDsim.inventory, FNCDsim.soldInventory.size(), FNCDsim.getTotalSales(), FNCDsim.getBalance());
     }
 
     //Selects a random intern to promote based on type of promotion
@@ -256,19 +281,25 @@ abstract class EndOfDay extends DailyActivity{
             FNCDsim.currentStaff.add(newEmployee);
         }
         else
-            System.out.println("Error promoting intern");
+            FNCDsim.broker.errorOut("Error promoting intern");
         return newEmployee;
     }
 
     private static boolean staffQuitByType(String type){
         //if employee quites remove from current staff and add to departed
         if(Employee.employeeQuit()){
-            ArrayList<Employee> staffByType = Employee.getStaffByType(FNCDsim.currentStaff, type);
-            int randEmp=Utility.findValue(0, staffByType.size()-1);
-            FNCDsim.departedStaff.add(staffByType.get(randEmp));
-            System.out.println(type+" staff " + staffByType.get(randEmp).getName() + " has quit");
-            FNCDsim.currentStaff.remove(staffByType.get(randEmp));
-            return true;
+            try {
+                ArrayList<Employee> staffByType = Employee.getStaffByType(FNCDsim.currentStaff, type);
+                int randEmp=Utility.findValue(0, staffByType.size()-1);
+                FNCDsim.departedStaff.add(staffByType.get(randEmp));
+                FNCDsim.broker.out(Enums.EventType.Quitting, type+" staff " + staffByType.get(randEmp).getName() + " has quit");
+                FNCDsim.currentStaff.remove(staffByType.get(randEmp));
+                return true;
+            }
+            catch (Exception e){
+                FNCDsim.broker.errorOut("Error with staff quit");
+            }
+
         }
         return false;
     }
