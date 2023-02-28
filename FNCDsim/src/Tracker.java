@@ -5,30 +5,31 @@ import java.util.HashMap;
 
 //OBSERVER: accepting information from the publisher (informationBroker) to increment the total sales and total
 //amount all employees have made. Storing in a hash map FNCD-->amount made by dealership, Staff--> amount made by staff
-//runs through the whole simulation
+//runs through the whole simulation and accumulates the total sales (money made by the FNCD) and the money made by employees(salary and bonus pay)
 //output from the FNCDsimulation at the end of the run
 
 public class Tracker implements Observer{
-    int day;
     HashMap<String, Double> tracker = new HashMap<String , Double>();
     InformationBroker broker;
 
     Tracker(InformationBroker broker){
         this.broker=broker;
+        this.tracker.put("Day", 0.0);
         this.tracker.put("Staff", 0.0);
         this.tracker.put("FNCD", 0.0);
         broker.registerObserver(this);
     }
 
     public void showTracker(){
-        System.out.println("Tracker: Day "+ day);
+        System.out.println("Tracker: Day "+ Math.round(tracker.get("Day")));
         System.out.println("Total money earned by all Staff: $"+tracker.get("Staff"));
         System.out.println("Total money earned by the FNCD: $"+tracker.get("FNCD"));
     }
 
     public void update(Enums.EventType eventType, int dayNumber){//updating the current day variable
-        if(eventType==Enums.EventType.NewDay)
-            day=dayNumber;
+        if(eventType==Enums.EventType.NewDay) {
+            tracker.replace("Day", (double) dayNumber);
+        }
     }
 
     //bonus pay added to total staff pay

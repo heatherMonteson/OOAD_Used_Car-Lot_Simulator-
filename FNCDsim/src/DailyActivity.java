@@ -98,6 +98,10 @@ abstract class OpenShop extends DailyActivity{
 //accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class WashCars extends DailyActivity{
     public static void washCars(){
+        if(FNCDsim.inventory.size()==0){
+            FNCDsim.broker.out("No cars to wash" );
+            return;
+        }
         FNCDsim.broker.out("Washing cars..." );
         ArrayList<Vehicle>cleanCars= new ArrayList<Vehicle>();
         ArrayList<Vehicle>dirtyCars= new ArrayList<Vehicle>();
@@ -138,6 +142,10 @@ abstract class WashCars extends DailyActivity{
 //accesses staff and inventory list arrays directly from FNCDsimulation
 abstract class FixCars extends DailyActivity{
     public static void fixCars(){
+        if(FNCDsim.inventory.size()==0){
+            FNCDsim.broker.out("No cars to fix");
+            return;
+        }
         FNCDsim.broker.out("Fixing cars ...");
         ArrayList<Vehicle>carsToFix= new ArrayList<Vehicle>();
         ArrayList<Employee> mechanics = Employee.getStaffByType(FNCDsim.currentStaff, "Mechanic");
@@ -172,6 +180,10 @@ abstract class FixCars extends DailyActivity{
 abstract class SellCars extends DailyActivity{
 
     public static void sellCars(int today){
+        if(FNCDsim.inventory.size()==0){
+            FNCDsim.broker.out("No cars to sell");
+            return;
+        }
         FNCDsim.broker.out("Selling cars...");
         Customer customers= new Customer();
         ArrayList <Vehicle> sellableCars = new ArrayList<Vehicle>();
