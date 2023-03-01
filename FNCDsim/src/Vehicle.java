@@ -123,14 +123,14 @@ public abstract class Vehicle implements Name, Utility{
         usedNames.add(name);
     }
 
-    public void downGradeCleanliness() {
+    public void downGradeCleanliness(Enums.EventType event) {
         if(Objects.equals(cleanliness, "Dirty"))//if dirty cannot further downgrade
             return;
         if(Objects.equals(cleanliness, "Clean"))
             cleanliness="Dirty";
         else if(Objects.equals(cleanliness, "Sparkly"))
             cleanliness="Clean";
-        FNCDsim.broker.out("Car cleanliness for the " + name + " was downgraded to " + cleanliness);
+        FNCDsim.broker.out(event,"Car cleanliness for the " + name + " was downgraded to " + cleanliness);
     }
 
     public void changeCarToBroken(){

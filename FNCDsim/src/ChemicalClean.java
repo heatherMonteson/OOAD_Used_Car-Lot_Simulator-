@@ -2,7 +2,7 @@ package FNCDsim.src;
 
 import java.util.Objects;
 
-//for chemical methods of cleaning for interns
+//STRATEGY: methods for the chemical cleaning behavior used by interns
 public class ChemicalClean implements CleaningBehavior{
     public String getCleaningBehavior() {
         return "Chemical Clean";

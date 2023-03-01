@@ -1,8 +1,8 @@
 package FNCDsim.src;
 
-import java.util.EnumMap;
 import java.util.Objects;
 
+//STRATEGY: methods for the detailed cleaning behavior used by interns
 public class Detailed implements CleaningBehavior{
 
     public String getCleaningBehavior() {

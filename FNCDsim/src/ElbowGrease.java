@@ -1,7 +1,7 @@
 package FNCDsim.src;
 
 import java.util.Objects;
-
+//STRATEGY: methods for the elbow crease cleaning behavior used by interns
 public class ElbowGrease implements CleaningBehavior {
 
     public String getCleaningBehavior() {

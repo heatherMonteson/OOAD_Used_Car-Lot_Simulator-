@@ -97,12 +97,11 @@ class Salesperson extends Employee {
         Vehicle car = findCarToSell(inventory, customer.getType());
         if(car!=null){//if car is returned then the car was sold, find addons/add to budget/give bonus/
             if(isSaleMade(car, customer)){
-                double ogSalePrice =car.getSalePrice();
                 Vehicle un_decorateCar = car;
 
-                //DECORATOR PATTERN: checking for add-ons, wrap the sellCar object in selected add-ons
-                // getAddOns() then returns the list of add-ons where an empty string is the base from the
-                // vehicle class and the getSalePrice() returns the total price with the add-ons
+                //DECORATOR PATTERN: checking for add-ons, wrap the car object in selected add-ons
+                // getAddOns() then decorates the method with the list of add-ons where an empty string is the base from the
+                // vehicle class method and the getSalePrice() is decorated with the add-ons to get the final cost
                 if(Utility.findValue(1,100)<=25)//add on extended warranty
                     car=new ExtendedWarranty(car);
                 if(Utility.findValue(1,100)<=10)//add on undercoating
@@ -184,7 +183,7 @@ class Mechanic extends Employee{
             FNCDsim.broker.out(Enums.EventType.Fixing, "Mechanic "+ name + " fixed the " + car.getName() + " and made it like " + car.getCondition()+ "(earned a $"+car.getFixBonus()+" bonus)",car.getFixBonus());
             payBonus(FNCDsim.getFunds(car.getFixBonus()));
         }
-        car.downGradeCleanliness();
+        car.downGradeCleanliness(Enums.EventType.Fixing);
     }
 }
 
@@ -201,7 +200,7 @@ class Intern extends Employee {
         setName();
 
     }
-    //STRATEGY PATTERN: Intern uses the strategy pattern to set different washing behaviors. Each behavior has different
+    //STRATEGY PATTERN: Intern utilizes the strategy pattern to set different washing behaviors. Each behavior has different
     //probability of cleaning a car and also potentially fixing and breaking a car
     private void setCleaningBehavior(){
         int randomNum = Utility.findValue(1,3);
