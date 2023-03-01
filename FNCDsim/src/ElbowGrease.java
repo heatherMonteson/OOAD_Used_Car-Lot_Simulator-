@@ -1,33 +1,41 @@
 package FNCDsim.src;
 
-public class ElbowGrease implements CleaningBehavior, Utility {
-    static void washVehicle(Vehicle car) {
-        int randomNum = Utility.findValue(1, 100);
+import java.util.Objects;
+
+public class ElbowGrease implements CleaningBehavior {
+
+    public String getCleaningBehavior() {
+        return "Elbow Grease";
+    }
+
+    public boolean washVehicle(Vehicle car) {
+
+        boolean changeState = false;
+
         if (Objects.equals(car.getCleanliness(), "Dirty")) {
-            if (randomNum <= 5) {
+
+            if (Utility.findValue(1, 100) <= 5) {  //Dirty --> sparkly
                 car.changeCarToSparkly();
-                System.out.println("Intern " + name + " cleaned " + car.getName() + " using elbow grease and made it " + car.getCleanliness() + " (earned a $" + car.getCleaningBonus() + ")");
-                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
-            } else if (randomNum <= 70) {
+                changeState = true;
+            } else if (Utility.findValue(1, 100) <= 70) {//Dirty--> clean
                 car.changeCarToClean();
-                System.out.println("Intern " + name + " cleaned " + car.getName() + " using elbow grease and made it " + car.getCleanliness());
+                changeState = true;
             }
         }
         else if (Objects.equals(car.getCleanliness(), "Clean")) {
-            if (randomNum <= 15){ //how to set probability of two events with equal chances? maybe do one <= 7 and <=15?) {
+
+            if (Utility.findValue(1, 100) <= 15) { //clean-->dirty
                 car.changeCarToDirty();
-                System.out.println("Intern "+ name + " tried to clean " + car.getName() + " using elbow grease but made it " + car.getCleanliness());
-            }
-            else if (randomNum <= 30) {//clean --> sparkly
+                changeState = true;
+            } else if (Utility.findValue(1, 100) <= 30) { //clean --> sparkly
                 car.changeCarToSparkly();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " using elbow grease and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
-                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
+                changeState = true;
             }
         }
-        if (randNum <= 10){
+        if (Utility.findValue(1, 100) <= 10) //there is 10% change that the car is fixed
             car.changeCarToLikeNew();
-            System.out.println("Intern "+ name + " cleaned " + car.getName() + " using chemical cleaning and made it " + car.getCondition();
-        }
+
+        return changeState;
     }
 }
 

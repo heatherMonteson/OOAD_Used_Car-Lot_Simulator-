@@ -22,6 +22,7 @@ package FNCDsim.src;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.Random;
 
 public abstract class Vehicle implements Name, Utility{
 
@@ -132,8 +133,8 @@ public abstract class Vehicle implements Name, Utility{
         FNCDsim.broker.out("Car cleanliness for the " + name + " was downgraded to " + cleanliness);
     }
 
-    public void changeCarToDamaged(){
-        condition = "Damaged";
+    public void changeCarToBroken(){
+        condition = "Broken";
     }
     public void changeCarToUsed(){
         if(Objects.equals(condition, "Broken"))

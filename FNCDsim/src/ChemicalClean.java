@@ -1,33 +1,41 @@
 package FNCDsim.src;
+
+import java.util.Objects;
+
 //for chemical methods of cleaning for interns
 public class ChemicalClean implements CleaningBehavior{
-    static void washVehicle(Vehicle car) {
-        int randomNum = Utility.findValue(1, 100);
+    public String getCleaningBehavior() {
+        return "Chemical Clean";
+    }
+    public boolean washVehicle(Vehicle car) {
+
+        boolean changeState = false;
+
         if (Objects.equals(car.getCleanliness(), "Dirty")) {
-            if (randomNum <= 10) {
+            if (Utility.findValue(1, 100)<= 10) { //dirty --> sparkly
                 car.changeCarToSparkly();
-                System.out.println("Intern " + name + " cleaned " + car.getName() + " using chemical cleaning and made it " + car.getCleanliness() + " (earned a $" + car.getCleaningBonus() + ")");
-                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
-            } else if (randomNum <= 80) {
+                changeState =true;
+            }
+            else if (Utility.findValue(1, 100) <= 80) {//dirty --> clean
                 car.changeCarToClean();
-                System.out.println("Intern " + name + " cleaned " + car.getName() + " using chemical cleaning and made it " + car.getCleanliness());
+                changeState =true;
             }
         }
         else if (Objects.equals(car.getCleanliness(), "Clean")) {
-            if (randomNum <= 10){
+            if (Utility.findValue(1, 100)<= 10){//clean-->dirty
                 car.changeCarToDirty();
-                System.out.println("Intern "+ name + " tried to clean " + car.getName() + " using chemical cleaning but made it " + car.getCleanliness());
+                changeState =true;
             }
-            else if (randomNum <= 20) {
+            else if (Utility.findValue(1, 100) <= 20) {//clean to sparkly
                 car.changeCarToSparkly();
-                System.out.println("Intern "+ name + " cleaned " + car.getName() + " using chemical cleaning and made it " + car.getCleanliness() +" (earned a $"+ car.getCleaningBonus()+")");
-                payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
+                changeState =true;
             }
         }
-        if (randNum <= 10){
+        //potentially change to broken
+        if (Utility.findValue(1, 100) <= 10){
             car.changeCarToBroken();
-            System.out.println("Intern "+ name + " cleaned " + car.getName() + " using chemical cleaning and made it " + car.getCondition();
         }
+        return changeState;
     }
 }
 
