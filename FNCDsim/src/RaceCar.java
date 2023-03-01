@@ -27,45 +27,33 @@ public interface RaceCar implements Utility{
     }
 
     static void doRace(ArrayList<Vehicle> raceCars){
-        int ranNum1 = Utility.findValue(1, 20);
-        int ranNum2 = Utility.findValue(1, 20);
-        int ranNum3 = Utility.findValue(1, 20);
-        boolean flag1 = false;
-        boolean flag2 = true;
-        boolean flag3 = true;
-        for (Vehicle raceCar: raceCars){
-            if (flag1 = false){
-                if (ranNum1 = 1 || ranNum1 = 2 || ranNum1 = 3 ){
-                    Objects.addRaceWon();
-                    salePrice = Utility.format(salePrice*1.10);
-                }
-                else if (ranNum1 >= 15){
-                    Objects.changeCarToDamaged();
-                }
-                flag1 = true;
-                flag2 = false;
+        ArrayList<Integer> list = new ArrayList<Integer>(); //citation at top
+        for (int i=1; i<21; i++) list.add(i);
+        Collections.shuffle(list);
+        int counter = 0;
+        Driver driver = (Driver) drivers.get(counter);
+        for (Vehicle raceCar: raceCars) {
+            if (list.get(counter) <= 3){
+                raceCar.addRaceWon(); //addRaceWon increments number of wins and changes sale price
+                driver.get(counter).addRaceWon(); //addRaceWon for drivers increments number of wins
+                FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + raceCar.getName() + " has placed " + counter + " in the race and its sale price is now " + raceCar.getSalePrice());
+                driver.get(counter).payBonus(FNCDsim.getFunds(raceCar.getWinBonus()));
+                FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + raceCar.getWinBonus());
             }
-            else if (flag2 = false){
-                if (ranNum2 = 1 || ranNum2 = 2 || ranNum2 = 3 ){
-                    Objects.addRaceWon();
-                    salePrice = Utility.format(salePrice*1.10);
+            else if (list.get(counter) >= 15){
+                raceCar.changeCarToBroken();
+                int rand = Utility.findValue(1,100);
+                if (rand <= 30){
+                    //racer injured stuff here
+                    FNCDsim.departedStaff.add(staffByType.get(driver.get(counter)));
+                    FNCD.currentStaff.remove(driver.get(counter));
                 }
-                else if (ranNum2 >= 15){
-                    Objects.changeCarToDamaged();
-                }
-                flag2 = true;
-                flag3 = false;
             }
-            else if (flag3 = false){
-                if (ranNum3 = 1 || ranNum3 = 2 || ranNum3 = 3 ){
-                    Objects.addRaceWon();
-                    salePrice = Utility.format(salePrice*1.10);
-                }
-                else if (ranNum3 >= 15){
-                    Objects.changeCarToDamaged();
-                }
-                flag3 = true;
+            else{
+                FNCDsim.brokerout(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + raceCar.getName() + " has placed " + counter + " in the race.");
             }
+            counter++;
+            driver = (Driver) drivers.get(counter);
         }
     }
 }

@@ -228,6 +228,7 @@ abstract class SellCars extends DailyActivity{
 //TODO: finish racer method, need to actually race, pair a driver with the cars,
 // add bonus, change state of the cars, see if driver is injured/remove from current staff and add to departed etc.
 abstract class RaceCars extends DailyActivity{
+    RaceCar race;
     public static void race() {
         FNCDsim.broker.out("Racing...");
         String[] raceTypes = RaceCar.getRaceTypes();
@@ -237,7 +238,8 @@ abstract class RaceCars extends DailyActivity{
             FNCDsim.broker.out(Enums.EventType.Racing, "The FNCD is unable to participate in races today as there are no " +type + "s");
         else{
             FNCDsim.broker.out(Enums.EventType.Racing, "There are "+ raceCars.size()+ " cars racing today.");
-            Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
+            Arraylist<Employee> drivers = Employee.getStaffByType(FNCDsim.currentStaff, "Driver");
+            race.doRace(drivers);
         }
     }
 }
