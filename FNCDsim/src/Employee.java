@@ -16,7 +16,7 @@ public abstract class Employee implements Utility, Name{
     protected String name;
     protected String type;
     protected double salary;
-    private static String[] types = {"Sales", "Mechanic", "Intern", "Driver"};
+    private static final String[] types = {"Sales", "Mechanic", "Intern", "Driver"};
     protected double totalBonusPay;
     protected double incomeToDate;
     protected int daysWorked;
@@ -233,21 +233,22 @@ class Intern extends Employee {
     public void internWashCar(Vehicle car) {
         String initialCondition= car.getCondition();
         String initialClean = car.getCleanliness();
-        String output ="";
 
         if(cleanBehavior.washVehicle(car)){//stateChanged for the car cleanliness
-            String newClean =car.getCleanliness();
+            String newClean =car.getCleanliness();//clean with set method, returning vehicle state of cleanliness
+
             //cleanliness was downgraded
             if((Objects.equals(initialClean, "Sparkly") && (Objects.equals(newClean, "Clean") || Objects.equals(newClean, "Dirty")))
                     || (Objects.equals(initialClean, "Clean") && Objects.equals(newClean, "Dirty")))
             {
                 FNCDsim.broker.out(Enums.EventType.Washing ,"Intern " + name + " tried to clean " +car.getType() + " "+car.getName() + " using "+ cleanBehavior.getCleaningBehavior() +" but made it " + car.getCleanliness());
             }
+            //cleanliness set to sparkly, intern gets a bonus
             else if (Objects.equals(newClean, "Sparkly")){
                 FNCDsim.broker.out(Enums.EventType.Washing ,"Intern " + name + " cleaned " +car.getType() + " "+car.getName() + " using "+ cleanBehavior.getCleaningBehavior() +" and made it " + car.getCleanliness()+ "(earned bonus $"+car.getCleaningBonus()+")");
                 payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
             }
-            else
+            else//change state but no bonus
                 FNCDsim.broker.out(Enums.EventType.Washing ,"Intern " + name + " cleaned " +car.getType() + " "+car.getName() + " using "+ cleanBehavior.getCleaningBehavior() +" and made it " + car.getCleanliness());
         }
 
@@ -276,6 +277,6 @@ class Driver extends Employee{
         return racesWon;
     }
     public void addRaceWon(){
-        racesWon+=1;
+        racesWon=racesWon+1;
     }
 }

@@ -59,13 +59,13 @@ public class Logger implements Observer {
         }
     }
     //Salary pay added to total staff pay
-    public void update(Enums.EventType eventType, double  pay){
-        if(eventType==Enums.EventType.PaySalary) {
-            this.event=eventType + ": $"+ pay + " removed from FNCD budget" ;
-            if(writeAvailable)
-                write();
-        }
-    }
+//    public void update(Enums.EventType eventType, double  pay){
+//        if(eventType==Enums.EventType.PaySalary) {
+//            this.event=eventType + ": $"+ pay + " removed from FNCD budget" ;
+//            if(writeAvailable)
+//                write();
+//        }
+//    }
 
     ////////////////////////////////////////////////////////////////////////
     //////   logger file handling    ///////////////////////////////////////

@@ -1,13 +1,18 @@
 package FNCDsim.src;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Objects;
 
-public interface RaceCar implements Utility{
+public interface RaceCar{
     //the class should also have a variable to hold the number of races won for setting and returning
     int getRacesWon();
     void addRaceWon();
     double getWinBonus();
+
+    static void raceType(ArrayList<Driver> drivers, ArrayList<Vehicle> vehicles) {
+        //define in race car types
+    }
 
     static ArrayList<Vehicle> getRaceCarsByType(ArrayList<Vehicle> allCars, String raceType) {
         //finds race cars based on type and returns max 3 of that type
@@ -26,34 +31,92 @@ public interface RaceCar implements Utility{
         return new String[]{"Pickup","Performance", "Motorcycle", "MonsterTruck" };
     }
 
-    static void doRace(ArrayList<Vehicle> raceCars){
+    static void doRace(ArrayList<Driver> drivers, ArrayList<Vehicle> raceCars, String type){
+
+        //if list sizes are not equal algorithm will break
+        if((raceCars.size()==0 || drivers.size()==0) || raceCars.size()!=drivers.size()){
+            FNCDsim.broker.errorOut("Error with race car and drivers lists");
+            return;
+        }
+        //create 20 placements to select from in race
         ArrayList<Integer> list = new ArrayList<Integer>(); //citation at top
-        for (int i=1; i<21; i++) list.add(i);
+        for (int i=1; i<21; i++) {
+            list.add(i);
+        }
         Collections.shuffle(list);
+
         int counter = 0;
-        Driver driver = (Driver) drivers.get(counter);
-        for (Vehicle raceCar: raceCars) {
-            if (list.get(counter) <= 3){
-                raceCar.addRaceWon(); //addRaceWon increments number of wins and changes sale price
-                driver.get(counter).addRaceWon(); //addRaceWon for drivers increments number of wins
-                FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + raceCar.getName() + " has placed " + counter + " in the race and its sale price is now " + raceCar.getSalePrice());
-                driver.get(counter).payBonus(FNCDsim.getFunds(raceCar.getWinBonus()));
-                FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + raceCar.getWinBonus());
+        int winsHad;
+        double winBonus;
+        int position;
+
+        FNCDsim.broker.out("Race outcomes: ");
+        //determine outcomes
+        for(Vehicle raceCar: raceCars){
+            winsHad=0;
+            winBonus=0;
+            position=list.get(counter);
+            Driver driver = drivers.get(counter);
+
+            //casting to specific type to add races or damage cars based on standing
+            if(Objects.equals(raceCar.getType(), "Pickup")){
+                Pickup pickup= (Pickup) raceCar;
+                if(position>=25)//last 5 position, break car
+                    pickup.changeCarToBroken();
+                else if (position<=3)//top 3 position add race
+                    pickup.addRaceWon();
+                winsHad=pickup.getRacesWon();
+                winBonus=pickup.getWinBonus();
             }
-            else if (list.get(counter) >= 15){
-                raceCar.changeCarToBroken();
-                int rand = Utility.findValue(1,100);
-                if (rand <= 30){
-                    //racer injured stuff here
-                    FNCDsim.departedStaff.add(staffByType.get(driver.get(counter)));
-                    FNCD.currentStaff.remove(driver.get(counter));
+            else if(Objects.equals(raceCar.getType(), "Performance")){
+                Performance performance= (Performance) raceCar;
+                if(position>=25)
+                    performance.changeCarToBroken();
+                else if (position<=3)
+                    performance.addRaceWon();
+                winsHad=performance.getRacesWon();
+                winBonus=performance.getWinBonus();
+            }
+            else if(Objects.equals(raceCar.getType(), "Motorcycle")){
+                Motorcycle motorcycle= (Motorcycle) raceCar;
+                if(position>=25)
+                    motorcycle.changeCarToBroken();
+                else if (position<=3)
+                    motorcycle.addRaceWon();
+                winsHad=motorcycle.getRacesWon();
+                winBonus=motorcycle.getWinBonus();
+            }
+            else if(Objects.equals(raceCar.getType(), "MonsterTruck")){
+                MonsterTruck monsterTruck= (MonsterTruck) raceCar;
+                if(position>=25)
+                    monsterTruck.changeCarToBroken();
+                else if (position<=3)
+                    monsterTruck.addRaceWon();
+                winsHad=monsterTruck.getRacesWon();
+                winBonus=monsterTruck.getWinBonus();
+            }
+
+            //output standings
+            if(position>=15){//looser
+                if (Utility.findValue(1,100)<= 30){//racer is injured, remove from staff
+                    FNCDsim.departedStaff.add(driver);
+                    FNCDsim.currentStaff.remove(driver);
+                    FNCDsim.broker.out(Enums.EventType.Racing, " Position: "+ position + " Driver: " +driver.getName() +", Races Won: "+driver.getRaceWon() +", New Condition: Injured, Race Car: " +raceCar.getType() +", "+ raceCar.getName() + ", Races Won: "+winsHad+", New Condition: Damaged");
+                }
+                else {//driver not injured
+                    FNCDsim.broker.out(Enums.EventType.Racing, " Position: "+ position + " Driver: " +driver.getName() +", Races Won: "+driver.getRaceWon() +", Race Car: " +raceCar.getType() +", "+ raceCar.getName() + ", Races Won: "+winsHad+", New Condition: Damaged");
                 }
             }
-            else{
-                FNCDsim.brokerout(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + raceCar.getName() + " has placed " + counter + " in the race.");
+            else if(position<=3){//winner
+                driver.addRaceWon();
+                driver.payBonus(FNCDsim.getFunds(winBonus));
+                FNCDsim.broker.out(Enums.EventType.Racing, "WINNER! Position: "+ position + " Driver: " +driver.getName() +" Bonus: $" +winBonus +", Races Won: "+driver.getRaceWon() +", Race Car: " +raceCar.getType() +", "+ raceCar.getName() + ", Races Won: "+winsHad, winBonus);
+            }
+            else{//no significant placement
+                FNCDsim.broker.out(Enums.EventType.Racing, "Position: "+ position + " Driver: " +driver.getName() +", Races Won: "+driver.getRaceWon() +", Race Car: " +raceCar.getType() +", "+ raceCar.getName() + ", Races Won: "+winsHad);
             }
             counter++;
-            driver = (Driver) drivers.get(counter);
         }
+
     }
 }

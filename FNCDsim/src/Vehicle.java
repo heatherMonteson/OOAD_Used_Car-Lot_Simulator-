@@ -19,7 +19,6 @@ type Vehicle and it's subclasses to access only what is needed to gain informati
  */
 package FNCDsim.src;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
@@ -177,7 +176,6 @@ class Car extends Vehicle{
 }
 
 //////////////////////////////////////////////////////
-//Announcements: change in range
 class Electric extends Vehicle {
     int range;
     Electric(){
@@ -222,7 +220,7 @@ class Electric extends Vehicle {
 //////////////////////////////////////////////////////
 
 class Performance extends Vehicle implements RaceCar{
-    private int racesWon=0;
+    private int racesWon;
     private double winBonus=450.0;
 
     Performance() {
@@ -234,24 +232,27 @@ class Performance extends Vehicle implements RaceCar{
         this.saleBonus = 4000.0;
         this.cleaningBonus = 400.0;
         this.fixBonus = 500.0;
+        this.racesWon=0;
         setCondition();
         setCleanliness();
         this.salePrice = Utility.format(this.cost * 2);
     }
+
     public int getRacesWon(){
         return racesWon;
     }
     public void addRaceWon(){
-        racesWon+=racesWon;
-        salePrice=1.10*salePrice;
+        racesWon=1+racesWon;
+        salePrice=Utility.format(1.10*salePrice);
     }
     public double getWinBonus(){
         return winBonus;
     }
+
 }
 //////////////////////////////////////////////////////
 class Pickup extends Vehicle implements RaceCar{
-    private int racesWon=0;
+    private int racesWon;
     private double winBonus=300.0;
 
     Pickup(){
@@ -263,16 +264,18 @@ class Pickup extends Vehicle implements RaceCar{
         this.saleBonus=3500.0;
         this.cleaningBonus=450.0;
         this.fixBonus=650.0;
+        this.racesWon=0;
         setCondition();
         setCleanliness();
         this.salePrice=Utility.format(this.cost*2);
     }
+
     public int getRacesWon(){
         return racesWon;
     }
     public void addRaceWon(){
-        racesWon+=racesWon;
-        salePrice=1.10*salePrice;
+        racesWon=1+racesWon;
+        salePrice=Utility.format(1.10*salePrice);
     }
     public double getWinBonus(){
         return winBonus;
@@ -281,7 +284,7 @@ class Pickup extends Vehicle implements RaceCar{
 }
 //////////////////////////////////////////////////////
 class MonsterTruck extends Vehicle implements RaceCar{
-    private int racesWon=0;
+    private int racesWon;
     private double winBonus=500.0;
 
     MonsterTruck(){
@@ -292,26 +295,27 @@ class MonsterTruck extends Vehicle implements RaceCar{
         this.cost=Utility.format(Utility.findValue(20000.0, 50000.0));
         this.saleBonus=4000.0;
         this.cleaningBonus=450.0;
+        this.racesWon=0;
         this.fixBonus=650.0;
         setCondition();
         setCleanliness();
         this.salePrice=Utility.format(this.cost*2);
     }
+
     public int getRacesWon(){
         return racesWon;
     }
     public void addRaceWon(){
-        racesWon+=racesWon;
-        salePrice=1.10*salePrice;
+        racesWon=1+racesWon;
+        salePrice=Utility.format(1.10*salePrice);
     }
     public double getWinBonus(){
         return winBonus;
     }
 }
 //////////////////////////////////////////////////////
-//TODO: need to add truncated normal distribution for the engine rating
 class Motorcycle extends Vehicle implements RaceCar{
-    private int racesWon=0;
+    private int racesWon;
     private double winBonus=375.0;
     private int engineRating;
 
@@ -323,12 +327,14 @@ class Motorcycle extends Vehicle implements RaceCar{
         this.cost=Utility.format(Utility.findValue(5000.0, 25000.0));
         this.saleBonus=1500.0;
         this.cleaningBonus=150.0;
+        this.racesWon=0;
         this.fixBonus=300.0;
         setEngineRating();
         setCondition();
         setCleanliness();
         this.salePrice=Utility.format(this.cost*2);
     }
+
     private void setEngineRating() {
         Random rand = new Random();
         engineRating = (int)Math.floor(rand.nextGaussian()*300+700);
@@ -343,8 +349,8 @@ class Motorcycle extends Vehicle implements RaceCar{
         return racesWon;
     }
     public void addRaceWon(){
-        racesWon+=racesWon;
-        salePrice=1.10*salePrice;
+        racesWon=1+racesWon;
+        salePrice=Utility.format(1.10*salePrice);
     }
     public double getWinBonus(){
         return winBonus;

@@ -37,9 +37,7 @@ public class SimulationTableOutput {
             else
                 System.out.printf("| %-20s | %-15s | %-12s | %-12s | %-12s | %-12s | %-15s | %n", car.getName(), car.getType(), car.getSalePrice(), car.getCost(),car.getCondition(), car.getCleanliness(), "-");
 
-
         }
-
         System.out.printf("----------------------------------------------------------------------------------------------------------------------------------%n");
         System.out.println("=========================================");
         System.out.println("Total number departed Staff: "+ numQuitters);

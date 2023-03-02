@@ -24,7 +24,9 @@ public class FNCDsim implements Utility {
     private static double accountBalance;
     private static double totalSales;
     Days today = new Days();
+
     //send all output through the broker FNCDsim.broker.out(<args>) from outside of simulation class
+    //See InformationBroker for overloaded method information formats. Using Enums as tags for specifying data
     //errors sent to FNCDsim.broker.errorOut(<args>)
     public static InformationBroker broker;
 
@@ -53,7 +55,7 @@ public class FNCDsim implements Utility {
             FixCars.fixCars();
             SellCars.sellCars(today.getToday());
             if(today.getToday()==7 || today.getToday()==3)
-                RaceCars.race();//race on wed. and sun.
+                Race.race();//race on wed. and sun.
             EndOfDay.endOfDay();
             broker.removeObserver(logger);
             tracker.showTracker();

@@ -2,7 +2,7 @@ package FNCDsim.src;
 //Citiation: Professor Montgomery's code example for enums
 
 public class Enums {
-    //other enums not yet implement, work on before 4.2
+    //other enums included not yet implement, possibly work on before 4.2
     public enum Condition {Broken, Used, LikeNew}
     public enum Cleanliness {Dirty,Clean,Sparkling}
     public enum VehicleType {Car, PerfCar, Pickup}

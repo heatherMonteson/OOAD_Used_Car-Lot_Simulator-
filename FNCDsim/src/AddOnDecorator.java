@@ -27,7 +27,6 @@ class ExtendedWarranty extends AddOnDecorator{
     }
 }
 
-
 /////////////////////////////////////////////////////
 class Undercoating extends AddOnDecorator{
 
