@@ -26,7 +26,7 @@ public interface RaceCar implements Utility{
         return new String[]{"Pickup","Performance", "Motorcycle", "MonsterTruck" };
     }
 
-    static void doRace(ArrayList<Vehicle> raceCars){
+    static void doRace(ArrayList<Driver> drivers, ArrayList<Vehicle> raceCars){
         ArrayList<Integer> list = new ArrayList<Integer>(); //citation at top
         for (int i=1; i<21; i++) list.add(i);
         Collections.shuffle(list);
@@ -34,11 +34,40 @@ public interface RaceCar implements Utility{
         Driver driver = (Driver) drivers.get(counter);
         for (Vehicle raceCar: raceCars) {
             if (list.get(counter) <= 3){
-                raceCar.addRaceWon(); //addRaceWon increments number of wins and changes sale price
-                driver.get(counter).addRaceWon(); //addRaceWon for drivers increments number of wins
-                FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + raceCar.getName() + " has placed " + counter + " in the race and its sale price is now " + raceCar.getSalePrice());
-                driver.get(counter).payBonus(FNCDsim.getFunds(raceCar.getWinBonus()));
-                FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + raceCar.getWinBonus());
+                //need to cast the raceCar to be the type we are racing so we can access addRaceWon() etc.
+                if(raceCar.getType()=="MonsterTruck") {
+                    MonsterTruck monsterTruckRacing = (MonsterTruck) raceCar;
+                    monsterTruckRacing.addRaceWon();
+                    driver.get(counter).addRaceWon();
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + monsterTruckRacing.getName() + " has placed " + counter + " in the race and its sale price is now " + monsterTruckRacing.getSalePrice());
+                    driver.get(counter).payBonus(FNCDsim.getFunds(monsterTruckRacing.getWinBonus()));
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + monsterTruckRacing.getWinBonus());
+                    //etc.
+                }
+                else if (raceCar.getType()=="Pickup"){
+                    Pickup pickupRacing = (Pickup) raceCar;
+                    pickupRacing.addRaceWon();
+                    driver.get(counter).addRaceWon();
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + pickupRacing.getName() + " has placed " + counter + " in the race and its sale price is now " + pickupRacing.getSalePrice());
+                    driver.get(counter).payBonus(FNCDsim.getFunds(pickupRacing.getWinBonus()));
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + pickupRacing.getWinBonus());
+                }
+                else if (raceCar.getType()=="Performance"){
+                    Performance performanceRacing = (Performance) raceCar;
+                    performanceRacing.addRaceWon();
+                    driver.get(counter).addRaceWon();
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + performanceRacing.getName() + " has placed " + counter + " in the race and its sale price is now " + performanceRacing.getSalePrice());
+                    driver.get(counter).payBonus(FNCDsim.getFunds(performanceRacing.getWinBonus()));
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + performanceRacing.getWinBonus());
+                }
+                else if (raceCar.getType()=="Motorcycle"){
+                    Motorcycle motorcycleRacing = (Motorcycle) raceCar;
+                    motorcycleRacing.addRaceWon();
+                    driver.get(counter).addRaceWon();
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " driving " + motorcycleRacing.getName() + " has placed " + counter + " in the race and its sale price is now " + motorcycleRacing.getSalePrice());
+                    driver.get(counter).payBonus(FNCDsim.getFunds(motorcycleRacing.getWinBonus()));
+                    FNCDsim.broker.out(Enums.EventType.Racing, driver.get(counter).getName() + " has been paid " + motorcycleRacing.getWinBonus());
+                }
             }
             else if (list.get(counter) >= 15){
                 raceCar.changeCarToBroken();
