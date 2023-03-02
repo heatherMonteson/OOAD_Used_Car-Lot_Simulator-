@@ -1,0 +1,13 @@
+Day number :27
+Washing: Intern J Q. cleaned Performance Prowler using Elbow Grease and made it Clean
+Washing: Intern Karandeep N. cleaned MonsterTruck Bulldozer using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned Pickup Xenon using Detailing and made it Sparkly(earned bonus $450.0)
+Fixing: Mechanic Codie P. fixed the Montana1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Montana1 was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Prowler and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prowler was downgraded to Dirty
+Fixing: Mechanic Jai I. fixed the Tundra and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Tundra was downgraded to Dirty
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the Oil Hog MonsterTruck for $51424.86 Add-ons: Satellite Radio for $2448.8 (earned a $4000.0 bonus)
+Selling: Salesperson Jaii J. sold the Tiger0 Motorcycle for $32005.55 Add-ons: Undercoating for $1454.79 Satellite Radio for $1454.79 (earned a $1500.0 bonus)

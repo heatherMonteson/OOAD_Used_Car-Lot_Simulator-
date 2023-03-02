@@ -1,0 +1,12 @@
+Day number :12
+Washing: Intern Walid S. cleaned Performance Sportback using Chemical Clean and made it Sparkly(earned bonus $400.0)
+Washing: Intern J Q. cleaned Performance Speedster using Elbow Grease and made it Clean
+Washing: Intern Jai I. cleaned Performance GT using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned MonsterTruck The Felon using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Electric Leaf Plus using Elbow Grease and made it Sparkly(earned bonus $400.0)
+Fixing: Mechanic Bartlomiej S. fixed the GT and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the GT was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the Sportback and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Clean
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Allan O. sold the Speedster Performance for $55394.85  (earned a $4000.0 bonus)

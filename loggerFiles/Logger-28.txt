@@ -1,0 +1,13 @@
+Day number :28
+Washing: Intern Lex Y. cleaned MonsterTruck Swamp Thing using Detailing and made it Clean
+Washing: Intern J Q. cleaned Pickup Tundra using Elbow Grease and made it Clean
+Washing: Intern Karandeep N. cleaned Pickup Montana1 using Elbow Grease and made it Clean
+Washing: Intern Karandeep N. fixed the Pickup Montana1 while cleaning and made it LikeNew
+Fixing: Mechanic Codie P. fixed the Spitfire and made it like Used(earned a $300.0 bonus)
+Selling: There are 1 customers looking to purchase vehicles today
+Racing: Driver Musa W. is racing the Motorcycle Tiger
+Racing: Driver Asif O. is racing the Motorcycle Victor0
+Racing: Driver Christy Q. is racing the Motorcycle Silver Hawk
+Racing: Musa W. driving Tiger has placed 10 in the race.
+Racing: Asif O. driving Victor0 has placed 13 in the race.
+Racing: Christy Q. driving Silver Hawk has placed 12 in the race.

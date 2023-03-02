@@ -1,0 +1,10 @@
+Day number :13
+Washing: Intern Walid S. cleaned Performance GT using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Performance Victor using Elbow Grease and made it Clean
+Fixing: Mechanic Bartlomiej S. fixed the Victor and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Victor was downgraded to Dirty
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Ishwar D. sold the Silverado0 Pickup for $26421.26  (earned a $3500.0 bonus)
+Selling: Salesperson Jaii J. sold the MX-300 Electric for $59928.02  (earned a $3500.0 bonus)
+Selling: Salesperson Allan O. sold the Prologue Car for $21772.8 Add-ons: Satellite Radio for $1036.8 (earned a $1000.0 bonus)
+Selling: Salesperson Jaii J. sold the Montana Pickup for $48085.06  (earned a $3500.0 bonus)

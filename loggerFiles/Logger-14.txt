@@ -1,0 +1,17 @@
+Day number :14
+Washing: InternWalid S. broke the Pickup Xenon while cleaningand made it Broken
+Washing: Intern Jai I. cleaned Performance Victor using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned Electric Model S Plaid using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Motorcycle Bullet using Elbow Grease and made it Sparkly(earned bonus $150.0)
+Fixing: Mechanic Bartlomiej S. fixed the Raptor and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Codie P. fixed the Atlas and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Atlas was downgraded to Dirty
+Fixing: Mechanic Bartlomiej S. fixed the Model S Plaid and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+Selling: There are 0 customers looking to purchase vehicles today
+Racing: Driver Musa W. is racing the MonsterTruck Bulldozer
+Racing: Driver Montague C. is racing the MonsterTruck Grinder
+Racing: Driver Asif O. is racing the MonsterTruck Killer
+Racing: Musa W. driving Bulldozer has placed 6 in the race.
+Racing: Montague C. driving Grinder has placed 15 in the race. Vehicle is now damaged and driver is injured and will not longer race.
+Racing: Asif O. driving Killer has placed 11 in the race.

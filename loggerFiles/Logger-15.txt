@@ -1,0 +1,13 @@
+Day number :15
+Washing: Intern Walid S. cleaned Electric Model S Plaid using Chemical Clean and made it Clean
+Washing: Intern Jai I. cleaned Pickup Xenon using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned Pickup Raptor using Chemical Clean and made it Clean
+Washing: Intern Jai I. cleaned Pickup Silverado using Elbow Grease and made it Sparkly(earned bonus $450.0)
+Fixing: Mechanic Codie P. fixed the Xenon and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Xenon was downgraded to Dirty
+Fixing: The Model S Plaid has an improved range of 315 miles
+Fixing: Mechanic Harley G. fixed the Model S Plaid and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+Fixing: Car cleanliness for the Grinder was downgraded to Clean
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the The Felon MonsterTruck for $51950.53 Add-ons: Undercoating for $2361.38 Satellite Radio for $2361.38 (earned a $4000.0 bonus)

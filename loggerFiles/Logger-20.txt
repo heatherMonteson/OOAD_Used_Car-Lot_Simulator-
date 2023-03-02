@@ -1,0 +1,16 @@
+Day number :20
+Washing: Intern Lex Y. cleaned Motorcycle Magna0 using Detailing and made it Clean
+Washing: Intern J Q. cleaned MonsterTruck The Felon0 using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned Car Escape using Detailing and made it Clean
+Fixing: Mechanic Codie P. fixed the Escape and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Escape was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the The Felon0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the The Felon0 was downgraded to Dirty
+Fixing: Mechanic Jai I. fixed the Magna0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Magna0 was downgraded to Dirty
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Allan O. sold the Magna Motorcycle for $31156.7 Add-ons: Extended Warranty for $5192.78 (earned a $1500.0 bonus)
+Selling: Salesperson Jaii J. sold the Killer MonsterTruck for $52099.18 Add-ons: Satellite Radio for $2480.91 (earned a $4000.0 bonus)
+Selling: Salesperson Jaii J. sold the Viper Performance for $64381.36  (earned a $4000.0 bonus)
+Selling: Salesperson Jaii J. sold the The Felon0 MonsterTruck for $56426.95  (earned a $4000.0 bonus)
+Selling: Salesperson Walid S. sold the Strada Pickup for $32098.12 Add-ons: Satellite Radio for $1528.48 (earned a $3500.0 bonus)

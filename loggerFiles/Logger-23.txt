@@ -1,0 +1,9 @@
+Day number :23
+Washing: Intern J Q. cleaned MonsterTruck Convict using Elbow Grease and made it Clean
+Washing: Intern J Q. fixed the MonsterTruck Convict while cleaning and made it LikeNew
+Washing: Intern J Q. tried to clean Motorcycle Victor0 using Elbow Grease but made it Dirty
+Washing: Intern Karandeep N. cleaned Pickup Frontier using Elbow Grease and made it Sparkly(earned bonus $450.0)
+Fixing: Mechanic Codie P. fixed the Xenon and made it like LikeNew(earned a $650.0 bonus)
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Walid S. sold the Speedster0 Performance for $52456.87 Add-ons: Undercoating for $2384.4 Satellite Radio for $2384.4 (earned a $4000.0 bonus)
+Selling: Salesperson Walid S. sold the Magna0 Motorcycle for $33765.9 Add-ons: Extended Warranty for $5627.65 (earned a $1500.0 bonus)

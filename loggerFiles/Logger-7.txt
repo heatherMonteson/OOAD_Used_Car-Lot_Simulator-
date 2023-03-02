@@ -1,0 +1,19 @@
+Day number :7
+Washing: Intern Walid S. cleaned Electric MX-300 using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Performance Prelude0 using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned Motorcycle Bullet using Chemical Clean and made it Clean
+Fixing: Car cleanliness for the Silverado0 was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the Prelude0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude0 was downgraded to Dirty
+Fixing: The MX-300 has an improved range of 286 miles
+Fixing: Mechanic Harley G. fixed the MX-300 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the MX-300 was downgraded to Dirty
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Ishwar D. sold the Predator MonsterTruck for $45659.32  (earned a $4000.0 bonus)
+Racing: Driver Musa W. is racing the Pickup Sierra
+Racing: Driver Montague C. is racing the Pickup Montana
+Racing: Driver Asif O. is racing the Pickup Silverado
+Racing: Musa W. driving Sierra has placed 14 in the race.
+Racing: Montague C. driving Montana has placed 7 in the race.
+Racing: WINNER! Asif O. driving Silverado has placed 2 in the race. (new sale price $75144.3, driver bonus $300.0)
+Racing: That's 1 win(s) for Asif O. and 1 win(s) for the Silverado

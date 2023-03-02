@@ -1,0 +1,22 @@
+Day number :3
+Washing: Intern Ricco M. cleaned Motorcycle Magna using Chemical Clean and made it Clean
+Washing: Intern Walid S. cleaned Pickup Sierra using Chemical Clean and made it Clean
+Washing: Intern Ricco M. cleaned Electric Lightning using Chemical Clean and made it Clean
+Washing: Intern Walid S. cleaned Pickup Silverado using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Pickup Montana0 using Elbow Grease and made it Clean
+Fixing: Mechanic Bartlomiej S. fixed the Montana0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Montana0 was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the Jetta and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Harley G. fixed the Lightning and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Lightning was downgraded to Dirty
+Fixing: Mechanic Bartlomiej S. fixed the Killer and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Codie P. fixed the Artura and made it like Used(earned a $450.0 bonus)
+Fixing: The MX-30 has an improved range of 373 miles
+Fixing: Mechanic Harley G. fixed the MX-30 and made it like LikeNew(earned a $500.0 bonus)
+Selling: There are 1 customers looking to purchase vehicles today
+Racing: Driver Musa W. is racing the Motorcycle Tiger
+Racing: Driver Montague C. is racing the Motorcycle Magna
+Racing: Driver Asif O. is racing the Motorcycle Commando
+Racing: Musa W. driving Tiger has placed 5 in the race.
+Racing: Montague C. driving Magna has placed 8 in the race.
+Racing: Asif O. driving Commando has placed 12 in the race.

@@ -1,0 +1,14 @@
+Day number :10
+Washing: Intern Walid S. cleaned Pickup Silverado0 using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Electric MX-30 using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned MonsterTruck The Felon using Chemical Clean and made it Clean
+Washing: Intern Jai I. cleaned Performance Prelude0 using Elbow Grease and made it Sparkly(earned bonus $400.0)
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the Divo Performance for $61190.3 Add-ons: Satellite Radio for $2913.82 (earned a $4000.0 bonus)
+Racing: Driver Musa W. is racing the Performance GT
+Racing: Driver Montague C. is racing the Performance Sportback
+Racing: Driver Asif O. is racing the Performance Prelude0
+Racing: Musa W. driving GT has placed 20 in the race. Vehicle is now damaged.
+Racing: Montague C. driving Sportback has placed 15 in the race. Vehicle is now damaged.
+Racing: WINNER! Asif O. driving Prelude0 has placed 1 in the race. (new sale price $73973.02, driver bonus $450.0)
+Racing: That's 2 win(s) for Asif O. and 1 win(s) for the Prelude0

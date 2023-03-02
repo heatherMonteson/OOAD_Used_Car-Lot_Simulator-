@@ -1,0 +1,11 @@
+Day number :16
+Washing: Intern Jai I. cleaned MonsterTruck Game Over using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned Car Atlas using Detailing and made it Sparkly(earned bonus $250.0)
+Fixing: The Model S Plaid has an improved range of 415 miles
+Washing: Intern J Q. cleaned Electric Model S Plaid using Elbow Grease and made it Clean
+Washing: Intern Jai I. cleaned Electric Ioniq using Elbow Grease and made it Sparkly(earned bonus $400.0)
+Fixing: Car cleanliness for the Grinder was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Atlas and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Atlas was downgraded to Clean
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Walid S. sold the Artura Car for $22555.96 Add-ons: Undercoating for $1074.09 (earned a $1000.0 bonus)

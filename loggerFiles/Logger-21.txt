@@ -1,0 +1,18 @@
+Day number :21
+Washing: Intern J Q. cleaned Motorcycle Magna0 using Elbow Grease and made it Clean
+Washing: Intern Karandeep N. cleaned Pickup Raptor0 using Elbow Grease and made it Clean
+Washing: Intern J Q. cleaned Pickup Frontier using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned MonsterTruck Grinder using Detailing and made it Clean
+Washing: Intern Karandeep N. cleaned MonsterTruck Oil Hog using Elbow Grease and made it Clean
+Fixing: Car cleanliness for the Speedster0 was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Victor0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor0 was downgraded to Dirty
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the War Wizard MonsterTruck for $46732.19 Add-ons: Extended Warranty for $7477.15 Undercoating for $1869.28 (earned a $4000.0 bonus)
+Racing: Driver Musa W. is racing the Pickup Silverado
+Racing: Driver Asif O. is racing the Pickup Xenon
+Racing: Driver Christy Q. is racing the Pickup Frontier
+Racing: Musa W. driving Silverado has placed 6 in the race.
+Racing: Asif O. driving Xenon has placed 17 in the race. Vehicle is now damaged.
+Racing: WINNER! Christy Q. driving Frontier has placed 1 in the race. (new sale price $59971.4, driver bonus $300.0)
+Racing: That's 1 win(s) for Christy Q. and 1 win(s) for the Frontier

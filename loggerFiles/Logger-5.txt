@@ -1,0 +1,13 @@
+Day number :5
+Washing: Intern Ricco M. cleaned Electric MX-30 using Chemical Clean and made it Clean
+Washing: Intern Walid S. cleaned Pickup Silverado using Chemical Clean and made it Clean
+Washing: Intern Ricco M. cleaned Pickup Montana0 using Chemical Clean and made it Clean
+Fixing: Car cleanliness for the Model X was downgraded to Dirty
+Fixing: The Lightning has an improved range of 299 miles
+Fixing: Mechanic Codie P. fixed the Lightning and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Harley G. fixed the Bullet and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Bullet was downgraded to Dirty
+Fixing: Mechanic Bartlomiej S. fixed the Prologue and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Codie P. fixed the Killer and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Harley G. fixed the Grinder and made it like LikeNew(earned a $650.0 bonus)
+Selling: There are 2 customers looking to purchase vehicles today

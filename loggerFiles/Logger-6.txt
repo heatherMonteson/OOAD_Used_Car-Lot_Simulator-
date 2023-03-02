@@ -1,0 +1,16 @@
+Day number :6
+Washing: Intern Ricco M. cleaned Car Artura using Chemical Clean and made it Clean
+Washing: Intern Walid S. cleaned Motorcycle Bullet using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Electric Lightning using Elbow Grease and made it Clean
+Washing: Intern Ricco M. cleaned Car Prologue using Chemical Clean and made it Clean
+Washing: Intern Walid S. cleaned MonsterTruck Grinder using Chemical Clean and made it Sparkly(earned bonus $450.0)
+Washing: Intern J Q. cleaned Electric Model X using Elbow Grease and made it Clean
+Fixing: Mechanic Bartlomiej S. fixed the Model X and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model X was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the Bullet and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Bullet was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Spider and made it like LikeNew(earned a $500.0 bonus)
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the Spider Performance for $57889.28 Add-ons: Satellite Radio for $2756.63 (earned a $4000.0 bonus)
+Selling: Salesperson Allan O. sold the Montana0 Pickup for $42367.61 Add-ons: Satellite Radio for $2017.5 (earned a $3500.0 bonus)
+Selling: Salesperson Jaii J. sold the Model X Electric for $36632.61 Add-ons Road Rescue Coverage for $684.72 Satellite Radio for $1711.8 (earned a $3500.0 bonus)

@@ -1,0 +1,11 @@
+Day number :11
+Washing: Intern Walid S. cleaned Electric Leaf Plus using Chemical Clean and made it Clean
+Washing: Intern Jai I. tried to clean MonsterTruck The Felon using Elbow Grease but made it Dirty
+Washing: Intern Jai I. cleaned Motorcycle Commando using Elbow Grease and made it Sparkly(earned bonus $150.0)
+Fixing: Mechanic Bartlomiej S. fixed the Sportback and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the GT and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the GT was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Speedster and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Speedster was downgraded to Dirty
+Selling: There are 1 customers looking to purchase vehicles today

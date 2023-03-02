@@ -1,0 +1,13 @@
+Day number :18
+Washing: Intern J Q. cleaned Car Atlas using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned Electric MX-30 using Detailing and made it Sparkly(earned bonus $400.0)
+Washing: Intern Karandeep N. tried to clean Electric Model S Plaid using Elbow Grease but made it Dirty
+Fixing: Mechanic Codie P. fixed the Commando and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Commando was downgraded to Clean
+Fixing: Mechanic Harley G. fixed the Grinder and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Codie P. fixed the Xenon and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Xenon was downgraded to Dirty
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the Corolla Car for $22875.0 Add-ons: Extended Warranty for $3660.0 Satellite Radio for $915.0 (earned a $1000.0 bonus)
+Selling: Salesperson Allan O. sold the Raptor Pickup for $46358.34 Add-ons: Satellite Radio for $2207.54 (earned a $3500.0 bonus)
+Selling: Salesperson Walid S. sold the Sierra Pickup for $56181.8  (earned a $3500.0 bonus)

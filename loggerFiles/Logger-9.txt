@@ -1,0 +1,12 @@
+Day number :9
+Washing: Intern Walid S. cleaned Electric Leaf Plus using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Pickup Silverado0 using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned MonsterTruck The Felon using Chemical Clean and made it Clean
+Fixing: The Leaf Plus has an improved range of 476 miles
+Fixing: Mechanic Bartlomiej S. fixed the Leaf Plus and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Leaf Plus was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the Silverado0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Silverado0 was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the The Felon and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the The Felon was downgraded to Dirty
+Selling: There are 0 customers looking to purchase vehicles today

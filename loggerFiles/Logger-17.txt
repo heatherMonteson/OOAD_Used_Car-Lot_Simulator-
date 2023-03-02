@@ -1,0 +1,18 @@
+Day number :17
+Washing: Intern J Q. cleaned Car Corolla using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned Pickup Xenon using Detailing and made it Sparkly(earned bonus $450.0)
+Washing: Intern Karandeep N. cleaned MonsterTruck Grinder using Elbow Grease and made it Clean
+Washing: Intern J Q. tried to clean Car Atlas using Elbow Grease but made it Dirty
+Washing: Intern Karandeep N. cleaned Performance GT using Elbow Grease and made it Sparkly(earned bonus $400.0)
+Fixing: Car cleanliness for the Grinder was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Corolla and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Corolla was downgraded to Dirty
+Fixing: Car cleanliness for the Xenon was downgraded to Clean
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Allan O. sold the Victor Performance for $91396.77 Add-ons: Extended Warranty for $14623.48 Satellite Radio for $3655.87 (earned a $4000.0 bonus)
+Racing: Driver Musa W. is racing the Motorcycle Tiger
+Racing: Driver Asif O. is racing the Motorcycle Magna
+Racing: Driver Christy Q. is racing the Motorcycle Commando
+Racing: Musa W. driving Tiger has placed 11 in the race.
+Racing: Asif O. driving Magna has placed 5 in the race.
+Racing: Christy Q. driving Commando has placed 18 in the race. Vehicle is now damaged.

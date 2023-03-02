@@ -1,0 +1,18 @@
+Day number :24
+Washing: Intern J Q. cleaned Pickup Xenon using Elbow Grease and made it Clean
+Washing: Intern Lex Y. cleaned Motorcycle Victor0 using Detailing and made it Clean
+Washing: Intern Karandeep N. cleaned Car Escape using Elbow Grease and made it Sparkly(earned bonus $250.0)
+Washing: Intern J Q. tried to clean Car Camry using Elbow Grease but made it Dirty
+Washing: Intern Lex Y. cleaned Motorcycle Tiger using Detailing and made it Sparkly(earned bonus $150.0)
+Washing: Intern Karandeep N. cleaned Pickup Raptor0 using Elbow Grease and made it Sparkly(earned bonus $450.0)
+Fixing: Mechanic Codie P. fixed the Viper0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Viper0 was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Silver Hawk and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Silver Hawk was downgraded to Dirty
+Selling: There are 0 customers looking to purchase vehicles today
+Racing: Driver Musa W. is racing the MonsterTruck Bulldozer
+Racing: Driver Asif O. is racing the MonsterTruck Grinder
+Racing: Driver Christy Q. is racing the MonsterTruck Oil Hog
+Racing: Musa W. driving Bulldozer has placed 20 in the race. Vehicle is now damaged.
+Racing: Asif O. driving Grinder has placed 11 in the race.
+Racing: Christy Q. driving Oil Hog has placed 5 in the race.

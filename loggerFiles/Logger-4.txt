@@ -1,0 +1,17 @@
+Day number :4
+Washing: Intern Ricco M. cleaned MonsterTruck Killer using Chemical Clean and made it Clean
+Washing: Intern Walid S. cleaned Car Jetta using Chemical Clean and made it Sparkly(earned bonus $250.0)
+Washing: Intern J Q. cleaned Electric Lightning using Elbow Grease and made it Clean
+Washing: Intern Ricco M. cleaned MonsterTruck Bulldozer using Chemical Clean and made it Sparkly(earned bonus $450.0)
+Fixing: Car cleanliness for the Lightning was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the Silverado and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Silverado was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Grinder and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Grinder was downgraded to Dirty
+Fixing: Mechanic Bartlomiej S. fixed the Artura and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Killer was downgraded to Dirty
+Fixing: Mechanic Harley G. fixed the Spider and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Spider was downgraded to Dirty
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Ishwar D. sold the Sportster Motorcycle for $15580.4  (earned a $1500.0 bonus)
+Selling: Salesperson Allan O. sold the Artura0 Car for $25570.0 Add-ons: Extended Warranty for $4091.2 Satellite Radio for $1022.8 (earned a $1000.0 bonus)

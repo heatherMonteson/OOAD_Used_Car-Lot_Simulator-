@@ -1,0 +1,11 @@
+Day number :25
+Washing: Intern J Q. cleaned Car Camry using Elbow Grease and made it Clean
+Washing: Intern Karandeep N. cleaned Performance Viper0 using Elbow Grease and made it Clean
+Washing: Intern J Q. tried to clean Motorcycle Victor0 using Elbow Grease but made it Dirty
+Washing: Intern Lex Y. cleaned Performance Sportback using Detailing and made it Sparkly(earned bonus $400.0)
+Washing: Intern Karandeep N. cleaned MonsterTruck Grinder using Elbow Grease and made it Sparkly(earned bonus $450.0)
+Fixing: Mechanic Codie P. fixed the Bulldozer and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bulldozer was downgraded to Clean
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Walid S. sold the Commando Motorcycle for $30895.38 Add-ons: Satellite Radio for $1471.2 (earned a $1500.0 bonus)
+Selling: Salesperson Walid S. sold the Viper0 Performance for $53897.42  (earned a $4000.0 bonus)

@@ -1,0 +1,11 @@
+Day number :26
+Washing: Intern J Q. cleaned Motorcycle Tiger0 using Elbow Grease and made it Clean
+Washing: Intern J Q. cleaned Motorcycle Victor0 using Elbow Grease and made it Clean
+Fixing: Mechanic Codie P. fixed the Prowler and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Harley G. fixed the Tiger0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Tiger0 was downgraded to Dirty
+Fixing: Mechanic Jai I. fixed the Bulldozer and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bulldozer was downgraded to Dirty
+Selling: There are 7 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the Raptor0 Pickup for $63560.95 Add-ons: Satellite Radio for $3026.71 (earned a $3500.0 bonus)
+Selling: Salesperson Allan O. sold the Frontier Pickup for $74964.25  (earned a $3500.0 bonus)

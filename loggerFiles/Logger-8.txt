@@ -1,0 +1,13 @@
+Day number :8
+Washing: Intern Walid S. cleaned MonsterTruck Killer using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned Electric MX-300 using Elbow Grease and made it Clean
+Washing: Intern Jai I. cleaned Performance Prelude0 using Elbow Grease and made it Clean
+Washing: Intern Walid S. cleaned Pickup Silverado0 using Chemical Clean and made it Clean
+Washing: Intern J Q. cleaned MonsterTruck The Felon using Elbow Grease and made it Clean
+Washing: Intern Jai I. tried to clean Electric MX-30 using Elbow Grease but made it Dirty
+Fixing: Mechanic Bartlomiej S. fixed the Silverado0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Silverado0 was downgraded to Dirty
+Fixing: Mechanic Codie P. fixed the The Felon and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the The Felon was downgraded to Dirty
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Jaii J. sold the Lightning Electric for $43088.88 Add-ons: Satellite Radio for $2051.85 (earned a $3500.0 bonus)
