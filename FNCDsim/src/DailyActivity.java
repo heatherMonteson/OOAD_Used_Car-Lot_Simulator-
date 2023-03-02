@@ -247,7 +247,7 @@ abstract class Race extends DailyActivity{
             raceCars.add(raceCarsAll.get(i));
             FNCDsim.broker.out(Enums.EventType.Racing, "Driver " +drivers.get(i).getName() + " is racing the " + raceCars.get(i).getType()+" "+raceCars.get(i).getName());
         }
-        RaceCar.doRace(drivers, raceCars, type);
+        RaceCar.doRace(drivers, raceCars);
     }
 }
 
