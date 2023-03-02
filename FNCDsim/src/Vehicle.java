@@ -19,6 +19,7 @@ type Vehicle and it's subclasses to access only what is needed to gain informati
  */
 package FNCDsim.src;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
@@ -312,7 +313,7 @@ class MonsterTruck extends Vehicle implements RaceCar{
 class Motorcycle extends Vehicle implements RaceCar{
     private int racesWon=0;
     private double winBonus=375.0;
-    private double engineRating;
+    private int engineRating;
 
     Motorcycle(){
         super();
@@ -329,11 +330,12 @@ class Motorcycle extends Vehicle implements RaceCar{
         this.salePrice=Utility.format(this.cost*2);
     }
     private void setEngineRating() {
-        //engineRating = ...
         Random rand = new Random();
-        this.engineRating = rand.nextGaussian()*300+700;
+        engineRating = (int)Math.floor(rand.nextGaussian()*300+700);
+        while(engineRating<50)
+            engineRating = (int)Math.floor(rand.nextGaussian()*300+700);
     }
-    public double getEngineRating(){
+    public int getEngineRating(){
         return engineRating;
     }
 
