@@ -152,7 +152,6 @@ abstract class FixCars extends DailyActivity{
             if(Objects.equals(vehicle.getCondition(), "Broken") || Objects.equals(vehicle.getCondition(), "Used"))
                 carsToFix.add(vehicle);
         }
-
         //loop though mechanics 2x to have them fix cars
         //UPDATE from 2.2: only allowing one fix attempt on a car, removing from list of repairable cars after attempt
         while (j<=1 && (carsToFix.size()>0)) {
@@ -167,7 +166,6 @@ abstract class FixCars extends DailyActivity{
             j++;
         }
     }
-
 }
 
 //////////////////////////////////////////////
