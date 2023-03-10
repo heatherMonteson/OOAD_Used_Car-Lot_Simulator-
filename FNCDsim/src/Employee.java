@@ -14,9 +14,8 @@ public abstract class Employee implements Utility, Name{
     private final List<String> lastNameLetters = new ArrayList<>(Arrays.asList("A.","B.","C.","D.","E.","F.","G.","H.","I.","J.","K.","L.","M.","N.","O.","P.","Q.","R.", "S.","T.", "U.", "V.", "W.", "X.", "Y.", "Z."));
     private static ArrayList<String> usedNames=new ArrayList<>();
     protected String name;
-    protected String type;
+    protected Enums.StaffType type;
     protected double salary;
-    private static final String[] types = {"Sales", "Mechanic", "Intern", "Driver"};
     protected double totalBonusPay;
     protected double incomeToDate;
     protected int daysWorked;
@@ -26,13 +25,9 @@ public abstract class Employee implements Utility, Name{
 
     }
 
-    public static String[] getStaffTypes() {
-        return types;
-    }
-
     public String getName(){return name;}
 
-    public String getType(){
+    public Enums.StaffType getType(){
         return type;
     }
 
@@ -55,9 +50,8 @@ public abstract class Employee implements Utility, Name{
     }
 
     public static boolean employeeQuit(){
-        if(Utility.findValue(1,100)<=10)
-            return true;
-        return false;
+        //if <= 10 then employee quits
+        return Utility.findValue(1, 100) <= 10;
     }
 
     public void addDayWorked(){daysWorked=daysWorked+1;}
@@ -73,7 +67,7 @@ public abstract class Employee implements Utility, Name{
     }
 
     //From professor Montgomery's code example
-    public static ArrayList<Employee> getStaffByType(ArrayList<Employee> employeeList, String type) {
+    public static ArrayList<Employee> getStaffByType(ArrayList<Employee> employeeList, Enums.StaffType type) {
         ArrayList<Employee> typeList = new ArrayList<>();
         for (Employee employee : employeeList) {
             if (Objects.equals(employee.type, type)) typeList.add(employee);
@@ -87,7 +81,7 @@ class Salesperson extends Employee {
 
     Salesperson(){
         super();
-        this.type="Sales";
+        this.type=Enums.StaffType.Salesperson;
         setSalary(250.0, 375.00);
         setName();
     }
@@ -125,7 +119,7 @@ class Salesperson extends Employee {
         //find if change in purchase chance
         if(!Objects.equals(customer.getType(), car.getType())){
             customer.chance= customer.chance - 20;
-        }if (Objects.equals(car.getCondition(), "LikeNew") || Objects.equals(car.getCleanliness(), "Sparkly")){
+        }if (Objects.equals(car.getCondition(), Enums.Condition.LikeNew) || Objects.equals(car.getCleanliness(), Enums.Cleanliness.Sparkling)){
             customer.chance= customer.chance + 10;
         }
         //customer wants to buy
@@ -135,7 +129,7 @@ class Salesperson extends Employee {
         return false;
     }
 
-    private Vehicle findCarToSell(ArrayList<Vehicle> carsToSell, String type) {
+    private Vehicle findCarToSell(ArrayList<Vehicle> carsToSell, Enums.VehicleType type) {
         Vehicle carOfType = null;
         Vehicle otherType = null;
 
@@ -168,7 +162,7 @@ class Mechanic extends Employee{
 
     Mechanic(){
         super();
-        this.type = "Mechanic";
+        this.type = Enums.StaffType.Mechanic;
         setSalary(175.0, 280.0);
         setName();
     }
@@ -176,9 +170,9 @@ class Mechanic extends Employee{
 
         int randomNum = Utility.findValue(1, 100);
         if(randomNum<=80){
-            if(Objects.equals(car.getCondition(), "Broken"))
+            if(Objects.equals(car.getCondition(), Enums.Condition.Broken))
                 car.changeCarToUsed();
-            else if(Objects.equals(car.getCondition(), "Used"))
+            else if(Objects.equals(car.getCondition(),  Enums.Condition.Used))
                 car.changeCarToLikeNew();
             FNCDsim.broker.out(Enums.EventType.Fixing, "Mechanic "+ name + " fixed the " + car.getName() + " and made it like " + car.getCondition()+ "(earned a $"+car.getFixBonus()+" bonus)",car.getFixBonus());
             payBonus(FNCDsim.getFunds(car.getFixBonus()));
@@ -194,7 +188,7 @@ class Intern extends Employee {
 
     Intern() {
         super();
-        this.type = "Intern";
+        this.type =  Enums.StaffType.Intern;
         setSalary(100.0, 175.0);
         setCleaningBehavior();
         setName();
@@ -231,20 +225,20 @@ class Intern extends Employee {
     }
 
     public void internWashCar(Vehicle car) {
-        String initialCondition= car.getCondition();
-        String initialClean = car.getCleanliness();
+        Enums.Condition initialCondition= car.getCondition();
+        Enums.Cleanliness initialClean = car.getCleanliness();
 
         if(cleanBehavior.washVehicle(car)){//stateChanged for the car cleanliness
-            String newClean =car.getCleanliness();//clean with set method, returning vehicle state of cleanliness
+            Enums.Cleanliness newClean =car.getCleanliness();//clean with set method, returning vehicle state of cleanliness
 
             //cleanliness was downgraded
-            if((Objects.equals(initialClean, "Sparkly") && (Objects.equals(newClean, "Clean") || Objects.equals(newClean, "Dirty")))
-                    || (Objects.equals(initialClean, "Clean") && Objects.equals(newClean, "Dirty")))
+            if((Objects.equals(initialClean,  Enums.Cleanliness.Sparkling) && (Objects.equals(newClean,  Enums.Cleanliness.Clean) || Objects.equals(newClean,  Enums.Cleanliness.Dirty)))
+                    || (Objects.equals(initialClean, Enums.Cleanliness.Clean) && Objects.equals(newClean, Enums.Cleanliness.Dirty)))
             {
                 FNCDsim.broker.out(Enums.EventType.Washing ,"Intern " + name + " tried to clean " +car.getType() + " "+car.getName() + " using "+ cleanBehavior.getCleaningBehavior() +" but made it " + car.getCleanliness());
             }
             //cleanliness set to sparkly, intern gets a bonus
-            else if (Objects.equals(newClean, "Sparkly")){
+            else if (Objects.equals(newClean,  Enums.Cleanliness.Sparkling)){
                 FNCDsim.broker.out(Enums.EventType.Washing ,"Intern " + name + " cleaned " +car.getType() + " "+car.getName() + " using "+ cleanBehavior.getCleaningBehavior() +" and made it " + car.getCleanliness()+ "(earned bonus $"+car.getCleaningBonus()+")");
                 payBonus(FNCDsim.getFunds(car.getCleaningBonus()));
             }
@@ -253,10 +247,10 @@ class Intern extends Employee {
         }
 
         //check state change for if the car was broken/fixed while cleaning
-        if(!Objects.equals(initialCondition, "Broken") && Objects.equals(car.getCondition(), "Broken")){ //car was broken when fixing
-            FNCDsim.broker.out(Enums.EventType.Washing, "Intern" +name+" broke the " + car.getType() + " "+ car.getName() + " while cleaningand made it " + car.getCondition());
+        if(!Objects.equals(initialCondition, Enums.Condition.Broken) && Objects.equals(car.getCondition(), Enums.Condition.Broken)){ //car was broken when fixing
+            FNCDsim.broker.out(Enums.EventType.Washing, "Intern" +name+" broke the " + car.getType() + " "+ car.getName() + " while cleaning and made it " + car.getCondition());
         }
-        else if(!Objects.equals(initialCondition, "LikeNew") && Objects.equals(car.getCondition(), "LikeNew")){//car made like new (fixed)
+        else if(!Objects.equals(initialCondition, Enums.Condition.LikeNew) && Objects.equals(car.getCondition(),  Enums.Condition.LikeNew)){//car made like new (fixed)
             FNCDsim.broker.out(Enums.EventType.Washing, "Intern " +name+" fixed the " + car.getType() + " "+ car.getName() + " while cleaning and made it " + car.getCondition());
         }
     }
@@ -267,7 +261,7 @@ class Driver extends Employee{
     private int racesWon;
     Driver(){
         super();
-        this.type = "Driver";
+        this.type = Enums.StaffType.Driver;
         this.racesWon=0;
         setSalary(200.0, 350.0);
         setName();

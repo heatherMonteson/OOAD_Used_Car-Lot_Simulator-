@@ -26,17 +26,15 @@ import java.util.Random;
 
 public abstract class Vehicle implements Name, Utility{
 
-    protected String type;
+    protected Enums.VehicleType type;
     protected String name;
-    protected String condition;
-    protected String cleanliness;
+    protected Enums.Condition condition;
+    protected Enums.Cleanliness cleanliness;
     protected double cleaningBonus;
     protected double fixBonus;
     protected double salePrice;
     protected double cost;
     protected double saleBonus;
-    protected static final String[] types = {"Car", "Pickup","Performance", "Motorcycle","Electric", "MonsterTruck" };
-    protected final String[]conditions={"LikeNew", "Used", "Broken"};
     protected ArrayList<String> carNames;
     private static ArrayList<String> usedNames =new ArrayList<>();
 
@@ -46,11 +44,11 @@ public abstract class Vehicle implements Name, Utility{
         return salePrice;
     }
 
-    public String getCondition() {
+    public Enums.Condition getCondition() {
         return condition;
     }
 
-    public String getCleanliness() {
+    public Enums.Cleanliness getCleanliness() {
         return cleanliness;
     }
 
@@ -62,12 +60,8 @@ public abstract class Vehicle implements Name, Utility{
         return cost;
     }
 
-    public String getType(){
+    public Enums.VehicleType getType(){
         return type;
-    }
-
-    public static String[] getTypes(){
-            return types;
     }
 
     public double getFixBonus(){
@@ -83,33 +77,33 @@ public abstract class Vehicle implements Name, Utility{
     }
 
     public void changeCarToDirty() {
-        cleanliness="Dirty";
+        cleanliness=Enums.Cleanliness.Dirty;
     }
 
     public void changeCarToClean() {
-        cleanliness="Clean";
+        cleanliness=Enums.Cleanliness.Clean;
     }
 
     public void changeCarToSparkly() {
-        cleanliness="Sparkly";
+        cleanliness=Enums.Cleanliness.Sparkling;
     }
     protected void setCleanliness() {
         int rand =Utility.findValue(1, 100);
         if(rand<=5){
-            cleanliness="Sparkly";
+            cleanliness=Enums.Cleanliness.Sparkling;
         }
         else if (rand<=35){
-            cleanliness="Clean";
+            cleanliness=Enums.Cleanliness.Clean;
         }
         else
-            cleanliness="Dirty";
+            cleanliness=Enums.Cleanliness.Dirty;
     }
 
     protected void setCondition() {
-        condition=conditions[Utility.findValue(0,conditions.length-1)];
-        if(Objects.equals(condition, "Broken"))
+        condition=Enums.Condition.values()[Utility.findValue(0, Enums.Condition.values().length-1)];
+        if(Objects.equals(condition, Enums.Condition.Broken))
             cost=Utility.format(cost-(cost*.5));
-        else if(Objects.equals(condition, "Used"))
+        else if(Objects.equals(condition, Enums.Condition.Used))
             cost=Utility.format(cost-(cost*.2));
     }
     protected void setName() {
@@ -124,30 +118,30 @@ public abstract class Vehicle implements Name, Utility{
     }
 
     public void downGradeCleanliness(Enums.EventType event) {
-        if(Objects.equals(cleanliness, "Dirty"))//if dirty cannot further downgrade
+        if(Objects.equals(cleanliness, Enums.Cleanliness.Dirty))//if dirty cannot further downgrade
             return;
-        if(Objects.equals(cleanliness, "Clean"))
-            cleanliness="Dirty";
-        else if(Objects.equals(cleanliness, "Sparkly"))
-            cleanliness="Clean";
+        if(Objects.equals(cleanliness, Enums.Cleanliness.Clean))
+            cleanliness=Enums.Cleanliness.Dirty;
+        else if(Objects.equals(cleanliness, Enums.Cleanliness.Sparkling))
+            cleanliness=Enums.Cleanliness.Clean;
         FNCDsim.broker.out(event,"Car cleanliness for the " + name + " was downgraded to " + cleanliness);
     }
 
     public void changeCarToBroken(){
-        condition = "Broken";
+        condition = Enums.Condition.Broken;
     }
     public void changeCarToUsed(){
-        if(Objects.equals(condition, "Broken"))
+        if(Objects.equals(condition,  Enums.Condition.Broken))
             salePrice=Utility.format(salePrice*1.50);
-        condition="Used";
+        condition= Enums.Condition.Used;
     }
     public void changeCarToLikeNew(){
         salePrice=Utility.format(salePrice*1.25);
-        condition="LikeNew";
+        condition= Enums.Condition.LikeNew;
     }
 
     //Citation: Professor Montgomery's code for 2.2
-    public static ArrayList<Vehicle> getVehiclesByType (ArrayList<Vehicle> vehicles, String type){
+    public static ArrayList<Vehicle> getVehiclesByType (ArrayList<Vehicle> vehicles, Enums.VehicleType type){
         ArrayList<Vehicle> typeList = new ArrayList<>();
         for (Vehicle vehicle: vehicles) {
             if (Objects.equals(vehicle.type, type)) typeList.add(vehicle);
@@ -164,7 +158,7 @@ class Car extends Vehicle{
         super();
         carNames = new ArrayList<>(Arrays.asList("Accent", "Accord", "Altima", "Ariya", "Armada", "Artura", "Atlas", "Avalon", "Camry", "Clubman", "Compass", "Corolla","Crosair", "Crown", "Durango", "Edge", "Elantra", "Escape", "Forte", "Insight", "Jetta", "Odyssey", "Passat", "Passport","Prologue"));
         setName();
-        this.type="Car";
+        this.type=Enums.VehicleType.Car;
         this.cost=Utility.format(Utility.findValue(10000, 20000));
         this.saleBonus=1000.0;
         this.cleaningBonus=250.0;
@@ -182,7 +176,7 @@ class Electric extends Vehicle {
         super();
         carNames = new ArrayList<>(Arrays.asList("Leaf", "Electra", "BMW i3", "BMW i4", "Bolt", "Mach-e", "Lightning", "Genesis","Hummer EV", "Ioniq", "KONA","I-Pace", "Niro","Maxwell ePro", "MX-30","Leaf Plus", "ARIYA", "Taycan", "Polestar 2", "Solterra", "Model X", "Model Y", "Model S Plaid", "C40 Recharge"));
         setName();
-        this.type="Electric";
+        this.type=Enums.VehicleType.Electric;
         this.cost=Utility.format(Utility.findValue(20000.0, 40000.0));
         this.saleBonus=3500.0;
         this.cleaningBonus=400.0;
@@ -194,18 +188,18 @@ class Electric extends Vehicle {
     }
     //overloaded parent setCondition to add to mileage range if like new
     protected void setCondition() {
-        condition=conditions[Utility.findValue(0,conditions.length-1)];
-        if(Objects.equals(condition, "LikeNew"))
+        condition=Enums.Condition.values()[Utility.findValue(0, Enums.Condition.values().length-1)];
+        if(Objects.equals(condition, Enums.Condition.LikeNew))
             range+=100;
-        else if(Objects.equals(condition, "Broken"))
+        else if(Objects.equals(condition,  Enums.Condition.Broken))
             cost=Utility.format(cost-(cost*.5));
-        else if(Objects.equals(condition, "Used"))
+        else if(Objects.equals(condition,  Enums.Condition.Used))
             cost=Utility.format(cost-(cost*.2));
     }
     //overloaded parent function to add 100 miles to range
     public void changeCarToLikeNew(){
         salePrice=Utility.format(salePrice*1.25);
-        condition="LikeNew";
+        condition= Enums.Condition.LikeNew;
         range+=100;
         FNCDsim.broker.out(Enums.EventType.Fixing, "The " + name+ " has an improved range of " + range +" miles");
     }
@@ -227,7 +221,7 @@ class Performance extends Vehicle implements RaceCar{
         super();
         carNames = new ArrayList<>(Arrays.asList("Mustang", "Spider", "Firebird", "Cobra", "Owl", "Speedster", "Valhalla", "Viper", "Valkyrie", "Victor", "GT", "Sportback", "Divo", "Boldie", "Viper", "Prowler", "Getaway", "Stealth", "Prelude"));
         setName();
-        this.type = "Performance";
+        this.type = Enums.VehicleType.PerfCar;
         this.cost = Utility.format(Utility.findValue(20000.0, 40000.0));
         this.saleBonus = 4000.0;
         this.cleaningBonus = 400.0;
@@ -259,7 +253,7 @@ class Pickup extends Vehicle implements RaceCar{
         super();
         carNames =new ArrayList<>(Arrays.asList("Ram", "F150 ", "Tacoma", "Silverado", "Sierra", "Frontier", "Tundra", "Colorado", "Montana", "Strada", "Raptor", "Sierra", "Ridgline", "D-Max", "Frontier", "Navara", "Xenon"));
         setName();
-        this.type="Pickup";
+        this.type=Enums.VehicleType.Pickup;
         this.cost=Utility.format(Utility.findValue(10000.0, 40000.0));
         this.saleBonus=3500.0;
         this.cleaningBonus=450.0;
@@ -291,7 +285,7 @@ class MonsterTruck extends Vehicle implements RaceCar{
         super();
         carNames = new ArrayList<>(Arrays.asList("Destructor","Death Wheels","Mega Crush", "Avenger", "Batman", "2Xtream", "Bear Foot", "Big Foot", "Blue Thunder", "Bounty Hunter", "Brutus", "Bulldozer", "Game Over", "Grave Digger", "Grinder", "Worrier", "Oil Hog", "Monster Mutt", "Jacked Up", "Predator", "Terminator", "Swamp Thing", "The Felon", "Convict", "Lawless", "Killer", "Death Stomp", "War Wizard","The Machine", "Sudden Impact", "KO"));
         setName();
-        this.type="MonsterTruck";
+        this.type=Enums.VehicleType.Monster;
         this.cost=Utility.format(Utility.findValue(20000.0, 50000.0));
         this.saleBonus=4000.0;
         this.cleaningBonus=450.0;
@@ -323,7 +317,7 @@ class Motorcycle extends Vehicle implements RaceCar{
         super();
         carNames = new ArrayList<>(Arrays.asList("Venom", "Thunderbolt", "Spitfire", "X-74", "Commando", "Victor", "Silver Hawk", "Mach1 ", "Black Lightning", "Bullet", "Katana", "Intruder", "Trail 90", "Tiger", "Bandit", "Tiger", "Magna", "Sportster"));
         setName();
-        this.type="Motorcycle";
+        this.type=Enums.VehicleType.Motorcycle;
         this.cost=Utility.format(Utility.findValue(5000.0, 25000.0));
         this.saleBonus=1500.0;
         this.cleaningBonus=150.0;

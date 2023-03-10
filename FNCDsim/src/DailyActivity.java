@@ -24,31 +24,31 @@ abstract class OpenShop extends DailyActivity{
         FNCDsim.broker.out(Enums.EventType.Opening, "Starting today with a budget of $" + FNCDsim.getBalance(), FNCDsim.getBalance());
 
         //Add employees as needed by type
-        for(String type: Employee.getStaffTypes()) {
+        for(Enums.StaffType type: Enums.StaffType.values()) {
             ArrayList<Employee> typeList= Employee.getStaffByType(FNCDsim.currentStaff, type);
             if(typeList.size()<3)
                 addEmployee(typeList.size(), type);
         }
 
         //buy vehicles as needed, funds removed in addInventory method (4 of each)
-        for(String type: Vehicle.getTypes()) {
+        for(Enums.VehicleType type: Enums.VehicleType.values()) {
             ArrayList<Vehicle> typeList= Vehicle.getVehiclesByType(FNCDsim.inventory, type);
             if(typeList.size()<4)
                 addInventory(typeList.size(), type);
         }
     }
 
-    private static void addEmployee(int size, String type) {
+    private static void addEmployee(int size, Enums.StaffType type) {
         Employee employee = null;
         //get the inventory based on type
         for(int i =0 ; i<3-size; i++) {
-            if(Objects.equals(type, "Intern"))
+            if(Objects.equals(type, Enums.StaffType.Intern))
                 employee=new Intern();
-            else if(Objects.equals(type, "Sales"))
+            else if(Objects.equals(type, Enums.StaffType.Salesperson))
                 employee=new Salesperson();
-            else if (Objects.equals(type, "Mechanic"))
+            else if (Objects.equals(type, Enums.StaffType.Mechanic))
                 employee=new Mechanic();
-            else if (Objects.equals(type, "Driver"))
+            else if (Objects.equals(type, Enums.StaffType.Driver))
                 employee=new Driver();
 
             if(employee!=null)
@@ -63,21 +63,21 @@ abstract class OpenShop extends DailyActivity{
     }
 
     //add one new vehicle based on type to current inventory list
-    private static void addInventory(int size, String type) {
+    private static void addInventory(int size, Enums.VehicleType type) {
         Vehicle vehicle = null;
         //get the inventory based on type
         for(int i =0 ; i<4-size; i++) {
-            if(Objects.equals(type, "Car"))
+            if(Objects.equals(type, Enums.VehicleType.Car))
                 vehicle=new Car();
-            else if(Objects.equals(type, "Performance"))
+            else if(Objects.equals(type, Enums.VehicleType.PerfCar))
                 vehicle = new Performance();
-            else if(Objects.equals(type, "Pickup"))
+            else if(Objects.equals(type, Enums.VehicleType.Pickup))
                 vehicle=new Pickup();
-            else if(Objects.equals(type, "Motorcycle"))
+            else if(Objects.equals(type, Enums.VehicleType.Motorcycle))
                 vehicle=new Motorcycle();
-            else if(Objects.equals(type, "Electric"))
+            else if(Objects.equals(type, Enums.VehicleType.Electric))
                 vehicle=new Electric();
-            else if(Objects.equals(type, "MonsterTruck"))
+            else if(Objects.equals(type, Enums.VehicleType.Monster))
                 vehicle=new MonsterTruck();
             //If type given matches the current types to add then add/remove cost from funds
             if(vehicle!=null)
@@ -106,13 +106,13 @@ abstract class WashCars extends DailyActivity{
         int j=0;
 
         for (Vehicle vehicle : FNCDsim.inventory) { //find all clean and dirty cars in inventory that need to be washed
-            if (Objects.equals(vehicle.getCleanliness(), "Clean"))
+            if (Objects.equals(vehicle.getCleanliness(), Enums.Cleanliness.Clean))
                 cleanCars.add(vehicle);
-            else if (Objects.equals(vehicle.getCleanliness(), "Dirty"))
+            else if (Objects.equals(vehicle.getCleanliness(),  Enums.Cleanliness.Dirty))
                 dirtyCars.add(vehicle);
         }
 
-        ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
+        ArrayList<Employee> interns = Employee.getStaffByType(FNCDsim.currentStaff, Enums.StaffType.Intern);
         //cycle through all interns 2x first washing random dirty then clean cars
         //UPDATED from 2.2: only allow one attempt to wash a car, remove from list after attempt
         while (j<=1 && (dirtyCars.size()>0 || cleanCars.size()>0)){
@@ -144,12 +144,12 @@ abstract class FixCars extends DailyActivity{
         }
         FNCDsim.broker.out("Fixing cars ...");
         ArrayList<Vehicle>carsToFix= new ArrayList<Vehicle>();
-        ArrayList<Employee> mechanics = Employee.getStaffByType(FNCDsim.currentStaff, "Mechanic");
+        ArrayList<Employee> mechanics = Employee.getStaffByType(FNCDsim.currentStaff, Enums.StaffType.Mechanic);
         int j=0;
 
         //select only broken and used cars for them to fix.
         for(Vehicle vehicle: FNCDsim.inventory){
-            if(Objects.equals(vehicle.getCondition(), "Broken") || Objects.equals(vehicle.getCondition(), "Used"))
+            if(Objects.equals(vehicle.getCondition(), Enums.Condition.Broken) || Objects.equals(vehicle.getCondition(), Enums.Condition.Used))
                 carsToFix.add(vehicle);
         }
         //loop though mechanics 2x to have them fix cars
@@ -180,7 +180,7 @@ abstract class SellCars extends DailyActivity{
 
         Customer customers= new Customer();
         ArrayList <Vehicle> sellableCars = new ArrayList<Vehicle>();
-        ArrayList<Employee> salesPeople = Employee.getStaffByType(FNCDsim.currentStaff, "Sales");
+        ArrayList<Employee> salesPeople = Employee.getStaffByType(FNCDsim.currentStaff, Enums.StaffType.Salesperson);
         Vehicle sellCar;
         int numCustomers=0;
 
@@ -198,7 +198,7 @@ abstract class SellCars extends DailyActivity{
             return;
         //Find vehicles to sell don't sell broken cars
         for(Vehicle car: FNCDsim.inventory){
-            if(!Objects.equals(car.getCondition(), "Broken"))
+            if(!Objects.equals(car.getCondition(), Enums.Condition.Broken))
                 sellableCars.add(car);
         }
 
@@ -224,8 +224,8 @@ abstract class Race extends DailyActivity{
         FNCDsim.broker.out("Racing...");
 
         //select and collect type to race
-        String[] raceTypes = RaceCar.getRaceTypes();
-        String type = raceTypes[Utility.findValue(0, raceTypes.length-1)];
+        ArrayList<Enums.VehicleType> types= RaceCar.getRaceTypes();
+        Enums.VehicleType type = types.get(Utility.findValue(0, types.size()-1));
         ArrayList<Vehicle> raceCarsAll= RaceCar.getRaceCarsByType(FNCDsim.inventory, type);
 
         if(raceCarsAll.size()==0){//not enough cars
@@ -234,7 +234,7 @@ abstract class Race extends DailyActivity{
         }
 
         ArrayList<Driver> allDrivers = new ArrayList<>();
-        for(Employee driver: Employee.getStaffByType(FNCDsim.currentStaff, "Driver")){//get all drivers
+        for(Employee driver: Employee.getStaffByType(FNCDsim.currentStaff, Enums.StaffType.Driver)){//get all drivers
             allDrivers.add((Driver) driver);
         }
 
@@ -265,16 +265,16 @@ abstract class EndOfDay extends DailyActivity{
         }
 
         //All quitting activity during the end of day
-        staffQuitByType("Intern");//intern quits, just gets removed from list
+        staffQuitByType(Enums.StaffType.Intern);//intern quits, just gets removed from list
         Employee promoted = null;
-        if(staffQuitByType("Sales")){//if sales quits, promote intern
-            promoted=promoteInternTo("Sales");
+        if(staffQuitByType(Enums.StaffType.Salesperson)){//if sales quits, promote intern
+            promoted=promoteInternTo(Enums.StaffType.Salesperson);
 
             if(promoted!=null)//announce promotion
                 FNCDsim.broker.out(Enums.EventType.Promoting,"Intern " + promoted.getName()+ " was promoted to "+promoted.getType() +" has a new daily salary of $"+promoted.getSalary());
         }
-        if(staffQuitByType("Mechanic")) {//if mechanic quits, promote intern
-            promoted = promoteInternTo("Mechanic");
+        if(staffQuitByType(Enums.StaffType.Mechanic)) {//if mechanic quits, promote intern
+            promoted = promoteInternTo(Enums.StaffType.Mechanic);
             if (promoted != null)//announce promotion
                 FNCDsim.broker.out(Enums.EventType.Promoting, "Intern " + promoted.getName() + " was promoted to " + promoted.getType() + " has a new daily salary of $" + promoted.getSalary());
         }
@@ -282,14 +282,14 @@ abstract class EndOfDay extends DailyActivity{
     }
 
     //Selects a random intern to promote based on type of promotion
-    private static Employee promoteInternTo(String newPosition){
-        ArrayList<Employee> staffByType = Employee.getStaffByType(FNCDsim.currentStaff, "Intern");
+    private static Employee promoteInternTo(Enums.StaffType newPosition){
+        ArrayList<Employee> staffByType = Employee.getStaffByType(FNCDsim.currentStaff, Enums.StaffType.Intern);
         Intern intern = (Intern) staffByType.get(Utility.findValue(0, staffByType.size()-1));
         Employee newEmployee = null;
 
-        if(Objects.equals(newPosition, "Sales"))
+        if(Objects.equals(newPosition, Enums.StaffType.Salesperson))
             newEmployee= intern.promoteInternToSales();
-        else if(Objects.equals(newPosition, "Mechanic"))
+        else if(Objects.equals(newPosition, Enums.StaffType.Mechanic))
             newEmployee= intern.promoteInternToMechanic();
 
         if(newEmployee!=null){
@@ -301,7 +301,7 @@ abstract class EndOfDay extends DailyActivity{
         return newEmployee;
     }
 
-    private static boolean staffQuitByType(String type){
+    private static boolean staffQuitByType(Enums.StaffType type){
         //if employee quits remove from current staff and add to departed
         if(Employee.employeeQuit()){
             try {

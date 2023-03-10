@@ -11,7 +11,7 @@ public class ChemicalClean implements CleaningBehavior{
 
         boolean changeState = false;
 
-        if (Objects.equals(car.getCleanliness(), "Dirty")) {
+        if (Objects.equals(car.getCleanliness(), Enums.Cleanliness.Dirty)) {
             if (Utility.findValue(1, 100)<= 10) { //dirty --> sparkly
                 car.changeCarToSparkly();
                 changeState =true;
@@ -21,7 +21,7 @@ public class ChemicalClean implements CleaningBehavior{
                 changeState =true;
             }
         }
-        else if (Objects.equals(car.getCleanliness(), "Clean")) {
+        else if (Objects.equals(car.getCleanliness(), Enums.Cleanliness.Clean)) {
             if (Utility.findValue(1, 100)<= 10){//clean-->dirty
                 car.changeCarToDirty();
                 changeState =true;

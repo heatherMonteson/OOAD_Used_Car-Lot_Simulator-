@@ -9,12 +9,11 @@ import java.util.ArrayList;
 public class Customer implements Utility{
     private ArrayList<Customer> customers = new ArrayList<Customer>();
     public double chance;
-    public String type;
+    public Enums.VehicleType type;
 
     Customer(){
-        String[] types = Vehicle.getTypes();
         int[] purchaseChance = {10, 40, 70};//Level of probability of buying a car
-        type= types[Utility.findValue(0, types.length -1)];
+        type= Enums.VehicleType.values()[Utility.findValue(0,  Enums.VehicleType.values().length-1)];
         chance= purchaseChance[Utility.findValue(0, purchaseChance.length-1)];
     }
 
@@ -26,7 +25,7 @@ public class Customer implements Utility{
         }
     }
 
-    public String getType(){
+    public Enums.VehicleType getType(){
         return type;
     }
 

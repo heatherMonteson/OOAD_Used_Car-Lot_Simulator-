@@ -14,7 +14,7 @@ public class Detailed implements CleaningBehavior{
         boolean changeState = false;
 
         int randomNum = Utility.findValue(1, 100);
-        if (Objects.equals(car.getCleanliness(), "Dirty")) {
+        if (Objects.equals(car.getCleanliness(), Enums.Cleanliness.Dirty)) {
             if (randomNum <= 20){
                 car.changeCarToSparkly();
                 changeState = true;
@@ -24,7 +24,7 @@ public class Detailed implements CleaningBehavior{
                 changeState = true;
             }
         }
-        else if (Objects.equals(car.getCleanliness(), "Clean")) {
+        else if (Objects.equals(car.getCleanliness(), Enums.Cleanliness.Clean)) {
             if (randomNum <= 5){
                 car.changeCarToDirty();
                 changeState = true;

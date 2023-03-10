@@ -12,7 +12,7 @@ public class ElbowGrease implements CleaningBehavior {
 
         boolean changeState = false;
 
-        if (Objects.equals(car.getCleanliness(), "Dirty")) {
+        if (Objects.equals(car.getCleanliness(), Enums.Cleanliness.Dirty)) {
 
             if (Utility.findValue(1, 100) <= 5) {  //Dirty --> sparkly
                 car.changeCarToSparkly();
@@ -22,7 +22,7 @@ public class ElbowGrease implements CleaningBehavior {
                 changeState = true;
             }
         }
-        else if (Objects.equals(car.getCleanliness(), "Clean")) {
+        else if (Objects.equals(car.getCleanliness(), Enums.Cleanliness.Clean)) {
 
             if (Utility.findValue(1, 100) <= 15) { //clean-->dirty
                 car.changeCarToDirty();

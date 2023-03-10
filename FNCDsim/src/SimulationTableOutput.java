@@ -26,11 +26,11 @@ public class SimulationTableOutput {
 
         for(Vehicle car: finalCars){
 
-            if(Objects.equals(car.getType(), "Electric")) {
+            if(Objects.equals(car.getType(), Enums.VehicleType.Electric)) {
                 Electric eCar = (Electric) car;
                 System.out.printf("| %-20s | %-15s | %-12s | %-12s | %-12s | %-12s | %-15s | %n", eCar.getName(), eCar.getType(), eCar.getSalePrice(), eCar.getCost(),eCar.getCondition(), eCar.getCleanliness(), "E-Milage: "+ eCar.getRange()+ "mi");
             }
-            else if(Objects.equals(car.getType(), "Motorcycle")){
+            else if(Objects.equals(car.getType(), Enums.VehicleType.Motorcycle)){
                 Motorcycle mCar = (Motorcycle) car;
                 System.out.printf("| %-20s | %-15s | %-12s | %-12s | %-12s | %-12s | %-15s | %n", mCar.getName(), mCar.getType(), mCar.getSalePrice(), mCar.getCost(),mCar.getCondition(), mCar.getCleanliness(), "Engine:"+mCar.getEngineRating()+ "cc");
             }
