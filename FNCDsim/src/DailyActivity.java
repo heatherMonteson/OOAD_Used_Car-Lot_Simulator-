@@ -15,7 +15,6 @@ import java.util.Objects;
 public abstract class DailyActivity {
 
 }
-
 //////////////////////////////////////////////////////////////////////
 abstract class OpenShop extends DailyActivity{
 
@@ -39,18 +38,13 @@ abstract class OpenShop extends DailyActivity{
     }
 
     private static void addEmployee(int size, Enums.StaffType type) {
-        Employee employee = null;
+        Employee employee;
+        //OO factory pattern: using the Staff factory to create new instances of staff
+        StaffFactory factory = new HireStaff();
         //get the inventory based on type
         for(int i =0 ; i<3-size; i++) {
-            if(Objects.equals(type, Enums.StaffType.Intern))
-                employee=new Intern();
-            else if(Objects.equals(type, Enums.StaffType.Salesperson))
-                employee=new Salesperson();
-            else if (Objects.equals(type, Enums.StaffType.Mechanic))
-                employee=new Mechanic();
-            else if (Objects.equals(type, Enums.StaffType.Driver))
-                employee=new Driver();
-
+            employee=null;
+            employee = factory.hireStaff(type);
             if(employee!=null)
             {
                 FNCDsim.broker.out(Enums.EventType.Hiring,"Hired new "+ type + " " +employee.getName());
@@ -59,26 +53,17 @@ abstract class OpenShop extends DailyActivity{
             else//error making employee type
                 FNCDsim.broker.errorOut("type "+ type + " employees not added");
         }
-
     }
 
     //add one new vehicle based on type to current inventory list
     private static void addInventory(int size, Enums.VehicleType type) {
-        Vehicle vehicle = null;
+        Vehicle vehicle;
+        //OO factory pattern: using the Vehicle factory to create new instances of vehicles
+        VehicleFactory factory = new MakeCars();
         //get the inventory based on type
-        for(int i =0 ; i<4-size; i++) {
-            if(Objects.equals(type, Enums.VehicleType.Car))
-                vehicle=new Car();
-            else if(Objects.equals(type, Enums.VehicleType.PerfCar))
-                vehicle = new Performance();
-            else if(Objects.equals(type, Enums.VehicleType.Pickup))
-                vehicle=new Pickup();
-            else if(Objects.equals(type, Enums.VehicleType.Motorcycle))
-                vehicle=new Motorcycle();
-            else if(Objects.equals(type, Enums.VehicleType.Electric))
-                vehicle=new Electric();
-            else if(Objects.equals(type, Enums.VehicleType.Monster))
-                vehicle=new MonsterTruck();
+        for(int i =0 ; i<6-size; i++) {
+            vehicle=null;
+            vehicle=factory.buyCars(type);
             //If type given matches the current types to add then add/remove cost from funds
             if(vehicle!=null)
             {

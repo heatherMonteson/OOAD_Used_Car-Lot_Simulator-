@@ -3,6 +3,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.io.FileWriter;
+//OO patterns:
+
+//SINGLETON with lazy instantiation
+
 //OBSERVER
 //Takes in all the events and just converts them to a single string to write out to a file
 //Tracking information about: Selling, Racing, Emergency (funds), Washing, and Fixing **using enums as flags
@@ -12,11 +16,23 @@ public class Logger implements Observer {
     InformationBroker broker;
     private boolean writeAvailable;
     private String fileName;
+    private volatile static Logger uniqueLogger;
 
-    Logger(InformationBroker broker){
-        this.broker=broker;
+    private Logger(){
+        this.broker=FNCDsim.broker;
         this.broker.registerObserver(this);
         writeAvailable=false;//set false until a file connection is set up
+    }
+
+    public static Logger getLogger(){
+        if(uniqueLogger==null){ //using lazy instantiation with double check locking
+            synchronized (Logger.class){
+                if(uniqueLogger==null){
+                    uniqueLogger=new Logger();
+                }
+            }
+        }
+        return uniqueLogger;
     }
 
     /////////////////////////////////////////////////////////////////////////////////////

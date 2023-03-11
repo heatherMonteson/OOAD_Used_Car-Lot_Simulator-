@@ -2,6 +2,7 @@ package FNCDsim.src;
 
 import java.util.ArrayList;
 import java.util.List;
+//OO patterns
 
 //OBSERVER: Part of the observer implementation is the information broker. All state and financial updates are sent to the broker
 //the updates are also connected to some enum flag so that the observers can determine if they want to take the information or not

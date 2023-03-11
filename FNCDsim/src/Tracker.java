@@ -2,6 +2,9 @@ package FNCDsim.src;
 
 
 import java.util.HashMap;
+//OO patterns:
+
+//SINGLETON with eager instantiation
 
 //OBSERVER: accepting information from the publisher (informationBroker) to increment the total sales and total
 //amount all employees have made. Storing in a hash map FNCD-->amount made by dealership, Staff--> amount made by staff
@@ -11,13 +14,18 @@ import java.util.HashMap;
 public class Tracker implements Observer{
     HashMap<String, Double> tracker = new HashMap<String , Double>();
     InformationBroker broker;
+    private static Tracker uniqueTracker = new Tracker();
 
-    Tracker(InformationBroker broker){
-        this.broker=broker;
+    private Tracker(){
+        this.broker=FNCDsim.broker;
         this.tracker.put("Day", 0.0);
         this.tracker.put("Staff", 0.0);
         this.tracker.put("FNCD", 0.0);
         broker.registerObserver(this);
+    }
+
+    public static Tracker getTracker(){
+        return uniqueTracker;
     }
 
     public void showTracker(){

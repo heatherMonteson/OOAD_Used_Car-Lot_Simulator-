@@ -42,12 +42,9 @@ public class FNCDsim implements Utility {
     //run through the daily tasks based on the given run time
     public void run(int runTime) {
 
-        Tracker tracker = new Tracker(broker);
-        Logger logger;
-
         //run through the simulation based on the number of days set to run
+        Logger.getLogger(); //wakeup logger to register with the broker
         for (int i =1; i<=runTime; i++){
-            logger=new Logger(broker);
             today.newDay();
             broker.out(Enums.EventType.NewDay, today.getNumDays());
             OpenShop.openShop();
@@ -57,8 +54,7 @@ public class FNCDsim implements Utility {
             if(today.getToday()==7 || today.getToday()==3)
                 Race.race();//race on wed. and sun.
             EndOfDay.endOfDay();
-            broker.removeObserver(logger);
-            tracker.showTracker();
+            Tracker.getTracker().showTracker();
         }
     }
 
