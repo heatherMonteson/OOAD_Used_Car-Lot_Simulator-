@@ -38,6 +38,12 @@ public class Logger implements Observer {
     /////////////////////////////////////////////////////////////////////////////////////
     ///All update methods:pull out expected event types and event to add to the file ////
     /////////////////////////////////////////////////////////////////////////////////////
+    public void update(String event) {//adding updates based on activity per dealership 
+        this.event=event;
+        if(writeAvailable)
+            write();
+    }
+
     public void update(Enums.EventType eventType, int dayNumber){//updating the current day variable
         if(Enums.EventType.NewDay==eventType){
             try{
@@ -53,6 +59,7 @@ public class Logger implements Observer {
                 write();
         }
     }
+
     public void update(Enums.EventType eventType, String event){
         if(Enums.EventType.Selling==eventType||Enums.EventType.Emergency==eventType||Enums.EventType.Racing==eventType|| Enums.EventType.Washing==eventType||Enums.EventType.Fixing==eventType ){
             this.event=eventType + ": " + event;
@@ -74,14 +81,6 @@ public class Logger implements Observer {
                 write();
         }
     }
-    //Salary pay added to total staff pay
-//    public void update(Enums.EventType eventType, double  pay){
-//        if(eventType==Enums.EventType.PaySalary) {
-//            this.event=eventType + ": $"+ pay + " removed from FNCD budget" ;
-//            if(writeAvailable)
-//                write();
-//        }
-//    }
 
     ////////////////////////////////////////////////////////////////////////
     //////   logger file handling    ///////////////////////////////////////

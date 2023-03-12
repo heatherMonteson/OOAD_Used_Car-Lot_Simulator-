@@ -6,4 +6,6 @@ public class Enums {
     public enum VehicleType {Car, PerfCar, Pickup, Monster, Motorcycle, Electric}
     public enum StaffType {Intern, Mechanic, Salesperson, Driver}
     public enum EventType {Emergency, Selling, Fixing, Washing, Racing, NewDay, PaySalary, Buying, Opening, Hiring, Promoting, Quitting}
+    public enum FNCD_location {FNCD_North, FNCD_South}
+
 }

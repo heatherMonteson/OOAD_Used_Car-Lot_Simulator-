@@ -8,7 +8,6 @@ public abstract class VehicleFactory {
         return makeCars(type);
     }
     protected abstract Vehicle makeCars(Enums.VehicleType type);
-
 }
 
 class MakeCars extends VehicleFactory {

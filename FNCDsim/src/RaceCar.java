@@ -32,7 +32,6 @@ public interface RaceCar{
         return raceCars;
     }
 
-
     static void doRace(ArrayList<Driver> drivers, ArrayList<Vehicle> raceCars){
         ArrayList<Integer> list = new ArrayList<Integer>(); //citation at top
         for (int i=1; i<21; i++) list.add(i);
@@ -82,8 +81,7 @@ public interface RaceCar{
                 int rand = Utility.findValue(1,100);
                 if (rand <= 30){
                     //racer injured stuff here
-                    FNCDsim.departedStaff.add(driver);
-                    FNCDsim.currentStaff.remove(driver);
+                    FNCDsim.removeStaff(driver);
                     FNCDsim.broker.out(Enums.EventType.Racing, driver.getName() + " driving " + raceCar.getName() + " has placed " + list.get(counter) + " in the race. Vehicle is now damaged and driver is injured and will not longer race.");
                 }
                 else

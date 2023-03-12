@@ -1,7 +1,6 @@
 package FNCDsim.src;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 /*
 OOAD principal polymorphism and identity examples:
@@ -18,45 +17,132 @@ parent class, have different methods/behaviors from each-other and thus have dif
 public class FNCDsim implements Utility {
 
     public static ArrayList<Employee> departedStaff;
-    public static ArrayList<Employee> currentStaff;
-    public static ArrayList<Vehicle> inventory;
+    private static ArrayList<Employee> northStaff;
+    private static ArrayList<Employee> southStaff;
+    private static ArrayList<Vehicle> northInventory;
+    private static ArrayList<Vehicle> southInventory;
     public static ArrayList<Vehicle> soldInventory;
     private static double accountBalance;
     private static double totalSales;
     Days today = new Days();
-
-    //send all output through the broker FNCDsim.broker.out(<args>) from outside of simulation class
-    //See InformationBroker for overloaded method information formats. Using Enums as tags for specifying data
-    //errors sent to FNCDsim.broker.errorOut(<args>)
     public static InformationBroker broker;
+    static Enums.FNCD_location currentDealership;
 
     FNCDsim(){
           departedStaff=new ArrayList<>();
-          currentStaff=new ArrayList<>();
-          inventory=new ArrayList<>();
-          soldInventory=new ArrayList<>();
+          soldInventory=new ArrayList<Vehicle>();
+          northStaff=new ArrayList<Employee>();
+          southStaff=new ArrayList<>();
+          northInventory=new ArrayList<Vehicle>();
+          southInventory=new ArrayList<Vehicle>();
           accountBalance=500000.0;
           totalSales=0.0;
           broker=new InformationBroker();
+        switchDealerships();//just set dealership
     }
+
     //run through the daily tasks based on the given run time
     public void run(int runTime) {
 
         //run through the simulation based on the number of days set to run
-        Logger.getLogger(); //wakeup logger to register with the broker
+        Logger.getLogger();
+        Tracker.getTracker();
         for (int i =1; i<=runTime; i++){
             today.newDay();
             broker.out(Enums.EventType.NewDay, today.getNumDays());
-            OpenShop.openShop();
-            WashCars.washCars();
-            FixCars.fixCars();
-            SellCars.sellCars(today.getToday());
-            if(today.getToday()==7 || today.getToday()==3)
-                Race.race();//race on wed. and sun.
-            EndOfDay.endOfDay();
+            for(int j=1; j<=2; j++){
+                switchDealerships();
+                OpenShop.openShop();
+            }
+            for(int j=1; j<=2; j++){
+                switchDealerships();
+                WashCars.washCars();
+            }
+            for(int j=1; j<=2; j++){
+                switchDealerships();
+                FixCars.fixCars();
+            }
+            for(int j=1; j<=2; j++){
+                switchDealerships();
+                SellCars.sellCars(today.getToday());
+            }
+
+            if(today.getToday()==7 || today.getToday()==3) {
+                for(int j=1; j<=2; j++){
+                    switchDealerships();
+                    Race.race();//race on wed. and sun.
+                }
+            }
+            for(int j=1; j<=2; j++){
+                switchDealerships();
+                EndOfDay.endOfDay();
+            }
             Tracker.getTracker().showTracker();
         }
     }
+
+    private void switchDealerships(){
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            currentDealership= Enums.FNCD_location.FNCD_North;
+        else
+            currentDealership=Enums.FNCD_location.FNCD_South;
+    }
+
+    public static ArrayList<Vehicle> inventory(){
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            return southInventory;
+        else
+            return northInventory;
+    }
+
+    public static ArrayList<Employee> currentStaff(){
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            return southStaff;
+        else
+            return northStaff;
+    }
+
+    public static void addStaff(Employee employee){
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            southStaff.add(employee);
+        else
+            northStaff.add(employee);
+    }
+
+    public static void addVehicle(Vehicle vehicle){
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            southInventory.add(vehicle);
+        else
+            northInventory.add(vehicle);
+    }
+
+    public static void removeStaff(Employee employee){
+        departedStaff.add(employee);
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            southStaff.remove(employee);
+        else
+            northStaff.remove(employee);
+    }
+
+    //Only use for promoting interns, does not add to departed list
+    public static void removeIntern(Employee employee){
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            southStaff.remove(employee);
+        else
+            northStaff.remove(employee);
+    }
+
+    public static void removeVehicle(Vehicle vehicle){
+        soldInventory.add(vehicle);
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+            southInventory.remove(vehicle);
+        else
+            northInventory.remove(vehicle);
+    }
+    public static Enums.FNCD_location getCurrentDealership() {
+        return currentDealership;
+    }
+
 
     ///////////////////////////////////////////////////
     //      ALL FINANCIAL METHODS FOR THE FNCD       //
@@ -71,8 +157,8 @@ public class FNCDsim implements Utility {
         broker.out(Enums.EventType.Emergency,"Emergency funds of $"+250000.0+" added to the FNCD budget", 250000.0 );
     }
     public static void addSales(double sales){
-       totalSales= Utility.format(sales+totalSales);
-       accountBalance=Utility.format(accountBalance+sales);
+        totalSales= Utility.format(sales+totalSales);
+        accountBalance=Utility.format(accountBalance+sales);
     }
     public static double getTotalSales(){
         return totalSales;
