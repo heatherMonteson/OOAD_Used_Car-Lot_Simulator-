@@ -206,7 +206,6 @@ abstract class SellCars extends DailyActivity{
             sellCar=salesPerson.sellCar(customer, sellableCars);
 
             if(sellCar!=null){
-                FNCDsim.soldInventory.add(sellCar);
                 sellableCars.remove(sellCar);
                 FNCDsim.removeVehicle(sellCar);
             }
