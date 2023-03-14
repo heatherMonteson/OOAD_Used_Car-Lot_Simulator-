@@ -59,6 +59,8 @@ public class FNCDsim implements Utility {
             EndOfDay.endOfDay();
             broker.removeObserver(logger);
             tracker.showTracker();
+            CLSim.CLSimRun(i); //pass in day
+           
         }
     }
 
@@ -85,4 +87,8 @@ public class FNCDsim implements Utility {
         return Utility.format(accountBalance);
     }
 
+
+    public static ArrayList<Vehicle> getInventory(){
+        return inventory;
+    } 
 }
