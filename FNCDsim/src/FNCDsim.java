@@ -13,7 +13,7 @@ parent class, have different methods/behaviors from each-other and thus have dif
 
 //Running daily tasks through classes for daily tasks. Tasks access the inventory and staff arrays
 //employees and tasks access/adjust account methods, see comments on each class for specifics
-
+//Currently running with 2 FNCDs
 public class FNCDsim implements Utility {
 
     public static ArrayList<Employee> departedStaff;
@@ -22,8 +22,10 @@ public class FNCDsim implements Utility {
     private static ArrayList<Vehicle> northInventory;
     private static ArrayList<Vehicle> southInventory;
     public static ArrayList<Vehicle> soldInventory;
-    private static double accountBalance;
+    private static double accountBalanceNorth;
+    private static double accountBalanceSouth;
     private static double totalSales;
+    private static double accountBalance;
     Days today = new Days();
     public static InformationBroker broker;
     static Enums.FNCD_location currentDealership;
@@ -35,6 +37,8 @@ public class FNCDsim implements Utility {
           southStaff=new ArrayList<>();
           northInventory=new ArrayList<Vehicle>();
           southInventory=new ArrayList<Vehicle>();
+          accountBalanceSouth=500000.0;
+          accountBalanceNorth=500000.0;
           accountBalance=500000.0;
           totalSales=0.0;
           broker=new InformationBroker();
@@ -50,6 +54,8 @@ public class FNCDsim implements Utility {
         for (int i =1; i<=runTime; i++){
             today.newDay();
             broker.out(Enums.EventType.NewDay, today.getNumDays());
+
+            //loops for each of the dealerships daily activities
             for(int j=1; j<=2; j++){
                 switchDealerships();
                 OpenShop.openShop();
@@ -66,7 +72,6 @@ public class FNCDsim implements Utility {
                 switchDealerships();
                 SellCars.sellCars(today.getToday());
             }
-
             if(today.getToday()==7 || today.getToday()==3) {
                 for(int j=1; j<=2; j++){
                     switchDealerships();
@@ -81,11 +86,18 @@ public class FNCDsim implements Utility {
         }
     }
 
-    private void switchDealerships(){
-        if(currentDealership== Enums.FNCD_location.FNCD_South)
-            currentDealership= Enums.FNCD_location.FNCD_North;
-        else
-            currentDealership=Enums.FNCD_location.FNCD_South;
+    public void switchDealerships(){
+        if(currentDealership== Enums.FNCD_location.FNCD_South) {
+            currentDealership = Enums.FNCD_location.FNCD_North;
+            //switch accounts
+            accountBalanceSouth= accountBalance;
+            accountBalance=accountBalanceNorth;
+        }
+        else {
+            currentDealership = Enums.FNCD_location.FNCD_South;
+            accountBalanceNorth=accountBalance;
+            accountBalance=accountBalanceSouth;
+        }
     }
 
     public static ArrayList<Vehicle> inventory(){

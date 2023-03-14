@@ -68,7 +68,7 @@ public class Logger implements Observer {
         }
     }
     public void update(Enums.EventType eventType, String event, double bonusOrEmergency){
-        if(Enums.EventType.Selling==eventType||Enums.EventType.Emergency==eventType||Enums.EventType.Racing==eventType|| Enums.EventType.Washing==eventType||Enums.EventType.Fixing==eventType ){
+        if(Enums.EventType.Selling==eventType||Enums.EventType.Opening==eventType||Enums.EventType.Emergency==eventType||Enums.EventType.Racing==eventType|| Enums.EventType.Washing==eventType||Enums.EventType.Fixing==eventType ){
             this.event=eventType + ": " + event;
             if(writeAvailable)
                 write();

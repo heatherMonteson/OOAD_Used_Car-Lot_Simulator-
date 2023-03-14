@@ -9,6 +9,7 @@ inventory.remove(sellCar);
 //Daily activity carried out at the FNCD broken up by type
 //Accessing and updating static variables from the simulation class
 //NOTE: make monetary updates through the getter and setters of the FNCD simulation class
+//New: getters and setter for both dealership inventory/staff lists
 import java.util.ArrayList;
 import java.util.Objects;
 
