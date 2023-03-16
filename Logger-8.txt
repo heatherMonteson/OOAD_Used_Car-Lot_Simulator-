@@ -1,0 +1,63 @@
+Day number :8
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $579000.14
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $152446.27
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Carson K. cleaned Monster KO using Chemical Clean and made it Clean
+Washing: Intern Carson K. cleaned Motorcycle Black Lightning using Chemical Clean and made it Clean
+Washing: Intern Sher R. cleaned PerfCar Spider using Elbow Grease and made it Clean
+Washing: Intern Faisal P. cleaned PerfCar Divo0 using Detailing and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Aleem Y. cleaned Pickup D-Max using Chemical Clean and made it Clean
+Washing: Intern Nathan F. cleaned PerfCar Valhalla0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Seb R. cleaned Electric Lightning0 using Chemical Clean and made it Clean
+Washing: InternSeb R. broke the Electric Lightning0 while cleaning and made it Broken
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Zak E. fixed the Bulldozer and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Puneetpaul S. fixed the Black Lightning and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Black Lightning was downgraded to Dirty
+Fixing: Mechanic Zak E. fixed the Terminator0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Herbert D. fixed the Spider and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Spider was downgraded to Dirty
+Fixing: Mechanic Puneetpaul S. fixed the Divo0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Divo0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Rahil G. fixed the Valhalla0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Valhalla0 was downgraded to Clean
+Fixing: Mechanic Kiern K. fixed the Accent and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Accent was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Lightning0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Lightning0 was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the Tiger0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Tiger0 was downgraded to Dirty
+Fixing: Mechanic Kiern K. fixed the Elantra and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Elantra was downgraded to Clean
+Fixing: Mechanic Alum A. fixed the Compass0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Compass0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

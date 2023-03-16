@@ -28,10 +28,11 @@ public interface Utility {
     //from a lower and upper bound generate a random number in that range
     // returns an int
     static int findValue(int lower, int upper){
-
         Random random=new Random();
-        int value= random.nextInt(lower, upper+1);
-
+        //int value = random.nextInt(lower, upper+1);
+        //this fixed the error: This will generate a random integer between 0 and upper - lower,
+        // then add lower to the result to shift the range to be between lower and upper.
+        int value = random.nextInt(upper - lower + 1) + lower;
         return value;
     }
 

@@ -1,0 +1,60 @@
+Day number :27
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1400865.75
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $1187858.19
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Antoni L. cleaned PerfCar Viper0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Leyland A. cleaned Electric ARIYA using Detailing and made it Clean
+Washing: Intern Antoni L. cleaned Car Camry using Detailing and made it Clean
+Washing: Intern Leyland A. cleaned Pickup F150 1 using Detailing and made it Clean
+Washing: Intern Bruin L. cleaned PerfCar Cobra0 using Detailing and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Rohan P. cleaned Monster Big Foot0 using Elbow Grease and made it Clean
+Washing: Intern McKay Q. cleaned Motorcycle Tiger using Elbow Grease and made it Clean
+Washing: Intern Rohan P. cleaned Pickup Raptor1 using Elbow Grease and made it Clean
+Washing: Intern John-Michael G. cleaned PerfCar Owl using Chemical Clean and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Sher R. fixed the Viper0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Viper0 was downgraded to Clean
+Fixing: Mechanic Zijie E. fixed the Cobra0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Cobra0 was downgraded to Clean
+Fixing: Mechanic Kogan K. fixed the Boldie1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Boldie1 was downgraded to Dirty
+Fixing: Mechanic Sher R. fixed the Getaway and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Victor1 was downgraded to Dirty
+Fixing: Mechanic Kogan K. fixed the F150 1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150 1 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Alum A. fixed the Tiger and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Tiger was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Nikos J. sold the Colorado3 Pickup for $36849.06  (earned a $3500.0 bonus)
+Selling: Salesperson Makensie W. sold the Ram Pickup for $55623.7  (earned a $3500.0 bonus)
+Selling: Salesperson Faisal P. sold the F150 1 Pickup for $59628.22  (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Seb R. sold the Leaf Plus Electric for $59935.58 Add-ons: Extended Warranty for $9589.69 Undercoating for $2397.42 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

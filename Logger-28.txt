@@ -1,0 +1,73 @@
+Day number :28
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1456769.53
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $1244441.39
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Antoni L. cleaned PerfCar Victor1 using Detailing and made it Clean
+Washing: Intern Leyland A. cleaned Pickup Frontier2 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Antoni L. cleaned PerfCar Boldie1 using Detailing and made it Clean
+Washing: Intern Bruin L. cleaned Monster Mega Crush using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern McKay Q. cleaned Motorcycle Katana using Elbow Grease and made it Clean
+Washing: Intern John-Michael G. cleaned Car Avalon0 using Chemical Clean and made it Clean
+Washing: Intern Rohan P. cleaned Motorcycle Tiger using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Sher R. fixed the Boldie1 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Boldie1 was downgraded to Dirty
+Fixing: Mechanic Zijie E. fixed the Frontier2 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Frontier2 was downgraded to Clean
+Fixing: Mechanic Kogan K. fixed the Frontier0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Sher R. fixed the Cobra0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Cobra0 was downgraded to Dirty
+Fixing: Mechanic Zijie E. fixed the Raptor2 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Raptor2 was downgraded to Dirty
+Fixing: Car cleanliness for the Victor1 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Nikos J. sold the Getaway PerfCar for $35496.42  (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Pravin W. sold the Elantra1 Car for $36061.68 Add-ons: Extended Warranty for $5505.6 Undercoating for $1376.4 Satellite Radio for $1651.68 (earned a $1000.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver David R. is racing the Monster Worrier
+Racing: Driver Russell Y. is racing the Monster Mega Crush
+Racing: Driver Malikye S. is racing the Monster Bulldozer
+Racing: David R. driving Worrier has placed 13 in the race.
+Racing: Russell Y. driving Mega Crush has placed 12 in the race.
+Racing: Malikye S. driving Bulldozer has placed 14 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Ruairi Y. is racing the Pickup Colorado0
+Racing: Driver Clyde D. is racing the Pickup D-Max
+Racing: Driver Lysander G. is racing the Pickup Colorado2
+Racing: Ruairi Y. driving Colorado0 has placed 7 in the race.
+Racing: WINNER! Clyde D. driving D-Max has placed 2 in the race. (new sale price $297870.17, driver bonus $300.0)
+Racing: That's 3 win(s) for Clyde D. and 1 win(s) for the D-Max
+Racing: Lysander G. driving Colorado2 has placed 10 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

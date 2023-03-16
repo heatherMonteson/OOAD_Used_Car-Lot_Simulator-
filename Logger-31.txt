@@ -1,0 +1,70 @@
+Day number :31
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1627018.65
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $1360050.8
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Antoni L. cleaned Monster Convict using Detailing and made it Clean
+Washing: Intern Leyland A. cleaned Monster Killer using Detailing and made it Clean
+Washing: Intern Antoni L. cleaned Pickup F150  using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Leyland A. cleaned Car Escape using Detailing and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Malik W. cleaned Pickup D-Max using Chemical Clean and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Sher R. fixed the Killer and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Killer was downgraded to Dirty
+Fixing: Mechanic Zijie E. fixed the Convict and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Convict was downgraded to Dirty
+Fixing: Mechanic Kogan K. fixed the Sudden Impact1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Sudden Impact1 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Alum A. fixed the D-Max and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the D-Max was downgraded to Clean
+Fixing: Mechanic Aleem Y. fixed the Mega Crush0 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Makensie W. sold the Killer Monster for $56368.85  (earned a $4000.0 bonus)
+Selling: Salesperson Nikos J. sold the BMW i30 Electric for $63097.18 Add-ons: Undercoating for $3004.62 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver David R. is racing the PerfCar Spider
+Racing: Driver Russell Y. is racing the PerfCar Victor1
+Racing: Driver Malikye S. is racing the PerfCar Boldie1
+Racing: WINNER! David R. driving Spider has placed 3 in the race. (new sale price $164728.96, driver bonus $450.0)
+Racing: That's 3 win(s) for David R. and 1 win(s) for the Spider
+Racing: Russell Y. driving Victor1 has placed 5 in the race.
+Racing: Malikye S. driving Boldie1 has placed 12 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Ruairi Y. is racing the PerfCar Owl
+Racing: Driver Clyde D. is racing the PerfCar Stealth1
+Racing: Driver Lysander G. is racing the PerfCar Owl0
+Racing: Ruairi Y. driving Owl has placed 10 in the race.
+Racing: Clyde D. driving Stealth1 has placed 11 in the race.
+Racing: Lysander G. driving Owl0 has placed 20 in the race. Vehicle is now damaged and driver is injured and will not longer race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

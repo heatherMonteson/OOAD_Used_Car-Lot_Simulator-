@@ -1,0 +1,62 @@
+Day number :25
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1050825.1
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $1186225.17
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Kogan K. cleaned Monster Bulldozer using Detailing and made it Clean
+Washing: Intern Antoni L. cleaned Monster Mega Crush using Detailing and made it Clean
+Washing: Intern Antoni L. cleaned PerfCar Spider using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Leyland A. cleaned PerfCar Prowler using Detailing and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Brandyn H. cleaned Monster Destructor0 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Layne Q. cleaned Monster Big Foot0 using Elbow Grease and made it Clean
+Washing: Intern Rohan P. cleaned Electric I-Pace using Elbow Grease and made it Clean
+Washing: Intern Brandyn H. cleaned Pickup Colorado2 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Layne Q. cleaned Pickup Tacoma0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Sher R. fixed the Bulldozer and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bulldozer was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Rahil G. fixed the Bandit and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Bandit was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Destructor0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Destructor0 was downgraded to Clean
+Fixing: The I-Pace has an improved range of 274 miles
+Fixing: Mechanic Aleem Y. fixed the I-Pace and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the I-Pace was downgraded to Dirty
+Fixing: The Leaf Plus has an improved range of 278 miles
+Fixing: Mechanic Rahil G. fixed the Leaf Plus and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Alum A. fixed the Big Foot0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Big Foot0 was downgraded to Dirty
+Fixing: Mechanic Aleem Y. fixed the Raptor1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Raptor1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Nikos J. sold the Sierra0 Pickup for $21021.79 Add-ons: Undercoating for $1001.03 (earned a $3500.0 bonus)
+Selling: Salesperson Makensie W. sold the Mega Crush1 Monster for $63957.6  (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Pravin W. sold the Avalon Car for $29332.4 Add-ons: Satellite Radio for $1396.78 (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

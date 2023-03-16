@@ -1,0 +1,79 @@
+Day number :24
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1055757.73
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $1381201.42
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Kruz R. cleaned Electric ARIYA using Chemical Clean and made it Clean
+Washing: Intern Kogan K. cleaned Pickup F150  using Detailing and made it Clean
+Washing: Intern Kruz R. cleaned Car Escape using Chemical Clean and made it Clean
+Washing: Intern Kogan K. cleaned Car Elantra0 using Detailing and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Chukwuemeka J. cleaned Pickup Raptor1 using Chemical Clean and made it Sparkling(earned bonus $450.0)
+Washing: Intern Brandyn H. cleaned Motorcycle Sportster0 using Detailing and made it Clean
+Washing: Intern Layne Q. cleaned Electric Leaf Plus using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Herbert D. fixed the Bulldozer and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Sher R. fixed the Camry and made it like LikeNew(earned a $450.0 bonus)
+Fixing: The ARIYA has an improved range of 571 miles
+Fixing: Mechanic Zijie E. fixed the ARIYA and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the ARIYA was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: The Solterra has an improved range of 485 miles
+Fixing: Mechanic Rahil G. fixed the Solterra and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Solterra was downgraded to Clean
+Fixing: Mechanic Alum A. fixed the Raptor1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Raptor1 was downgraded to Clean
+Fixing: The BMW i31 has an improved range of 469 miles
+Fixing: Mechanic Aleem Y. fixed the BMW i31 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Rahil G. fixed the Big Foot0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Big Foot0 was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Destructor0 and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Aleem Y. fixed the Leaf Plus and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Leaf Plus was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Pravin W. sold the Thunderbolt Motorcycle for $16626.9 Add-ons: Undercoating for $755.76 Satellite Radio for $755.76 (earned a $1500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver David R. is racing the Pickup Colorado
+Racing: Driver Russell Y. is racing the Pickup F150 
+Racing: Driver Malikye S. is racing the Pickup Sierra0
+Racing: WINNER! David R. driving Colorado has placed 3 in the race. (new sale price $134935.05, driver bonus $300.0)
+Racing: That's 2 win(s) for David R. and 1 win(s) for the Colorado
+Racing: Russell Y. driving F150  has placed 5 in the race.
+Racing: Malikye S. driving Sierra0 has placed 13 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Ruairi Y. is racing the Motorcycle Tiger
+Racing: Driver Clyde D. is racing the Motorcycle Bandit
+Racing: Driver Lysander G. is racing the Motorcycle Sportster0
+Racing: Ruairi Y. driving Tiger has placed 19 in the race. Vehicle is now damaged.
+Racing: Clyde D. driving Bandit has placed 18 in the race. Vehicle is now damaged.
+Racing: Lysander G. driving Sportster0 has placed 5 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

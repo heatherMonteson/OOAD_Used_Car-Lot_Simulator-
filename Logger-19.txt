@@ -1,0 +1,64 @@
+Day number :19
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $753453.93
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $722006.99
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Zijie E. cleaned Monster Sudden Impact0 using Chemical Clean and made it Clean
+Washing: Intern Torsten Q. tried to clean Pickup F150  using Elbow Grease but made it Dirty
+Washing: Intern Nikos J. cleaned Motorcycle Bullet using Elbow Grease and made it Sparkling(earned bonus $150.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Seb R. cleaned Electric Hummer EV using Chemical Clean and made it Clean
+Washing: InternSeb R. broke the Electric Hummer EV while cleaning and made it Broken
+Washing: Intern Chukwuemeka J. cleaned PerfCar Spider0 using Chemical Clean and made it Clean
+Washing: Intern Taliesin I. cleaned Monster Terminator1 using Detailing and made it Clean
+Washing: Intern Seb R. cleaned PerfCar Prelude using Chemical Clean and made it Clean
+Washing: Intern Chukwuemeka J. cleaned Pickup Colorado0 using Chemical Clean and made it Sparkling(earned bonus $450.0)
+Washing: InternChukwuemeka J. broke the Pickup Colorado0 while cleaning and made it Broken
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Zak E. fixed the F150  and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Herbert D. fixed the Sudden Impact0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Sudden Impact0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Colorado0 was downgraded to Clean
+Fixing: Mechanic Alum A. fixed the Spider0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Spider0 was downgraded to Dirty
+Fixing: Mechanic Aleem Y. fixed the Sportback and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the Hummer EV and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Hummer EV was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Dailey T. sold the Leaf Electric for $63784.63 Add-ons: Extended Warranty for $10630.77 (earned a $3500.0 bonus)
+Selling: Salesperson Faisal P. sold the Taycan Electric for $55817.28  (earned a $3500.0 bonus)
+Selling: Salesperson Makensie W. sold the Mustang0 PerfCar for $54596.78  (earned a $4000.0 bonus)
+Selling: Salesperson Dailey T. sold the BMW i3 Electric for $59350.58  (earned a $3500.0 bonus)
+Selling: Salesperson Makensie W. sold the MX-30 Electric for $70055.64 Add-ons: Satellite Radio for $3335.98 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 7 customers looking to purchase vehicles today
+Selling: Salesperson Pravin W. sold the Sportster Motorcycle for $21462.68 Add-ons: Satellite Radio for $1022.03 (earned a $1500.0 bonus)
+Selling: Salesperson Pravin W. sold the Tiger0 Motorcycle for $20441.88  (earned a $1500.0 bonus)
+Selling: Salesperson Keiran X. sold the 2Xtream0 Monster for $65993.08  (earned a $4000.0 bonus)
+Selling: Salesperson Keiran X. sold the Spitfire Motorcycle for $42538.1 Add-ons: Satellite Radio for $2025.62 (earned a $1500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

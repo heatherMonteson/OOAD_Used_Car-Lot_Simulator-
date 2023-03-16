@@ -1,0 +1,59 @@
+Day number :9
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $502764.86
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $146488.46
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Carson K. cleaned Motorcycle Bullet using Chemical Clean and made it Sparkling(earned bonus $150.0)
+Washing: Intern Faisal P. cleaned PerfCar Divo0 using Detailing and made it Clean
+Washing: Intern Carson K. cleaned Monster Terminator0 using Chemical Clean and made it Clean
+Washing: Intern Sher R. cleaned Motorcycle Black Lightning using Elbow Grease and made it Clean
+Washing: Intern Faisal P. cleaned PerfCar Stealth0 using Detailing and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Aleem Y. cleaned Car Accent using Chemical Clean and made it Sparkling(earned bonus $250.0)
+Washing: Intern Seb R. cleaned Monster Mega Crush0 using Chemical Clean and made it Clean
+Washing: Intern Aleem Y. cleaned Electric Lightning0 using Chemical Clean and made it Clean
+Washing: Intern Seb R. cleaned Monster Terminator using Chemical Clean and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Zak E. fixed the Spider and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Herbert D. fixed the Bullet and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Bullet was downgraded to Clean
+Fixing: Mechanic Puneetpaul S. fixed the Bulldozer and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Rahil G. fixed the Tiger0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Terminator was downgraded to Clean
+Fixing: Mechanic Alum A. fixed the Mega Crush0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Mega Crush0 was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the Elantra and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Elantra was downgraded to Dirty
+Fixing: The Lightning0 has an improved range of 280 miles
+Fixing: Mechanic Kiern K. fixed the Lightning0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Lightning0 was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Owl and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Owl was downgraded to Clean
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

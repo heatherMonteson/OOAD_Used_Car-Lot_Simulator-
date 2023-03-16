@@ -1,0 +1,67 @@
+Day number :5
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $302253.13
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $316432.88
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Brian J. cleaned Pickup Sierra0 using Detailing and made it Clean
+Washing: Intern Carson K. cleaned Monster Mega Crush using Chemical Clean and made it Clean
+Washing: InternCarson K. broke the Monster Mega Crush while cleaning and made it Broken
+Washing: Intern Rice Q. cleaned Monster KO using Chemical Clean and made it Clean
+Washing: Intern Brian J. cleaned Motorcycle Magna using Detailing and made it Sparkling(earned bonus $150.0)
+Washing: InternCarson K. broke the Motorcycle Black Lightning while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Aleem Y. cleaned Pickup Raptor0 using Chemical Clean and made it Clean
+Washing: Intern Alum A. cleaned Car Compass0 using Chemical Clean and made it Clean
+Washing: Intern Aleem Y. cleaned Car Avalon using Chemical Clean and made it Clean
+Washing: Intern Alum A. cleaned Pickup D-Max using Chemical Clean and made it Clean
+Washing: InternAlum A. broke the Pickup D-Max while cleaning and made it Broken
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Tylar U. fixed the Bullet0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Zak E. fixed the Boldie and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Herbert D. fixed the Sierra0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Sierra0 was downgraded to Dirty
+Fixing: Mechanic Tylar U. fixed the Mega Crush and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Mega Crush was downgraded to Dirty
+Fixing: Mechanic Zak E. fixed the Magna and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Magna was downgraded to Clean
+Fixing: Mechanic Herbert D. fixed the Edge and made it like Used(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Valhalla0 was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the D-Max and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the D-Max was downgraded to Dirty
+Fixing: Mechanic Abdurraheem G. fixed the Passat and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Passat was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the Sudden Impact and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Kiern K. fixed the Destructor and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Destructor was downgraded to Clean
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Norman V. sold the Boldie PerfCar for $69271.76 Add-ons: Satellite Radio for $3298.65 (earned a $4000.0 bonus)
+Selling: Salesperson Kenzy A. sold the Valhalla PerfCar for $74258.68  (earned a $4000.0 bonus)
+Selling: Salesperson Norman V. sold the Cobra PerfCar for $93852.28 Add-ons: Extended Warranty for $15642.04 (earned a $4000.0 bonus)
+Selling: Salesperson Kenzy A. sold the Edge Car for $26761.5  (earned a $1000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

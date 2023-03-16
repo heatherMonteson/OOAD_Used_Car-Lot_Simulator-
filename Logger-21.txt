@@ -1,0 +1,79 @@
+Day number :21
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $921958.05
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $962548.72
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Kruz R. cleaned Electric Leaf1 using Chemical Clean and made it Clean
+Washing: InternKruz R. broke the Electric Leaf1 while cleaning and made it Broken
+Washing: Intern Torsten Q. cleaned Electric Taycan0 using Elbow Grease and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Brandyn H. cleaned Motorcycle Thunderbolt using Detailing and made it Clean
+Washing: Intern Maneet L. cleaned Motorcycle Sportster0 using Elbow Grease and made it Clean
+Washing: Intern Chukwuemeka J. cleaned Motorcycle Magna1 using Chemical Clean and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Herbert D. fixed the Leaf1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Leaf1 was downgraded to Dirty
+Fixing: The Taycan0 has an improved range of 311 miles
+Fixing: Mechanic Sher R. fixed the Taycan0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Taycan0 was downgraded to Clean
+Fixing: The Lightning1 has an improved range of 315 miles
+Fixing: Mechanic Zijie E. fixed the Lightning1 and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Rahil G. fixed the Thunderbolt and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Sportster0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Sportster0 was downgraded to Dirty
+Fixing: Mechanic Aleem Y. fixed the Colorado0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Colorado0 was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the Magna1 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Magna1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Nikos J. sold the Victor Motorcycle for $29648.62 Add-ons: Extended Warranty for $4941.43 (earned a $1500.0 bonus)
+Selling: Salesperson Nikos J. sold the Crosair Car for $34752.5  (earned a $1000.0 bonus)
+Selling: Salesperson Faisal P. sold the Lightning1 Electric for $38602.72  (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Seb R. sold the Ram0 Pickup for $26673.0 Add-ons: Extended Warranty for $4445.5 (earned a $3500.0 bonus)
+Selling: Salesperson Taliesin I. sold the Compass0 Car for $28595.24 Add-ons: Extended Warranty for $4765.87 (earned a $1000.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver David R. is racing the Monster Worrier
+Racing: Driver Russell Y. is racing the Monster Mega Crush
+Racing: Driver Malikye S. is racing the Monster Bulldozer
+Racing: David R. driving Worrier has placed 10 in the race.
+Racing: Russell Y. driving Mega Crush has placed 19 in the race. Vehicle is now damaged.
+Racing: Malikye S. driving Bulldozer has placed 15 in the race. Vehicle is now damaged.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Ruairi Y. is racing the PerfCar Owl
+Racing: Driver Clyde D. is racing the PerfCar Stealth1
+Racing: Driver Lysander G. is racing the PerfCar Owl0
+Racing: Ruairi Y. driving Owl has placed 15 in the race. Vehicle is now damaged.
+Racing: Clyde D. driving Stealth1 has placed 12 in the race.
+Racing: Lysander G. driving Owl0 has placed 5 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

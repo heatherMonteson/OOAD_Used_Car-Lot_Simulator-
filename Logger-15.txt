@@ -1,0 +1,57 @@
+Day number :15
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $761588.44
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $692809.65
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Carson K. cleaned Electric MX-30 using Chemical Clean and made it Clean
+Washing: Intern Zijie E. cleaned PerfCar Mustang using Chemical Clean and made it Clean
+Washing: Intern Nikos J. cleaned Car Accord using Elbow Grease and made it Clean
+Washing: Intern Carson K. cleaned PerfCar Prowler using Chemical Clean and made it Clean
+Washing: Intern Zijie E. cleaned Car Passport using Chemical Clean and made it Clean
+Washing: InternZijie E. broke the Car Passport while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Seb R. cleaned Monster Jacked Up using Chemical Clean and made it Clean
+Washing: Intern Seb R. cleaned Monster Bear Foot using Chemical Clean and made it Clean
+Washing: Intern Chukwuemeka J. cleaned Car Compass0 using Chemical Clean and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Zak E. fixed the Accord and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Accord was downgraded to Dirty
+Fixing: Mechanic Herbert D. fixed the F150  and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: Mechanic Sher R. fixed the Colorado and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Colorado was downgraded to Dirty
+Fixing: Mechanic Zak E. fixed the Passport and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Passport was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Rahil G. fixed the Terminator1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Alum A. fixed the D-Max and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the D-Max was downgraded to Dirty
+Fixing: Mechanic Aleem Y. fixed the 2Xtream0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Jacked Up was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

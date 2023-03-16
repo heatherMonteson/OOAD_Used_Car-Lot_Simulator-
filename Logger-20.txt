@@ -1,0 +1,71 @@
+Day number :20
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1041891.24
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $796950.05
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Zijie E. cleaned Electric ARIYA using Chemical Clean and made it Clean
+Washing: Intern Torsten Q. cleaned Electric BMW i30 using Elbow Grease and made it Clean
+Washing: Intern Nikos J. cleaned Monster Mega Crush1 using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Torsten Q. cleaned Pickup F150  using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Seb R. cleaned PerfCar Spider0 using Chemical Clean and made it Clean
+Washing: Intern Chukwuemeka J. cleaned Motorcycle Magna1 using Chemical Clean and made it Clean
+Washing: Intern Brandyn H. cleaned PerfCar Sportback using Detailing and made it Clean
+Washing: Intern Seb R. cleaned Motorcycle Katana using Chemical Clean and made it Clean
+Washing: Intern Chukwuemeka J. cleaned Electric Hummer EV using Chemical Clean and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Zak E. fixed the Taycan0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Taycan0 was downgraded to Dirty
+Fixing: The ARIYA has an improved range of 471 miles
+Fixing: Mechanic Herbert D. fixed the ARIYA and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the ARIYA was downgraded to Dirty
+Fixing: Mechanic Sher R. fixed the F150  and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: Mechanic Zak E. fixed the Leaf1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Leaf1 was downgraded to Dirty
+Fixing: The MX-300 has an improved range of 228 miles
+Fixing: Mechanic Herbert D. fixed the MX-300 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Sher R. fixed the Lightning1 and made it like Used(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Sportster0 was downgraded to Dirty
+Fixing: The Hummer EV has an improved range of 550 miles
+Fixing: Mechanic Alum A. fixed the Hummer EV and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Hummer EV was downgraded to Clean
+Fixing: Mechanic Aleem Y. fixed the Magna1 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Magna1 was downgraded to Dirty
+Fixing: Mechanic Rahil G. fixed the Katana and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Katana was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Thunderbolt and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt was downgraded to Dirty
+Fixing: Mechanic Aleem Y. fixed the Spider0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Spider0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Keiran X. sold the Spider0 PerfCar for $57705.74 Add-ons: Extended Warranty for $9617.62 (earned a $4000.0 bonus)
+Selling: Salesperson Pravin W. sold the Genesis Electric for $80728.8 Add-ons: Extended Warranty for $13454.8 (earned a $3500.0 bonus)
+Selling: Salesperson Pravin W. sold the Sportback PerfCar for $68205.03 Add-ons: Extended Warranty for $10912.8 Undercoating for $2728.2 (earned a $4000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

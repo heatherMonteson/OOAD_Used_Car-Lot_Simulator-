@@ -1,0 +1,51 @@
+Day number :18
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $827617.83
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $668906.54
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Zijie E. cleaned Monster Death Stomp using Chemical Clean and made it Clean
+Washing: Intern Torsten Q. cleaned Car Accord using Elbow Grease and made it Clean
+Washing: Intern Zijie E. cleaned Motorcycle Black Lightning using Chemical Clean and made it Sparkling(earned bonus $150.0)
+Washing: Intern Nikos J. fixed the Monster Mega Crush1 while cleaning and made it LikeNew
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Seb R. cleaned Monster Terminator1 using Chemical Clean and made it Clean
+Washing: Intern Chukwuemeka J. cleaned Electric Hummer EV using Chemical Clean and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Car cleanliness for the F150  was downgraded to Clean
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Rahil G. fixed the Terminator1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Terminator1 was downgraded to Dirty
+Fixing: Mechanic Alum A. fixed the Colorado0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Colorado0 was downgraded to Dirty
+Fixing: The Hummer EV has an improved range of 450 miles
+Fixing: Mechanic Aleem Y. fixed the Hummer EV and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Hummer EV was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Makensie W. sold the Prologue Car for $31008.75  (earned a $1000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Keiran X. sold the Valhalla0 PerfCar for $58064.1 Add-ons: Undercoating for $2639.27 Satellite Radio for $2639.27 (earned a $4000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
