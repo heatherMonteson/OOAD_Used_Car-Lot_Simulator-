@@ -11,6 +11,6 @@ is enough to see said number of days at the FNCD.
 public class Main {
     public static void main(String[] args) {
         FNCDsim newSimulation = new FNCDsim();
-        newSimulation.run(30);
+        newSimulation.run(31);
     }
 }

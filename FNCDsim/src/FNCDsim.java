@@ -81,6 +81,12 @@ public class FNCDsim implements Utility {
                 switchDealerships();
                 EndOfDay.endOfDay();
             }
+
+            if (i == 31){
+                //add CLIsim
+                CLSim.CLSimRun(i);
+            }
+            
             Tracker.getTracker().showTracker();
         }
     }
@@ -111,6 +117,14 @@ public class FNCDsim implements Utility {
             return southStaff;
         else
             return northStaff;
+    }
+
+    public static ArrayList<Employee> getNorthstaff(){
+        return northStaff;
+    }
+
+    public static ArrayList<Employee> getSouthstaff(){
+        return southStaff;
     }
 
     public static void addStaff(Employee employee){

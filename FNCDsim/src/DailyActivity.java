@@ -16,6 +16,50 @@ import java.util.Objects;
 public abstract class DailyActivity {
 
 }
+
+
+
+
+
+
+
+abstract class OnlineShopping extends DailyActivity{
+
+    public static void onlineShop(String carName, Employee salesperson){
+        //need to add print statements eventually : (Enum.EventType , "string message",  bonus/sale ammount)
+        //we are given the car name and salesperson, and from that we locate the vehicle
+
+        Vehicle vehicleRemoval = null; // initialize to null
+        for (Vehicle vehicle : FNCDsim.inventory()) {
+            if (vehicle.getName().equals(carName)) {
+                //buy car
+                double price = vehicle.getSalePrice();
+                //adding money from sale to FNCD accounts
+                FNCDsim.addSales(price);
+                salesperson.payBonus(FNCDsim.getFunds(vehicle.getSaleBonus()));
+                //pay for 1 days work
+                salesperson.payDailyRate();
+                //update days worked
+                salesperson.addDayWorked();
+                vehicleRemoval = vehicle;
+                System.out.println("Congratulations, you have bought the car: "+ vehicle.getName());
+                //tracker print out
+                FNCDsim.broker.out(Enums.EventType.Selling,"Salesperson "+ salesperson.getName()+" sold the "+ vehicle.getName()+ " "+vehicle.getType() +" for $"+ vehicle.getSalePrice() + " " + vehicle.getAddOnDes() +
+                 " (earned a $"+ vehicle.getSaleBonus()+" bonus)", vehicle.getSaleBonus(),vehicle.getSalePrice()); 
+            }
+        }
+        //remove from inventory after iteration
+        if (vehicleRemoval != null) {
+            FNCDsim.inventory().remove(vehicleRemoval);
+        }
+        else{
+            System.out.println("ERROR: You have entered a vehicle that is not in inventory");
+        }
+
+    }
+}
+
+
 //////////////////////////////////////////////////////////////////////
 abstract class OpenShop extends DailyActivity{
     public static int setCarNum = 6;
