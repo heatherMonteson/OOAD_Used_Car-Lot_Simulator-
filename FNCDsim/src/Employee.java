@@ -19,7 +19,6 @@ public abstract class Employee implements Utility, Name{
     protected double totalBonusPay;
     protected double incomeToDate;
     protected int daysWorked;
-    protected String cleaningBehavior;
 
     Employee(){
 
@@ -88,6 +87,11 @@ class Salesperson extends Employee {
 
     //if the sales person sells a car, return the car that is sold
     public Vehicle sellCar(Customer customer, ArrayList<Vehicle> inventory){
+        if(customer==null)
+            throw new IllegalArgumentException("No customer passed to sell to");
+        if(inventory==null || inventory.size()==0)
+            throw new IllegalArgumentException("No inventory passed to sell");
+
         Vehicle car = findCarToSell(inventory, customer.getType());
         if(car!=null){//if car is returned then the car was sold, find addons/add to budget/give bonus/
             if(isSaleMade(car, customer)){

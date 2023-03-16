@@ -42,7 +42,7 @@ public class FNCDsim implements Utility {
           accountBalance=500000.0;
           totalSales=0.0;
           broker=new InformationBroker();
-        switchDealerships();//just set dealership
+          switchDealerships();//just set dealership
     }
 
     //run through the daily tasks based on the given run time
@@ -55,7 +55,6 @@ public class FNCDsim implements Utility {
             today.newDay();
             broker.out(Enums.EventType.NewDay, today.getNumDays());
 
-            //loops for each of the dealerships daily activities
             for(int j=1; j<=2; j++){
                 switchDealerships();
                 OpenShop.openShop();
@@ -165,7 +164,7 @@ public class FNCDsim implements Utility {
         return Utility.format(funds);
     }
     private static void addEmergencyFunds(){
-        accountBalance=accountBalance+250000.0;
+        accountBalance=Utility.format(accountBalance+250000.0);
         broker.out(Enums.EventType.Emergency,"Emergency funds of $"+250000.0+" added to the FNCD budget", 250000.0 );
     }
     public static void addSales(double sales){

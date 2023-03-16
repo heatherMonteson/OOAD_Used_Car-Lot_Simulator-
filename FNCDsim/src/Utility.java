@@ -14,25 +14,16 @@ public interface Utility {
     //from a lower and upper bound generate a random number in that range
     // returns a double truncated to 2 decimal places
     static double findValue(double lower,double upper){
-
         Random r = new Random();
         double value = lower + (upper - lower) * r.nextDouble();
-
-        DecimalFormat formatting = new DecimalFormat("#.##");
-        formatting.setRoundingMode(RoundingMode.DOWN);
-        value = Double.parseDouble(formatting.format(value));
-
-        return value;
+        return format(value);
     }
 
     //from a lower and upper bound generate a random number in that range
     // returns an int
     static int findValue(int lower, int upper){
-
         Random random=new Random();
-        int value= random.nextInt(lower, upper+1);
-
-        return value;
+        return random.nextInt(lower, upper+1);
     }
 
     static double format(double value){

@@ -18,25 +18,25 @@ public abstract class DailyActivity {
 }
 //////////////////////////////////////////////////////////////////////
 abstract class OpenShop extends DailyActivity{
-
+    public static int setCarNum = 6;
+    public static int setStaffNum = 3;
     public static void openShop(){
         FNCDsim.broker.out("////////////////////////////////" );
         FNCDsim.broker.out( "Opening "+FNCDsim.getCurrentDealership()+"...");
         FNCDsim.broker.out("////////////////////////////////" );
-
         FNCDsim.broker.out(Enums.EventType.Opening, "Starting today with a budget of $" + FNCDsim.getBalance(), FNCDsim.getBalance());
 
         //Add employees as needed by type
         for(Enums.StaffType type: Enums.StaffType.values()) {
             ArrayList<Employee> typeList= Employee.getStaffByType(FNCDsim.currentStaff(), type);
-            if(typeList.size()<3)
+            if(typeList.size()<setStaffNum)
                 addEmployee(typeList.size(), type);
         }
 
         //buy vehicles as needed, funds removed in addInventory method (4 of each)
         for(Enums.VehicleType type: Enums.VehicleType.values()) {
             ArrayList<Vehicle> typeList= Vehicle.getVehiclesByType(FNCDsim.inventory(), type);
-            if(typeList.size()<4)
+            if(typeList.size()<setCarNum)
                 addInventory(typeList.size(), type);
         }
     }
@@ -46,8 +46,7 @@ abstract class OpenShop extends DailyActivity{
         //OO factory pattern: using the Staff factory to create new instances of staff
         StaffFactory factory = new HireStaff();
         //get the inventory based on type
-        for(int i =0 ; i<3-size; i++) {
-            employee=null;
+        for(int i =0 ; i<setStaffNum-size; i++) {
             employee = factory.hireStaff(type);
             if(employee!=null)
             {
@@ -65,8 +64,7 @@ abstract class OpenShop extends DailyActivity{
         //OO factory pattern: using the Vehicle factory to create new instances of vehicles
         VehicleFactory factory = new MakeCars();
         //get the inventory based on type
-        for(int i =0 ; i<6-size; i++) {
-            vehicle=null;
+        for(int i =0 ; i<setCarNum-size; i++) {
             vehicle=factory.buyCars(type);
             //If type given matches the current types to add then add/remove cost from funds
             if(vehicle!=null)
