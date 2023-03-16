@@ -5,7 +5,9 @@ Team members: Heather Monteson, Priya Patel
 Java version: 11.0
 
 Patterns found in classes/interfaces
-- Command: 
+- Command: implemented in FNCDsim(run function), DailyActivity(Online Shopping function), Employee(reciever class for many concrete commands), CLSim, CLI, Command, StringCommand, CommandInvoker, any file starting with "Ask" is a concrete command. The simplified flow through the command pattern is as follows: 
+FLOW: User --> CLI --> Invoker --> Reciever 
+
 - Singleton: implemented in Logger (C) and Tracker(C). Singletons are accessed in the FNCDsim(C) and InformationBroker(C) 
 - Factory: StaffFactory(C) with subclass HireStaff(C) and VehicleFactory(C) with subclass MakeCars(C) used in the FNCDsim(C) to create cars as staff 
 

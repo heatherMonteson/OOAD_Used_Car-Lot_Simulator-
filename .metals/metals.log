@@ -52069,3 +52069,333 @@ package FNCDsim.src;
 package FNCDsim.src;
 ^
 3 errors
+2023.03.15 20:17:19 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Vehicle.java
+2023.03.15 20:17:29 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/VehicleFactory.java
+2023.03.16 11:38:20 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Utility.java
+2023.03.16 11:38:21 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Utility.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Utility.java:26: error: no suitable method found for nextInt(int,int)
+        return random.nextInt(lower, upper+1);
+                     ^
+    method Random.nextInt() is not applicable
+      (actual and formal argument lists differ in length)
+    method Random.nextInt(int) is not applicable
+      (actual and formal argument lists differ in length)
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Utility.java:1: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+2 errors
+2023.03.16 11:38:29 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java
+2023.03.16 11:38:29 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:3: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:7: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:8: error: package org.junit does not exist
+import static org.junit.Assert.assertEquals;
+                       ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:8: error: static import only from classes and interfaces
+import static org.junit.Assert.assertEquals;
+^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:11: error: cannot find symbol
+    @Test(expected = IllegalArgumentException.class)
+     ^
+  symbol:   class Test
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:21: error: cannot find symbol
+    @Test(expected = IllegalArgumentException.class)
+     ^
+  symbol:   class Test
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:16: error: cannot find symbol
+        Salesperson salesperson = new Salesperson();
+        ^
+  symbol:   class Salesperson
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:16: error: cannot find symbol
+        Salesperson salesperson = new Salesperson();
+                                      ^
+  symbol:   class Salesperson
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:17: error: cannot find symbol
+        ArrayList<Vehicle> cars = new ArrayList<>();
+                  ^
+  symbol:   class Vehicle
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:18: error: cannot find symbol
+        cars.add(new Pickup());
+                     ^
+  symbol:   class Pickup
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:26: error: cannot find symbol
+        Salesperson salesperson = new Salesperson();
+        ^
+  symbol:   class Salesperson
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:26: error: cannot find symbol
+        Salesperson salesperson = new Salesperson();
+                                      ^
+  symbol:   class Salesperson
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:27: error: cannot find symbol
+        salesperson.sellCar(new Customer(), null);
+                                ^
+  symbol:   class Customer
+  location: class SalespersonTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/SalespersonTest.java:1: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src'
+package FNCDsim.src;
+^
+14 errors
+2023.03.16 11:38:31 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java
+2023.03.16 11:38:31 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:3: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:5: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:8: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:16: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:11: error: cannot find symbol
+        FNCDsim newSim = new FNCDsim();
+        ^
+  symbol:   class FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:11: error: cannot find symbol
+        FNCDsim newSim = new FNCDsim();
+                             ^
+  symbol:   class FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:12: error: cannot find symbol
+        assertNotEquals("Verify a broker object is made", null, FNCDsim.broker);
+                                                                ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:13: error: cannot find symbol
+        assertNotEquals("Verify tracker singleton created", null, Tracker.getTracker());
+                                                                  ^
+  symbol:   variable Tracker
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:14: error: cannot find symbol
+        assertNotEquals("Verify logger singleton created", null, Logger.getLogger());
+                                                                 ^
+  symbol:   variable Logger
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:18: error: cannot find symbol
+        FNCDsim newSim = new FNCDsim();
+        ^
+  symbol:   class FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:18: error: cannot find symbol
+        FNCDsim newSim = new FNCDsim();
+                             ^
+  symbol:   class FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:19: error: cannot find symbol
+        OpenShop.openShop();
+        ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:21: error: cannot find symbol
+        assertEquals("Verify num pickup objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Pickup).size());
+                                                  ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:21: error: package Enums does not exist
+        assertEquals("Verify num pickup objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Pickup).size());
+                                                                                                                          ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:21: error: cannot find symbol
+        assertEquals("Verify num pickup objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Pickup).size());
+                                                                      ^
+  symbol:   variable Vehicle
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:21: error: cannot find symbol
+        assertEquals("Verify num pickup objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Pickup).size());
+                                                                                                ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:22: error: cannot find symbol
+        assertEquals("Verify num car objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Car).size());
+                                               ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:22: error: package Enums does not exist
+        assertEquals("Verify num car objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Car).size());
+                                                                                                                       ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:22: error: cannot find symbol
+        assertEquals("Verify num car objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Car).size());
+                                                                   ^
+  symbol:   variable Vehicle
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:22: error: cannot find symbol
+        assertEquals("Verify num car objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Car).size());
+                                                                                             ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:24: error: cannot find symbol
+        assertEquals("Verify num starting vehicle objects", OpenShop.setCarNum*Enums.VehicleType.values().length,FNCDsim.inventory().size());
+                                                            ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:24: error: package Enums does not exist
+        assertEquals("Verify num starting vehicle objects", OpenShop.setCarNum*Enums.VehicleType.values().length,FNCDsim.inventory().size());
+                                                                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:24: error: cannot find symbol
+        assertEquals("Verify num starting vehicle objects", OpenShop.setCarNum*Enums.VehicleType.values().length,FNCDsim.inventory().size());
+                                                                                                                 ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:26: error: cannot find symbol
+        assertEquals("Verify num interns", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Intern).size());
+                                           ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:26: error: package Enums does not exist
+        assertEquals("Verify num interns", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Intern).size());
+                                                                                                                      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:26: error: cannot find symbol
+        assertEquals("Verify num interns", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Intern).size());
+                                                                 ^
+  symbol:   variable Employee
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:26: error: cannot find symbol
+        assertEquals("Verify num interns", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Intern).size());
+                                                                                         ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:27: error: cannot find symbol
+        assertEquals("Verify num sales", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Salesperson).size());
+                                         ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:27: error: package Enums does not exist
+        assertEquals("Verify num sales", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Salesperson).size());
+                                                                                                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:27: error: cannot find symbol
+        assertEquals("Verify num sales", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Salesperson).size());
+                                                               ^
+  symbol:   variable Employee
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:27: error: cannot find symbol
+        assertEquals("Verify num sales", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Salesperson).size());
+                                                                                       ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:28: error: cannot find symbol
+        assertEquals("Verify num mechanics", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Mechanic).size());
+                                             ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:28: error: package Enums does not exist
+        assertEquals("Verify num mechanics", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Mechanic).size());
+                                                                                                                        ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:28: error: cannot find symbol
+        assertEquals("Verify num mechanics", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Mechanic).size());
+                                                                   ^
+  symbol:   variable Employee
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:28: error: cannot find symbol
+        assertEquals("Verify num mechanics", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Mechanic).size());
+                                                                                           ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:29: error: cannot find symbol
+        assertEquals("Verify num drivers", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Driver).size());
+                                           ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:29: error: package Enums does not exist
+        assertEquals("Verify num drivers", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Driver).size());
+                                                                                                                      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:29: error: cannot find symbol
+        assertEquals("Verify num drivers", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Driver).size());
+                                                                 ^
+  symbol:   variable Employee
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:29: error: cannot find symbol
+        assertEquals("Verify num drivers", OpenShop.setStaffNum, Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Driver).size());
+                                                                                         ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:31: error: cannot find symbol
+        assertEquals("Verify num starting employee objects", OpenShop.setStaffNum*Enums.StaffType.values().length, FNCDsim.currentStaff().size());
+                                                             ^
+  symbol:   variable OpenShop
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:31: error: package Enums does not exist
+        assertEquals("Verify num starting employee objects", OpenShop.setStaffNum*Enums.StaffType.values().length, FNCDsim.currentStaff().size());
+                                                                                       ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:31: error: cannot find symbol
+        assertEquals("Verify num starting employee objects", OpenShop.setStaffNum*Enums.StaffType.values().length, FNCDsim.currentStaff().size());
+                                                                                                                   ^
+  symbol:   variable FNCDsim
+  location: class FNCDsimTest
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src/FNCDsimTest.java:1: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/test/FNCDsim/src'
+package FNCDsim.src;
+^
+43 errors
+2023.03.16 11:39:10 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLSim.java
+2023.03.16 11:40:14 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:8: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:9: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:12: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:61: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North && CommandInvoker.Northsalesperson!=null){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:61: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North && CommandInvoker.Northsalesperson!=null){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:61: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North && CommandInvoker.Northsalesperson!=null){
+                                                                                      ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: cannot find symbol
+                    else if(CommandInvoker.Southsalesperson!=null){
+                            ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:78: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:87: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+12 errors
+2023.03.16 11:40:37 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Command.java
