@@ -87,6 +87,7 @@ public class FNCDsim implements Utility {
                 //add CLIsim
                 CLSim.CLSimRun(i);
             }
+            
             Tracker.getTracker().showTracker();
         }
     }

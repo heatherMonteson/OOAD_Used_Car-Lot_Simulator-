@@ -49467,3 +49467,2605 @@ package FNCDsim.src;
 package FNCDsim.src;
 ^
 10 errors
+2023.03.15 19:58:34 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java
+2023.03.15 19:58:34 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:17: error: cannot find symbol
+public class FNCDsim implements Utility {
+                                ^
+  symbol: class Utility
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:19: error: cannot find symbol
+    public static ArrayList<Employee> departedStaff;
+                            ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:20: error: cannot find symbol
+    private static ArrayList<Employee> northStaff;
+                             ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:21: error: cannot find symbol
+    private static ArrayList<Employee> southStaff;
+                             ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:22: error: cannot find symbol
+    private static ArrayList<Vehicle> northInventory;
+                             ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:23: error: cannot find symbol
+    private static ArrayList<Vehicle> southInventory;
+                             ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:24: error: cannot find symbol
+    public static ArrayList<Vehicle> soldInventory;
+                            ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:29: error: cannot find symbol
+    Days today = new Days();
+    ^
+  symbol:   class Days
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:30: error: cannot find symbol
+    public static InformationBroker broker;
+                  ^
+  symbol:   class InformationBroker
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:31: error: package Enums does not exist
+    static Enums.FNCD_location currentDealership;
+                ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:109: error: cannot find symbol
+    public static ArrayList<Vehicle> inventory(){
+                            ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:116: error: cannot find symbol
+    public static ArrayList<Employee> currentStaff(){
+                            ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:123: error: cannot find symbol
+    public static ArrayList<Employee> getNorthstaff(){
+                            ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:127: error: cannot find symbol
+    public static ArrayList<Employee> getSouthstaff(){
+                            ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:131: error: cannot find symbol
+    public static void addStaff(Employee employee){
+                                ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:138: error: cannot find symbol
+    public static void addVehicle(Vehicle vehicle){
+                                  ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:145: error: cannot find symbol
+    public static void removeStaff(Employee employee){
+                                   ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:154: error: cannot find symbol
+    public static void removeIntern(Employee employee){
+                                    ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:161: error: cannot find symbol
+    public static void removeVehicle(Vehicle vehicle){
+                                     ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:168: error: package Enums does not exist
+    public static Enums.FNCD_location getCurrentDealership() {
+                       ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:29: error: cannot find symbol
+    Days today = new Days();
+                     ^
+  symbol:   class Days
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:35: error: cannot find symbol
+          soldInventory=new ArrayList<Vehicle>();
+                                      ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:36: error: cannot find symbol
+          northStaff=new ArrayList<Employee>();
+                                   ^
+  symbol:   class Employee
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:38: error: cannot find symbol
+          northInventory=new ArrayList<Vehicle>();
+                                       ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:39: error: cannot find symbol
+          southInventory=new ArrayList<Vehicle>();
+                                       ^
+  symbol:   class Vehicle
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:44: error: cannot find symbol
+          broker=new InformationBroker();
+                     ^
+  symbol:   class InformationBroker
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:52: error: cannot find symbol
+        Logger.getLogger();
+        ^
+  symbol:   variable Logger
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:53: error: cannot find symbol
+        Tracker.getTracker();
+        ^
+  symbol:   variable Tracker
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:56: error: package Enums does not exist
+            broker.out(Enums.EventType.NewDay, today.getNumDays());
+                            ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:61: error: cannot find symbol
+                OpenShop.openShop();
+                ^
+  symbol:   variable OpenShop
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:65: error: cannot find symbol
+                WashCars.washCars();
+                ^
+  symbol:   variable WashCars
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:69: error: cannot find symbol
+                FixCars.fixCars();
+                ^
+  symbol:   variable FixCars
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:73: error: cannot find symbol
+                SellCars.sellCars(today.getToday());
+                ^
+  symbol:   variable SellCars
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:78: error: cannot find symbol
+                    Race.race();//race on wed. and sun.
+                    ^
+  symbol:   variable Race
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:83: error: cannot find symbol
+                EndOfDay.endOfDay();
+                ^
+  symbol:   variable EndOfDay
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:88: error: cannot find symbol
+                CLSim.CLSimRun(i);
+                ^
+  symbol:   variable CLSim
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:91: error: cannot find symbol
+            Tracker.getTracker().showTracker();
+            ^
+  symbol:   variable Tracker
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:96: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South) {
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:97: error: package Enums does not exist
+            currentDealership = Enums.FNCD_location.FNCD_North;
+                                     ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:103: error: package Enums does not exist
+            currentDealership = Enums.FNCD_location.FNCD_South;
+                                     ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:110: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:117: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:132: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:139: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:147: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:155: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:163: error: package Enums does not exist
+        if(currentDealership== Enums.FNCD_location.FNCD_South)
+                                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:176: error: cannot find symbol
+        if(Utility.format(accountBalance- funds)<0)
+           ^
+  symbol:   variable Utility
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:178: error: cannot find symbol
+        accountBalance = Utility.format(accountBalance- funds);
+                         ^
+  symbol:   variable Utility
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:179: error: cannot find symbol
+        return Utility.format(funds);
+               ^
+  symbol:   variable Utility
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:183: error: package Enums does not exist
+        broker.out(Enums.EventType.Emergency,"Emergency funds of $"+250000.0+" added to the FNCD budget", 250000.0 );
+                        ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:186: error: cannot find symbol
+        totalSales= Utility.format(sales+totalSales);
+                    ^
+  symbol:   variable Utility
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:187: error: cannot find symbol
+        accountBalance=Utility.format(accountBalance+sales);
+                       ^
+  symbol:   variable Utility
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:193: error: cannot find symbol
+        return Utility.format(accountBalance);
+               ^
+  symbol:   variable Utility
+  location: class FNCDsim
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/FNCDsim.java:1: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+55 errors
+2023.03.15 20:03:29 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:03:29 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:17: error: illegal start of type
+    if (!(commandIndex instanceof Integer)) {
+    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:17: error: <identifier> expected
+    if (!(commandIndex instanceof Integer)) {
+                      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:17: error: <identifier> expected
+    if (!(commandIndex instanceof Integer)) {
+                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:19: error: illegal start of type
+    } else {
+      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:22: error: illegal start of expression
+    public int run() {
+    ^
+5 errors
+2023.03.15 20:03:30 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:03:30 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:17: error: illegal start of type
+    if (!(commandIndex instanceof Integer)) {
+    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:17: error: <identifier> expected
+    if (!(commandIndex instanceof Integer)) {
+                      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:17: error: <identifier> expected
+    if (!(commandIndex instanceof Integer)) {
+                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:19: error: illegal start of type
+    } else {
+      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:24: error: illegal start of expression
+    public int run() {
+    ^
+5 errors
+2023.03.15 20:03:35 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:03:36 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:56: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:56: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:57: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:04 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:05 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:56: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:56: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:57: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:16 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:17 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:61: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:75: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:84: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:19 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:19 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:21 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:22 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:24 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:25 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:107: error: reached end of file while parsing
+}
+ ^
+1 error
+2023.03.15 20:04:28 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:29 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:106: error: reached end of file while parsing
+}
+ ^
+1 error
+2023.03.15 20:04:39 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:40 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:68: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:79: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:88: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:48 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:48 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:68: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:79: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:88: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:04:49 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:49 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:48: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:68: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:79: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:88: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:04:57 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:57 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:04:58 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:04:59 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:05:01 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:01 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:44: error: cannot find symbol
+            index = scanner.nextInt() - 1; //takes in user input, minus one for indexing in array?
+            ^
+  symbol:   variable index
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+12 errors
+2023.03.15 20:05:12 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:13 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:44: error: cannot find symbol
+            index = scanner.nextInt() - 1; //takes in user input, minus one for indexing in array?
+            ^
+  symbol:   variable index
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:46: error: unexpected type
+            if (!(commandIndex instanceof Integer)) {
+                  ^
+  required: reference
+  found:    int
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+13 errors
+2023.03.15 20:05:20 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:20 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:47: error: unexpected type
+            if (!(commandIndex instanceof Integer)) {
+                  ^
+  required: reference
+  found:    int
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+12 errors
+2023.03.15 20:05:27 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:28 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:47: error: unexpected type
+            if (!(commandIndex instanceof Integer)) {
+                  ^
+  required: reference
+  found:    int
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+12 errors
+2023.03.15 20:05:29 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:29 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:47: error: unexpected type
+            if (!(commandIndex instanceof Integer)) {
+                  ^
+  required: reference
+  found:    int
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+12 errors
+2023.03.15 20:05:33 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:34 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: variable commandIndex is already defined in method run()
+                int commandIndex = (Integer) commandIndex; // cast Integer to int
+                    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:05:36 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:37 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:05:48 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:49 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:05:50 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:50 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:81: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:90: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:05:56 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:56 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:68: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:82: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:91: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:05:58 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:05:58 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:68: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:68: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:83: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:92: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:06:01 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:06:01 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:85: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:94: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:06:15 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:06:16 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:70: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:85: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:94: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:19 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:19 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:25 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:26 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:78: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:87: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:29 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:30 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:77: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:86: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:31 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:31 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:77: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:86: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:34 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:34 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:61: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:75: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:84: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:38 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:39 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:51: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:07:46 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:07:47 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:53: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:08:23 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:08:23 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:51: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:08:24 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:08:25 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:93: error: reached end of file while parsing
+}
+ ^
+1 error
+2023.03.15 20:08:28 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:08:28 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:36: error: cannot find symbol
+            if (index instanceof String) {
+                ^
+  symbol:   variable index
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:53: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:56: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:76: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:08:33 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:08:33 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:36: error: unexpected type
+            if (commandIndex instanceof String) {
+                ^
+  required: reference
+  found:    int
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:53: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:56: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:76: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:08:38 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:08:38 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:49: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:50: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:53: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:11:41 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:11:42 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:18: error: illegal start of type
+try {
+^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:22: error: illegal start of type
+} catch (InputMismatchException e) {
+  ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:22: error: ';' expected
+} catch (InputMismatchException e) {
+                                 ^
+3 errors
+2023.03.15 20:11:44 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:11:44 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:18: error: illegal start of type
+    try {
+    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:22: error: illegal start of type
+    } catch (InputMismatchException e) {
+      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:22: error: ';' expected
+    } catch (InputMismatchException e) {
+                                     ^
+3 errors
+2023.03.15 20:11:46 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:11:46 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:62: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:77: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:86: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:12:08 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:08 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:21: error: illegal start of type
+try {
+^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:25: error: illegal start of type
+} catch (InputMismatchException e) {
+  ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:25: error: ';' expected
+} catch (InputMismatchException e) {
+                                 ^
+3 errors
+2023.03.15 20:12:10 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:11 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:21: error: illegal start of type
+    try {
+    ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:25: error: illegal start of type
+    } catch (InputMismatchException e) {
+      ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:25: error: ';' expected
+    } catch (InputMismatchException e) {
+                                     ^
+3 errors
+2023.03.15 20:12:14 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:15 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:65: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:66: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:69: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:80: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:12:47 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:47 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: 'try' without 'catch', 'finally' or resource declarations
+            try{
+            ^
+1 error
+2023.03.15 20:12:49 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:49 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: 'try' without 'catch', 'finally' or resource declarations
+            try{
+            ^
+1 error
+2023.03.15 20:12:51 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:51 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: 'try' without 'catch', 'finally' or resource declarations
+            try{
+            ^
+1 error
+2023.03.15 20:12:53 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:53 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: 'try' without 'catch', 'finally' or resource declarations
+            try{
+            ^
+1 error
+2023.03.15 20:12:55 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:12:56 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:52: error: 'try' without 'catch', 'finally' or resource declarations
+            try{
+            ^
+1 error
+2023.03.15 20:13:01 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:13:02 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: '(' expected
+            }catch{
+                  ^
+1 error
+2023.03.15 20:13:21 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:13:22 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: cannot find symbol
+            }catch (InputMismatchException e){
+                    ^
+  symbol:   class InputMismatchException
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:75: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:86: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:95: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:13:25 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:13:26 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: cannot find symbol
+            }catch (InputMismatchException e){
+                    ^
+  symbol:   class InputMismatchException
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:71: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:75: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:86: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:95: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:13:51 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:13:52 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: cannot find symbol
+            }catch (InputMismatchException e){
+                    ^
+  symbol:   class InputMismatchException
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:76: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:87: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:96: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:13:55 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:13:55 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: cannot find symbol
+            }catch (InputMismatchException e){
+                    ^
+  symbol:   class InputMismatchException
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:76: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:87: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:96: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:13:58 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:13:58 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:6: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:10: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:54: error: cannot find symbol
+            }catch (InputMismatchException e){
+                    ^
+  symbol:   class InputMismatchException
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:72: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:76: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:87: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:96: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:14:39 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:14:39 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:7: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:8: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:11: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:55: error: cannot find symbol
+            }catch (InputMismatchException e){
+                    ^
+  symbol:   class InputMismatchException
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:73: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:77: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:88: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:97: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+11 errors
+2023.03.15 20:14:41 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:14:41 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:4: error: <identifier> expected
+import 
+      ^
+1 error
+2023.03.15 20:14:43 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:14:44 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:4: error: ';' expected
+import java.util.InputMismatchException
+                                       ^
+1 error
+2023.03.15 20:14:45 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:14:46 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:8: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:9: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:12: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:75: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:78: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:89: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:98: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:14:56 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:14:56 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:8: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:9: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:12: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:67: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:78: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:87: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:14:58 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:14:59 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:8: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:9: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:12: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:59: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:59: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:63: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:74: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:83: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:15:22 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:15:23 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:45: error: illegal start of expression
+            }
+            ^
+1 error
+2023.03.15 20:15:25 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java
+2023.03.15 20:15:25 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:8: error: cannot find symbol
+    private Command[] commands;
+            ^
+  symbol:   class Command
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:9: error: cannot find symbol
+    private CommandInvoker invoker;
+            ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:12: error: cannot find symbol
+        invoker = new CommandInvoker();
+                      ^
+  symbol:   class CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: cannot find symbol
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                       ^
+  symbol:   variable FNCDsim
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:60: error: package Enums does not exist
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                                                         ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:61: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:64: error: package CommandInvoker does not exist
+                        System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
+                                                                               ^
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:75: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:84: error: cannot find symbol
+                if(CommandInvoker.Northsalesperson == null){
+                   ^
+  symbol:   variable CommandInvoker
+  location: class CLI
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/CLI.java:2: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+10 errors
+2023.03.15 20:15:33 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java
+2023.03.15 20:15:34 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java:13: error: cannot find symbol
+        FNCDsim newSimulation = new FNCDsim();
+        ^
+  symbol:   class FNCDsim
+  location: class Main
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java:13: error: cannot find symbol
+        FNCDsim newSimulation = new FNCDsim();
+                                    ^
+  symbol:   class FNCDsim
+  location: class Main
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java:1: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+3 errors
+2023.03.15 20:15:36 WARN  no build target for: /Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java
+2023.03.15 20:15:36 WARN  Running javac-semanticdb failed for file:///Users/priyapatel/Desktop/Object%20Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java. Output:
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java:13: error: cannot find symbol
+        FNCDsim newSimulation = new FNCDsim();
+        ^
+  symbol:   class FNCDsim
+  location: class Main
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java:13: error: cannot find symbol
+        FNCDsim newSimulation = new FNCDsim();
+                                    ^
+  symbol:   class FNCDsim
+  location: class Main
+/Users/priyapatel/Desktop/Object Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src/Main.java:1: error: semanticdb-javac: unknown flag 'Oriented/proj4.2/Projects2-4_OOAD/FNCDsim/src'
+package FNCDsim.src;
+^
+3 errors

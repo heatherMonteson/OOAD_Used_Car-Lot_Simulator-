@@ -1,6 +1,8 @@
 
 package FNCDsim.src;
 import java.util.Scanner;
+import java.util.InputMismatchException;
+
 public class CLI {
     //this is called from CLSim
     private Command[] commands;
@@ -11,10 +13,13 @@ public class CLI {
         
     }
 
+
     public int run() {
         nameCount = 0;
         Scanner scanner = new Scanner(System.in);
+
         int commandIndex = -1; //this is what commandIndex is set to, if nothing has been selected at beginning
+
         //as long as commandIndex is not end user, keep table up and running
         while (commandIndex != 8) {
             System.out.println();
@@ -30,7 +35,16 @@ public class CLI {
             System.out.println("7. Buy a car!");
             System.out.println("8. End user interactions");
 
-            commandIndex = scanner.nextInt() - 1; //takes in user input, minus one for indexing in array?
+
+            try{
+                commandIndex = scanner.nextInt() - 1; //takes in user input, minus one for indexing in array?
+            }catch (InputMismatchException e){
+                System.out.println("Error: Invalid input. Please enter an integer.");
+                scanner.nextLine(); // consume the invalid input
+                return 0;
+            }
+            
+
             if (commandIndex == 0){
                 //calls command 0 : AskFNCD
                 System.out.println("Please enter the FNCD dealership you are interested in!");
