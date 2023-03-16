@@ -209,6 +209,67 @@ class Electric extends Vehicle {
     }
 }
 
+
+
+//////////////////////////////////////////////////////
+class Sedan extends Vehicle {
+    Sedan(){
+        super();
+        carNames = new ArrayList<>(Arrays.asList("Toyota Camry",  "Honda Civic",  "Nissan Altima",  "Chevrolet Impala",  "Ford Taurus",  "Hyundai Sonata",  "Kia Optima",  "Mazda 6",  "Subaru Legacy",  "Volkswagen Jetta"));
+        setName();
+        this.type=Enums.VehicleType.Sedan;
+        this.cost=Utility.format(Utility.findValue(10000, 20000));
+        this.saleBonus=1200.0;
+        this.cleaningBonus=250.0;
+        this.fixBonus=450.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+    
+
+}
+
+//////////////////////////////////////////////////////
+class Convertible extends Vehicle {
+    Convertible(){
+        super();
+        carNames = new ArrayList<>(Arrays.asList( "Audi A5 Cabriolet",  "BMW Z4",  "Chevrolet Camaro Convertible",  "Ferrari Portofino",  "Ford Mustang Convertible",  "Jaguar F-Type Convertible",  "Mazda MX-5 Miata",  "Mercedes-Benz S-Class Cabriolet",  "Porsche 911 Cabriolet",  "Rolls-Royce Dawn"));
+        setName();
+        this.type=Enums.VehicleType.Convertible;
+        this.cost=Utility.format(Utility.findValue(20000, 50000));
+        this.saleBonus=1200.0;
+        this.cleaningBonus=250.0;
+        this.fixBonus=450.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+    
+
+}
+
+//////////////////////////////////////////////////////
+class SUV extends Vehicle {
+    SUV(){
+        super();
+        carNames = new ArrayList<>(Arrays.asList( "Toyota RAV4",  "Honda CR-V",  "Nissan Rogue",  "Chevrolet Tahoe",  "Ford Explorer",  "Jeep Grand Cherokee",  "Kia Sorento",  "Mazda CX-5",  "Subaru Outback",  "Volkswagen Atlas"));
+        setName();
+        this.type=Enums.VehicleType.SUV;
+        this.cost=Utility.format(Utility.findValue(30000, 50000));
+        this.saleBonus=1200.0;
+        this.cleaningBonus=250.0;
+        this.fixBonus=450.0;
+        setCondition();
+        setCleanliness();
+        this.salePrice=Utility.format(this.cost*2);
+    }
+    
+
+}
+
+
+
 //////////////////////////////////////////////////////
 //           Race car classes below here            //
 //////////////////////////////////////////////////////
