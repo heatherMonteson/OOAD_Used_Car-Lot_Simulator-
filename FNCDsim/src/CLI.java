@@ -13,7 +13,6 @@ public class CLI {
         
     }
 
-
     public int run() {
         nameCount = 0;
         Scanner scanner = new Scanner(System.in);
@@ -27,7 +26,7 @@ public class CLI {
             System.out.println("WELCOME TO THE FNCD COMMAND LINE INTERFACE!");
             System.out.println("Please select a command:");
             System.out.println("1. Choose an FNCD location"); //index 0
-            System.out.println("2. Ask the salesperson their name");
+            System.out.println("2. Meet/ask the salesperson their name");
             System.out.println("3. Ask the salesperson what time it is");
             System.out.println("4. Ask for a different salesperson");
             System.out.println("5. Get current inventory");
@@ -35,19 +34,21 @@ public class CLI {
             System.out.println("7. Buy a car!");
             System.out.println("8. End user interactions");
 
-
+            boolean flag=false;
+            while (!flag)
             try{
-                commandIndex = scanner.nextInt() - 1; //takes in user input, minus one for indexing in array?
+                commandIndex = scanner.nextInt() - 1; //takes in user input, minus one for indexing in array
+                flag=true;
             }catch (InputMismatchException e){
-                System.out.println("Error: Invalid input. Please enter an integer.");
+                System.out.println("Error: Invalid input. Please enter an integer 1-8.");
                 scanner.nextLine(); // consume the invalid input
-                return 0;
             }
-            
-
-            if (commandIndex == 0){
+            if(commandIndex>=8 || commandIndex <0){ //check value is not out of indexing range
+                System.out.println("Invalid numerical input, please enter a value 1-8");
+            }
+            else if (commandIndex == 0){
                 //calls command 0 : AskFNCD
-                System.out.println("Please enter the FNCD dealership you are interested in!");
+                System.out.println("Please enter the FNCD dealership you are interested in! (north or south)");
                 scanner.nextLine(); // consume the newline character
                 String dealership = scanner.nextLine();
                 invoker.executeCommand2(commandIndex, dealership); //pass our 
@@ -57,12 +58,14 @@ public class CLI {
                     //sets both fncd north and south salesperson
                     invoker.executeCommand(commandIndex);
                 }else{
-                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North){
+                    if(FNCDsim.currentDealership == Enums.FNCD_location.FNCD_North && CommandInvoker.Northsalesperson!=null){
                         System.out.println("Employee's name: " + CommandInvoker.Northsalesperson.getName());
                     }
-                    else{
+                    else if(CommandInvoker.Southsalesperson!=null){
                         System.out.println("Employee's name: " + CommandInvoker.Southsalesperson.getName());
                     }
+                    else
+                        System.out.println("No employee found");
                 }
                 nameCount++;
             }else if(commandIndex == 5){ 
@@ -82,20 +85,19 @@ public class CLI {
                 invoker.executeCommand2(commandIndex, carBuy); // pass out index and vehicleId to invoker
             }else if(commandIndex == 3){
                 if(CommandInvoker.Northsalesperson == null){
-                    System.out.println("ERROR: Please meet your salesperson before swiching salespersons!");
+                    System.out.println("ERROR: Please meet your salesperson before switching salespersons!");
                     continue;
                 }
                 invoker.executeCommand(commandIndex);
             }
-            else{
+            else {
                 invoker.executeCommand(commandIndex);
-                if(commandIndex == 7){ //shuttind down the online shopping portal
+                if(commandIndex == 7){ //shutting down the online shopping portal
                     return 1;
                 }
             }
-            //  need to add condiiton if input is not a valid number or if it is a string
+            //  need to add condition if input is not a valid number or if it is a string
         }
-
         scanner.close();
         return 1;
     }

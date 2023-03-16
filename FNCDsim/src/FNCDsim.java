@@ -67,6 +67,9 @@ public class FNCDsim implements Utility {
                 switchDealerships();
                 FixCars.fixCars();
             }
+            if (i == runTime){//run command line user interface
+                CLSim.CLSimRun(i);
+            }
             for(int j=1; j<=2; j++){
                 switchDealerships();
                 SellCars.sellCars(today.getToday());
@@ -81,12 +84,6 @@ public class FNCDsim implements Utility {
                 switchDealerships();
                 EndOfDay.endOfDay();
             }
-
-            if (i == 31){
-                //add CLIsim
-                CLSim.CLSimRun(i);
-            }
-            
             Tracker.getTracker().showTracker();
         }
     }

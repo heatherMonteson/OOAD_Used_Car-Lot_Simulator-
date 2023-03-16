@@ -27,7 +27,6 @@ public class CommandInvoker {
         commands[commandIndex].execute();
         //takes out concrete command and executes method in there
     }
-
     //this executeCommand is intended for 6. get details on inventory vehicle
     //uses StringCommand interface
     public void executeCommand2(int commandIndex,String commandLine) {
