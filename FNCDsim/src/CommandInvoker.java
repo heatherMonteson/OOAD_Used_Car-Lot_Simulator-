@@ -41,4 +41,14 @@ public class CommandInvoker {
     
     }
 
+    public void executeCommand3(int commandIndex,  String commandLine, ArrayList<Enums.AddOns> addOnList) {
+        if(commands[commandIndex] instanceof AddonCommand) {
+            //type cast it into a AddonCommand
+            AddonCommand addOnCommand = (AddonCommand) commands[commandIndex];
+            addOnCommand.execute(commandLine, addOnList);
+            //executes in concrete command, with our string being passed in
+        } 
+    
+    }
+
 }

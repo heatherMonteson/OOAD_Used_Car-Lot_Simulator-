@@ -21,7 +21,7 @@ abstract class OnlineShopping extends DailyActivity{
 
     //Need addons:
     // public static void onlineShop(String carName, ArrayList<Enums.AddOns> addOns , Employee salesperson){
-    public static void onlineShop(String carName, Employee salesperson){
+    public static void onlineShop(String carName, ArrayList<Enums.AddOns> addOns, Employee salesperson){
         FNCDsim.broker.out("////////////////////////////////" );
         FNCDsim.broker.out("Selling cars at "+FNCDsim.getCurrentDealership()+"...");
         FNCDsim.broker.out("////////////////////////////////" );
@@ -33,13 +33,13 @@ abstract class OnlineShopping extends DailyActivity{
 
                 //decorate
 
-                ////////////////////////////////////////////////
-//                delete this chunk once the parameters are passed, just a placeholder to test
-                ArrayList<Enums.AddOns> addOns = new ArrayList<>();
-                addOns.add(Enums.AddOns.Road_Side_Rescue_Coverage);
-                addOns.add(Enums.AddOns.Extended_Warranty);
-//                delete to here
-                /////////////////////////////////////////////////
+//                 ////////////////////////////////////////////////
+// //                delete this chunk once the parameters are passed, just a placeholder to test
+//                 ArrayList<Enums.AddOns> addOns = new ArrayList<>();
+//                 addOns.add(Enums.AddOns.Road_Side_Rescue_Coverage);
+//                 addOns.add(Enums.AddOns.Extended_Warranty);
+// //                delete to here
+//                 /////////////////////////////////////////////////
 
                 Vehicle decoratedCar = vehicle;
                 if(addOns.contains(Enums.AddOns.Road_Side_Rescue_Coverage))

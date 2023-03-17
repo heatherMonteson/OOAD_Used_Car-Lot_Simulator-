@@ -110,8 +110,8 @@ public class CLI {
                         System.out.println("You need to enter a value 1-"+Enums.AddOns.values().length);
                     }
                 }
-
-                invoker.executeCommand2(commandIndex, carBuy); // pass out index and vehicleId to invoker
+                //created new command class called AddonCommand which extends from Command
+                invoker.executeCommand3(commandIndex, carBuy, addOnList); // pass our index and vehicleId to invoker
 
             }else if(commandIndex == 3){
                 if(CommandInvoker.Northsalesperson == null){
