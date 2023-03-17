@@ -3,6 +3,8 @@ package FNCDsim.src;
 //CLI will pass an index to CommandInvoker and then it will look up the the index to its corresponding command
 //in the stored array. Invoker calls executeCommand which executes a method on reciever through the concrere command lesson
 
+import java.util.ArrayList;
+
 public class CommandInvoker {
     private Command[] commands;
     //public static Employee salesperson;
@@ -29,7 +31,7 @@ public class CommandInvoker {
     }
     //this executeCommand is intended for 6. get details on inventory vehicle
     //uses StringCommand interface
-    public void executeCommand2(int commandIndex,String commandLine) {
+    public void executeCommand2(int commandIndex,  String commandLine) {
         if(commands[commandIndex] instanceof StringCommand) {
             //type cast it into a stringCommand
             StringCommand stringCommand = (StringCommand) commands[commandIndex];

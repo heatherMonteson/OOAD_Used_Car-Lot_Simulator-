@@ -19,22 +19,48 @@ public abstract class DailyActivity {
 
 abstract class OnlineShopping extends DailyActivity{
 
+    //Need addons:
+    // public static void onlineShop(String carName, ArrayList<Enums.AddOns> addOns , Employee salesperson){
     public static void onlineShop(String carName, Employee salesperson){
         //need to add print statements eventually : (Enum.EventType , "string message",  bonus/sale ammount)
         //we are given the car name and salesperson, and from that we locate the vehicle
         Vehicle vehicleRemoval = null; // initialize to null
         for (Vehicle vehicle : FNCDsim.inventory()) {
             if (vehicle.getName().equals(carName)) {
+
+                //decorate
+
+                ////////////////////////////////////////////////
+//                delete this chunk once the parameters are passed, just a placeholder to test
+                ArrayList<Enums.AddOns> addOns = new ArrayList<>();
+                addOns.add(Enums.AddOns.Road_Side_Rescue_Coverage);
+                addOns.add(Enums.AddOns.Extended_Warranty);
+//                delete to here
+                /////////////////////////////////////////////////
+
+                Vehicle decoratedCar = vehicle;
+                if(addOns.contains(Enums.AddOns.Road_Side_Rescue_Coverage))
+                    decoratedCar=new RoadRescueCoverage(decoratedCar);
+                if(addOns.contains(Enums.AddOns.Extended_Warranty))
+                    decoratedCar=new ExtendedWarranty(decoratedCar);
+                if(addOns.contains(Enums.AddOns.Satellite_Radio))
+                    decoratedCar=new SatelliteRadio(decoratedCar);
+                if(addOns.contains(Enums.AddOns.Undercoating))
+                    decoratedCar= new Undercoating(decoratedCar);
+
                 //buy car
-                double price = vehicle.getSalePrice();
+                double price = decoratedCar.getSalePrice();
                 //adding money from sale to FNCD accounts
                 FNCDsim.addSales(price);
                 salesperson.payBonus(FNCDsim.getFunds(vehicle.getSaleBonus()));
                 vehicleRemoval = vehicle;
+
                 System.out.println("Congratulations, you have bought the car: "+ vehicle.getName());
+
                 //tracker print out
-                FNCDsim.broker.out(Enums.EventType.Selling,"Salesperson "+ salesperson.getName()+" sold the "+ vehicle.getName()+ " "+vehicle.getType() +" for $"+ vehicle.getSalePrice() + " " + vehicle.getAddOnDes() +
-                 " (earned a $"+ vehicle.getSaleBonus()+" bonus)", vehicle.getSaleBonus(),vehicle.getSalePrice()); 
+                FNCDsim.broker.out(Enums.EventType.Selling,"Salesperson "+ salesperson.getName()+" sold the "+ vehicle.getName()+ " "+vehicle.getType() +" for $"+ decoratedCar.getSalePrice() + " " + decoratedCar.getAddOnDes() +
+                 " (earned a $"+ vehicle.getSaleBonus()+" bonus)", vehicle.getSaleBonus(),decoratedCar.getSalePrice());
+                break; 
             }
         }
         //remove from inventory after iteration
@@ -65,7 +91,7 @@ abstract class OpenShop extends DailyActivity{
                 addEmployee(typeList.size(), type);
         }
 
-        //buy vehicles as needed, funds removed in addInventory method (4 of each)
+        //buy vehicles as needed, funds removed in addInventory method (6 of each)
         for(Enums.VehicleType type: Enums.VehicleType.values()) {
             ArrayList<Vehicle> typeList= Vehicle.getVehiclesByType(FNCDsim.inventory(), type);
             if(typeList.size()<setCarNum)
@@ -103,7 +129,7 @@ abstract class OpenShop extends DailyActivity{
             {
                 FNCDsim.addVehicle(vehicle);
                 FNCDsim.getFunds(vehicle.getCost());
-                FNCDsim.broker.out(Enums.EventType.Buying,"New "+ vehicle.getType() +" added to inventory: "+ vehicle.getCondition() + " "+vehicle.getCleanliness() +" "+ vehicle.getName() + " for "+ vehicle.getCost() + " cost.",  vehicle.getCost()  );
+                FNCDsim.broker.out(Enums.EventType.Buying,"New "+ vehicle.getType() +" added to inventory: "+ vehicle.getCondition() + " "+vehicle.getCleanliness() +" "+ vehicle.getName() + " for $"+ vehicle.getCost() + " cost.",  vehicle.getCost()  );
             }
             else//error making employee
                 FNCDsim.broker.errorOut("type "+ type + " cars not added");

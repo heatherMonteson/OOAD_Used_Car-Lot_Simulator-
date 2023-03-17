@@ -67,13 +67,16 @@ public class FNCDsim implements Utility {
                 switchDealerships();
                 FixCars.fixCars();
             }
+            //at last day run command line otherwise run regular sales
             if (i == runTime){//run command line user interface
                 CLSim.CLSimRun(i);
+            }else {
+                    for(int j=1; j<=2; j++){
+                        switchDealerships();
+                        SellCars.sellCars(today.getToday());
+                    }
             }
-            for(int j=1; j<=2; j++){
-                switchDealerships();
-                SellCars.sellCars(today.getToday());
-            }
+
             if(today.getToday()==7 || today.getToday()==3) {
                 for(int j=1; j<=2; j++){
                     switchDealerships();
