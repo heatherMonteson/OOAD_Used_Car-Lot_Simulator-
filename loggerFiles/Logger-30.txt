@@ -1,4 +1,50 @@
 Day number :30
-Washing: Intern J Q. cleaned Motorcycle Silver Hawk using Elbow Grease and made it Clean
-Selling: There are 2 customers looking to purchase vehicles today
-Selling: Salesperson Walid S. sold the Model S Plaid Electric for $71252.27 Add-ons: Extended Warranty for $11400.36 Satellite Radio for $2850.09 (earned a $3500.0 bonus)
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $975115.27
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $807538.75
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Sedan Nissan Altima2 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Edwyn M. cleaned Pickup Ridgline1 using Detailing and made it Clean
+Washing: Intern Robert U. cleaned Convertible BMW Z41 using Chemical Clean and made it Clean
+Washing: Intern Tristain R. cleaned Car Avalon using Detailing and made it Clean
+Washing: Intern Edwyn M. cleaned Pickup Tundra1 using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Honda CR-V3 and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the BMW Z41 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the BMW Z41 was downgraded to Dirty
+Fixing: Mechanic Salman Q. fixed the Thunderbolt0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Cator O. fixed the Avalon and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Avalon was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Bandit Motorcycle for $21664.92  (earned a $1500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Jasey-Jay G. sold the Honda CR-V2 SUV for $71311.8 Add-ons: Satellite Radio for $3395.8 (earned a $1200.0 bonus)
+Selling: Salesperson Brad T. sold the Avalon Car for $35180.0  (earned a $1000.0 bonus)
+Selling: Salesperson Brad T. sold the Toyota Camry Sedan for $19990.68 Add-ons: Satellite Radio for $951.93 (earned a $1200.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

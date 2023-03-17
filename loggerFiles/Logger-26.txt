@@ -1,11 +1,54 @@
 Day number :26
-Washing: Intern J Q. cleaned Motorcycle Tiger0 using Elbow Grease and made it Clean
-Washing: Intern J Q. cleaned Motorcycle Victor0 using Elbow Grease and made it Clean
-Fixing: Mechanic Codie P. fixed the Prowler and made it like Used(earned a $500.0 bonus)
-Fixing: Mechanic Harley G. fixed the Tiger0 and made it like LikeNew(earned a $300.0 bonus)
-Fixing: Car cleanliness for the Tiger0 was downgraded to Dirty
-Fixing: Mechanic Jai I. fixed the Bulldozer and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the Bulldozer was downgraded to Dirty
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $732180.01
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $638246.28
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned Monster Bulldozer using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Bertie T. cleaned Motorcycle Venom using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Pickup Ridgline1 using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Motorcycle X-741 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Convertible Chevrolet Camaro Convertible using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Sedan Nissan Altima0 using Detailing and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Bulldozer and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bulldozer was downgraded to Clean
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Ridgline1 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Bear Foot and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Ferrari Portofino1 Convertible for $66956.4 Add-ons: Satellite Radio for $3188.4 (earned a $1200.0 bonus)
+Selling: Salesperson Blaire F. sold the Volkswagen Jetta0 Sedan for $25218.0  (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Kia Sorento SUV for $84441.65 Add-ons: Satellite Radio for $4021.03 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
 Selling: There are 7 customers looking to purchase vehicles today
-Selling: Salesperson Jaii J. sold the Raptor0 Pickup for $63560.95 Add-ons: Satellite Radio for $3026.71 (earned a $3500.0 bonus)
-Selling: Salesperson Allan O. sold the Frontier Pickup for $74964.25  (earned a $3500.0 bonus)
+Selling: Salesperson Brad T. sold the X-741 Motorcycle for $26801.13 Add-ons: Extended Warranty for $4466.85 (earned a $1500.0 bonus)
+Selling: Salesperson Allen Q. sold the Getaway PerfCar for $45217.22  (earned a $4000.0 bonus)
+Selling: Salesperson Allen Q. sold the Thunderbolt Motorcycle for $44799.5 Add-ons: Extended Warranty for $7167.92 Satellite Radio for $1791.98 (earned a $1500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

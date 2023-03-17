@@ -17,9 +17,15 @@ public class FNCDsimTest {
     public void checkMakingStaffAndVehicles (){
         FNCDsim newSim = new FNCDsim();
         OpenShop.openShop();
-        //check number of cars for a couple types should be the set number of cars
+        //check number of cars should be the set number of cars for each type
         assertEquals("Verify num pickup objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Pickup).size());
         assertEquals("Verify num car objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Car).size());
+        assertEquals("Verify num perfCar objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.PerfCar).size());
+        assertEquals("Verify num Motorcycle objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Motorcycle).size());
+        assertEquals("Verify num Monster objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Monster).size());
+        assertEquals("Verify num Sedan objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Sedan).size());
+        assertEquals("Verify num SUV objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.SUV).size());
+        assertEquals("Verify num Electric objects", OpenShop.setCarNum, Vehicle.getVehiclesByType(FNCDsim.inventory(), Enums.VehicleType.Electric).size());
         //should make setCarNumber x number of enum values for total inventory created
         assertEquals("Verify num starting vehicle objects", OpenShop.setCarNum*Enums.VehicleType.values().length,FNCDsim.inventory().size());
         //check number of employees per type == 3 (setEmployee number)

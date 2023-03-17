@@ -1,12 +1,70 @@
 Day number :9
-Washing: Intern Walid S. cleaned Electric Leaf Plus using Chemical Clean and made it Clean
-Washing: Intern J Q. cleaned Pickup Silverado0 using Elbow Grease and made it Clean
-Washing: Intern Walid S. cleaned MonsterTruck The Felon using Chemical Clean and made it Clean
-Fixing: The Leaf Plus has an improved range of 476 miles
-Fixing: Mechanic Bartlomiej S. fixed the Leaf Plus and made it like LikeNew(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Leaf Plus was downgraded to Dirty
-Fixing: Mechanic Codie P. fixed the Silverado0 and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the Silverado0 was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the The Felon and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the The Felon was downgraded to Dirty
-Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $261765.56
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $287134.94
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Motorcycle Victor0 using Chemical Clean and made it Clean
+Washing: InternBlaire F. broke the Motorcycle Victor0 while cleaning and made it Broken
+Washing: Intern Tyrnan J. cleaned Electric Taycan using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Apisai D. cleaned PerfCar Getaway0 using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned PerfCar Prelude using Chemical Clean and made it Sparkling(earned bonus $400.0)
+Washing: Intern Tyrnan J. cleaned Electric Genesis using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Apisai D. cleaned SUV Volkswagen Atlas0 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Convertible Chevrolet Camaro Convertible using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned SUV Jeep Grand Cherokee using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Compass1 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Pickup Frontier using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned Motorcycle Thunderbolt0 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned PerfCar Viper0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Venom and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Connel D. fixed the Toyota Camry0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Toyota Camry0 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Compass and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Kia Sorento and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento was downgraded to Clean
+Fixing: Mechanic Connel D. fixed the Rolls-Royce Dawn0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Monster Mutt and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Monster Mutt was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Honda CR-V0 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Game Over and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Game Over was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Prelude0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude0 was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Frontier0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Subaru Legacy and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Denzel T. sold the The Felon0 Monster for $52407.71 Add-ons: Undercoating for $2495.6 (earned a $4000.0 bonus)
+Selling: Salesperson Heyden P. sold the Ford Taurus Sedan for $23427.6 Add-ons: Satellite Radio for $1115.6 (earned a $1200.0 bonus)
+Selling: Salesperson Denzel T. sold the Audi A5 Cabriolet0 Convertible for $53520.0  (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Polestar 2 Electric for $36635.04  (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

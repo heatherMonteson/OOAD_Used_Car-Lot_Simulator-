@@ -1,13 +1,78 @@
 Day number :28
-Washing: Intern Lex Y. cleaned MonsterTruck Swamp Thing using Detailing and made it Clean
-Washing: Intern J Q. cleaned Pickup Tundra using Elbow Grease and made it Clean
-Washing: Intern Karandeep N. cleaned Pickup Montana1 using Elbow Grease and made it Clean
-Washing: Intern Karandeep N. fixed the Pickup Montana1 while cleaning and made it LikeNew
-Fixing: Mechanic Codie P. fixed the Spitfire and made it like Used(earned a $300.0 bonus)
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1038450.11
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $761156.23
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Fixing: The Leaf0 has an improved range of 204 miles
+Washing: Intern Apisai D. cleaned Electric Leaf0 using Elbow Grease and made it Clean
+Washing: Intern Apisai D. fixed the Electric Leaf0 while cleaning and made it LikeNew
+Washing: Intern Corey-Jay M. cleaned PerfCar Boldie using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Electric Model S Plaid using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Venom using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned SUV Honda CR-V3 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Jasey-Jay G. cleaned Motorcycle Katana using Chemical Clean and made it Clean
+Washing: Intern Tristain R. cleaned Motorcycle Intruder using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Monster Bear Foot using Elbow Grease and made it Clean
+Washing: Intern Jasey-Jay G. cleaned PerfCar Victor2 using Chemical Clean and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Honda CR-V3 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Boldie and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Boldie was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Model S Plaid and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Ridgline1 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Rolls-Royce Dawn2 Convertible for $32721.0 Add-ons: Extended Warranty for $5453.5 (earned a $1200.0 bonus)
+Selling: Salesperson Del B. sold the Model S Plaid Electric for $51232.76 Add-ons: Satellite Radio for $2439.65 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
 Selling: There are 1 customers looking to purchase vehicles today
-Racing: Driver Musa W. is racing the Motorcycle Tiger
-Racing: Driver Asif O. is racing the Motorcycle Victor0
-Racing: Driver Christy Q. is racing the Motorcycle Silver Hawk
-Racing: Musa W. driving Tiger has placed 10 in the race.
-Racing: Asif O. driving Victor0 has placed 13 in the race.
-Racing: Christy Q. driving Silver Hawk has placed 12 in the race.
+Selling: Salesperson Brad T. sold the Ferrari Portofino0 Convertible for $51590.7 Add-ons: Undercoating for $2456.7 (earned a $1200.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Valery A. is racing the Motorcycle Venom
+Racing: Driver Jincheng L. is racing the Motorcycle Victor0
+Racing: Driver Orlando H. is racing the Motorcycle Magna
+Racing: Valery A. driving Venom has placed 7 in the race.
+Racing: Jincheng L. driving Victor0 has placed 14 in the race.
+Racing: WINNER! Orlando H. driving Magna has placed 3 in the race. (new sale price $32930.02, driver bonus $375.0)
+Racing: That's 1 win(s) for Orlando H. and 1 win(s) for the Magna
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Motorcycle Thunderbolt0
+Racing: Driver Rihab W. is racing the Motorcycle X-74
+Racing: Driver Litrell S. is racing the Motorcycle Silver Hawk0
+Racing: Brydon-Craig L. driving Thunderbolt0 has placed 19 in the race. Vehicle is now damaged.
+Racing: WINNER! Rihab W. driving X-74 has placed 2 in the race. (new sale price $41201.29, driver bonus $375.0)
+Racing: That's 2 win(s) for Rihab W. and 1 win(s) for the X-74
+Racing: Litrell S. driving Silver Hawk0 has placed 13 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

@@ -1,17 +1,62 @@
 Day number :4
-Washing: Intern Ricco M. cleaned MonsterTruck Killer using Chemical Clean and made it Clean
-Washing: Intern Walid S. cleaned Car Jetta using Chemical Clean and made it Sparkly(earned bonus $250.0)
-Washing: Intern J Q. cleaned Electric Lightning using Elbow Grease and made it Clean
-Washing: Intern Ricco M. cleaned MonsterTruck Bulldozer using Chemical Clean and made it Sparkly(earned bonus $450.0)
-Fixing: Car cleanliness for the Lightning was downgraded to Dirty
-Fixing: Mechanic Codie P. fixed the Silverado and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the Silverado was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the Grinder and made it like Used(earned a $650.0 bonus)
-Fixing: Car cleanliness for the Grinder was downgraded to Dirty
-Fixing: Mechanic Bartlomiej S. fixed the Artura and made it like LikeNew(earned a $450.0 bonus)
-Fixing: Car cleanliness for the Killer was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the Spider and made it like Used(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Spider was downgraded to Dirty
-Selling: There are 5 customers looking to purchase vehicles today
-Selling: Salesperson Ishwar D. sold the Sportster Motorcycle for $15580.4  (earned a $1500.0 bonus)
-Selling: Salesperson Allan O. sold the Artura0 Car for $25570.0 Add-ons: Extended Warranty for $4091.2 Satellite Radio for $1022.8 (earned a $1000.0 bonus)
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $196474.09
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $191838.62
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Convertible Ferrari Portofino using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Sedan Hyundai Sonata using Detailing and made it Clean
+Washing: Intern Blaire F. cleaned Electric Model Y using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Convertible Rolls-Royce Dawn using Detailing and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Electric Ioniq using Chemical Clean and made it Clean
+Washing: InternAllen Q. broke the Electric Ioniq while cleaning and made it Broken
+Washing: Intern Tristain R. cleaned Motorcycle Commando using Detailing and made it Sparkling(earned bonus $150.0)
+Washing: Intern Olivier S. fixed the Pickup Frontier while cleaning and made it LikeNew
+Washing: Intern Allen Q. cleaned Motorcycle X-74 using Chemical Clean and made it Clean
+Washing: Intern Olivier S. cleaned Convertible Jaguar F-Type Convertible using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Volkswagen Atlas and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Volkswagen Atlas was downgraded to Clean
+Fixing: Mechanic Buddy R. fixed the Chevrolet Impala and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Batman and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Batman was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Valkyrie and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Buddy R. fixed the The Felon0 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Viper0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Viper0 was downgraded to Dirty
+Fixing: Car cleanliness for the Oil Hog0 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Sportback0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Muir E. fixed the Strada and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Strada was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Jeep Grand Cherokee and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Compass0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Compass0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Mazda 6 Sedan for $20818.2 Add-ons Road Rescue Coverage for $408.2 (earned a $1200.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

@@ -1,13 +1,65 @@
 Day number :5
-Washing: Intern Ricco M. cleaned Electric MX-30 using Chemical Clean and made it Clean
-Washing: Intern Walid S. cleaned Pickup Silverado using Chemical Clean and made it Clean
-Washing: Intern Ricco M. cleaned Pickup Montana0 using Chemical Clean and made it Clean
-Fixing: Car cleanliness for the Model X was downgraded to Dirty
-Fixing: The Lightning has an improved range of 299 miles
-Fixing: Mechanic Codie P. fixed the Lightning and made it like LikeNew(earned a $500.0 bonus)
-Fixing: Mechanic Harley G. fixed the Bullet and made it like Used(earned a $300.0 bonus)
-Fixing: Car cleanliness for the Bullet was downgraded to Dirty
-Fixing: Mechanic Bartlomiej S. fixed the Prologue and made it like LikeNew(earned a $450.0 bonus)
-Fixing: Mechanic Codie P. fixed the Killer and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Mechanic Harley G. fixed the Grinder and made it like LikeNew(earned a $650.0 bonus)
-Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $190899.06
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $207092.08
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned PerfCar Sportback using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned SUV Honda CR-V using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned PerfCar Prelude using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Pickup Tacoma using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Pickup Sierra using Detailing and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Motorcycle X-740 using Detailing and made it Sparkling(earned bonus $150.0)
+Washing: Intern Olivier S. cleaned SUV Mazda CX-5 using Elbow Grease and made it Clean
+Washing: Intern Allen Q. cleaned SUV Chevrolet Tahoe using Chemical Clean and made it Clean
+Washing: Intern Olivier S. fixed the PerfCar Getaway while cleaning and made it LikeNew
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Accent and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Accent was downgraded to Clean
+Fixing: Car cleanliness for the Compass was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Magna and made it like Used(earned a $300.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Hyundai Sonata and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Hyundai Sonata was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Honda CR-V and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V was downgraded to Dirty
+Fixing: Car cleanliness for the Taycan was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Subaru Legacy and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Rolls-Royce Dawn1 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Rolls-Royce Dawn1 was downgraded to Dirty
+Fixing: Car cleanliness for the Game Over was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Oil Hog0 and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the KO and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Heyden P. sold the ARIYA Electric for $34985.53 Add-ons: Satellite Radio for $1665.97 (earned a $3500.0 bonus)
+Selling: Salesperson Denzel T. sold the Tacoma Pickup for $22400.4 Add-ons: Undercoating for $1018.2 Satellite Radio for $1018.2 (earned a $3500.0 bonus)
+Selling: Salesperson Heyden P. sold the Chevrolet Impala Sedan for $19056.6 Add-ons: Extended Warranty for $3176.1 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Mazda CX-5 SUV for $64128.75  (earned a $1200.0 bonus)
+Selling: Salesperson Ruslan N. sold the Xenon Pickup for $38817.33 Add-ons: Extended Warranty for $6469.55 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

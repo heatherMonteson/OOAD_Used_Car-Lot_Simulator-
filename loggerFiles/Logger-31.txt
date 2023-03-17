@@ -1,0 +1,65 @@
+Day number :31
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $992013.02
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $903372.95
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Convertible Chevrolet Camaro Convertible0 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned PerfCar Boldie using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned SUV Honda CR-V3 using Chemical Clean and made it Clean
+Washing: InternBertie T. broke the SUV Honda CR-V3 while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Sedan Subaru Legacy0 using Detailing and made it Clean
+Washing: Intern Pawel F. cleaned Convertible BMW Z41 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Car Ariya using Detailing and made it Clean
+Washing: Intern Edwyn M. cleaned SUV Jeep Grand Cherokee1 using Detailing and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Honda CR-V3 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Ariya was downgraded to Dirty
+Fixing: Mechanic Salman Q. fixed the Jeep Grand Cherokee1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Jeep Grand Cherokee1 was downgraded to Dirty
+Fixing: Mechanic Cator O. fixed the Subaru Legacy0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Subaru Legacy0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: Salesperson Robert U. sold the Tundra1 Pickup for $26859.36 Add-ons Road Rescue Coverage for $440.31 Extended Warranty for $4403.17 (earned a $3500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Valery A. is racing the Monster Batman
+Racing: Driver Jincheng L. is racing the Monster The Felon
+Racing: Driver Orlando H. is racing the Monster Oil Hog
+Racing: Valery A. driving Batman has placed 9 in the race.
+Racing: Jincheng L. driving The Felon has placed 13 in the race.
+Racing: Orlando H. driving Oil Hog has placed 7 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the PerfCar Sportback0
+Racing: Driver Rihab W. is racing the PerfCar GT
+Racing: Driver Litrell S. is racing the PerfCar Viper0
+Racing: Brydon-Craig L. driving Sportback0 has placed 13 in the race.
+Racing: WINNER! Rihab W. driving GT has placed 3 in the race. (new sale price $68005.74, driver bonus $450.0)
+Racing: That's 3 win(s) for Rihab W. and 1 win(s) for the GT
+Racing: Litrell S. driving Viper0 has placed 20 in the race. Vehicle is now damaged.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

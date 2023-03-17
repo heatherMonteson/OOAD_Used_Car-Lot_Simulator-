@@ -1,18 +1,63 @@
 Day number :21
-Washing: Intern J Q. cleaned Motorcycle Magna0 using Elbow Grease and made it Clean
-Washing: Intern Karandeep N. cleaned Pickup Raptor0 using Elbow Grease and made it Clean
-Washing: Intern J Q. cleaned Pickup Frontier using Elbow Grease and made it Clean
-Washing: Intern Lex Y. cleaned MonsterTruck Grinder using Detailing and made it Clean
-Washing: Intern Karandeep N. cleaned MonsterTruck Oil Hog using Elbow Grease and made it Clean
-Fixing: Car cleanliness for the Speedster0 was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the Victor0 and made it like LikeNew(earned a $300.0 bonus)
-Fixing: Car cleanliness for the Victor0 was downgraded to Dirty
-Selling: There are 3 customers looking to purchase vehicles today
-Selling: Salesperson Jaii J. sold the War Wizard MonsterTruck for $46732.19 Add-ons: Extended Warranty for $7477.15 Undercoating for $1869.28 (earned a $4000.0 bonus)
-Racing: Driver Musa W. is racing the Pickup Silverado
-Racing: Driver Asif O. is racing the Pickup Xenon
-Racing: Driver Christy Q. is racing the Pickup Frontier
-Racing: Musa W. driving Silverado has placed 6 in the race.
-Racing: Asif O. driving Xenon has placed 17 in the race. Vehicle is now damaged.
-Racing: WINNER! Christy Q. driving Frontier has placed 1 in the race. (new sale price $59971.4, driver bonus $300.0)
-Racing: That's 1 win(s) for Christy Q. and 1 win(s) for the Frontier
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $585237.12
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $640761.98
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned SUV Kia Sorento2 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Mustang using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster KO using Detailing and made it Clean
+Washing: Intern Salman Q. cleaned Pickup Frontier2 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Cator O. cleaned Sedan Nissan Altima using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Prelude1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude1 was downgraded to Dirty
+Fixing: Car cleanliness for the Kia Sorento2 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Oil Hog1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Monster Batman
+Racing: Driver Valery A. is racing the Monster The Felon
+Racing: Driver Jincheng L. is racing the Monster Oil Hog
+Racing: Kalvyn Q. driving Batman has placed 10 in the race.
+Racing: Valery A. driving The Felon has placed 4 in the race.
+Racing: Jincheng L. driving Oil Hog has placed 18 in the race. Vehicle is now damaged.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Pickup Frontier
+Racing: Driver Rihab W. is racing the Pickup Strada
+Racing: Driver Litrell S. is racing the Pickup Frontier0
+Racing: Brydon-Craig L. driving Frontier has placed 11 in the race.
+Racing: Rihab W. driving Strada has placed 17 in the race. Vehicle is now damaged.
+Racing: Litrell S. driving Frontier0 has placed 9 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

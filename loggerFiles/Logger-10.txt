@@ -1,14 +1,85 @@
 Day number :10
-Washing: Intern Walid S. cleaned Pickup Silverado0 using Chemical Clean and made it Clean
-Washing: Intern J Q. cleaned Electric MX-30 using Elbow Grease and made it Clean
-Washing: Intern Walid S. cleaned MonsterTruck The Felon using Chemical Clean and made it Clean
-Washing: Intern Jai I. cleaned Performance Prelude0 using Elbow Grease and made it Sparkly(earned bonus $400.0)
-Selling: There are 1 customers looking to purchase vehicles today
-Selling: Salesperson Jaii J. sold the Divo Performance for $61190.3 Add-ons: Satellite Radio for $2913.82 (earned a $4000.0 bonus)
-Racing: Driver Musa W. is racing the Performance GT
-Racing: Driver Montague C. is racing the Performance Sportback
-Racing: Driver Asif O. is racing the Performance Prelude0
-Racing: Musa W. driving GT has placed 20 in the race. Vehicle is now damaged.
-Racing: Montague C. driving Sportback has placed 15 in the race. Vehicle is now damaged.
-Racing: WINNER! Asif O. driving Prelude0 has placed 1 in the race. (new sale price $73973.02, driver bonus $450.0)
-Racing: That's 2 win(s) for Asif O. and 1 win(s) for the Prelude0
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $369710.03
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $300587.3
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Tyrnan J. cleaned Monster Batman using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Pickup F150  using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Electric I-Pace using Elbow Grease and made it Clean
+Washing: Intern Tyrnan J. cleaned Pickup Navara using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Sedan Nissan Altima1 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Toyota Camry0 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Olivier S. cleaned Pickup Frontier1 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Insight1 using Elbow Grease and made it Clean
+Washing: Intern Olivier S. cleaned Electric Ioniq using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Electric Niro using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Nissan Altima1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Nissan Altima1 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the BMW Z40 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Compass and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Kia Sorento and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Ford Explorer and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Ford Explorer was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Durango and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Honda CR-V0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Chevrolet Camaro Convertible and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Chevrolet Camaro Convertible was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Frontier1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Frontier1 was downgraded to Dirty
+Fixing: The Ioniq has an improved range of 183 miles
+Fixing: Mechanic Muir E. fixed the Ioniq and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Ioniq was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Insight1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Insight1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Allen Q. sold the Valhalla PerfCar for $52582.92 Add-ons: Extended Warranty for $8763.82 (earned a $4000.0 bonus)
+Selling: Salesperson Ruslan N. sold the Tiger Motorcycle for $20065.1  (earned a $1500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Motorcycle Victor
+Racing: Driver Brehme S. is racing the Motorcycle Venom
+Racing: Driver Valery A. is racing the Motorcycle Magna
+Racing: Kalvyn Q. driving Victor has placed 9 in the race.
+Racing: Brehme S. driving Venom has placed 20 in the race. Vehicle is now damaged.
+Racing: Valery A. driving Magna has placed 7 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 16 in the race. Vehicle is now damaged.
+Racing: Rihab W. driving KO has placed 19 in the race. Vehicle is now damaged.
+Racing: WINNER! Litrell S. driving Bear Foot0 has placed 3 in the race. (new sale price $113460.29, driver bonus $500.0)
+Racing: That's 2 win(s) for Litrell S. and 2 win(s) for the Bear Foot0
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

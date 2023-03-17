@@ -1,16 +1,52 @@
 Day number :20
-Washing: Intern Lex Y. cleaned Motorcycle Magna0 using Detailing and made it Clean
-Washing: Intern J Q. cleaned MonsterTruck The Felon0 using Elbow Grease and made it Clean
-Washing: Intern Lex Y. cleaned Car Escape using Detailing and made it Clean
-Fixing: Mechanic Codie P. fixed the Escape and made it like LikeNew(earned a $450.0 bonus)
-Fixing: Car cleanliness for the Escape was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the The Felon0 and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the The Felon0 was downgraded to Dirty
-Fixing: Mechanic Jai I. fixed the Magna0 and made it like LikeNew(earned a $300.0 bonus)
-Fixing: Car cleanliness for the Magna0 was downgraded to Dirty
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $579664.77
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $648996.6
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned PerfCar Sportback using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Pickup F150  using Chemical Clean and made it Clean
+Washing: Intern Bertie T. cleaned Monster Lawless using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned Monster Bear Foot0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Monster Brutus using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Tristain R. cleaned Monster Oil Hog1 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Cator O. cleaned Pickup Frontier2 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Mustang and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Kia Sorento2 and made it like Used(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Oil Hog1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog1 was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the Bear Foot0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot0 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Frontier2 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Frontier2 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
 Selling: There are 6 customers looking to purchase vehicles today
-Selling: Salesperson Allan O. sold the Magna Motorcycle for $31156.7 Add-ons: Extended Warranty for $5192.78 (earned a $1500.0 bonus)
-Selling: Salesperson Jaii J. sold the Killer MonsterTruck for $52099.18 Add-ons: Satellite Radio for $2480.91 (earned a $4000.0 bonus)
-Selling: Salesperson Jaii J. sold the Viper Performance for $64381.36  (earned a $4000.0 bonus)
-Selling: Salesperson Jaii J. sold the The Felon0 MonsterTruck for $56426.95  (earned a $4000.0 bonus)
-Selling: Salesperson Walid S. sold the Strada Pickup for $32098.12 Add-ons: Satellite Radio for $1528.48 (earned a $3500.0 bonus)
+Selling: Salesperson Yago I. sold the Getaway0 PerfCar for $60236.23 Add-ons: Extended Warranty for $10039.37 (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Thunderbolt1 Motorcycle for $22458.5  (earned a $1500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

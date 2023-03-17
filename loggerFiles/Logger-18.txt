@@ -1,13 +1,55 @@
 Day number :18
-Washing: Intern J Q. cleaned Car Atlas using Elbow Grease and made it Clean
-Washing: Intern Lex Y. cleaned Electric MX-30 using Detailing and made it Sparkly(earned bonus $400.0)
-Washing: Intern Karandeep N. tried to clean Electric Model S Plaid using Elbow Grease but made it Dirty
-Fixing: Mechanic Codie P. fixed the Commando and made it like Used(earned a $300.0 bonus)
-Fixing: Car cleanliness for the Commando was downgraded to Clean
-Fixing: Mechanic Harley G. fixed the Grinder and made it like Used(earned a $650.0 bonus)
-Fixing: Mechanic Codie P. fixed the Xenon and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the Xenon was downgraded to Dirty
-Selling: There are 3 customers looking to purchase vehicles today
-Selling: Salesperson Jaii J. sold the Corolla Car for $22875.0 Add-ons: Extended Warranty for $3660.0 Satellite Radio for $915.0 (earned a $1000.0 bonus)
-Selling: Salesperson Allan O. sold the Raptor Pickup for $46358.34 Add-ons: Satellite Radio for $2207.54 (earned a $3500.0 bonus)
-Selling: Salesperson Walid S. sold the Sierra Pickup for $56181.8  (earned a $3500.0 bonus)
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $430085.62
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $595871.85
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Motorcycle Victor1 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Motorcycle Victor0 using Elbow Grease and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Bandit using Elbow Grease and made it Sparkling(earned bonus $150.0)
+Washing: Intern Corey-Jay M. cleaned Pickup Ridgline0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Prelude using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned SUV Honda CR-V1 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Electric KONA1 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Car Jetta using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Kia Sorento1 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento1 was downgraded to Dirty
+Fixing: Car cleanliness for the Mustang was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Sportback and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: The KONA1 has an improved range of 303 miles
+Fixing: Mechanic Muir E. fixed the KONA1 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the KONA1 was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the KO and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+Fixing: Car cleanliness for the Bear Foot0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Kia Sorento1 SUV for $51077.25 Add-ons: Satellite Radio for $2432.25 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

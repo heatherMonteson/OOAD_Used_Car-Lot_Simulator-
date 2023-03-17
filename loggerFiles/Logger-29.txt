@@ -1,4 +1,48 @@
 Day number :29
-Washing: Intern J Q. cleaned Performance Prowler using Elbow Grease and made it Clean
-Washing: Intern Lex Y. cleaned Car Atlas using Detailing and made it Sparkly(earned bonus $250.0)
-Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1040133.74
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $763943.37
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Bertie T. cleaned SUV Honda CR-V3 using Chemical Clean and made it Clean
+Washing: InternBertie T. broke the SUV Honda CR-V3 while cleaning and made it Broken
+Washing: Intern Apisai D. cleaned Car Insight0 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Jasey-Jay G. cleaned Monster Bear Foot using Chemical Clean and made it Clean
+Washing: Intern Edwyn M. cleaned Car Crown using Detailing and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Chevrolet Camaro Convertible0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Connel D. fixed the Honda CR-V3 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Thunderbolt0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt0 was downgraded to Dirty
+Fixing: Car cleanliness for the BMW Z41 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Crown Car for $35036.4 Add-ons: Satellite Radio for $1668.4 (earned a $1000.0 bonus)
+Selling: Salesperson Allen Q. sold the Frontier1 Pickup for $38083.83 Add-ons: Undercoating for $1731.08 Satellite Radio for $1731.08 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

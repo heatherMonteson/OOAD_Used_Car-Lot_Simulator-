@@ -1,16 +1,64 @@
 Day number :6
-Washing: Intern Ricco M. cleaned Car Artura using Chemical Clean and made it Clean
-Washing: Intern Walid S. cleaned Motorcycle Bullet using Chemical Clean and made it Clean
-Washing: Intern J Q. cleaned Electric Lightning using Elbow Grease and made it Clean
-Washing: Intern Ricco M. cleaned Car Prologue using Chemical Clean and made it Clean
-Washing: Intern Walid S. cleaned MonsterTruck Grinder using Chemical Clean and made it Sparkly(earned bonus $450.0)
-Washing: Intern J Q. cleaned Electric Model X using Elbow Grease and made it Clean
-Fixing: Mechanic Bartlomiej S. fixed the Model X and made it like Used(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Model X was downgraded to Dirty
-Fixing: Mechanic Codie P. fixed the Bullet and made it like LikeNew(earned a $300.0 bonus)
-Fixing: Car cleanliness for the Bullet was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the Spider and made it like LikeNew(earned a $500.0 bonus)
-Selling: There are 8 customers looking to purchase vehicles today
-Selling: Salesperson Jaii J. sold the Spider Performance for $57889.28 Add-ons: Satellite Radio for $2756.63 (earned a $4000.0 bonus)
-Selling: Salesperson Allan O. sold the Montana0 Pickup for $42367.61 Add-ons: Satellite Radio for $2017.5 (earned a $3500.0 bonus)
-Selling: Salesperson Jaii J. sold the Model X Electric for $36632.61 Add-ons Road Rescue Coverage for $684.72 Satellite Radio for $1711.8 (earned a $3500.0 bonus)
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $262816.57
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $290895.4
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned PerfCar Viper using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Motorcycle Victor1 using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Electric Hummer EV using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Monster The Felon0 using Chemical Clean and made it Sparkling(earned bonus $450.0)
+Washing: Intern Apisai D. cleaned Monster The Felon using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Olivier S. cleaned Sedan Nissan Altima0 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Monster Game Over using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned PerfCar Getaway using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned SUV Kia Sorento0 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Jetta using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Taycan and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Prelude and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude was downgraded to Dirty
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: The KONA has an improved range of 211 miles
+Fixing: Mechanic Maryk W. fixed the KONA and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Durango and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Valkyrie and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Toyota Camry and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Chevrolet Camaro Convertible was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Nissan Rogue and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Nissan Rogue was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Oil Hog0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: The Solterra has an improved range of 421 miles
+Fixing: Mechanic Dre F. fixed the Solterra and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Ioniq and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Ioniq was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Mustang0 PerfCar for $34442.94 Add-ons: Satellite Radio for $1640.14 (earned a $4000.0 bonus)
+Selling: Salesperson Ruslan N. sold the Artura0 Car for $22184.4 Add-ons: Satellite Radio for $1056.4 (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

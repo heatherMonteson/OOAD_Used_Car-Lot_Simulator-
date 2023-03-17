@@ -1,22 +1,79 @@
 Day number :3
-Washing: Intern Ricco M. cleaned Motorcycle Magna using Chemical Clean and made it Clean
-Washing: Intern Walid S. cleaned Pickup Sierra using Chemical Clean and made it Clean
-Washing: Intern Ricco M. cleaned Electric Lightning using Chemical Clean and made it Clean
-Washing: Intern Walid S. cleaned Pickup Silverado using Chemical Clean and made it Clean
-Washing: Intern J Q. cleaned Pickup Montana0 using Elbow Grease and made it Clean
-Fixing: Mechanic Bartlomiej S. fixed the Montana0 and made it like LikeNew(earned a $650.0 bonus)
-Fixing: Car cleanliness for the Montana0 was downgraded to Dirty
-Fixing: Mechanic Codie P. fixed the Jetta and made it like LikeNew(earned a $450.0 bonus)
-Fixing: Mechanic Harley G. fixed the Lightning and made it like Used(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Lightning was downgraded to Dirty
-Fixing: Mechanic Bartlomiej S. fixed the Killer and made it like Used(earned a $650.0 bonus)
-Fixing: Mechanic Codie P. fixed the Artura and made it like Used(earned a $450.0 bonus)
-Fixing: The MX-30 has an improved range of 373 miles
-Fixing: Mechanic Harley G. fixed the MX-30 and made it like LikeNew(earned a $500.0 bonus)
-Selling: There are 1 customers looking to purchase vehicles today
-Racing: Driver Musa W. is racing the Motorcycle Tiger
-Racing: Driver Montague C. is racing the Motorcycle Magna
-Racing: Driver Asif O. is racing the Motorcycle Commando
-Racing: Musa W. driving Tiger has placed 5 in the race.
-Racing: Montague C. driving Magna has placed 8 in the race.
-Racing: Asif O. driving Commando has placed 12 in the race.
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $201649.12
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $208250.87
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Monster Batman using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Monster Oil Hog using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Car Insight0 using Elbow Grease and made it Clean
+Washing: Intern Tyrnan J. cleaned Electric Genesis using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Apisai D. cleaned Car Insight using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Monster Game Over using Chemical Clean and made it Clean
+Fixing: The Polestar 20 has an improved range of 190 miles
+Washing: Intern Koushik D. cleaned Electric Polestar 20 using Elbow Grease and made it Clean
+Washing: Intern Koushik D. fixed the Electric Polestar 20 while cleaning and made it LikeNew
+Washing: Intern Koushik D. cleaned Car Clubman0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Silverado and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Connel D. fixed the Genesis and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Genesis was downgraded to Clean
+Fixing: Car cleanliness for the Magna was downgraded to Dirty
+Fixing: Car cleanliness for the Valkyrie was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Venom and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Hyundai Sonata and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Hyundai Sonata was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Thunderbolt and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Dre F. fixed the Solterra and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Mazda CX-5 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Muir E. fixed the Ridgline and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the BMW Z4 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the X-740 and made it like LikeNew(earned a $300.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Monster The Felon
+Racing: Driver Brehme S. is racing the Monster The Felon0
+Racing: Driver Valery A. is racing the Monster Monster Mutt
+Racing: Kalvyn Q. driving The Felon has placed 9 in the race.
+Racing: Brehme S. driving The Felon0 has placed 5 in the race.
+Racing: Valery A. driving Monster Mutt has placed 11 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Pickup Xenon
+Racing: Driver Rihab W. is racing the Pickup Frontier0
+Racing: Driver Litrell S. is racing the Pickup Ridgline
+Racing: Brydon-Craig L. driving Xenon has placed 5 in the race.
+Racing: WINNER! Rihab W. driving Frontier0 has placed 1 in the race. (new sale price $65037.37, driver bonus $300.0)
+Racing: That's 1 win(s) for Rihab W. and 1 win(s) for the Frontier0
+Racing: Litrell S. driving Ridgline has placed 4 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

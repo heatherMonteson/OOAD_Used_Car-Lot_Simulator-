@@ -254,21 +254,13 @@ class Intern extends Employee {
     }
 
     //create new sales employee and set its variable values to the interns with exception to salary
-    public Salesperson promoteInternToSales() {
-        Salesperson newSales = new Salesperson();
-        newSales.name = this.name;
-        newSales.daysWorked = this.daysWorked;
-        newSales.incomeToDate = this.incomeToDate;
-        return newSales;
-    }
-
-    //create new mechanic employee and set its variable values to the interns with exception to salary
-    public Mechanic promoteInternToMechanic() {
-        Mechanic newMech = new Mechanic();
-        newMech.name = this.name;
-        newMech.daysWorked = this.daysWorked;
-        newMech.incomeToDate = this.incomeToDate;
-        return newMech;
+    public Employee promoteIntern(Enums.StaffType type) {
+        StaffFactory factory = new HireStaff();
+        Employee promotedIntern = factory.hireStaff(type);
+        promotedIntern.name = this.name;
+        promotedIntern.daysWorked = this.daysWorked;
+        promotedIntern.incomeToDate = this.incomeToDate;
+        return promotedIntern;
     }
 
     public void internWashCar(Vehicle car) {

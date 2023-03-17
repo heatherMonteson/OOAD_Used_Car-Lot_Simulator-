@@ -22,6 +22,9 @@ abstract class OnlineShopping extends DailyActivity{
     //Need addons:
     // public static void onlineShop(String carName, ArrayList<Enums.AddOns> addOns , Employee salesperson){
     public static void onlineShop(String carName, Employee salesperson){
+        FNCDsim.broker.out("////////////////////////////////" );
+        FNCDsim.broker.out("Selling cars at "+FNCDsim.getCurrentDealership()+"...");
+        FNCDsim.broker.out("////////////////////////////////" );
         //need to add print statements eventually : (Enum.EventType , "string message",  bonus/sale ammount)
         //we are given the car name and salesperson, and from that we locate the vehicle
         Vehicle vehicleRemoval = null; // initialize to null
@@ -60,7 +63,7 @@ abstract class OnlineShopping extends DailyActivity{
                 //tracker print out
                 FNCDsim.broker.out(Enums.EventType.Selling,"Salesperson "+ salesperson.getName()+" sold the "+ vehicle.getName()+ " "+vehicle.getType() +" for $"+ decoratedCar.getSalePrice() + " " + decoratedCar.getAddOnDes() +
                  " (earned a $"+ vehicle.getSaleBonus()+" bonus)", vehicle.getSaleBonus(),decoratedCar.getSalePrice());
-                break; 
+                break;
             }
         }
         //remove from inventory after iteration
@@ -340,15 +343,14 @@ abstract class EndOfDay extends DailyActivity{
 
     //Selects a random intern to promote based on type of promotion
     private static Employee promoteInternTo(Enums.StaffType newPosition){
+        //select intern
         ArrayList<Employee> staffByType = Employee.getStaffByType(FNCDsim.currentStaff(), Enums.StaffType.Intern);
         Intern intern = (Intern) staffByType.get(Utility.findValue(0, staffByType.size()-1));
-        Employee newEmployee = null;
 
-        if(Objects.equals(newPosition, Enums.StaffType.Salesperson))
-            newEmployee= intern.promoteInternToSales();
-        else if(Objects.equals(newPosition, Enums.StaffType.Mechanic))
-            newEmployee= intern.promoteInternToMechanic();
+        //get new promoted intern based on position
+        Employee newEmployee = intern.promoteIntern(newPosition);
 
+        //change employee position in staff array
         if(newEmployee!=null){
             FNCDsim.removeIntern(intern);
             FNCDsim.addStaff(newEmployee);

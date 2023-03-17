@@ -1,11 +1,64 @@
 Day number :11
-Washing: Intern Walid S. cleaned Electric Leaf Plus using Chemical Clean and made it Clean
-Washing: Intern Jai I. tried to clean MonsterTruck The Felon using Elbow Grease but made it Dirty
-Washing: Intern Jai I. cleaned Motorcycle Commando using Elbow Grease and made it Sparkly(earned bonus $150.0)
-Fixing: Mechanic Bartlomiej S. fixed the Sportback and made it like Used(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Sportback was downgraded to Dirty
-Fixing: Mechanic Codie P. fixed the GT and made it like Used(earned a $500.0 bonus)
-Fixing: Car cleanliness for the GT was downgraded to Dirty
-Fixing: Mechanic Harley G. fixed the Speedster and made it like LikeNew(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Speedster was downgraded to Dirty
-Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $295933.06
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $340540.0
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Del B. cleaned Car Compass using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Car Durango using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Corey-Jay M. cleaned SUV Ford Explorer using Elbow Grease and made it Clean
+Washing: Intern Del B. cleaned SUV Honda CR-V using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned PerfCar Sportback0 using Detailing and made it Clean
+Washing: Intern Oilibhear C. cleaned Monster Bear Foot using Elbow Grease and made it Clean
+Washing: Intern Cator O. cleaned Sedan Subaru Legacy using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Sedan Volkswagen Jetta using Detailing and made it Clean
+Washing: Intern Oilibhear C. cleaned Pickup Strada using Elbow Grease and made it Clean
+Washing: Intern Cator O. cleaned Car Insight1 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Magna and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Connel D. fixed the Prelude and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude was downgraded to Clean
+Fixing: Car cleanliness for the Insight was downgraded to Dirty
+Fixing: Car cleanliness for the Getaway0 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Lawless and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Lawless was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Hyundai Sonata0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Game Over and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the D-Max and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the D-Max was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Commando and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Commando was downgraded to Dirty
+Fixing: The Leaf Plus has an improved range of 372 miles
+Fixing: Mechanic Dre F. fixed the Leaf Plus and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Blaire F. sold the Victor Motorcycle for $12970.53  (earned a $1500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the X-740 Motorcycle for $25899.23 Add-ons: Satellite Radio for $1233.29 (earned a $1500.0 bonus)
+Selling: Salesperson Allen Q. sold the Atlas Car for $26070.0  (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

@@ -1,10 +1,67 @@
 Day number :13
-Washing: Intern Walid S. cleaned Performance GT using Chemical Clean and made it Clean
-Washing: Intern J Q. cleaned Performance Victor using Elbow Grease and made it Clean
-Fixing: Mechanic Bartlomiej S. fixed the Victor and made it like LikeNew(earned a $500.0 bonus)
-Fixing: Car cleanliness for the Victor was downgraded to Dirty
-Selling: There are 5 customers looking to purchase vehicles today
-Selling: Salesperson Ishwar D. sold the Silverado0 Pickup for $26421.26  (earned a $3500.0 bonus)
-Selling: Salesperson Jaii J. sold the MX-300 Electric for $59928.02  (earned a $3500.0 bonus)
-Selling: Salesperson Allan O. sold the Prologue Car for $21772.8 Add-ons: Satellite Radio for $1036.8 (earned a $1000.0 bonus)
-Selling: Salesperson Jaii J. sold the Montana Pickup for $48085.06  (earned a $3500.0 bonus)
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $365696.61
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $325123.01
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Motorcycle Magna using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Monster Oil Hog using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Convertible Ford Mustang Convertible using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned SUV Toyota RAV40 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Bertie T. cleaned SUV Kia Sorento using Chemical Clean and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Electric Leaf Plus using Detailing and made it Clean
+Washing: Intern Cator O. cleaned PerfCar Valhalla0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Monster Game Over using Detailing and made it Clean
+Washing: Intern Tristain R. cleaned Electric Ioniq using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Convertible Chevrolet Camaro Convertible using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Monster KO using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: The Polestar 21 has an improved range of 185 miles
+Fixing: Mechanic Connel D. fixed the Polestar 21 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Polestar 21 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Lawless and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Lawless was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Venom and made it like Used(earned a $300.0 bonus)
+Fixing: Mechanic Connel D. fixed the Navara and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Navara was downgraded to Dirty
+Fixing: Car cleanliness for the Getaway0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Tiger0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Dre F. fixed the Silver Hawk0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Clean
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the Odyssey and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the D-Max and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Genesis Electric for $65173.93 Add-ons: Extended Warranty for $10684.25 Road Rescue Coverage for $1068.42 (earned a $3500.0 bonus)
+Selling: Salesperson Blaire F. sold the Monster Mutt Monster for $54251.96 Add-ons Road Rescue Coverage for $1063.76 (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Allen Q. sold the Tiger0 Motorcycle for $24937.36 Add-ons: Satellite Radio for $1187.49 (earned a $1500.0 bonus)
+Selling: Salesperson Allen Q. sold the Nissan Rogue SUV for $60555.0  (earned a $1200.0 bonus)
+Selling: Salesperson Ruslan N. sold the D-Max Pickup for $31482.56 Add-ons: Extended Warranty for $5037.21 Satellite Radio for $1259.3 (earned a $3500.0 bonus)
+Selling: Salesperson Ruslan N. sold the Oil Hog0 Monster for $54987.69 Add-ons: Extended Warranty for $9164.61 (earned a $4000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
