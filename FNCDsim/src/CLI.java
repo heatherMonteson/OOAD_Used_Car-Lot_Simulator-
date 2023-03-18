@@ -3,7 +3,10 @@ package FNCDsim.src;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.InputMismatchException;
-
+//OO pattern Command: implemented in FNCDsim(run function), DailyActivity(Online Shopping function), Employee(reciever
+//class for many concrete commands), CLSim, CLI, Command, StringCommand, CommandInvoker, any file starting with
+//"Ask" is a concrete command. The simplified flow through the command pattern is as follows:
+//FLOW: User --> CLI --> Invoker --> Reciever
 public class CLI {
     //this is called from CLSim
     private Command[] commands;

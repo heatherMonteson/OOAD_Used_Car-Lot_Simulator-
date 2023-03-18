@@ -17,30 +17,23 @@ public abstract class DailyActivity {
 
 }
 
-abstract class OnlineShopping extends DailyActivity{
+//OO pattern Command: implemented in FNCDsim(run function), DailyActivity(Online Shopping function), Employee(reciever
+//class for many concrete commands), CLSim, CLI, Command, StringCommand, CommandInvoker, any file starting with
+//"Ask" is a concrete command. The simplified flow through the command pattern is as follows:
+//FLOW: User --> CLI --> Invoker --> Reciever
 
-    //Need addons:
-    // public static void onlineShop(String carName, ArrayList<Enums.AddOns> addOns , Employee salesperson){
+abstract class OnlineShopping extends DailyActivity{
     public static void onlineShop(String carName, ArrayList<Enums.AddOns> addOns, Employee salesperson){
         FNCDsim.broker.out("////////////////////////////////" );
         FNCDsim.broker.out("Selling cars at "+FNCDsim.getCurrentDealership()+"...");
         FNCDsim.broker.out("////////////////////////////////" );
-        //need to add print statements eventually : (Enum.EventType , "string message",  bonus/sale ammount)
+
         //we are given the car name and salesperson, and from that we locate the vehicle
         Vehicle vehicleRemoval = null; // initialize to null
         for (Vehicle vehicle : FNCDsim.inventory()) {
             if (vehicle.getName().equals(carName)) {
 
                 //decorate
-
-//                 ////////////////////////////////////////////////
-// //                delete this chunk once the parameters are passed, just a placeholder to test
-//                 ArrayList<Enums.AddOns> addOns = new ArrayList<>();
-//                 addOns.add(Enums.AddOns.Road_Side_Rescue_Coverage);
-//                 addOns.add(Enums.AddOns.Extended_Warranty);
-// //                delete to here
-//                 /////////////////////////////////////////////////
-
                 Vehicle decoratedCar = vehicle;
                 if(addOns.contains(Enums.AddOns.Road_Side_Rescue_Coverage))
                     decoratedCar=new RoadRescueCoverage(decoratedCar);
@@ -59,7 +52,6 @@ abstract class OnlineShopping extends DailyActivity{
                 vehicleRemoval = vehicle;
 
                 System.out.println("Congratulations, you have bought the car: "+ vehicle.getName());
-
                 //tracker print out
                 FNCDsim.broker.out(Enums.EventType.Selling,"Salesperson "+ salesperson.getName()+" sold the "+ vehicle.getName()+ " "+vehicle.getType() +" for $"+ decoratedCar.getSalePrice() + " " + decoratedCar.getAddOnDes() +
                  " (earned a $"+ vehicle.getSaleBonus()+" bonus)", vehicle.getSaleBonus(),decoratedCar.getSalePrice());

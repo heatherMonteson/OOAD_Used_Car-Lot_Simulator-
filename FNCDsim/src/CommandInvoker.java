@@ -1,4 +1,8 @@
 package FNCDsim.src;
+//OO pattern Command: implemented in FNCDsim(run function), DailyActivity(Online Shopping function), Employee(reciever
+//class for many concrete commands), CLSim, CLI, Command, StringCommand, CommandInvoker, any file starting with
+//"Ask" is a concrete command. The simplified flow through the command pattern is as follows:
+//FLOW: User --> CLI --> Invoker --> Reciever
 
 //CLI will pass an index to CommandInvoker and then it will look up the the index to its corresponding command
 //in the stored array. Invoker calls executeCommand which executes a method on reciever through the concrere command lesson
