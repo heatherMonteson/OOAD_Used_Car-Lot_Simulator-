@@ -1,0 +1,78 @@
+Day number :14
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $408793.26
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $489762.33
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned Motorcycle Venom using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. fixed the Motorcycle Venom while cleaning and made it LikeNew
+Washing: Intern Apisai D. cleaned Convertible Rolls-Royce Dawn0 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Pickup Navara using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Getaway0 using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Convertible BMW Z4 using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Convertible Mazda MX-5 Miata0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned PerfCar Prelude0 using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Pickup Tundra0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Pickup Frontier1 using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the KO0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Connel D. fixed the Victor1 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Victor0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor0 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Getaway0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Getaway0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Dre F. fixed the Jacked Up and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the KO and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Navara Pickup for $37856.09 Add-ons: Extended Warranty for $6056.97 Satellite Radio for $1514.24 (earned a $3500.0 bonus)
+Selling: Salesperson Blaire F. sold the Toyota Camry0 Sedan for $26766.0  (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Solterra Electric for $65851.92 Add-ons: Extended Warranty for $10975.32 (earned a $3500.0 bonus)
+Selling: Salesperson Allen Q. sold the Niro Electric for $68815.44 Add-ons: Extended Warranty for $11010.47 Satellite Radio for $2752.61 (earned a $3500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the PerfCar Mustang
+Racing: Driver Brehme S. is racing the PerfCar Sportback
+Racing: Driver Valery A. is racing the PerfCar Prelude
+Racing: Kalvyn Q. driving Mustang has placed 14 in the race.
+Racing: Brehme S. driving Sportback has placed 10 in the race.
+Racing: Valery A. driving Prelude has placed 16 in the race. Vehicle is now damaged.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the PerfCar Sportback0
+Racing: Driver Rihab W. is racing the PerfCar GT
+Racing: Driver Litrell S. is racing the PerfCar Viper0
+Racing: WINNER! Brydon-Craig L. driving Sportback0 has placed 3 in the race. (new sale price $71775.18, driver bonus $450.0)
+Racing: That's 1 win(s) for Brydon-Craig L. and 1 win(s) for the Sportback0
+Racing: Rihab W. driving GT has placed 8 in the race.
+Racing: Litrell S. driving Viper0 has placed 7 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

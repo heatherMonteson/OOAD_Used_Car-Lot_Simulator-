@@ -1,0 +1,60 @@
+Day number :15
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $420426.42
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $555636.91
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Fixing: The Polestar 21 has an improved range of 285 miles
+Washing: Intern Apisai D. cleaned Electric Polestar 21 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Pickup Strada0 using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Bertie T. cleaned Sedan Nissan Altima1 using Chemical Clean and made it Clean
+Washing: Intern Corey-Jay M. cleaned Monster Killer using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Oil Hog using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned Sedan Toyota Camry using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Monster Jacked Up using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Cator O. cleaned Monster KO using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Motorcycle Silver Hawk0 using Detailing and made it Sparkling(earned bonus $150.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Oil Hog and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Batman and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Batman was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Prelude and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Victor0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Ridgline0 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the KONA1 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Jacked Up and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Jacked Up was downgraded to Clean
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Monster Mutt0 Monster for $54018.3 Add-ons: Satellite Radio for $2572.3 (earned a $4000.0 bonus)
+Selling: Salesperson Brad T. sold the KONA0 Electric for $42965.06  (earned a $3500.0 bonus)
+Selling: Salesperson Brad T. sold the Tundra0 Pickup for $24178.48  (earned a $3500.0 bonus)
+Selling: Salesperson Brad T. sold the Kia Sorento0 SUV for $74415.6 Add-ons: Satellite Radio for $3543.6 (earned a $1200.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

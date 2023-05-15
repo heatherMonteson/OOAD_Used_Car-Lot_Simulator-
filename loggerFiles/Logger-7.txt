@@ -1,0 +1,79 @@
+Day number :7
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $216895.75
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $295815.81
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Sedan Toyota Camry0 using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Pickup F150  using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Monster Monster Mutt using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Sedan Honda Civic using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned PerfCar Valkyrie using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Olivier S. cleaned Electric Solterra using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Compass0 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Sedan Nissan Altima using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned Motorcycle Thunderbolt using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the F150  and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: Car cleanliness for the Toyota Camry0 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Victor and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor was downgraded to Dirty
+Fixing: The Genesis has an improved range of 215 miles
+Fixing: Mechanic Buddy R. fixed the Genesis and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Genesis was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Volkswagen Jetta and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Rolls-Royce Dawn1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Muir E. fixed the Thunderbolt0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt0 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Prelude0 and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Toyota Camry and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Allen Q. sold the Rolls-Royce Dawn1 Convertible for $40237.5  (earned a $1200.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Monster Batman
+Racing: Driver Brehme S. is racing the Monster The Felon
+Racing: Driver Valery A. is racing the Monster The Felon0
+Racing: Kalvyn Q. driving Batman has placed 20 in the race. Vehicle is now damaged.
+Racing: Brehme S. driving The Felon has placed 8 in the race.
+Racing: WINNER! Valery A. driving The Felon0 has placed 2 in the race. (new sale price $49912.11, driver bonus $500.0)
+Racing: That's 1 win(s) for Valery A. and 1 win(s) for the The Felon0
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 5 in the race.
+Racing: Rihab W. driving KO has placed 9 in the race.
+Racing: WINNER! Litrell S. driving Bear Foot0 has placed 1 in the race. (new sale price $103145.72, driver bonus $500.0)
+Racing: That's 1 win(s) for Litrell S. and 1 win(s) for the Bear Foot0
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

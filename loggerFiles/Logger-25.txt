@@ -1,0 +1,48 @@
+Day number :25
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $711121.52
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $633086.32
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Fixing: The Model Y has an improved range of 330 miles
+Washing: Intern Apisai D. cleaned Electric Model Y using Elbow Grease and made it Clean
+Washing: Intern Apisai D. fixed the Electric Model Y while cleaning and made it LikeNew
+Washing: Intern Corey-Jay M. cleaned Motorcycle Victor0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Pickup Silverado using Chemical Clean and made it Clean
+Washing: Intern Corey-Jay M. cleaned Convertible Ford Mustang Convertible using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned SUV Honda CR-V1 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Venom and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Bear Foot was downgraded to Clean
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the KO0 Monster for $62801.3  (earned a $4000.0 bonus)
+Selling: Salesperson Yago I. sold the Leaf Plus0 Electric for $44478.36  (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Frontier2 Pickup for $23000.4  (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

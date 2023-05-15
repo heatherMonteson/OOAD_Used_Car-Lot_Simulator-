@@ -1,0 +1,49 @@
+Day number :22
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $570450.6
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $616852.97
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned SUV Kia Sorento2 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Pickup Raptor0 using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Bertie T. cleaned PerfCar Prelude1 using Chemical Clean and made it Clean
+Washing: InternBertie T. broke the PerfCar Prelude1 while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned SUV Toyota RAV4 using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Salman Q. cleaned Electric Niro0 using Detailing and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Kia Sorento2 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento2 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Prelude1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude1 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Oil Hog and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Strada and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Strada was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

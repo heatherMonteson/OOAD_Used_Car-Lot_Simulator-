@@ -1,0 +1,61 @@
+Day number :12
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $302915.22
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $356457.93
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned PerfCar Getaway0 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Car Insight using Elbow Grease and made it Clean
+Washing: Intern Apisai D. cleaned Convertible BMW Z40 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Kia Optima using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Lawless using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Motorcycle Commando using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Pickup Frontier0 using Elbow Grease and made it Clean
+Washing: Intern Cator O. cleaned SUV Honda CR-V0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the I-Pace and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the I-Pace was downgraded to Dirty
+Fixing: Car cleanliness for the Insight was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Subaru Outback and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Subaru Outback was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Victor1 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor1 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the F150  and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Oil Hog and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the KO and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Muir E. fixed the Tiger0 and made it like Used(earned a $300.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Silver Hawk0 and made it like Used(earned a $300.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the I-Pace Electric for $39103.22  (earned a $3500.0 bonus)
+Selling: Salesperson Yago I. sold the Honda CR-V SUV for $51429.0  (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

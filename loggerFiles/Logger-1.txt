@@ -1,0 +1,71 @@
+Day number :1
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $500000.0
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $500000.0
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Convertible Audi A5 Cabriolet using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Victor using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Convertible Rolls-Royce Dawn0 using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Car Accent using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Apisai D. cleaned PerfCar Sportback using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Electric Polestar 2 using Chemical Clean and made it Clean
+Washing: Intern Christopher-Lee V. cleaned SUV Chevrolet Tahoe using Elbow Grease and made it Clean
+Washing: Intern Allen Q. cleaned Monster Monster Mutt0 using Chemical Clean and made it Clean
+Washing: Intern Christopher-Lee V. cleaned Convertible Rolls-Royce Dawn1 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Connel D. fixed the Montana and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Montana was downgraded to Clean
+Fixing: The Hummer EV has an improved range of 234 miles
+Fixing: Mechanic Buddy R. fixed the Hummer EV and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Hummer EV was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Sportback and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the KONA and made it like Used(earned a $500.0 bonus)
+Fixing: The Model Y has an improved range of 230 miles
+Fixing: Mechanic Buddy R. fixed the Model Y and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Loghan G. fixed the Nissan Altima and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Muir E. fixed the Mazda CX-5 and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Atlas and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Loghan G. fixed the X-74 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the X-74 was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Thunderbolt0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt0 was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the Jeep Grand Cherokee and made it like Used(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Denzel T. sold the Ford Taurus0 Sedan for $19283.2  (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Leaf Electric for $43606.25 Add-ons: Extended Warranty for $6977.0 Satellite Radio for $1744.25 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Tundra Pickup for $32199.36 Add-ons: Satellite Radio for $1533.3 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

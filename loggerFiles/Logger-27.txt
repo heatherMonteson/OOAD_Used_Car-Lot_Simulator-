@@ -1,0 +1,63 @@
+Day number :27
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $866410.27
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $727970.5
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Sedan Nissan Altima2 using Elbow Grease and made it Clean
+Washing: Intern Apisai D. fixed the Sedan Nissan Altima2 while cleaning and made it LikeNew
+Washing: Intern Corey-Jay M. cleaned Electric Model S Plaid using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned SUV Honda CR-V3 using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Venom using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Convertible Rolls-Royce Dawn2 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Corey-Jay M. fixed the Convertible Rolls-Royce Dawn2 while cleaning and made it LikeNew
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned PerfCar Spider using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Monster Bear Foot using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Motorcycle Intruder using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Motorcycle Katana using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Venom and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Spider and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Spider was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Intruder and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Intruder was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Katana and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Katana was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Ridgline1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Yago I. sold the KONA Electric for $63099.4 Add-ons Road Rescue Coverage for $1179.42 Satellite Radio for $2948.57 (earned a $3500.0 bonus)
+Selling: Salesperson Del B. sold the Subaru Outback SUV for $101527.5 Add-ons: Extended Warranty for $16244.4 Satellite Radio for $4061.1 (earned a $1200.0 bonus)
+Selling: Salesperson Blaire F. sold the Viper PerfCar for $55297.6  (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Spider PerfCar for $34196.13  (earned a $4000.0 bonus)
+Selling: Salesperson Brad T. sold the Insight1 Car for $33416.0  (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

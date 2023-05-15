@@ -1,0 +1,53 @@
+Day number :19
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $461170.51
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $591148.57
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned SUV Nissan Rogue0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Mustang using Chemical Clean and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Getaway0 using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster KO using Detailing and made it Clean
+Washing: Intern Tristain R. cleaned Monster Bear Foot0 using Detailing and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Sportback and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Mustang and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Mustang was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Nissan Rogue0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Nissan Rogue0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Dre F. fixed the KO and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Bear Foot0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Honda Civic Sedan for $27770.0  (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Nissan Rogue0 SUV for $78045.0 Add-ons: Extended Warranty for $12487.2 Satellite Radio for $3121.8 (earned a $1200.0 bonus)
+Selling: Salesperson Blaire F. sold the Strada0 Pickup for $42981.03 Add-ons: Extended Warranty for $6561.99 Undercoating for $1640.49 Satellite Radio for $1968.59 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Game Over Monster for $66071.32  (earned a $4000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

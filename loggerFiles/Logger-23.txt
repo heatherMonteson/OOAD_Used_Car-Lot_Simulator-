@@ -1,0 +1,44 @@
+Day number :23
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $565723.23
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $612629.69
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned PerfCar Prelude1 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Motorcycle Spitfire using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Monster Bear Foot0 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Monster Oil Hog1 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Salman Q. cleaned Motorcycle Thunderbolt using Detailing and made it Sparkling(earned bonus $150.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Oil Hog and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Connel D. fixed the Prelude1 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude1 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Strada and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

@@ -1,0 +1,55 @@
+Day number :16
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $368182.38
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $687105.86
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Car Insight using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Monster KO0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned SUV Subaru Outback using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Electric KONA using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Honda Civic1 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster Brutus using Detailing and made it Clean
+Washing: Intern Cator O. cleaned SUV Honda CR-V1 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned SUV Honda CR-V2 using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Monster Bear Foot using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Salman Q. cleaned Sedan Hyundai Sonata0 using Detailing and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Batman and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Insight and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Insight was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Dre F. fixed the Niro0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Niro0 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Brutus and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Brutus was downgraded to Dirty
+Fixing: Car cleanliness for the Frontier2 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Honda CR-V1 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

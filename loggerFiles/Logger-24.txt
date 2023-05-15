@@ -1,0 +1,69 @@
+Day number :24
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $561895.85
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $608456.4
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned PerfCar Prelude1 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned SUV Kia Sorento2 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Oil Hog using Chemical Clean and made it Clean
+Washing: Intern Apisai D. tried to clean Motorcycle Victor0 using Elbow Grease but made it Dirty
+Washing: Intern Corey-Jay M. tried to clean Pickup Silverado using Elbow Grease but made it Dirty
+Washing: InternBertie T. broke the Electric Model Y while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Pickup Strada using Detailing and made it Clean
+Washing: Intern Salman Q. cleaned Convertible BMW Z4 using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned PerfCar Sportback0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Electric Bolt using Elbow Grease and made it Sparkling(earned bonus $400.0)
+Washing: Intern Salman Q. cleaned Pickup Frontier0 using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Model Y and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model Y was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Ferrari Portofino Convertible for $76399.2 Add-ons: Extended Warranty for $12733.2 (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Kia Sorento2 SUV for $75680.71 Add-ons: Satellite Radio for $3603.84 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Commando Motorcycle for $30553.2  (earned a $1500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Motorcycle Venom
+Racing: Driver Valery A. is racing the Motorcycle Victor0
+Racing: Driver Jincheng L. is racing the Motorcycle Magna
+Racing: Kalvyn Q. driving Venom has placed 17 in the race. Vehicle is now damaged and driver is injured and will not longer race.
+Racing: Valery A. driving Victor0 has placed 6 in the race.
+Racing: Jincheng L. driving Magna has placed 8 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 16 in the race. Vehicle is now damaged.
+Racing: Rihab W. driving KO has placed 6 in the race.
+Racing: Litrell S. driving Bear Foot0 has placed 13 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////

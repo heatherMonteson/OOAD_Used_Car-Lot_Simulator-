@@ -1,0 +1,2511 @@
+
+***Day Number: 1***
+Logger file created: Logger-1.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $500000.0
+Hiring: Hired new Intern Blaire F.
+Hiring: Hired new Intern Tyrnan J.
+Hiring: Hired new Intern Apisai D.
+Hiring: Hired new Mechanic Maryk W.
+Hiring: Hired new Mechanic Connel D.
+Hiring: Hired new Mechanic Buddy R.
+Hiring: Hired new Salesperson Yago I.
+Hiring: Hired new Salesperson Denzel T.
+Hiring: Hired new Salesperson Heyden P.
+Hiring: Hired new Driver Kalvyn Q.
+Hiring: Hired new Driver Brehme S.
+Hiring: Hired new Driver Valery A.
+Buying: New Car added to inventory: LikeNew Clean Clubman for $11680.0 cost.
+Buying: New Car added to inventory: Broken Dirty Durango for $7860.0 cost.
+Buying: New Car added to inventory: Used Dirty Insight for $8830.4 cost.
+Buying: New Car added to inventory: Broken Clean Compass for $8805.0 cost.
+Buying: New Car added to inventory: LikeNew Dirty Insight0 for $13043.0 cost.
+Buying: New Car added to inventory: Used Dirty Accent for $9098.4 cost.
+Buying: New PerfCar added to inventory: LikeNew Clean Mustang for $23511.69 cost.
+Buying: New PerfCar added to inventory: LikeNew Dirty Cobra for $22633.27 cost.
+Buying: New PerfCar added to inventory: Used Dirty Sportback for $29171.12 cost.
+Buying: New PerfCar added to inventory: Broken Dirty Prelude for $17005.6 cost.
+Buying: New PerfCar added to inventory: Used Dirty Viper for $22119.04 cost.
+Buying: New PerfCar added to inventory: Broken Clean Valkyrie for $17669.84 cost.
+Buying: New Pickup added to inventory: Used Sparkling Montana for $18617.9 cost.
+Buying: New Pickup added to inventory: Broken Clean Silverado for $14169.16 cost.
+Buying: New Pickup added to inventory: Broken Dirty Navara for $8075.97 cost.
+Buying: New Pickup added to inventory: LikeNew Dirty Tacoma for $10182.0 cost.
+Buying: New Pickup added to inventory: LikeNew Dirty Sierra for $39900.33 cost.
+Buying: New Pickup added to inventory: Broken Clean F150  for $17211.57 cost.
+Buying: New Monster added to inventory: Broken Dirty Batman for $23350.29 cost.
+Buying: New Monster added to inventory: Used Dirty The Felon for $30659.06 cost.
+Buying: New Monster added to inventory: Used Dirty The Felon0 for $18149.86 cost.
+Buying: New Monster added to inventory: Broken Dirty Oil Hog for $22376.15 cost.
+Buying: New Monster added to inventory: Used Dirty Monster Mutt for $21275.28 cost.
+Buying: New Monster added to inventory: LikeNew Dirty Killer for $27732.77 cost.
+Buying: New Motorcycle added to inventory: Broken Dirty Victor for $3458.81 cost.
+Buying: New Motorcycle added to inventory: Broken Clean Venom for $8081.71 cost.
+Buying: New Motorcycle added to inventory: Used Dirty Victor0 for $13933.89 cost.
+Buying: New Motorcycle added to inventory: Broken Dirty Magna for $7983.04 cost.
+Buying: New Motorcycle added to inventory: Broken Dirty Victor1 for $7116.13 cost.
+Buying: New Motorcycle added to inventory: LikeNew Dirty Bandit for $10832.46 cost.
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Buying: New Electric added to inventory: Broken Dirty Genesis for $14245.67 cost.
+Buying: New Electric added to inventory: Broken Dirty KONA for $15725.71 cost.
+Buying: New Electric added to inventory: Broken Clean ARIYA for $11106.52 cost.
+Buying: New Electric added to inventory: Used Clean Hummer EV for $29132.69 cost.
+Buying: New Electric added to inventory: Used Dirty Model Y for $27530.84 cost.
+Buying: New Electric added to inventory: Used Dirty Leaf for $17442.5 cost.
+Buying: New Sedan added to inventory: Used Clean Ford Taurus for $11156.0 cost.
+Buying: New Sedan added to inventory: Broken Clean Hyundai Sonata for $7810.0 cost.
+Buying: New Sedan added to inventory: Used Dirty Ford Taurus0 for $9641.6 cost.
+Buying: New Sedan added to inventory: LikeNew Dirty Kia Optima for $13887.0 cost.
+Buying: New Sedan added to inventory: LikeNew Dirty Honda Civic for $13885.0 cost.
+Buying: New Sedan added to inventory: LikeNew Sparkling Honda Civic0 for $16691.0 cost.
+Buying: New SUV added to inventory: Used Dirty Subaru Outback for $32488.8 cost.
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Buying: New SUV added to inventory: Used Sparkling Ford Explorer for $38586.4 cost.
+Buying: New SUV added to inventory: Broken Dirty Honda CR-V for $17143.0 cost.
+Buying: New SUV added to inventory: Broken Dirty Kia Sorento for $21445.5 cost.
+Buying: New SUV added to inventory: Used Sparkling Volkswagen Atlas for $26432.0 cost.
+Buying: New SUV added to inventory: LikeNew Dirty Volkswagen Atlas0 for $47999.0 cost.
+Buying: New Convertible added to inventory: LikeNew Dirty Audi A5 Cabriolet for $45999.0 cost.
+Buying: New Convertible added to inventory: LikeNew Dirty Rolls-Royce Dawn for $45653.0 cost.
+Buying: New Convertible added to inventory: LikeNew Dirty Ferrari Portofino for $31833.0 cost.
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Buying: New Convertible added to inventory: LikeNew Clean Audi A5 Cabriolet0 for $26760.0 cost.
+Buying: New Convertible added to inventory: Broken Dirty Rolls-Royce Dawn0 for $18850.0 cost.
+Buying: New Convertible added to inventory: LikeNew Dirty Ford Mustang Convertible for $37637.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $500000.0
+Hiring: Hired new Intern Oluwafikunayomi K.
+Hiring: Hired new Intern Allen Q.
+Hiring: Hired new Intern Christopher-Lee V.
+Hiring: Hired new Mechanic Loghan G.
+Hiring: Hired new Mechanic Muir E.
+Hiring: Hired new Mechanic Dre F.
+Hiring: Hired new Salesperson Hugo E.
+Hiring: Hired new Salesperson Brad T.
+Hiring: Hired new Salesperson Ruslan N.
+Hiring: Hired new Driver Brydon-Craig L.
+Hiring: Hired new Driver Rihab W.
+Hiring: Hired new Driver Litrell S.
+Buying: New Car added to inventory: LikeNew Dirty Jetta for $17652.0 cost.
+Buying: New Car added to inventory: LikeNew Dirty Clubman0 for $19454.0 cost.
+Buying: New Car added to inventory: Used Dirty Atlas for $10428.0 cost.
+Buying: New Car added to inventory: Used Dirty Artura for $12453.6 cost.
+Buying: New Car added to inventory: Used Dirty Compass0 for $14771.2 cost.
+Buying: New Car added to inventory: Used Clean Compass1 for $15744.0 cost.
+Buying: New PerfCar added to inventory: Used Dirty Sportback0 for $26100.07 cost.
+Buying: New PerfCar added to inventory: Used Clean Valhalla for $17527.64 cost.
+Buying: New PerfCar added to inventory: Used Dirty GT for $24729.36 cost.
+Buying: New PerfCar added to inventory: Used Clean Viper0 for $31105.63 cost.
+Buying: New PerfCar added to inventory: Broken Dirty Getaway for $18086.89 cost.
+Buying: New PerfCar added to inventory: Used Dirty Mustang0 for $16401.4 cost.
+Buying: New Pickup added to inventory: LikeNew Dirty Tundra for $15333.03 cost.
+Buying: New Pickup added to inventory: Broken Dirty Frontier for $19781.92 cost.
+Buying: New Pickup added to inventory: LikeNew Dirty Xenon for $16173.89 cost.
+Buying: New Pickup added to inventory: Broken Clean Strada for $14399.34 cost.
+Buying: New Pickup added to inventory: Broken Dirty Frontier0 for $19708.3 cost.
+Buying: New Pickup added to inventory: Broken Clean D-Max for $6716.28 cost.
+Buying: New Monster added to inventory: Used Clean Bear Foot for $25248.73 cost.
+Buying: New Monster added to inventory: Broken Clean KO for $21678.51 cost.
+Buying: New Monster added to inventory: LikeNew Clean Bear Foot0 for $46884.42 cost.
+Buying: New Monster added to inventory: LikeNew Dirty Monster Mutt0 for $25723.0 cost.
+Buying: New Monster added to inventory: Broken Dirty Game Over for $17619.02 cost.
+Buying: New Monster added to inventory: Broken Dirty Oil Hog0 for $12219.49 cost.
+Buying: New Motorcycle added to inventory: LikeNew Clean Tiger for $10032.55 cost.
+Buying: New Motorcycle added to inventory: Broken Dirty Commando for $8147.52 cost.
+Buying: New Motorcycle added to inventory: Used Dirty Thunderbolt for $14335.84 cost.
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Buying: New Motorcycle added to inventory: Broken Sparkling Thunderbolt0 for $11765.82 cost.
+Buying: New Motorcycle added to inventory: Used Clean X-74 for $14982.29 cost.
+Buying: New Motorcycle added to inventory: Used Dirty X-740 for $9866.38 cost.
+Buying: New Electric added to inventory: LikeNew Dirty Niro for $27526.18 cost.
+Buying: New Electric added to inventory: Broken Dirty Solterra for $14633.76 cost.
+Buying: New Electric added to inventory: LikeNew Clean Bolt for $33996.87 cost.
+Buying: New Electric added to inventory: Used Dirty Ioniq for $18457.77 cost.
+Buying: New Electric added to inventory: Used Dirty Polestar 2 for $18317.52 cost.
+Buying: New Electric added to inventory: Used Dirty Polestar 20 for $31565.73 cost.
+Buying: New Sedan added to inventory: Broken Dirty Subaru Legacy for $5501.0 cost.
+Buying: New Sedan added to inventory: Broken Dirty Nissan Altima for $5672.5 cost.
+Buying: New Sedan added to inventory: Broken Clean Hyundai Sonata0 for $6278.5 cost.
+Buying: New Sedan added to inventory: Used Dirty Volkswagen Jetta for $11857.6 cost.
+Buying: New Sedan added to inventory: LikeNew Dirty Mazda 6 for $10205.0 cost.
+Buying: New Sedan added to inventory: Broken Dirty Toyota Camry for $5077.0 cost.
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Buying: New SUV added to inventory: Used Dirty Kia Sorento0 for $28348.8 cost.
+Buying: New SUV added to inventory: Broken Clean Nissan Rogue for $16148.0 cost.
+Buying: New SUV added to inventory: Broken Dirty Mazda CX-5 for $17101.0 cost.
+Buying: New SUV added to inventory: LikeNew Clean Toyota RAV4 for $39729.0 cost.
+Buying: New SUV added to inventory: Used Dirty Chevrolet Tahoe for $34725.6 cost.
+Buying: New SUV added to inventory: Broken Dirty Jeep Grand Cherokee for $24076.5 cost.
+Buying: New Convertible added to inventory: LikeNew Dirty Mazda MX-5 Miata for $43725.0 cost.
+Buying: New Convertible added to inventory: Broken Dirty Rolls-Royce Dawn1 for $10730.0 cost.
+Buying: New Convertible added to inventory: Used Clean Chevrolet Camaro Convertible for $31116.0 cost.
+Emergency: Emergency funds of $250000.0 added to the FNCD budget
+Buying: New Convertible added to inventory: LikeNew Dirty Mazda MX-5 Miata0 for $45467.0 cost.
+Buying: New Convertible added to inventory: Used Dirty BMW Z4 for $21356.8 cost.
+Buying: New Convertible added to inventory: Used Dirty Jaguar F-Type Convertible for $30348.0 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Convertible Audi A5 Cabriolet using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Victor using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Convertible Rolls-Royce Dawn0 using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Car Accent using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Apisai D. cleaned PerfCar Sportback using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Electric Polestar 2 using Chemical Clean and made it Clean
+Washing: Intern Christopher-Lee V. cleaned SUV Chevrolet Tahoe using Elbow Grease and made it Clean
+Washing: Intern Allen Q. cleaned Monster Monster Mutt0 using Chemical Clean and made it Clean
+Washing: Intern Christopher-Lee V. cleaned Convertible Rolls-Royce Dawn1 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Connel D. fixed the Montana and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Montana was downgraded to Clean
+Fixing: The Hummer EV has an improved range of 234 miles
+Fixing: Mechanic Buddy R. fixed the Hummer EV and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Hummer EV was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Sportback and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the KONA and made it like Used(earned a $500.0 bonus)
+Fixing: The Model Y has an improved range of 230 miles
+Fixing: Mechanic Buddy R. fixed the Model Y and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Loghan G. fixed the Nissan Altima and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Muir E. fixed the Mazda CX-5 and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Atlas and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Loghan G. fixed the X-74 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the X-74 was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Thunderbolt0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt0 was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the Jeep Grand Cherokee and made it like Used(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Denzel T. sold the Ford Taurus0 Sedan for $19283.2  (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Leaf Electric for $43606.25 Add-ons: Extended Warranty for $6977.0 Satellite Radio for $1744.25 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Tundra Pickup for $32199.36 Add-ons: Satellite Radio for $1533.3 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Intern staff Oluwafikunayomi K. has quit
+Quitting: Mechanic staff Loghan G. has quit
+Promoting: Intern Christopher-Lee V. was promoted to Mechanic has a new daily salary of $201.54
+Tracker: Day 1
+Total money earned by all Staff: $10799.86
+Total money earned by the FNCD: $95088.81
+***Day Number: 2***
+Logger file created: Logger-2.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $232299.34
+Buying: New Electric added to inventory: Broken Clean Taycan for $19481.71 cost.
+Buying: New Sedan added to inventory: Broken Dirty Chevrolet Impala for $5293.5 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $209893.15
+Hiring: Hired new Intern Koushik D.
+Hiring: Hired new Intern Tristain R.
+Buying: New Pickup added to inventory: Used Dirty Ridgline for $25732.68 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned SUV Kia Sorento using Chemical Clean and made it Sparkling(earned bonus $250.0)
+Washing: Intern Apisai D. cleaned Monster The Felon using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Motorcycle Magna using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Car Compass0 using Chemical Clean and made it Clean
+Washing: Intern Koushik D. cleaned PerfCar GT using Elbow Grease and made it Clean
+Washing: Intern Koushik D. fixed the PerfCar GT while cleaning and made it LikeNew
+Washing: Intern Allen Q. cleaned Monster Oil Hog0 using Chemical Clean and made it Clean
+Washing: Intern Koushik D. cleaned Car Atlas using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the ARIYA and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the ARIYA was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Viper and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Maryk W. fixed the The Felon and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the The Felon was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Silverado and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Silverado was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Rolls-Royce Dawn0 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Rolls-Royce Dawn0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Kia Sorento0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Compass1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Compass1 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Chevrolet Tahoe and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Chevrolet Tahoe was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Frontier0 and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the Nissan Altima and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Jaguar F-Type Convertible and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Artura Car for $29888.64 Add-ons: Extended Warranty for $4981.44 (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 2
+Total money earned by all Staff: $22223.01
+Total money earned by the FNCD: $124977.45
+***Day Number: 3***
+Logger file created: Logger-3.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $201649.12
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $208250.87
+Buying: New Car added to inventory: LikeNew Dirty Artura0 for $10564.0 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Monster Batman using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Monster Oil Hog using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Car Insight0 using Elbow Grease and made it Clean
+Washing: Intern Tyrnan J. cleaned Electric Genesis using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Apisai D. cleaned Car Insight using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Monster Game Over using Chemical Clean and made it Clean
+Fixing: The Polestar 20 has an improved range of 190 miles
+Washing: Intern Koushik D. cleaned Electric Polestar 20 using Elbow Grease and made it Clean
+Washing: Intern Koushik D. fixed the Electric Polestar 20 while cleaning and made it LikeNew
+Washing: Intern Koushik D. cleaned Car Clubman0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Silverado and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Connel D. fixed the Genesis and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Genesis was downgraded to Clean
+Fixing: Car cleanliness for the Magna was downgraded to Dirty
+Fixing: Car cleanliness for the Valkyrie was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Venom and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Hyundai Sonata and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Hyundai Sonata was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Thunderbolt and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Dre F. fixed the Solterra and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Mazda CX-5 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Muir E. fixed the Ridgline and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the BMW Z4 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the X-740 and made it like LikeNew(earned a $300.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Monster The Felon
+Racing: Driver Brehme S. is racing the Monster The Felon0
+Racing: Driver Valery A. is racing the Monster Monster Mutt
+Racing: Kalvyn Q. driving The Felon has placed 9 in the race.
+Racing: Brehme S. driving The Felon0 has placed 5 in the race.
+Racing: Valery A. driving Monster Mutt has placed 11 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Pickup Xenon
+Racing: Driver Rihab W. is racing the Pickup Frontier0
+Racing: Driver Litrell S. is racing the Pickup Ridgline
+Racing: Brydon-Craig L. driving Xenon has placed 5 in the race.
+Racing: WINNER! Rihab W. driving Frontier0 has placed 1 in the race. (new sale price $65037.37, driver bonus $300.0)
+Racing: That's 1 win(s) for Rihab W. and 1 win(s) for the Frontier0
+Racing: Litrell S. driving Ridgline has placed 4 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Intern staff Koushik D. has quit
+Tracker: Day 3
+Total money earned by all Staff: $32846.19
+Total money earned by the FNCD: $124977.45
+***Day Number: 4***
+Logger file created: Logger-4.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $196474.09
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $191838.62
+Hiring: Hired new Intern Olivier S.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Convertible Ferrari Portofino using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Sedan Hyundai Sonata using Detailing and made it Clean
+Washing: Intern Blaire F. cleaned Electric Model Y using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Convertible Rolls-Royce Dawn using Detailing and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Allen Q. cleaned Electric Ioniq using Chemical Clean and made it Clean
+Washing: InternAllen Q. broke the Electric Ioniq while cleaning and made it Broken
+Washing: Intern Tristain R. cleaned Motorcycle Commando using Detailing and made it Sparkling(earned bonus $150.0)
+Washing: Intern Olivier S. fixed the Pickup Frontier while cleaning and made it LikeNew
+Washing: Intern Allen Q. cleaned Motorcycle X-74 using Chemical Clean and made it Clean
+Washing: Intern Olivier S. cleaned Convertible Jaguar F-Type Convertible using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Volkswagen Atlas and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Volkswagen Atlas was downgraded to Clean
+Fixing: Mechanic Buddy R. fixed the Chevrolet Impala and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Batman and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Batman was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Valkyrie and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Buddy R. fixed the The Felon0 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Viper0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Viper0 was downgraded to Dirty
+Fixing: Car cleanliness for the Oil Hog0 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Sportback0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Muir E. fixed the Strada and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Strada was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Jeep Grand Cherokee and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Compass0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Compass0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Mazda 6 Sedan for $20818.2 Add-ons Road Rescue Coverage for $408.2 (earned a $1200.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 4
+Total money earned by all Staff: $43835.91
+Total money earned by the FNCD: $145795.65
+***Day Number: 5***
+Logger file created: Logger-5.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $190899.06
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $207092.08
+Buying: New Sedan added to inventory: LikeNew Dirty Nissan Altima0 for $12728.0 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned PerfCar Sportback using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned SUV Honda CR-V using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned PerfCar Prelude using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Pickup Tacoma using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Pickup Sierra using Detailing and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Motorcycle X-740 using Detailing and made it Sparkling(earned bonus $150.0)
+Washing: Intern Olivier S. cleaned SUV Mazda CX-5 using Elbow Grease and made it Clean
+Washing: Intern Allen Q. cleaned SUV Chevrolet Tahoe using Chemical Clean and made it Clean
+Washing: Intern Olivier S. fixed the PerfCar Getaway while cleaning and made it LikeNew
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Accent and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Accent was downgraded to Clean
+Fixing: Car cleanliness for the Compass was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Magna and made it like Used(earned a $300.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Hyundai Sonata and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Hyundai Sonata was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Honda CR-V and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V was downgraded to Dirty
+Fixing: Car cleanliness for the Taycan was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Subaru Legacy and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Rolls-Royce Dawn1 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Rolls-Royce Dawn1 was downgraded to Dirty
+Fixing: Car cleanliness for the Game Over was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Oil Hog0 and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the KO and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Heyden P. sold the ARIYA Electric for $34985.53 Add-ons: Satellite Radio for $1665.97 (earned a $3500.0 bonus)
+Selling: Salesperson Denzel T. sold the Tacoma Pickup for $22400.4 Add-ons: Undercoating for $1018.2 Satellite Radio for $1018.2 (earned a $3500.0 bonus)
+Selling: Salesperson Heyden P. sold the Chevrolet Impala Sedan for $19056.6 Add-ons: Extended Warranty for $3176.1 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Mazda CX-5 SUV for $64128.75  (earned a $1200.0 bonus)
+Selling: Salesperson Ruslan N. sold the Xenon Pickup for $38817.33 Add-ons: Extended Warranty for $6469.55 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Salesperson staff Hugo E. has quit
+Promoting: Intern Allen Q. was promoted to Salesperson has a new daily salary of $342.15
+Tracker: Day 5
+Total money earned by all Staff: $53425.62
+Total money earned by the FNCD: $325184.26
+***Day Number: 6***
+Logger file created: Logger-6.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $262816.57
+Buying: New Pickup added to inventory: LikeNew Dirty Strada0 for $16404.98 cost.
+Buying: New Electric added to inventory: Broken Dirty I-Pace for $13034.41 cost.
+Buying: New Sedan added to inventory: Used Dirty Toyota Camry0 for $10706.4 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $290895.4
+Hiring: Hired new Intern Oilibhear C.
+Buying: New Pickup added to inventory: LikeNew Dirty Raptor for $10950.12 cost.
+Buying: New SUV added to inventory: Used Clean Honda CR-V0 for $35272.8 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned PerfCar Viper using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Motorcycle Victor1 using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Electric Hummer EV using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Monster The Felon0 using Chemical Clean and made it Sparkling(earned bonus $450.0)
+Washing: Intern Apisai D. cleaned Monster The Felon using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Olivier S. cleaned Sedan Nissan Altima0 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Monster Game Over using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned PerfCar Getaway using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned SUV Kia Sorento0 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Jetta using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Taycan and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Prelude and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude was downgraded to Dirty
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: The KONA has an improved range of 211 miles
+Fixing: Mechanic Maryk W. fixed the KONA and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Durango and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Valkyrie and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Toyota Camry and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Chevrolet Camaro Convertible was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Nissan Rogue and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Nissan Rogue was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Oil Hog0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: The Solterra has an improved range of 421 miles
+Fixing: Mechanic Dre F. fixed the Solterra and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Ioniq and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Ioniq was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Mustang0 PerfCar for $34442.94 Add-ons: Satellite Radio for $1640.14 (earned a $4000.0 bonus)
+Selling: Salesperson Ruslan N. sold the Artura0 Car for $22184.4 Add-ons: Satellite Radio for $1056.4 (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 6
+Total money earned by all Staff: $64234.61
+Total money earned by the FNCD: $381811.6
+***Day Number: 7***
+Logger file created: Logger-7.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $216895.75
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $295815.81
+Buying: New Car added to inventory: Used Dirty Insight1 for $13366.4 cost.
+Buying: New PerfCar added to inventory: Broken Dirty Prelude0 for $16917.18 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Sedan Toyota Camry0 using Chemical Clean and made it Clean
+Washing: Intern Tyrnan J. cleaned Pickup F150  using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Monster Monster Mutt using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned Sedan Honda Civic using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned PerfCar Valkyrie using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Olivier S. cleaned Electric Solterra using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Compass0 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Sedan Nissan Altima using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned Motorcycle Thunderbolt using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the F150  and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: Car cleanliness for the Toyota Camry0 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Victor and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor was downgraded to Dirty
+Fixing: The Genesis has an improved range of 215 miles
+Fixing: Mechanic Buddy R. fixed the Genesis and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Genesis was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Volkswagen Jetta and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Rolls-Royce Dawn1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Muir E. fixed the Thunderbolt0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt0 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Prelude0 and made it like Used(earned a $500.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Toyota Camry and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Allen Q. sold the Rolls-Royce Dawn1 Convertible for $40237.5  (earned a $1200.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Monster Batman
+Racing: Driver Brehme S. is racing the Monster The Felon
+Racing: Driver Valery A. is racing the Monster The Felon0
+Racing: Kalvyn Q. driving Batman has placed 20 in the race. Vehicle is now damaged.
+Racing: Brehme S. driving The Felon has placed 8 in the race.
+Racing: WINNER! Valery A. driving The Felon0 has placed 2 in the race. (new sale price $49912.11, driver bonus $500.0)
+Racing: That's 1 win(s) for Valery A. and 1 win(s) for the The Felon0
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 5 in the race.
+Racing: Rihab W. driving KO has placed 9 in the race.
+Racing: WINNER! Litrell S. driving Bear Foot0 has placed 1 in the race. (new sale price $103145.72, driver bonus $500.0)
+Racing: That's 1 win(s) for Litrell S. and 1 win(s) for the Bear Foot0
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 7
+Total money earned by all Staff: $74643.59
+Total money earned by the FNCD: $422049.1
+***Day Number: 8***
+Logger file created: Logger-8.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $212070.72
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $298985.72
+Buying: New Convertible added to inventory: LikeNew Clean Ferrari Portofino0 for $24567.0 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Pickup Silverado using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned SUV Subaru Outback using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Sedan Toyota Camry0 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster KO using Detailing and made it Clean
+Washing: Intern Oilibhear C. cleaned Convertible Mazda MX-5 Miata using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned PerfCar Prelude0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Olivier S. cleaned Pickup Strada using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Pickup Ridgline using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Car cleanliness for the Ford Explorer was downgraded to Clean
+Fixing: Mechanic Connel D. fixed the Navara and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Victor and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Victor0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: The Taycan has an improved range of 401 miles
+Fixing: Mechanic Buddy R. fixed the Taycan and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Strada and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Strada was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Hyundai Sonata0 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Hyundai Sonata0 was downgraded to Dirty
+Fixing: Car cleanliness for the Prelude0 was downgraded to Clean
+Fixing: Mechanic Muir E. fixed the Commando and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Commando was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the Nissan Rogue and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Valhalla and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Valhalla was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Yago I. sold the Cobra PerfCar for $54319.84 Add-ons: Extended Warranty for $9053.3 (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Raptor Pickup for $21900.24  (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 8
+Total money earned by all Staff: $84552.54
+Total money earned by the FNCD: $498269.17
+***Day Number: 9***
+Logger file created: Logger-9.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $261765.56
+Buying: New PerfCar added to inventory: Broken Dirty Getaway0 for $13385.83 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $287134.94
+Buying: New Pickup added to inventory: Used Dirty Frontier1 for $13848.67 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Blaire F. cleaned Motorcycle Victor0 using Chemical Clean and made it Clean
+Washing: InternBlaire F. broke the Motorcycle Victor0 while cleaning and made it Broken
+Washing: Intern Tyrnan J. cleaned Electric Taycan using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Apisai D. cleaned PerfCar Getaway0 using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned PerfCar Prelude using Chemical Clean and made it Sparkling(earned bonus $400.0)
+Washing: Intern Tyrnan J. cleaned Electric Genesis using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Apisai D. cleaned SUV Volkswagen Atlas0 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Convertible Chevrolet Camaro Convertible using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned SUV Jeep Grand Cherokee using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Compass1 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Pickup Frontier using Detailing and made it Clean
+Washing: Intern Olivier S. cleaned Motorcycle Thunderbolt0 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned PerfCar Viper0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Venom and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Connel D. fixed the Toyota Camry0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Toyota Camry0 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Compass and made it like Used(earned a $450.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Kia Sorento and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento was downgraded to Clean
+Fixing: Mechanic Connel D. fixed the Rolls-Royce Dawn0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Monster Mutt and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Monster Mutt was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Honda CR-V0 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Game Over and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Game Over was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Prelude0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude0 was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Frontier0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Subaru Legacy and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Denzel T. sold the The Felon0 Monster for $52407.71 Add-ons: Undercoating for $2495.6 (earned a $4000.0 bonus)
+Selling: Salesperson Heyden P. sold the Ford Taurus Sedan for $23427.6 Add-ons: Satellite Radio for $1115.6 (earned a $1200.0 bonus)
+Selling: Salesperson Denzel T. sold the Audi A5 Cabriolet0 Convertible for $53520.0  (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Polestar 2 Electric for $36635.04  (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+Quitting: Salesperson staff Denzel T. has quit
+Promoting: Intern Blaire F. was promoted to Salesperson has a new daily salary of $273.59
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 9
+Total money earned by all Staff: $96011.48
+Total money earned by the FNCD: $664259.52
+***Day Number: 10***
+Logger file created: Logger-10.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $369710.03
+Hiring: Hired new Intern Corey-Jay M.
+Buying: New Monster added to inventory: Broken Clean Lawless for $20035.59 cost.
+Buying: New Sedan added to inventory: Used Dirty Nissan Altima1 for $13852.8 cost.
+Buying: New Convertible added to inventory: Used Dirty BMW Z40 for $34395.2 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $300587.3
+Buying: New Electric added to inventory: Used Dirty Leaf Plus for $25261.3 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Tyrnan J. cleaned Monster Batman using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Pickup F150  using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Electric I-Pace using Elbow Grease and made it Clean
+Washing: Intern Tyrnan J. cleaned Pickup Navara using Detailing and made it Clean
+Washing: Intern Apisai D. cleaned Sedan Nissan Altima1 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Toyota Camry0 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Olivier S. cleaned Pickup Frontier1 using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Car Insight1 using Elbow Grease and made it Clean
+Washing: Intern Olivier S. cleaned Electric Ioniq using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Electric Niro using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Nissan Altima1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Nissan Altima1 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the BMW Z40 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Compass and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Kia Sorento and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Ford Explorer and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Ford Explorer was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Durango and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Honda CR-V0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Chevrolet Camaro Convertible and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Chevrolet Camaro Convertible was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Frontier1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Frontier1 was downgraded to Dirty
+Fixing: The Ioniq has an improved range of 183 miles
+Fixing: Mechanic Muir E. fixed the Ioniq and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Ioniq was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Insight1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Insight1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Allen Q. sold the Valhalla PerfCar for $52582.92 Add-ons: Extended Warranty for $8763.82 (earned a $4000.0 bonus)
+Selling: Salesperson Ruslan N. sold the Tiger Motorcycle for $20065.1  (earned a $1500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Motorcycle Victor
+Racing: Driver Brehme S. is racing the Motorcycle Venom
+Racing: Driver Valery A. is racing the Motorcycle Magna
+Racing: Kalvyn Q. driving Victor has placed 9 in the race.
+Racing: Brehme S. driving Venom has placed 20 in the race. Vehicle is now damaged.
+Racing: Valery A. driving Magna has placed 7 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 16 in the race. Vehicle is now damaged.
+Racing: Rihab W. driving KO has placed 19 in the race. Vehicle is now damaged.
+Racing: WINNER! Litrell S. driving Bear Foot0 has placed 3 in the race. (new sale price $113460.29, driver bonus $500.0)
+Racing: That's 2 win(s) for Litrell S. and 2 win(s) for the Bear Foot0
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+Quitting: Intern staff Tyrnan J. has quit
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Intern staff Olivier S. has quit
+Tracker: Day 10
+Total money earned by all Staff: $107438.81
+Total money earned by the FNCD: $736907.53
+***Day Number: 11***
+Logger file created: Logger-11.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $295933.06
+Hiring: Hired new Intern Del B.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $340540.0
+Hiring: Hired new Intern Cator O.
+Buying: New PerfCar added to inventory: LikeNew Dirty Valhalla0 for $23205.73 cost.
+Buying: New Motorcycle added to inventory: Broken Dirty Tiger0 for $6333.3 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Del B. cleaned Car Compass using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Car Durango using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Corey-Jay M. cleaned SUV Ford Explorer using Elbow Grease and made it Clean
+Washing: Intern Del B. cleaned SUV Honda CR-V using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned PerfCar Sportback0 using Detailing and made it Clean
+Washing: Intern Oilibhear C. cleaned Monster Bear Foot using Elbow Grease and made it Clean
+Washing: Intern Cator O. cleaned Sedan Subaru Legacy using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Sedan Volkswagen Jetta using Detailing and made it Clean
+Washing: Intern Oilibhear C. cleaned Pickup Strada using Elbow Grease and made it Clean
+Washing: Intern Cator O. cleaned Car Insight1 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Magna and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Connel D. fixed the Prelude and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude was downgraded to Clean
+Fixing: Car cleanliness for the Insight was downgraded to Dirty
+Fixing: Car cleanliness for the Getaway0 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Lawless and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Lawless was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Hyundai Sonata0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Dre F. fixed the Game Over and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the D-Max and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the D-Max was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Commando and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Commando was downgraded to Dirty
+Fixing: The Leaf Plus has an improved range of 372 miles
+Fixing: Mechanic Dre F. fixed the Leaf Plus and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Blaire F. sold the Victor Motorcycle for $12970.53  (earned a $1500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the X-740 Motorcycle for $25899.23 Add-ons: Satellite Radio for $1233.29 (earned a $1500.0 bonus)
+Selling: Salesperson Allen Q. sold the Atlas Car for $26070.0  (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+Quitting: Salesperson staff Heyden P. has quit
+Promoting: Intern Del B. was promoted to Salesperson has a new daily salary of $267.57
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 11
+Total money earned by all Staff: $117189.37
+Total money earned by the FNCD: $801847.29
+***Day Number: 12***
+Logger file created: Logger-12.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $302915.22
+Hiring: Hired new Intern Bertie T.
+Buying: New Motorcycle added to inventory: LikeNew Clean Silver Hawk for $17821.58 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $356457.93
+Buying: New Car added to inventory: Used Dirty Odyssey for $14432.8 cost.
+Buying: New Motorcycle added to inventory: Broken Dirty Silver Hawk0 for $12039.85 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned PerfCar Getaway0 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Car Insight using Elbow Grease and made it Clean
+Washing: Intern Apisai D. cleaned Convertible BMW Z40 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Kia Optima using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Lawless using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Motorcycle Commando using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Pickup Frontier0 using Elbow Grease and made it Clean
+Washing: Intern Cator O. cleaned SUV Honda CR-V0 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the I-Pace and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the I-Pace was downgraded to Dirty
+Fixing: Car cleanliness for the Insight was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Subaru Outback and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Subaru Outback was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Victor1 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor1 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the F150  and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the F150  was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Oil Hog and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the KO and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Muir E. fixed the Tiger0 and made it like Used(earned a $300.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Silver Hawk0 and made it like Used(earned a $300.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the I-Pace Electric for $39103.22  (earned a $3500.0 bonus)
+Selling: Salesperson Yago I. sold the Honda CR-V SUV for $51429.0  (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Intern staff Oilibhear C. has quit
+Tracker: Day 12
+Total money earned by all Staff: $127280.81
+Total money earned by the FNCD: $892379.51
+***Day Number: 13***
+Logger file created: Logger-13.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $365696.61
+Buying: New Electric added to inventory: Used Clean Polestar 21 for $24323.0 cost.
+Buying: New SUV added to inventory: LikeNew Dirty Toyota RAV40 for $46727.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $325123.01
+Hiring: Hired new Intern Salman Q.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Motorcycle Magna using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Monster Oil Hog using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Convertible Ford Mustang Convertible using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned SUV Toyota RAV40 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Bertie T. cleaned SUV Kia Sorento using Chemical Clean and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Electric Leaf Plus using Detailing and made it Clean
+Washing: Intern Cator O. cleaned PerfCar Valhalla0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Monster Game Over using Detailing and made it Clean
+Washing: Intern Tristain R. cleaned Electric Ioniq using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Convertible Chevrolet Camaro Convertible using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Monster KO using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: The Polestar 21 has an improved range of 185 miles
+Fixing: Mechanic Connel D. fixed the Polestar 21 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Polestar 21 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Lawless and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Lawless was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Venom and made it like Used(earned a $300.0 bonus)
+Fixing: Mechanic Connel D. fixed the Navara and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Navara was downgraded to Dirty
+Fixing: Car cleanliness for the Getaway0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Tiger0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Dre F. fixed the Silver Hawk0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Clean
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Dre F. fixed the Odyssey and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the D-Max and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Genesis Electric for $65173.93 Add-ons: Extended Warranty for $10684.25 Road Rescue Coverage for $1068.42 (earned a $3500.0 bonus)
+Selling: Salesperson Blaire F. sold the Monster Mutt Monster for $54251.96 Add-ons Road Rescue Coverage for $1063.76 (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Allen Q. sold the Tiger0 Motorcycle for $24937.36 Add-ons: Satellite Radio for $1187.49 (earned a $1500.0 bonus)
+Selling: Salesperson Allen Q. sold the Nissan Rogue SUV for $60555.0  (earned a $1200.0 bonus)
+Selling: Salesperson Ruslan N. sold the D-Max Pickup for $31482.56 Add-ons: Extended Warranty for $5037.21 Satellite Radio for $1259.3 (earned a $3500.0 bonus)
+Selling: Salesperson Ruslan N. sold the Oil Hog0 Monster for $54987.69 Add-ons: Extended Warranty for $9164.61 (earned a $4000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 13
+Total money earned by all Staff: $137333.29
+Total money earned by the FNCD: $1183768.0
+***Day Number: 14***
+Logger file created: Logger-14.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $408793.26
+Buying: New Monster added to inventory: Used Dirty KO0 for $25120.52 cost.
+Buying: New Electric added to inventory: LikeNew Clean Leaf Plus0 for $22239.18 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $489762.33
+Buying: New Pickup added to inventory: LikeNew Dirty Tundra0 for $12089.24 cost.
+Buying: New Monster added to inventory: Broken Dirty Jacked Up for $18837.5 cost.
+Buying: New Motorcycle added to inventory: LikeNew Clean Thunderbolt1 for $11229.25 cost.
+Buying: New SUV added to inventory: Broken Dirty Honda CR-V1 for $21513.5 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned Motorcycle Venom using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. fixed the Motorcycle Venom while cleaning and made it LikeNew
+Washing: Intern Apisai D. cleaned Convertible Rolls-Royce Dawn0 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Pickup Navara using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Getaway0 using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Convertible BMW Z4 using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Convertible Mazda MX-5 Miata0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned PerfCar Prelude0 using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Pickup Tundra0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Pickup Frontier1 using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the KO0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Connel D. fixed the Victor1 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Victor0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Victor0 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Getaway0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Getaway0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Dre F. fixed the Jacked Up and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the KO and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Navara Pickup for $37856.09 Add-ons: Extended Warranty for $6056.97 Satellite Radio for $1514.24 (earned a $3500.0 bonus)
+Selling: Salesperson Blaire F. sold the Toyota Camry0 Sedan for $26766.0  (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Solterra Electric for $65851.92 Add-ons: Extended Warranty for $10975.32 (earned a $3500.0 bonus)
+Selling: Salesperson Allen Q. sold the Niro Electric for $68815.44 Add-ons: Extended Warranty for $11010.47 Satellite Radio for $2752.61 (earned a $3500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the PerfCar Mustang
+Racing: Driver Brehme S. is racing the PerfCar Sportback
+Racing: Driver Valery A. is racing the PerfCar Prelude
+Racing: Kalvyn Q. driving Mustang has placed 14 in the race.
+Racing: Brehme S. driving Sportback has placed 10 in the race.
+Racing: Valery A. driving Prelude has placed 16 in the race. Vehicle is now damaged.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the PerfCar Sportback0
+Racing: Driver Rihab W. is racing the PerfCar GT
+Racing: Driver Litrell S. is racing the PerfCar Viper0
+Racing: WINNER! Brydon-Craig L. driving Sportback0 has placed 3 in the race. (new sale price $71775.18, driver bonus $450.0)
+Racing: That's 1 win(s) for Brydon-Craig L. and 1 win(s) for the Sportback0
+Racing: Rihab W. driving GT has placed 8 in the race.
+Racing: Litrell S. driving Viper0 has placed 7 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 14
+Total money earned by all Staff: $146435.76
+Total money earned by the FNCD: $1383057.45
+***Day Number: 15***
+Logger file created: Logger-15.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $420426.42
+Buying: New Pickup added to inventory: Used Dirty Ridgline0 for $29471.79 cost.
+Buying: New Sedan added to inventory: LikeNew Dirty Honda Civic1 for $16893.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $555636.91
+Buying: New Electric added to inventory: LikeNew Clean KONA0 for $21482.53 cost.
+Buying: New Electric added to inventory: Used Clean KONA1 for $31202.68 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Fixing: The Polestar 21 has an improved range of 285 miles
+Washing: Intern Apisai D. cleaned Electric Polestar 21 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Pickup Strada0 using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Bertie T. cleaned Sedan Nissan Altima1 using Chemical Clean and made it Clean
+Washing: Intern Corey-Jay M. cleaned Monster Killer using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Oil Hog using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned Sedan Toyota Camry using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Monster Jacked Up using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Cator O. cleaned Monster KO using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Motorcycle Silver Hawk0 using Detailing and made it Sparkling(earned bonus $150.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Oil Hog and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Batman and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Batman was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Prelude and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude was downgraded to Dirty
+Fixing: Mechanic Maryk W. fixed the Victor0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Ridgline0 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the KONA1 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Jacked Up and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Jacked Up was downgraded to Clean
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Monster Mutt0 Monster for $54018.3 Add-ons: Satellite Radio for $2572.3 (earned a $4000.0 bonus)
+Selling: Salesperson Brad T. sold the KONA0 Electric for $42965.06  (earned a $3500.0 bonus)
+Selling: Salesperson Brad T. sold the Tundra0 Pickup for $24178.48  (earned a $3500.0 bonus)
+Selling: Salesperson Brad T. sold the Kia Sorento0 SUV for $74415.6 Add-ons: Satellite Radio for $3543.6 (earned a $1200.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 15
+Total money earned by all Staff: $155438.24
+Total money earned by the FNCD: $1578634.89
+***Day Number: 16***
+Logger file created: Logger-16.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $368182.38
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $687105.86
+Buying: New Pickup added to inventory: Used Clean Frontier2 for $9200.16 cost.
+Buying: New Monster added to inventory: Broken Dirty Brutus for $21842.68 cost.
+Buying: New Electric added to inventory: Broken Clean Niro0 for $15836.6 cost.
+Buying: New SUV added to inventory: LikeNew Dirty Honda CR-V2 for $33958.0 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Car Insight using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Monster KO0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned SUV Subaru Outback using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Electric KONA using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Honda Civic1 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster Brutus using Detailing and made it Clean
+Washing: Intern Cator O. cleaned SUV Honda CR-V1 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned SUV Honda CR-V2 using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Monster Bear Foot using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Salman Q. cleaned Sedan Hyundai Sonata0 using Detailing and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Batman and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Insight and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Insight was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Dre F. fixed the Niro0 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Niro0 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Brutus and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Brutus was downgraded to Dirty
+Fixing: Car cleanliness for the Frontier2 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Honda CR-V1 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 16
+Total money earned by all Staff: $163740.73
+Total money earned by the FNCD: $1578634.89
+***Day Number: 17***
+Logger file created: Logger-17.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $364403.13
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $601045.13
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Car Insight using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Batman using Chemical Clean and made it Clean
+Washing: Intern Corey-Jay M. cleaned Sedan Hyundai Sonata using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Bertie T. cleaned Monster Oil Hog using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Electric KONA1 using Detailing and made it Clean
+Washing: Intern Salman Q. cleaned Car Odyssey using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Electric Niro0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Pickup Frontier2 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Prelude and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Getaway0 and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Brutus and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Frontier2 was downgraded to Dirty
+Fixing: The Niro0 has an improved range of 257 miles
+Fixing: Mechanic Christopher-Lee V. fixed the Niro0 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Niro0 was downgraded to Clean
+Fixing: Mechanic Muir E. fixed the Honda CR-V1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the KONA1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Yago I. sold the Volkswagen Atlas SUV for $69384.0 Add-ons: Satellite Radio for $3304.0 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the PerfCar Mustang
+Racing: Driver Brehme S. is racing the PerfCar Sportback
+Racing: Driver Valery A. is racing the PerfCar Prelude
+Racing: Kalvyn Q. driving Mustang has placed 16 in the race. Vehicle is now damaged.
+Racing: Brehme S. driving Sportback has placed 15 in the race. Vehicle is now damaged and driver is injured and will not longer race.
+Racing: Valery A. driving Prelude has placed 5 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 5 in the race.
+Racing: Rihab W. driving KO has placed 18 in the race. Vehicle is now damaged.
+Racing: Litrell S. driving Bear Foot0 has placed 17 in the race. Vehicle is now damaged.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 17
+Total money earned by all Staff: $171715.49
+Total money earned by the FNCD: $1648018.89
+***Day Number: 18***
+Logger file created: Logger-18.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $430085.62
+Hiring: Hired new Driver Jincheng L.
+Buying: New SUV added to inventory: Broken Clean Kia Sorento1 for $16215.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $595871.85
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Motorcycle Victor1 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Motorcycle Victor0 using Elbow Grease and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Bandit using Elbow Grease and made it Sparkling(earned bonus $150.0)
+Washing: Intern Corey-Jay M. cleaned Pickup Ridgline0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Prelude using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned SUV Honda CR-V1 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Electric KONA1 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Car Jetta using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Kia Sorento1 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento1 was downgraded to Dirty
+Fixing: Car cleanliness for the Mustang was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Sportback and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Sportback was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: The KONA1 has an improved range of 303 miles
+Fixing: Mechanic Muir E. fixed the KONA1 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the KONA1 was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the KO and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+Fixing: Car cleanliness for the Bear Foot0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Kia Sorento1 SUV for $51077.25 Add-ons: Satellite Radio for $2432.25 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 18
+Total money earned by all Staff: $179416.09
+Total money earned by the FNCD: $1699096.14
+***Day Number: 19***
+Logger file created: Logger-19.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $461170.51
+Buying: New SUV added to inventory: Used Dirty Nissan Rogue0 for $24974.4 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $591148.57
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned SUV Nissan Rogue0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Mustang using Chemical Clean and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Getaway0 using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster KO using Detailing and made it Clean
+Washing: Intern Tristain R. cleaned Monster Bear Foot0 using Detailing and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Sportback and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Mustang and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Mustang was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Nissan Rogue0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Nissan Rogue0 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Dre F. fixed the KO and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the KO was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Bear Foot0 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot0 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Honda Civic Sedan for $27770.0  (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Nissan Rogue0 SUV for $78045.0 Add-ons: Extended Warranty for $12487.2 Satellite Radio for $3121.8 (earned a $1200.0 bonus)
+Selling: Salesperson Blaire F. sold the Strada0 Pickup for $42981.03 Add-ons: Extended Warranty for $6561.99 Undercoating for $1640.49 Satellite Radio for $1968.59 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Game Over Monster for $66071.32  (earned a $4000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 19
+Total money earned by all Staff: $187766.67
+Total money earned by the FNCD: $1913963.49
+***Day Number: 20***
+Logger file created: Logger-20.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $579664.77
+Buying: New Pickup added to inventory: LikeNew Dirty Raptor0 for $19207.0 cost.
+Buying: New Sedan added to inventory: LikeNew Clean Volkswagen Jetta0 for $12609.0 cost.
+Buying: New SUV added to inventory: Broken Dirty Kia Sorento2 for $19220.5 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $648996.6
+Buying: New Monster added to inventory: Broken Dirty Oil Hog1 for $23419.84 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned PerfCar Sportback using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Pickup F150  using Chemical Clean and made it Clean
+Washing: Intern Bertie T. cleaned Monster Lawless using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned Monster Bear Foot0 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Monster Brutus using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Tristain R. cleaned Monster Oil Hog1 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Cator O. cleaned Pickup Frontier2 using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Mustang and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Mechanic Connel D. fixed the Kia Sorento2 and made it like Used(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Oil Hog1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog1 was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the Bear Foot0 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot0 was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Frontier2 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Frontier2 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Yago I. sold the Getaway0 PerfCar for $60236.23 Add-ons: Extended Warranty for $10039.37 (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Thunderbolt1 Motorcycle for $22458.5  (earned a $1500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 20
+Total money earned by all Staff: $196267.27
+Total money earned by the FNCD: $1996658.22
+***Day Number: 21***
+Logger file created: Logger-21.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $585237.12
+Buying: New PerfCar added to inventory: Broken Clean Prelude1 for $11609.14 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $640761.98
+Buying: New Motorcycle added to inventory: LikeNew Dirty Spitfire for $19635.74 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned SUV Kia Sorento2 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned PerfCar Mustang using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster KO using Detailing and made it Clean
+Washing: Intern Salman Q. cleaned Pickup Frontier2 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Cator O. cleaned Sedan Nissan Altima using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Prelude1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude1 was downgraded to Dirty
+Fixing: Car cleanliness for the Kia Sorento2 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Oil Hog1 and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog1 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Monster Batman
+Racing: Driver Valery A. is racing the Monster The Felon
+Racing: Driver Jincheng L. is racing the Monster Oil Hog
+Racing: Kalvyn Q. driving Batman has placed 10 in the race.
+Racing: Valery A. driving The Felon has placed 4 in the race.
+Racing: Jincheng L. driving Oil Hog has placed 18 in the race. Vehicle is now damaged.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Pickup Frontier
+Racing: Driver Rihab W. is racing the Pickup Strada
+Racing: Driver Litrell S. is racing the Pickup Frontier0
+Racing: Brydon-Craig L. driving Frontier has placed 11 in the race.
+Racing: Rihab W. driving Strada has placed 17 in the race. Vehicle is now damaged.
+Racing: Litrell S. driving Frontier0 has placed 9 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 21
+Total money earned by all Staff: $203017.87
+Total money earned by the FNCD: $1996658.22
+***Day Number: 22***
+Logger file created: Logger-22.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $570450.6
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $616852.97
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned SUV Kia Sorento2 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Pickup Raptor0 using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Bertie T. cleaned PerfCar Prelude1 using Chemical Clean and made it Clean
+Washing: InternBertie T. broke the PerfCar Prelude1 while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned SUV Toyota RAV4 using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Salman Q. cleaned Electric Niro0 using Detailing and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Kia Sorento2 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Kia Sorento2 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Prelude1 and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude1 was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Oil Hog and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Oil Hog was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Strada and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Strada was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 22
+Total money earned by all Staff: $210868.46
+Total money earned by the FNCD: $1996658.22
+***Day Number: 23***
+Logger file created: Logger-23.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $565723.23
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $612629.69
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned PerfCar Prelude1 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Motorcycle Spitfire using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Monster Bear Foot0 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Monster Oil Hog1 using Detailing and made it Sparkling(earned bonus $450.0)
+Washing: Intern Salman Q. cleaned Motorcycle Thunderbolt using Detailing and made it Sparkling(earned bonus $150.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Oil Hog and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Mechanic Connel D. fixed the Prelude1 and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Prelude1 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Strada and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 0 customers looking to purchase vehicles today
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 23
+Total money earned by all Staff: $218269.06
+Total money earned by the FNCD: $1996658.22
+***Day Number: 24***
+Logger file created: Logger-24.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $561895.85
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $608456.4
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned PerfCar Prelude1 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned SUV Kia Sorento2 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Monster Oil Hog using Chemical Clean and made it Clean
+Washing: Intern Apisai D. tried to clean Motorcycle Victor0 using Elbow Grease but made it Dirty
+Washing: Intern Corey-Jay M. tried to clean Pickup Silverado using Elbow Grease but made it Dirty
+Washing: InternBertie T. broke the Electric Model Y while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Pickup Strada using Detailing and made it Clean
+Washing: Intern Salman Q. cleaned Convertible BMW Z4 using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned PerfCar Sportback0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Cator O. cleaned Electric Bolt using Elbow Grease and made it Sparkling(earned bonus $400.0)
+Washing: Intern Salman Q. cleaned Pickup Frontier0 using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Model Y and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model Y was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Ferrari Portofino Convertible for $76399.2 Add-ons: Extended Warranty for $12733.2 (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Kia Sorento2 SUV for $75680.71 Add-ons: Satellite Radio for $3603.84 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Commando Motorcycle for $30553.2  (earned a $1500.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Kalvyn Q. is racing the Motorcycle Venom
+Racing: Driver Valery A. is racing the Motorcycle Victor0
+Racing: Driver Jincheng L. is racing the Motorcycle Magna
+Racing: Kalvyn Q. driving Venom has placed 17 in the race. Vehicle is now damaged and driver is injured and will not longer race.
+Racing: Valery A. driving Victor0 has placed 6 in the race.
+Racing: Jincheng L. driving Magna has placed 8 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Monster Bear Foot
+Racing: Driver Rihab W. is racing the Monster KO
+Racing: Driver Litrell S. is racing the Monster Bear Foot0
+Racing: Brydon-Craig L. driving Bear Foot has placed 16 in the race. Vehicle is now damaged.
+Racing: Rihab W. driving KO has placed 6 in the race.
+Racing: Litrell S. driving Bear Foot0 has placed 13 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 24
+Total money earned by all Staff: $224046.52
+Total money earned by the FNCD: $2179291.33
+***Day Number: 25***
+Logger file created: Logger-25.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $711121.52
+Hiring: Hired new Driver Orlando H.
+Buying: New SUV added to inventory: LikeNew Sparkling Jeep Grand Cherokee0 for $43720.0 cost.
+Buying: New Convertible added to inventory: LikeNew Dirty Ferrari Portofino1 for $31884.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $633086.32
+Buying: New Motorcycle added to inventory: LikeNew Dirty X-741 for $11167.14 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Fixing: The Model Y has an improved range of 330 miles
+Washing: Intern Apisai D. cleaned Electric Model Y using Elbow Grease and made it Clean
+Washing: Intern Apisai D. fixed the Electric Model Y while cleaning and made it LikeNew
+Washing: Intern Corey-Jay M. cleaned Motorcycle Victor0 using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Pickup Silverado using Chemical Clean and made it Clean
+Washing: Intern Corey-Jay M. cleaned Convertible Ford Mustang Convertible using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Cator O. cleaned SUV Honda CR-V1 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Venom and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Bear Foot was downgraded to Clean
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the KO0 Monster for $62801.3  (earned a $4000.0 bonus)
+Selling: Salesperson Yago I. sold the Leaf Plus0 Electric for $44478.36  (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Frontier2 Pickup for $23000.4  (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 25
+Total money earned by all Staff: $229836.92
+Total money earned by the FNCD: $2309571.38
+***Day Number: 26***
+Logger file created: Logger-26.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $732180.01
+Buying: New Monster added to inventory: Used Dirty Bulldozer for $21254.24 cost.
+Buying: New Electric added to inventory: Broken Clean Model S Plaid for $16264.37 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $638246.28
+Buying: New Pickup added to inventory: Broken Dirty Ridgline1 for $19020.34 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Corey-Jay M. cleaned Monster Bulldozer using Elbow Grease and made it Sparkling(earned bonus $450.0)
+Washing: Intern Bertie T. cleaned Motorcycle Venom using Chemical Clean and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Pickup Ridgline1 using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Motorcycle X-741 using Elbow Grease and made it Clean
+Washing: Intern Salman Q. cleaned Convertible Chevrolet Camaro Convertible using Detailing and made it Sparkling(earned bonus $250.0)
+Washing: Intern Tristain R. cleaned Sedan Nissan Altima0 using Detailing and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Bulldozer and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bulldozer was downgraded to Clean
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Ridgline1 was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Bear Foot and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 8 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Ferrari Portofino1 Convertible for $66956.4 Add-ons: Satellite Radio for $3188.4 (earned a $1200.0 bonus)
+Selling: Salesperson Blaire F. sold the Volkswagen Jetta0 Sedan for $25218.0  (earned a $1200.0 bonus)
+Selling: Salesperson Yago I. sold the Kia Sorento SUV for $84441.65 Add-ons: Satellite Radio for $4021.03 (earned a $1200.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 7 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the X-741 Motorcycle for $26801.13 Add-ons: Extended Warranty for $4466.85 (earned a $1500.0 bonus)
+Selling: Salesperson Allen Q. sold the Getaway PerfCar for $45217.22  (earned a $4000.0 bonus)
+Selling: Salesperson Allen Q. sold the Thunderbolt Motorcycle for $44799.5 Add-ons: Extended Warranty for $7167.92 Satellite Radio for $1791.98 (earned a $1500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 26
+Total money earned by all Staff: $236627.31
+Total money earned by the FNCD: $2603005.27
+***Day Number: 27***
+Logger file created: Logger-27.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $866410.27
+Buying: New Sedan added to inventory: Broken Dirty Nissan Altima2 for $7738.0 cost.
+Buying: New SUV added to inventory: Broken Dirty Honda CR-V3 for $22122.5 cost.
+Buying: New Convertible added to inventory: Broken Dirty Rolls-Royce Dawn2 for $10907.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $727970.5
+Buying: New PerfCar added to inventory: Broken Dirty Spider for $11398.71 cost.
+Buying: New Motorcycle added to inventory: Used Dirty Katana for $7085.89 cost.
+Buying: New Motorcycle added to inventory: Used Dirty Intruder for $6268.52 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Sedan Nissan Altima2 using Elbow Grease and made it Clean
+Washing: Intern Apisai D. fixed the Sedan Nissan Altima2 while cleaning and made it LikeNew
+Washing: Intern Corey-Jay M. cleaned Electric Model S Plaid using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned SUV Honda CR-V3 using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Venom using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned Convertible Rolls-Royce Dawn2 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+Washing: Intern Corey-Jay M. fixed the Convertible Rolls-Royce Dawn2 while cleaning and made it LikeNew
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned PerfCar Spider using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Monster Bear Foot using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Motorcycle Intruder using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Motorcycle Katana using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Venom and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Venom was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Spider and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Spider was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Intruder and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Intruder was downgraded to Dirty
+Fixing: Mechanic Christopher-Lee V. fixed the Katana and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Katana was downgraded to Dirty
+Fixing: Mechanic Muir E. fixed the Ridgline1 and made it like Used(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Yago I. sold the KONA Electric for $63099.4 Add-ons Road Rescue Coverage for $1179.42 Satellite Radio for $2948.57 (earned a $3500.0 bonus)
+Selling: Salesperson Del B. sold the Subaru Outback SUV for $101527.5 Add-ons: Extended Warranty for $16244.4 Satellite Radio for $4061.1 (earned a $1200.0 bonus)
+Selling: Salesperson Blaire F. sold the Viper PerfCar for $55297.6  (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 6 customers looking to purchase vehicles today
+Selling: Salesperson Ruslan N. sold the Spider PerfCar for $34196.13  (earned a $4000.0 bonus)
+Selling: Salesperson Brad T. sold the Insight1 Car for $33416.0  (earned a $1000.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Mechanic staff Christopher-Lee V. has quit
+Promoting: Intern Salman Q. was promoted to Mechanic has a new daily salary of $215.04
+Tracker: Day 27
+Total money earned by all Staff: $244167.71
+Total money earned by the FNCD: $2890541.9
+***Day Number: 28***
+Logger file created: Logger-28.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1038450.11
+Buying: New PerfCar added to inventory: Used Dirty Boldie for $18163.81 cost.
+Buying: New Electric added to inventory: Used Dirty Leaf0 for $29466.15 cost.
+Buying: New SUV added to inventory: LikeNew Clean Nissan Rogue1 for $30248.0 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $761156.23
+Hiring: Hired new Intern Jasey-Jay G.
+Buying: New Car added to inventory: LikeNew Dirty Crown for $16684.0 cost.
+Buying: New PerfCar added to inventory: LikeNew Dirty Victor2 for $27085.01 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Fixing: The Leaf0 has an improved range of 204 miles
+Washing: Intern Apisai D. cleaned Electric Leaf0 using Elbow Grease and made it Clean
+Washing: Intern Apisai D. fixed the Electric Leaf0 while cleaning and made it LikeNew
+Washing: Intern Corey-Jay M. cleaned PerfCar Boldie using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned Electric Model S Plaid using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Motorcycle Venom using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned SUV Honda CR-V3 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Jasey-Jay G. cleaned Motorcycle Katana using Chemical Clean and made it Clean
+Washing: Intern Tristain R. cleaned Motorcycle Intruder using Detailing and made it Clean
+Washing: Intern Cator O. cleaned Monster Bear Foot using Elbow Grease and made it Clean
+Washing: Intern Jasey-Jay G. cleaned PerfCar Victor2 using Chemical Clean and made it Sparkling(earned bonus $400.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Honda CR-V3 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+Fixing: Mechanic Connel D. fixed the Boldie and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Boldie was downgraded to Dirty
+Fixing: Mechanic Buddy R. fixed the Model S Plaid and made it like Used(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Model S Plaid was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Bear Foot and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Bear Foot was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Ridgline1 and made it like LikeNew(earned a $650.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 4 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Rolls-Royce Dawn2 Convertible for $32721.0 Add-ons: Extended Warranty for $5453.5 (earned a $1200.0 bonus)
+Selling: Salesperson Del B. sold the Model S Plaid Electric for $51232.76 Add-ons: Satellite Radio for $2439.65 (earned a $3500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Ferrari Portofino0 Convertible for $51590.7 Add-ons: Undercoating for $2456.7 (earned a $1200.0 bonus)
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Valery A. is racing the Motorcycle Venom
+Racing: Driver Jincheng L. is racing the Motorcycle Victor0
+Racing: Driver Orlando H. is racing the Motorcycle Magna
+Racing: Valery A. driving Venom has placed 7 in the race.
+Racing: Jincheng L. driving Victor0 has placed 14 in the race.
+Racing: WINNER! Orlando H. driving Magna has placed 3 in the race. (new sale price $32930.02, driver bonus $375.0)
+Racing: That's 1 win(s) for Orlando H. and 1 win(s) for the Magna
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the Motorcycle Thunderbolt0
+Racing: Driver Rihab W. is racing the Motorcycle X-74
+Racing: Driver Litrell S. is racing the Motorcycle Silver Hawk0
+Racing: Brydon-Craig L. driving Thunderbolt0 has placed 19 in the race. Vehicle is now damaged.
+Racing: WINNER! Rihab W. driving X-74 has placed 2 in the race. (new sale price $41201.29, driver bonus $375.0)
+Racing: That's 2 win(s) for Rihab W. and 1 win(s) for the X-74
+Racing: Litrell S. driving Silver Hawk0 has placed 13 in the race.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Mechanic staff Dre F. has quit
+Promoting: Intern Cator O. was promoted to Mechanic has a new daily salary of $270.82
+Tracker: Day 28
+Total money earned by all Staff: $253194.36
+Total money earned by the FNCD: $3026086.35
+***Day Number: 29***
+Logger file created: Logger-29.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $1040133.74
+Buying: New Electric added to inventory: LikeNew Clean BMW i3 for $21891.69 cost.
+Buying: New Convertible added to inventory: Used Dirty Chevrolet Camaro Convertible0 for $39409.6 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $763943.37
+Hiring: Hired new Intern Edwyn M.
+Buying: New Convertible added to inventory: Used Clean BMW Z41 for $26051.2 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Bertie T. cleaned SUV Honda CR-V3 using Chemical Clean and made it Clean
+Washing: InternBertie T. broke the SUV Honda CR-V3 while cleaning and made it Broken
+Washing: Intern Apisai D. cleaned Car Insight0 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Jasey-Jay G. cleaned Monster Bear Foot using Chemical Clean and made it Clean
+Washing: Intern Edwyn M. cleaned Car Crown using Detailing and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Chevrolet Camaro Convertible0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Connel D. fixed the Honda CR-V3 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Thunderbolt0 and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Thunderbolt0 was downgraded to Dirty
+Fixing: Car cleanliness for the BMW Z41 was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 2 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Crown Car for $35036.4 Add-ons: Satellite Radio for $1668.4 (earned a $1000.0 bonus)
+Selling: Salesperson Allen Q. sold the Frontier1 Pickup for $38083.83 Add-ons: Undercoating for $1731.08 Satellite Radio for $1731.08 (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Salesperson staff Allen Q. has quit
+Promoting: Intern Jasey-Jay G. was promoted to Salesperson has a new daily salary of $366.67
+Tracker: Day 29
+Total money earned by all Staff: $259885.13
+Total money earned by the FNCD: $3099206.58
+***Day Number: 30***
+Logger file created: Logger-30.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $975115.27
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $807538.75
+Hiring: Hired new Intern Robert U.
+Buying: New Car added to inventory: Used Dirty Avalon for $14072.0 cost.
+Buying: New Pickup added to inventory: LikeNew Dirty Tundra1 for $11007.94 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Sedan Nissan Altima2 using Elbow Grease and made it Sparkling(earned bonus $250.0)
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Edwyn M. cleaned Pickup Ridgline1 using Detailing and made it Clean
+Washing: Intern Robert U. cleaned Convertible BMW Z41 using Chemical Clean and made it Clean
+Washing: Intern Tristain R. cleaned Car Avalon using Detailing and made it Clean
+Washing: Intern Edwyn M. cleaned Pickup Tundra1 using Detailing and made it Sparkling(earned bonus $450.0)
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Honda CR-V3 and made it like LikeNew(earned a $450.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the BMW Z41 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the BMW Z41 was downgraded to Dirty
+Fixing: Mechanic Salman Q. fixed the Thunderbolt0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Cator O. fixed the Avalon and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Avalon was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Del B. sold the Bandit Motorcycle for $21664.92  (earned a $1500.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 3 customers looking to purchase vehicles today
+Selling: Salesperson Jasey-Jay G. sold the Honda CR-V2 SUV for $71311.8 Add-ons: Satellite Radio for $3395.8 (earned a $1200.0 bonus)
+Selling: Salesperson Brad T. sold the Avalon Car for $35180.0  (earned a $1000.0 bonus)
+Selling: Salesperson Brad T. sold the Toyota Camry Sedan for $19990.68 Add-ons: Satellite Radio for $951.93 (earned a $1200.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Quitting: Salesperson staff Jasey-Jay G. has quit
+Promoting: Intern Robert U. was promoted to Salesperson has a new daily salary of $336.03
+Tracker: Day 30
+Total money earned by all Staff: $267020.58
+Total money earned by the FNCD: $3247353.98
+***Day Number: 31***
+Logger file created: Logger-31.txt
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $992013.02
+Buying: New Motorcycle added to inventory: LikeNew Sparkling Black Lightning for $7364.62 cost.
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $903372.95
+Hiring: Hired new Intern Pawel F.
+Buying: New Car added to inventory: Used Dirty Ariya for $8912.8 cost.
+Buying: New Sedan added to inventory: Used Dirty Subaru Legacy0 for $11725.6 cost.
+Buying: New SUV added to inventory: Used Dirty Jeep Grand Cherokee1 for $25980.0 cost.
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Convertible Chevrolet Camaro Convertible0 using Elbow Grease and made it Clean
+Washing: Intern Corey-Jay M. cleaned PerfCar Boldie using Elbow Grease and made it Clean
+Washing: Intern Bertie T. cleaned SUV Honda CR-V3 using Chemical Clean and made it Clean
+Washing: InternBertie T. broke the SUV Honda CR-V3 while cleaning and made it Broken
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Sedan Subaru Legacy0 using Detailing and made it Clean
+Washing: Intern Pawel F. cleaned Convertible BMW Z41 using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned Car Ariya using Detailing and made it Clean
+Washing: Intern Edwyn M. cleaned SUV Jeep Grand Cherokee1 using Detailing and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Mechanic Maryk W. fixed the Honda CR-V3 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Honda CR-V3 was downgraded to Dirty
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Car cleanliness for the Ariya was downgraded to Dirty
+Fixing: Mechanic Salman Q. fixed the Jeep Grand Cherokee1 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Jeep Grand Cherokee1 was downgraded to Dirty
+Fixing: Mechanic Cator O. fixed the Subaru Legacy0 and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Subaru Legacy0 was downgraded to Dirty
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+1
+Please enter the FNCD dealership you are interested in! (north or south)
+south
+The FNCD dealership you have selected is South!
+FNCD_South
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+2
+Employee's name: Brad T.
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+3
+The current time is: 12:03:18.445779700
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+4
+Your new sales person is Robert U.
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+5
+-------------------------------------------
+Listing inventory for FNCD_South
+Jetta
+Clubman0
+Compass0
+Compass1
+Sportback0
+GT
+Viper0
+Frontier
+Strada
+Frontier0
+Bear Foot
+KO
+Bear Foot0
+Thunderbolt0
+X-74
+Bolt
+Ioniq
+Polestar 20
+Subaru Legacy
+Nissan Altima
+Hyundai Sonata0
+Volkswagen Jetta
+Toyota RAV4
+Chevrolet Tahoe
+Jeep Grand Cherokee
+Mazda MX-5 Miata
+Chevrolet Camaro Convertible
+Mazda MX-5 Miata0
+BMW Z4
+Jaguar F-Type Convertible
+Ridgline
+Nissan Altima0
+Honda CR-V0
+Prelude0
+Leaf Plus
+Valhalla0
+Odyssey
+Silver Hawk0
+Jacked Up
+Honda CR-V1
+KONA1
+Brutus
+Niro0
+Oil Hog1
+Spitfire
+Ridgline1
+Katana
+Intruder
+Victor2
+BMW Z41
+Tundra1
+Ariya
+Subaru Legacy0
+Jeep Grand Cherokee1
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+6
+Please enter the vehicle name you are interested in!
+Tundra1
+This car is a : Pickup
+This car is: LikeNew
+This car is: Sparkling
+This car costs: 22015.88
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+7
+Please enter the vehicle you would like to purchase!
+Tundra1
+Select an add on: 0-4
+0. Extended_Warranty
+1. Road_Side_Rescue_Coverage
+2. Satellite_Radio
+3. Undercoating
+4. I don't want any/anymore addons
+0
+0. Extended_Warranty
+1. Road_Side_Rescue_Coverage
+2. Satellite_Radio
+3. Undercoating
+4. I don't want any/anymore addons
+1
+0. Extended_Warranty
+1. Road_Side_Rescue_Coverage
+2. Satellite_Radio
+3. Undercoating
+4. I don't want any/anymore addons
+4
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Congratulations, you have bought the car: Tundra1
+Selling: Salesperson Robert U. sold the Tundra1 Pickup for $26859.36 Add-ons Road Rescue Coverage for $440.31 Extended Warranty for $4403.17 (earned a $3500.0 bonus)
+
+---------------------------------------------
+WELCOME TO THE FNCD COMMAND LINE INTERFACE!
+Please select a command:
+1. Choose an FNCD location
+2. Meet/ask the salesperson their name
+3. Ask the salesperson what time it is
+4. Ask for a different salesperson
+5. Get current inventory
+6. Get details on inventory vehicle
+7. Buy a car!
+8. End user interactions
+8
+Shutting down...
+////////////////////////////////
+Racing at FNCD_North...
+////////////////////////////////
+Racing: Driver Valery A. is racing the Monster Batman
+Racing: Driver Jincheng L. is racing the Monster The Felon
+Racing: Driver Orlando H. is racing the Monster Oil Hog
+Racing: Valery A. driving Batman has placed 9 in the race.
+Racing: Jincheng L. driving The Felon has placed 13 in the race.
+Racing: Orlando H. driving Oil Hog has placed 7 in the race.
+////////////////////////////////
+Racing at FNCD_South...
+////////////////////////////////
+Racing: Driver Brydon-Craig L. is racing the PerfCar Sportback0
+Racing: Driver Rihab W. is racing the PerfCar GT
+Racing: Driver Litrell S. is racing the PerfCar Viper0
+Racing: Brydon-Craig L. driving Sportback0 has placed 13 in the race.
+Racing: WINNER! Rihab W. driving GT has placed 3 in the race. (new sale price $68005.74, driver bonus $450.0)
+Racing: That's 3 win(s) for Rihab W. and 1 win(s) for the GT
+Racing: Litrell S. driving Viper0 has placed 20 in the race. Vehicle is now damaged.
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+Quitting: Mechanic staff Connel D. has quit
+Promoting: Intern Bertie T. was promoted to Mechanic has a new daily salary of $213.59
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
+Tracker: Day 31
+Total money earned by all Staff: $274299.72
+Total money earned by the FNCD: $3274213.34
+
+Process finished with exit code 0

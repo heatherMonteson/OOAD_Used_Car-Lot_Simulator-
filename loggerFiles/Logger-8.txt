@@ -1,0 +1,61 @@
+Day number :8
+////////////////////////////////
+Opening FNCD_North...
+////////////////////////////////
+Opening: Starting today with a budget of $212070.72
+////////////////////////////////
+Opening FNCD_South...
+////////////////////////////////
+Opening: Starting today with a budget of $298985.72
+////////////////////////////////
+Washing cars FNCD_North...
+////////////////////////////////
+Washing: Intern Apisai D. cleaned Pickup Silverado using Elbow Grease and made it Clean
+Washing: Intern Blaire F. cleaned SUV Subaru Outback using Chemical Clean and made it Clean
+Washing: Intern Apisai D. cleaned Sedan Toyota Camry0 using Elbow Grease and made it Clean
+////////////////////////////////
+Washing cars FNCD_South...
+////////////////////////////////
+Washing: Intern Tristain R. cleaned Monster KO using Detailing and made it Clean
+Washing: Intern Oilibhear C. cleaned Convertible Mazda MX-5 Miata using Elbow Grease and made it Clean
+Washing: Intern Tristain R. cleaned PerfCar Prelude0 using Detailing and made it Sparkling(earned bonus $400.0)
+Washing: Intern Olivier S. cleaned Pickup Strada using Elbow Grease and made it Clean
+Washing: Intern Oilibhear C. cleaned Pickup Ridgline using Elbow Grease and made it Clean
+////////////////////////////////
+Fixing cars at FNCD_North...
+////////////////////////////////
+Fixing: Car cleanliness for the Ford Explorer was downgraded to Clean
+Fixing: Mechanic Connel D. fixed the Navara and made it like Used(earned a $650.0 bonus)
+Fixing: Mechanic Buddy R. fixed the Victor and made it like LikeNew(earned a $300.0 bonus)
+Fixing: Mechanic Maryk W. fixed the Victor0 and made it like LikeNew(earned a $300.0 bonus)
+Fixing: The Taycan has an improved range of 401 miles
+Fixing: Mechanic Buddy R. fixed the Taycan and made it like LikeNew(earned a $500.0 bonus)
+////////////////////////////////
+Fixing cars at FNCD_South...
+////////////////////////////////
+Fixing: Mechanic Muir E. fixed the Strada and made it like LikeNew(earned a $650.0 bonus)
+Fixing: Car cleanliness for the Strada was downgraded to Dirty
+Fixing: Mechanic Dre F. fixed the Hyundai Sonata0 and made it like Used(earned a $450.0 bonus)
+Fixing: Car cleanliness for the Hyundai Sonata0 was downgraded to Dirty
+Fixing: Car cleanliness for the Prelude0 was downgraded to Clean
+Fixing: Mechanic Muir E. fixed the Commando and made it like Used(earned a $300.0 bonus)
+Fixing: Car cleanliness for the Commando was downgraded to Clean
+Fixing: Mechanic Dre F. fixed the Nissan Rogue and made it like LikeNew(earned a $450.0 bonus)
+Fixing: Mechanic Christopher-Lee V. fixed the Valhalla and made it like LikeNew(earned a $500.0 bonus)
+Fixing: Car cleanliness for the Valhalla was downgraded to Dirty
+////////////////////////////////
+Selling cars at FNCD_North...
+////////////////////////////////
+Selling: There are 5 customers looking to purchase vehicles today
+Selling: Salesperson Yago I. sold the Cobra PerfCar for $54319.84 Add-ons: Extended Warranty for $9053.3 (earned a $4000.0 bonus)
+////////////////////////////////
+Selling cars at FNCD_South...
+////////////////////////////////
+Selling: There are 1 customers looking to purchase vehicles today
+Selling: Salesperson Brad T. sold the Raptor Pickup for $21900.24  (earned a $3500.0 bonus)
+////////////////////////////////
+End of day at FNCD_North...
+////////////////////////////////
+////////////////////////////////
+End of day at FNCD_South...
+////////////////////////////////
